@@ -4,10 +4,10 @@
 
 ### You plan to create a project in Azure DevOps. Multiple developers will work on the project. The developers will work offline frequently and will require access to the full project history while they are offline. Which version control solution should you use?
 
-- [ ] TortotseSVN
-- [ ] Team Foundation Version Control
-- [ ] Subversion
-- [x] Git
+- [ ] TortotseSVN.
+- [ ] Team Foundation Version Control.
+- [ ] Subversion.
+- [x] Git.
 
 ### You use Azure SQL Database Intelligent Insights and Azure Application Insights for monitoring. Which query language should you use?
 
@@ -39,16 +39,16 @@ NO ANSWER
 
 ### You have an existing build pipeline in Azure Pipelines. You need to use incremental builds without purging the environment between pipeline executions. What should you use?
 
-- [ ] a File Transform task
-- [x] a self-hosted agent
-- [ ] Microsoft-hosted parallel jobs
+- [ ] a File Transform task.
+- [x] a self-hosted agent.
+- [ ] Microsoft-hosted parallel jobs.
 
 ### You need to configure Azure Pipelines to control App2 builds. Which authentication method should you use?
 
-- [ ] Windows NTLM
-- [ ] certificate
-- [ ] SAML
-- [x] personal access token (PAT)
+- [ ] Windows NTLM.
+- [ ] certificate.
+- [ ] SAML.
+- [x] personal access token (PAT).
 
 ### You have an Azure function hosted in an App Service plan named az400-9940427-func1. You need to configure az400-9940427-func1 to upgrade the functions automatically whenever new code is committed to the master branch of https://github.com/Azure-Samples/functions-quickstart. To complete this task, sign in to the Microsoft Azure portal.
 
@@ -63,8 +63,8 @@ NO ANSWER
 ✑ The source code must be stored in a Git repository in Azure DevOps.
 Solution: Configure an Octopus Tentacle on an on-premises machine. Use the Package Application task in the build pipeline. Does this meet the goal?
 
-- [x] Yes
-- [ ] No
+- [x] Yes.
+- [ ] No.
 
 ### You need to replace the existing DevOps tools to support the planned changes. What should you use?
 
@@ -77,8 +77,8 @@ Solution: Configure an Octopus Tentacle on an on-premises machine. Use the Packa
 ✑ Two Azure SQL databases in other resource group
 You need to recommend a solution to deploy the resources. Solution: Create a main template that has two linked templates, each of which will deploy the resource in its respective group. Does this meet the goal?
 
-- [ ] Yes
-- [x] No
+- [ ] Yes.
+- [x] No.
 
 ### You are building an application that has the following assets: Source code. Logs from automated tests and builds. Large and frequently updated binary assets. A common library used by multiple applications. Where should you store each asset?
 
@@ -97,11 +97,11 @@ You need to recommend a solution to deploy the resources. Solution: Create a mai
 
 ### Your company uses Azure DevOps to manage the build and release processes for applications. You use a Git repository for applications source control. You plan to create a new branch from an existing pull request. Later, you plan to merge the new branch and the target branch of the pull request. You need to use a pull request action to create the new branch. The solution must ensure that the branch uses only a portion of the code in the pull request. Which pull request action should you use?
 
-- [ ] Set as default branch
-- [ ] Approve with suggestions
-- [x] Cherry-pick
-- [ ] ReactivateRevert
-- [ ] Revert
+- [ ] Set as default branch.
+- [ ] Approve with suggestions.
+- [x] Cherry-pick.
+- [ ] ReactivateRevert.
+- [ ] Revert.
 
 ### You need to configure authentication for App1. The solution must support the planned changes. Which three actions should you perform in sequence? To answer, move all actions from the list of actions to the answer area and arrange them in the correct order.
 
@@ -111,7 +111,7 @@ You need to recommend a solution to deploy the resources. Solution: Create a mai
 
 - [x] Create an Azure Application Insights availability test and alert.
 - [ ] Create an Azure Service Health alert for the specific regions.
-- [ ] Create an Azure Monitor Availability metric and alert
+- [ ] Create an Azure Monitor Availability metric and alert.
 - [ ] Write an Azure function and deploy the function to the specific regions.
 
 ### You have a private GitHub repository. You need to display the commit status of the repository on Azure Boards. What should you do first?
@@ -131,15 +131,15 @@ You need to recommend a solution to deploy the resources. Solution: Create a mai
 
 ### You are automating the testing process for your company. You need to automate UI testing of a web application. Which framework should you use?
 
-- [ ] JaCoco
-- [x] Selenium
-- [ ] Xamarin.UITest
-- [ ] Microsoft.CodeAnalysis
+- [ ] JaCoco.
+- [x] Selenium.
+- [ ] Xamarin.UITest.
+- [ ] Microsoft.CodeAnalysis.
 
 ### Note: This question n part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result these questions will not appear in the review screen. You have an approval process that contains a condition. The condition requires that releases be approved by a team leader before they are deployed. You have a policy stating that approvals must occur within eight hours. You discover that deployments fail if the approvals lake longer than two hours. You need to ensure that the deployments only fail if the approvals take longer than eight hours. Solution: From Pre-deployment conditions, you modify the Timeout setting for pre-deployment approvals. Does this meet the goal?
 
-- [ ] Yes
-- [x] No
+- [ ] Yes.
+- [x] No.
 
 ### You need to configure Azure Automation for the computer in Group7. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 
@@ -147,10 +147,10 @@ You need to recommend a solution to deploy the resources. Solution: Create a mai
 
 ### You need to meet the technical requirements for controlling access to Azure DevOps. What should you use?
 
-- [ ] Azure Multi-Factor Authentication (MFA)
-- [ ] on-premises firewall rules
-- [x] conditional access policies in Azure AD
-- [ ] Azure role-based access control (Azure RBAC)
+- [ ] Azure Multi-Factor Authentication (MFA).
+- [ ] on-premises firewall rules.
+- [x] conditional access policies in Azure AD.
+- [ ] Azure role-based access control (Azure RBAC).
 
 ### You are configuring the Azure DevOps dashboard. The solution must meet the technical requirements. Which widget should you use for each metric? To answer, drag the appropriate widgets to the correct metrics. Each widget may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point.
 
@@ -158,8 +158,8 @@ You need to recommend a solution to deploy the resources. Solution: Create a mai
 
 ### Note: This Question Is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to ft. As a result these questions will not appear in the review screen. You company has a prefect in Azure DevOps for a new web application. You need to ensure that when code is checked in, a build runs automatically. Solution: From the Triggers tab of the build pipeline, you selected Batch changes while a build is in progressDoes this meet the goal?
 
-- [ ] Yes
-- [x] No
+- [ ] Yes.
+- [x] No.
 
 ### You need to find and isolate shared code. The shared code will be maintained in a series of packages. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 
@@ -175,17 +175,17 @@ You need to recommend a solution to deploy the resources. Solution: Create a mai
 
 ### You have a multi-tier application. The front end of the application is hosted in Azure App Service. You need to identify the average load times of the application pages . What should you use?
 
-- [ ] the diagnostics logs of the App Service
-- [x] Azure Application Insights
-- [ ] Azure Advisor
-- [ ] the activity log of the App Service
+- [ ] the diagnostics logs of the App Service.
+- [x] Azure Application Insights.
+- [ ] Azure Advisor.
+- [ ] the activity log of the App Service.
 
 ### You have an application that consists of several Azure App Service web apps and Azure m functions. You need to access the security of the web apps and the functions. Which Azure features can you use to provide a recommendation for the security of the application?
 
-- [ ] Security & Compliance in Azure Log Analytics
-- [ ] Resource health in Azure Service Health
-- [ ] Smart Detection in Azure Application Insights
-- [x] Compute & apps in Azure Security Center
+- [ ] Security & Compliance in Azure Log Analytics.
+- [ ] Resource health in Azure Service Health.
+- [ ] Smart Detection in Azure Application Insights.
+- [x] Compute & apps in Azure Security Center.
 
 ### You need to configure a virtual machine named VM1 to securely access stored secrets in an Azure Key Vault named az400-11566895-kv. To complete this task, sign in to the Microsoft Azure portal.
 
@@ -206,16 +206,16 @@ You need to recommend a solution to deploy the resources. Solution: Create a mai
 ### During a code review, you discover many quality issues. Many modules contain unused variables and empty catch Modes. You need to recommend a solution to improve the quality o' the code . What should you recommend?
 
 - [ ] In a Gradle build task, select Run Checkstyle.
-- [ ] In an Xcode build task, select Use xcpretty from Advanced
+- [ ] In an Xcode build task, select Use xcpretty from Advanced.
 - [ ] In a Grunt build task, select Enabled from Control Options.
-- [x] In a Maven build task, select Run PM
+- [x] In a Maven build task, select Run PM.
 
 ### You are using GitHub as a source code repository. You create a client-side Git hook on the commit-msg event. The hook requires that each commit message contain a custom work item tag. You need to make a commit that does not have a work item tag.Which git commit parameter should you use?
 
-- [ ] –squash
-- [x] –no-verify
-- [ ] –message ”
-- [ ] –no-post-rewrite
+- [ ] –squash.
+- [x] –no-verify.
+- [ ] –message ”.
+- [ ] –no-post-rewrite.
 
 ### Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization.Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization.The Azure subscription contains an Azure Automation account. Planned Changes Contoso plans to create projects in Azure DevOps as shown in the following table. Technical Requirements Contoso identities the following technical requirements: • Implement build agents rot Project 1. • Whenever possible, use Azure resources • Avoid using deprecated technologies • Implement a code flow strategy for Project2 that will: • Enable Team 2 to submit pull requests for Project2. • Enable Team 2 to work independently on changes to a copy of Project? • Ensure that any intermediary changes performed by Tram2 on a copy of Project2 will be subject to the same restrictions as the ones defied in the build policy of Project2. • Whenever possible. Implement automation and minimize administrative effort. • Implement Protect3, Project5, Project6, and Project7 based on the planned changes. • Implement Project4 and configure the project to push Docker images to Azure Container Reentry. DRAG DROP You need to implement Project6. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them m the correct order.
 
@@ -227,10 +227,10 @@ You need to recommend a solution to deploy the resources. Solution: Create a mai
 
 ### You are designing the security validation strategy for a project in Azure DevOps. You need to identify package dependencies that have known security issues and can be resolved by an update. What should you use?
 
-- [ ] Octopus Deploy
-- [ ] Jenkins
-- [ ] Gradle
-- [x] SonarQube
+- [ ] Octopus Deploy.
+- [ ] Jenkins.
+- [ ] Gradle.
+- [x] SonarQube.
 
 ### You are configuring the settings of a new Git repository in Azure Repos. You need to ensure that pull requests in a branch meet the following criteria before they are merged:
 
@@ -267,10 +267,10 @@ Which policy type should you configure for each requirement? To answer, drag the
 
 ### You need to perform the GitHub code migration. The solution must support the planned changes for the DevOps environment. What should you use?
 
-- [ ] git clone
-- [ ] GitHub Importer
-- [ ] Import repository in Azure Repos
-- [x] git-tfs
+- [ ] git clone.
+- [ ] GitHub Importer.
+- [ ] Import repository in Azure Repos.
+- [x] git-tfs.
 
 ### Topic 4, Mix Questions Set Your company implements an Agile development methodology. You plan to implement retrospectives at the end of each sprint. Which three questions should you include? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.
 
@@ -303,22 +303,22 @@ Which policy type should you configure for each requirement? To answer, drag the
 
 ### You integrate a cloud- hosted Jenkins server and a new Azure DevOps deployment You need Azure DevOps to send a notification to Jenkins when a developer commits changes to a branch in Azure Repos. Solution: You create a service hook subscription that uses the code pushed event.Does this meet the goal?
 
-- [x] Yes
-- [ ] No
+- [x] Yes.
+- [ ] No.
 
 ### Your company has a project in Azure DevOps for a new web application. The company uses Service Now for change management. You need to ensure that a change request is processed before any components can be deployed to the production environment. What are two ways to integrate into the Azure DevOps release pipeline? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.
 
-- [x] Define a deployment control that invokes the Service Now SOAP AP
+- [x] Define a deployment control that invokes the Service Now SOAP AP.
 - [ ] Define a post deployment gate after the deployment to the QA stage.
-- [ ] Define a deployment control that invokes the ServiceNow REST AP
+- [ ] Define a deployment control that invokes the ServiceNow REST AP.
 - [ ] Define a pre deployment gate before the deployment to the Prod stage.
 
 ### You are designing the development process for your company. You need to recommend a solution for continuous inspection of the company's code base to locate common code patterns that are known to be problematic. What should you include in the recommendation?
 
-- [ ] Microsoft Visual Studio test plans
-- [ ] Gradle wrapper scripts
-- [x] SonarCloud analysis
-- [ ] the JavaScript task runner
+- [ ] Microsoft Visual Studio test plans.
+- [ ] Gradle wrapper scripts.
+- [x] SonarCloud analysis.
+- [ ] the JavaScript task runner.
 
 ### Your company has a project in Azure DevOps for a new application. The application will be deployed to several Azure virtual machines that run Windows Server 2016. You need to recommend a deployment strategy for the virtual machines. The strategy must meet the following requirements: Ensure that the virtual machines maintain a consistent configuration. Minimize administrative effort to configure the virtual machines. What should you include in the recommendation?
 
@@ -340,20 +340,20 @@ Which policy type should you configure for each requirement? To answer, drag the
 
 ### You have Azure Pipelines and GitHub integrated as a source code repository. The build pipeline has continuous integration enabled. You plan to trigger an automated build whenever code changes are committed to the repository. You need to ensure that the system will wait until a build completes before queuing another build.What should you implement?
 
-- [ ] path filters
-- [x] batch changes
-- [ ] scheduled builds
-- [ ] branch filters
+- [ ] path filters.
+- [x] batch changes.
+- [ ] scheduled builds.
+- [ ] branch filters.
 
 ### You manage a project in Azure DevOps. You need to prevent the configuration of the project from changing over time. Solution: Implement Continuous Assurance for the project. Does this meet the goal?
 
-- [x] Yes
-- [ ] No
+- [x] Yes.
+- [ ] No.
 
 ### You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 that is configured for autoscaling. You have a project in Azure DevOps named Project1. Project1 is used to build a web app named App1 and deploy App1 to VMSS1. You need to ensure that an email alert is generated whenever VMSS1 scales in or out. Solution: From Azure DevOps, configure the Service hooks settings for Project1.Does this meet the goal?
 
-- [ ] Yes
-- [x] No
+- [ ] Yes.
+- [x] No.
 
 ### You need to configure Azure Automation for the computers in Pool7. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them m the correct order.
 
@@ -376,10 +376,10 @@ Which policy type should you configure for each requirement? To answer, drag the
 
 ### Your company is building a new solution in Java. The company currently uses a SonarQube server to analyze the code of .NET solutions. You need to analyze and monitor the code quality of the Java solution.Which task types should you add to the build pipeline?
 
-- [ ] Chef
-- [x] Gradle
-- [ ] Octopus
-- [ ] Gulp
+- [ ] Chef.
+- [x] Gradle.
+- [ ] Octopus.
+- [ ] Gulp.
 
 ### Your development team is building a new web solution by using the Microsoft Visual Studio integrated development environment (IDE). You need to make a custom package available to all the developers. The package must be managed centrally, and the latest version must be available for consumption in Visual Studio automatically. Which three actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.
 
@@ -392,8 +392,8 @@ Which policy type should you configure for each requirement? To answer, drag the
 
 ### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution After you answer a question in this section, you will NOT be able to return to it. As a result these questions will not appear in the review screen. You integrate a cloud-hosted Jenkins server and a new Azure DevOps deployment. You need Azure DevOps to send a notification to Jenkins when a developer commits changes to a branch in Azure Repos. Solution: You create a service hook subscription that uses the build completed event Does this meet the goal?
 
-- [ ] Yes
-- [x] No
+- [ ] Yes.
+- [x] No.
 
 ### Your company builds a multi tier web application. You use Azure DevOps and host the production application on Azure virtual machines. Your team prepares an Azure Resource Manager template of the virtual machine that you mil use to test new features. You need to create a staging environment in Azure that meets the following requirements: Minimizes the cost of Azure hosting. Provisions the virtual machines automatically. Use the custom Azure Resource Manager template to provision the virtual machines. What should you do?
 
@@ -412,10 +412,10 @@ Which policy type should you configure for each requirement? To answer, drag the
 
 ### What should you use to implement the code quality restriction on the release pipeline for the investment planning applications suite?
 
-- [ ] a trigger
-- [x] a pre deployment approval
-- [ ] a post-deployment approval
-- [ ] a deployment gate
+- [ ] a trigger.
+- [x] a pre deployment approval.
+- [ ] a post-deployment approval.
+- [ ] a deployment gate.
 
 ### You use Azure DevOps to manage the build and deployment of an app named App1. You have a release pipeline that deploys a virtual machine named VM1. You plan to monitor the release pipeline by using Azure Monitor You need to create an alert to monitor the performance of VM1. The alert must be triggered when the average CPU usage exceeds 70 percent for five minutes. The alert must calculate the average once every minute. How should you configure the alert rule? To answer, select the appropriate options in the answer area.
 
@@ -427,11 +427,11 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 ### You have a project in Azure DevOps. You plan to deploy a self-hosted agent by using an unattended configuration script.Which two values should you define in the configuration script? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.
 
-- [x] authorization credentials
-- [ ] the project name
-- [ ] the deployment group name
-- [x] the organization URLthe agent pool name
-- [ ] the agent pool name
+- [x] authorization credentials.
+- [ ] the project name.
+- [ ] the deployment group name.
+- [x] the organization URLthe agent pool name.
+- [ ] the agent pool name.
 
 ### Your company has a project in Azure DevOps. You plan to create a release pipeline that will deploy resources by using Azure Resource Manager templates. The templates will reference secrets stored in Azure Key Vault. You need to recommend a solution for accessing the secrets stored in the key vault during deployments. The solution must use the principle of least privilege. What should you include in the recommendation?
 
@@ -441,8 +441,8 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 - [ ] a task executed in the continuous deployment pipeline and a scheduled task against a running production container.
 - [ ] a task executed in the continuous integration pipeline and a scheduled task that analyzes the production container.
-- [x] a task executed in the continuous integration pipeline and a scheduled task that analyzes the image registry
-- [ ] manual tasks performed during the planning phase and the deployment phase
+- [x] a task executed in the continuous integration pipeline and a scheduled task that analyzes the image registry.
+- [ ] manual tasks performed during the planning phase and the deployment phase.
 
 ### Drag and Drop You need to recommend a solution for deploying charts by using Helm and Title to Azure Kubemets Service (AKS) in an RBAC-enabled cluster. Which three commands should you recommend be run m sequence? To answer, move the appropriate commands from the list of commands to the answer area and arrange them in the correct order.
 
@@ -457,10 +457,10 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 ### You have a project in Azure DevOps. You have an Azure Resource Group deployment project in Microsoft Visual Studio that is checked in to the Azure DevOps project. You need to create a release pipeline that will deploy resources by using Azure Resource Manager templates. The solution must minimize administrative effort. Which task type should you include in the solution?
 
-- [ ] Azure Cloud Service Deployment
-- [ ] Azure RM Web App Deployment
-- [x] Azure PowerShell
-- [ ] Azure App Service Manage
+- [ ] Azure Cloud Service Deployment.
+- [ ] Azure RM Web App Deployment.
+- [x] Azure PowerShell.
+- [ ] Azure App Service Manage.
 
 ### Drag and Drop You need to use Azure Automation Sure Configuration to manage the ongoing consistency of virtual machine configurations. Which five actions should you perform in sequence?
 
@@ -468,12 +468,12 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 ### You are automating the build process for a Java-based application by using Azure DevOps. You need to add code coverage testing and publish the outcomes to the pipeline. What should you use?
 
-- [x] Cobertura
-- [ ] Bullseye Coverage
-- [ ] MSTest
-- [ ] Coverlet
-- [ ] Coverage.py
-- [ ] NUnit
+- [x] Cobertura.
+- [ ] Bullseye Coverage.
+- [ ] MSTest.
+- [ ] Coverlet.
+- [ ] Coverage.py.
+- [ ] NUnit.
 
 ### You have a private distribution group that contains provisioned and unprovisioned devices. You need to distribute a new iOS application to the distribution group by using Microsoft Visual Studio App Center. What should you do?
 
@@ -484,10 +484,10 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 ### Your company is concerned that when developers introduce open source libraries, it creates licensing compliance issues. You need to add an automated process to the build pipeline to detect when common open source libraries are added to the code base. What should you use?
 
-- [ ] PDM
-- [ ] OWASPZAP
-- [x] WhiteSource
-- [ ] Jenkins
+- [ ] PDM.
+- [ ] OWASPZAP.
+- [x] WhiteSource.
+- [ ] Jenkins.
 
 ### You are planning projects for three customers. Each customer's preferred process for work items is shown in the following table. The customers all plan to use Azure DevOps for work item management. Which work item process should you use for each customer? To answer, drag the appropriate work item process to the correct customers. Each work item process may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point.
 
@@ -513,23 +513,23 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 ### You have an Azure Resource Manager template that deploys a multi-tier application. You need to prevent the user who performs the deployment from viewing the account credentials and connection strings used by the application. What should you use?
 
-- [ ] an Azure Resource Manager parameter file
-- [ ] an Azure Storage table
-- [ ] an Appsettings.json files
-- [x] Azure Key Vault
-- [ ] a Web.config file
+- [ ] an Azure Resource Manager parameter file.
+- [ ] an Azure Storage table.
+- [ ] an Appsettings.json files.
+- [x] Azure Key Vault.
+- [ ] a Web.config file.
 
 ### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen Your company has a project in Azure DevOps for a new web application. You need to ensure that when code is checked in, a build runs automatically. Solution: From the Continuous deployment trigger settings of the release pipeline, you enable the Pull request trigger setting. Does the meet the goal?
 
-- [ ] Yes
-- [x] No
+- [ ] Yes.
+- [x] No.
 
 ### Your company is building a new solution in Java. The company currently uses a SonarQube server to analyze the code of .NET solutions. You need to analyze and monitor the code quality of the Java solution. Which task types should you add to the build pipeline?
 
-- [ ] Octopus
-- [ ] Chef
-- [x] Maven
-- [ ] Grunt
+- [ ] Octopus.
+- [ ] Chef.
+- [x] Maven.
+- [ ] Grunt.
 
 ### You are developing a multi-tier application. The application will use Azure App Service web apps as the front end and an Azure SQL database as the back end. The application will use Azure functions to write some data to Azure Storage. You need to send the Azure DevOps team an email message when the front end fails to return a status code of 200. Which feature should you use?
 
@@ -540,8 +540,8 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 ### You have an approval process that contains a condition. The condition requires that releases be approved by a team leader before they are deployed. You have a poky stating that approvals must occur within eight hour. You discover that deployments fail if the approvals take longer than two hours. You need to ensure that the deployments only fail if the approvals take longer than eight hours. Solution: From Post-deployment conditions, you modify the Time between re-evaluation of gates option.Does this meet the goal?
 
-- [ ] Yes
-- [x] No
+- [ ] Yes.
+- [x] No.
 
 ### You use Azure Artifacts to host NuGet packages that you create. You need to make one of the packages available to anonymous users outside your organization. The solution must minimize the number of publication points. What should you do?
 
@@ -568,9 +568,9 @@ How should you configure the alert rule? To answer, select the appropriate optio
 ### Your company has a hybrid cloud between Azure and Azure Stack. The company uses Azure DevOps for its CI/CD pipelines. Some applications are built by using Erlang and Hack. You need to ensure that Erlang and Hack are supported as part of the build strategy across the hybrid cloud. The solution must minimize management overhead. What should you use to execute the build pipeline?
 
 - [ ] AzureDevOps self-hosted agents on Azure DevTest Labs virtual machines.
-- [x] AzureDevOps self-hosted agents on virtual machine that run on Azure Stack
+- [x] AzureDevOps self-hosted agents on virtual machine that run on Azure Stack.
 - [ ] AzureDevOps self-hosted agents on Hyper-V virtual machines
-- [ ] a Microsoft-hosted agent
+- [ ] a Microsoft-hosted agent.
 
 ### You plan to create an image that will contain a .NET Core application. You have a Dockerfile file that contains the following code. You need to ensure that the image is as small as possible when the image is built. Which line should you modify in the file?
 
@@ -581,10 +581,10 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 ### Your company develops an app for OS. All users of the app have devices that are members of a private distribution group in Microsoft Visual Studio App Center. You plan to distribute a new release of the app. You need to identify which certificate file you require to distribute the new release from App Center. Which file type should you upload to App Center?
 
-- [ ] .cer
-- [ ] .pvk
-- [ ] .pfx
-- [x] .p12
+- [ ] .cer.
+- [ ] .pvk.
+- [ ] .pfx.
+- [x] .p12.
 
 ### Your company has a prefect in Azure DevOps for a new web application. You need to ensure that when code is checked in, a build runs automatically. Solution: from the Triggers tab of the build pipeline, you select Enable continuous integration Does this meet the goal?
 
@@ -599,16 +599,16 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 ### Which two components are required to integrate Azure DevOps and Bitbucket?
 
-- [x] an External Git service connection
-- [ ] a Microsoft hosted agent
-- [ ] service hooks
-- [ ] a self-hosted agenta deployment M group
-- [ ] a deployment M group
+- [x] an External Git service connection.
+- [ ] a Microsoft hosted agent.
+- [ ] service hooks.
+- [ ] a self-hosted agenta deployment M group.
+- [ ] a deployment M group.
 
 ### To resolve the current technical issue, what should you do to the Register-AzureRmAutomationDscNode command?
 
 - [x] Change the value of the ConfigurationMode parameter.
-- [ ] Replace the Register-AzureRmAutomationDscNode cmdlet with Register-AzureRmAutomationScheduledRunbook
+- [ ] Replace the Register-AzureRmAutomationDscNode cmdlet with Register-AzureRmAutomationScheduledRunbook.
 - [ ] Add the AllowModuleOverwrite parameter.
 - [ ] Add the DefaultProfile parameter.
 
@@ -653,10 +653,10 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 ### Your company uses a Git repository in Azure Repos lo manage the source code of a web application. The master branch is protected from direct updates. Developers work on new features in the topic branches. Because of the high volume of requested features, it is difficult to follow the history of the changes to the master branch. You need to enforce a pull request merge strategy. The strategy must meet the following requirements: Consolidate commit histories. Merge tie changes into a tingle commit. Which merge strategy should you use in the branch policy?
 
-- [ ] Git fetch
-- [ ] no-fast-forward merge
-- [x] squash merge
-- [ ] fast-forward merge
+- [ ] Git fetch.
+- [ ] no-fast-forward merge.
+- [x] squash merge.
+- [ ] fast-forward merge.
 
 ### 197 NO IDEA
 
@@ -677,24 +677,24 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 ### You manage build pipelines and deployment pipelines by using Azure DevOps. Your company has a team of 500 developers. New members are added continual lo the team You need to automate me management of users and licenses whenever possible. Which task must you perform manually?
 
-- [ ] modifying group memberships
-- [x] procuring licenses
-- [ ] adding users
-- [ ] assigning entitlements
+- [ ] modifying group memberships.
+- [x] procuring licenses.
+- [ ] adding users.
+- [ ] assigning entitlements.
 
 ### Your company is concerned that when developers introduce open source Libraries, it creates licensing compliance issues. You need to add an automated process to the build pipeline to detect when common open source libraries are added to the code base. What should you use?
 
-- [ ] Code Style
-- [ ] Microsoft Visual SourceSafe
-- [x] Black Duck
-- [ ] Jenkins
+- [ ] Code Style.
+- [ ] Microsoft Visual SourceSafe.
+- [x] Black Duck.
+- [ ] Jenkins.
 
 ### You are developing an open source solution that uses a GitHub repository. You create a new public project in Azure DevOps. You plan to use Azure Pipelines for continuous build. The solution will use the GitHub Checks API. Which authentication type should you use?
 
-- [ ] a personal access token
-- [ ] SAML
-- [x] GitHub App
-- [ ] OAuth
+- [ ] a personal access token.
+- [ ] SAML.
+- [x] GitHub App.
+- [ ] OAuth.
 
 ### question 229 NO IDEA
 
@@ -717,11 +717,11 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 ### Your company uses Service Now for incident management. You develop an application that runs on Azure. The company needs to generate a ticket in Service Now when the application fails to authenticate. Which Azure Log Analytics solution should you use?
 
-- [ ] Automation & Control
-- [x] IT Service Management Connector (ITSM)
-- [ ] Application lmi
-- [ ] hu Connector
-- [ ] insight & Analytics
+- [ ] Automation & Control.
+- [x] IT Service Management Connector (ITSM).
+- [ ] Application lmi.
+- [ ] hu Connector.
+- [ ] insight & Analytics.
 
 ### You need to recommend a Docker container build strategy that meets the following requirements: Minimizes image sizes. Minimizes the security surface area of the final image. What should you include in the recommendation?
 
@@ -732,7 +732,7 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 ### During a code review, you discover quality issues in a Java application. You need to recommend a solution to detect quality issues including unused variables and empty catch blocks. What should you recommend?
 
-- [x] In a Maven build task, select Run PM
+- [x] In a Maven build task, select Run PM.
 - [ ] In an Xcode build task, select Use xcpretty from Advanced.
 - [ ] In a Gulp build task, specify a custom condition expression.
 - [ ] In a Grunt build task, select Enabled from Control Options.
@@ -752,27 +752,27 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 
 
-- [ ] a deployment group
-- [ ] a Microsoft-hosted agent
-- [ ] service hooks
-- [x] a self-hosted agent
-- [ ] an External Git service connection
+- [ ] a deployment group.
+- [ ] a Microsoft-hosted agent.
+- [ ] service hooks.
+- [x] a self-hosted agent.
+- [ ] an External Git service connection.
 
 ### Your team uses an agile development approach. You need to recommend a branching strategy for the team's Git repository. The strategy must meet the following requirements. Provide the ability to work on multiple independent tasks in parallel. Ensure that checked-in code remains in a releasable state always. Ensure that new features can be abandoned at any time. Encourage experimentation. What should you recommend?
 
-- [ ] a single long-running branch without forking
-- [ ] multiple long-running branches
-- [ ] a single fork per team member
-- [ ] a single long-running branch with multiple short-lived topic branches
+- [ ] a single long-running branch without forking.
+- [ ] multiple long-running branches.
+- [ ] a single fork per team member.
+- [ ] a single long-running branch with multiple short-lived topic branches.
 
 ### You are configuring a release pipeline in Azure DevOps as shown in the exhibit.
 
 ### Which task must you perform manually?
 
-- [x] modifying group memberships
-- [ ] procuring licenses
-- [ ] adding users
-- [ ] assigning entitlements
+- [x] modifying group memberships.
+- [ ] procuring licenses.
+- [ ] adding users.
+- [ ] assigning entitlements.
 
 ### You need to configure Azure Container Instances as a hosted environment for running the containers in AKS. Which three actions should you perform in sequence?
 
@@ -793,10 +793,10 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 ### What should you use?
 
-- [ ] SourceGear Vault
-- [ ] Jenkins
-- [ ] Microsoft Visual SourceSafe
-- [x] WhiteSource Bolt
+- [ ] SourceGear Vault.
+- [ ] Jenkins.
+- [ ] Microsoft Visual SourceSafe.
+- [x] WhiteSource Bolt.
 
 ### You need to configure Azure Automation for the computers in Group7. Which three actions should you perform in sequence?
 
@@ -821,10 +821,10 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 ### What should you recommend?
 
-- [ ] a single long-running branch
-- [ ] multiple long-running branches
-- [ ] a single fork per team member
-- [x] a single-running branch with multiple short-lived topic branches
+- [ ] a single long-running branch.
+- [ ] multiple long-running branches.
+- [ ] a single fork per team member.
+- [x] a single-running branch with multiple short-lived topic branches.
 
 ### You provision an Azure Kubernetes Service (AKS) cluster that has RBAC enabled. You have a Helm chart for a client application. You need to configure Helm and Tiller on the cluster and install the chart. Which three commands should you recommend be run in sequence?
 
@@ -838,17 +838,17 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 ### Which parts of the taxonomy should you enable the team to perform autonomously?
 
-- [x] Features and Tasks
-- [ ] Initiatives and Epics
-- [ ] Epics and Features
-- [ ] Stories and Tasks
+- [x] Features and Tasks.
+- [ ] Initiatives and Epics.
+- [ ] Epics and Features.
+- [ ] Stories and Tasks.
 
 ### Which Azure DevOps component should you use?
 
-- [x] Kanban boards
-- [ ] sprint planning
-- [ ] delivery plans
-- [ ] portfolio backlogs
+- [x] Kanban boards.
+- [ ] sprint planning.
+- [ ] delivery plans.
+- [ ] portfolio backlogs.
 
 ### You need to create the distribution groups shown in the following table.
 
