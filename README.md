@@ -26,11 +26,30 @@ NO ANSWER
 
 ### You need to implement the code flow strategy for Project2 in Azure DevOps. Which three actions should you perform in sequence?
 
-(ANSWER PHOTO)
+![Question 5](images/question5.jpg)
+
+- [x] Box 1: Create a repository. Box 2: Create a branch. Box 3: Add a build validation policy.
+- [ ] Box 1: Create a fork. Box 2: Create a branch. Box 3: Add a build validation policy.
+- [ ] Box 1: Create a repository. Box 2: Add a build policy. Box 3: Add a build validation policy.
+- [ ] Box 1: Add a build validation policy. Box 2: Add a build policy. Box 3: Create a fork.
+
+### DRAG DROP - You need to implement Project6. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. Select and Place:
+
+![Question 277](images/question277.jpg)
+
+- [x] Box 1: Open the release pipeline editor. Box 2: Enable Gates. Box 3: Add Query Work Items.
+- [ ] Box 1: Add Query Work Items. Box 2: Enable Gates. Box 3: Open the Triggers tab.
+- [ ] Box 1: Add a manual intervention task. Box 2: Open the release pipeline editor. Box 3: Enable Gates.
+- [ ] Box 1: Open the Triggers tab. Box 2: Add a manual intervention task. Box 3: Add Query Work Items.
 
 ### How should you complete the code to initialize App Center in the mobile application?
 
-(ANSWER PHOTO)
+![Question 6](images/question6.jpg)
+
+- [x] Box 1: [MSAnalytics.self. Box 2: MSCrasches.self]
+- [ ] Box 1: [MSDistribute.self. Box 2: MSAnalytics.self]
+- [ ] Box 1: [MSPush.self. Box 2: MSCrasches.self]
+- [ ] Box 1: [MSAnalytics.self. Box 2: MSCrasches.self]
 
 ### You manage a project in Azure DevOps. You need to prevent the configuration of the project from changing over time. Solution: Perform a Subscription Health scan when packages are created. Does this meet the goal?
 
@@ -68,6 +87,22 @@ Solution: Configure an Octopus Tentacle on an on-premises machine. Use the Packa
 
 ### You need to replace the existing DevOps tools to support the planned changes. What should you use?
 
+![Question 13](images/question13.jpg)
+
+- [x] Trello: Azure Boards. Bamboo: Azure Pipelines. BitBucket: GitHub repositories.
+- [ ] Trello: Azure Test Plans. Bamboo: GitHub Actions. BitBucket: Azure Artifacts.
+- [ ] Trello: GitHub repositories. Bamboo: Azure Artifacts. BitBucket: Azure Pipelines.
+- [ ] Trello: Azure Boards. Bamboo: GitHub Actions. BitBucket: Azure Artifacts.
+
+### DRAG DROP -Match the Azure services to the correct descriptions. Instructions: To answer, drag the appropriate Azure service from the column on the left to its description on the right. Each service may be used once, more than once, or not at all.NOTE: Each correct match is worth one point. Select and Place:
+
+![Question 15](images/question15.jpg)
+
+- [ ] Provide operating system virtualization: Azure App Service. Provide portable environment for virtualized applications: Azure virtual machines. Used to build, deploy, and scale web apps: Azure Container Instances. Provide a platform for serverless code: Azure Functions.
+- [ ] Provide operating system virtualization: Azure Functions. Provide portable environment for virtualized applications: Azure virtual machines. Used to build, deploy, and scale web apps: Azure Container Instances. Provide a platform for serverless code: Azure App Service.
+- [x] Provide operating system virtualization: Azure virtual machines. Provide portable environment for virtualized applications: Azure Container Instances. Used to build, deploy, and scale web apps: Azure App Service. Provide a platform for serverless code: Azure Functions.
+- [ ] Provide operating system virtualization: Azure virtual machines. Provide portable environment for virtualized applications: Azure Functions. Used to build, deploy, and scale web apps: Azure App Service. Provide a platform for serverless code: Azure Container Instances.
+
 ### You plan to create a release pipeline that will deploy Azure resources by using Azure Resource Manager templates. The release pipeline will create the following resources:
 
 ✑ Two resource groups
@@ -86,7 +121,12 @@ You need to recommend a solution to deploy the resources. Solution: Create a mai
 
 ### You are defining release strategies for two applications as shown in the following table. Which release strategy should you use for each application? To answer, drag the appropriate release strategies to the correct applications. Each release strategy may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point.
 
-(ANSWER PHOTO)
+![Question 16](images/question16.jpg)
+
+- [ ] App1: Rolling deployment. App2: Blue/Green deployment.
+- [ ] App1: Blue/Green deployment. App2: Rolling deployment.
+- [x] App1: Canary deployment. App2: Rolling deployment.
+- [ ] App1: Rolling deployment. App2: Canary deployment.
 
 ### You use Azure Container Registry Tasks commands to quickly build, push, and run a Docker container image natively within Azure, showing how to offload your "inner-loop" development cycle to the cloud. ACR Tasks is a suite of features within Azure Container Registry to help you manage and modify container images across the container lifecycle. References: https://docs.microsoft.com/en-us/azure/container-registry/container-registry-quickstart-task-cli You need to implement Project4. What should you do first?
 
@@ -105,7 +145,12 @@ You need to recommend a solution to deploy the resources. Solution: Create a mai
 
 ### You need to configure authentication for App1. The solution must support the planned changes. Which three actions should you perform in sequence? To answer, move all actions from the list of actions to the answer area and arrange them in the correct order.
 
-(ANSWER PHOTO)
+![Question 19](images/question19.jpg)
+
+- [ ] Box 1: Create an app. Box 2: Add a secret. Box 3: Create a credential.
+- [ ] Box 1: Create a managed service identity. Box 2: Create a credential. Box 3: Configure the ID and secret for App 1.
+- [ ] Box 1: Add a secret. Box 2: Create an app. Box 3: Create a managed service identity.
+- [x] Box 1: Create an app. Box 2: Create a managed service identity. Box 3: Configure the ID and secret for App1.
 
 ### You have a Microsoft ASP.NET Core web app in Azure that is accessed worldwide. You need to run a URL ping test once every five minutes and create an alert when the web app is unavailable from specific Azure regions. The solution must minimize development time. What should you do?
 
@@ -123,11 +168,25 @@ You need to recommend a solution to deploy the resources. Solution: Create a mai
 
 ### You mc configuring Azure DevOps build pipelines. You plan to use hosted build agents. Which build agent pool should you use to compile each application type? To answer, drag the appropriate built agent pools to the correct application types. Each butt agent pool may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point.
 
-(ANSWER PHOTO)
+![Question 23](images/question23.jpg)
+
+- [ ] An application that runs on iOS: Hosted Windows Container. An Internet Information Services (IS) web application
+that runs in Docker: Hosted Ubuntu 1604.
+- [x] An application that runs on iOS: Hosted macOS. An Internet Information Services (IS) web application
+that runs in Docker: Hosted.
+- [ ] An application that runs on iOS: Hosted. An Internet Information Services (IS) web application
+that runs in Docker: Default.
+- [ ] An application that runs on iOS: Hosted Windows Container. An Internet Information Services (IS) web application
+that runs in Docker: Default.
 
 ### How should you configure the release retention policy for the investment planning applications suite? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.
 
-(ANSWER PHOTO)
+![Question 24](images/question24.jpg)
+
+- [x] Global release: Set the default retention policy to 30 days. Production stage: Set the stage retention policy to 60 days.
+- [ ] Global release: Set the maximum retention policy to 30 days. Production stage: Set the default retention policy to 30 days.
+- [ ] Global release: Set the stage retention policy to 60 days. Production stage: Set the maximum retention policy to 60 days.
+- [ ] Global release: Set the stage retention policy to 30 days. Production stage: Set the stage retention policy to 30 days.
 
 ### You are automating the testing process for your company. You need to automate UI testing of a web application. Which framework should you use?
 
@@ -143,7 +202,12 @@ You need to recommend a solution to deploy the resources. Solution: Create a mai
 
 ### You need to configure Azure Automation for the computer in Group7. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 
-(ANSWER PHOTO)
+![Question 83](images/question83.jpg)
+
+- [ ] Box 1: Create a repository. Box 2: Add an application access policy. Box 3: Create a branch.
+- [ ] Box 1: Create a fork. Box 2: Add an application access policy. Box 3: Add a build policy for the master branch.
+- [ ] Box 1: Create a repository. Box 2: Create a fork. Box 3: Add a build policy for the fork.
+- [x] Box 1: Create a repository. Box 2: Add a build policy for the master branch. Box 3: Create a branch.
 
 ### You need to meet the technical requirements for controlling access to Azure DevOps. What should you use?
 
@@ -154,7 +218,12 @@ You need to recommend a solution to deploy the resources. Solution: Create a mai
 
 ### You are configuring the Azure DevOps dashboard. The solution must meet the technical requirements. Which widget should you use for each metric? To answer, drag the appropriate widgets to the correct metrics. Each widget may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point.
 
-(ANSWER PHOTO)
+![Question 32](images/question32.jpg)
+
+- [ ] Box 1: Sprint burndown. Box 2: Release pipeline overview. Box 3: Cumulative flow diagram.
+- [ ] Box 1: Query tile. Box 2: Velocity. Box 3: Cumulative flow diagram.
+- [x] Box 1: Velocity. Box 2: Release pipeline overview. Box 3: Query tile.
+- [ ] Box 1: Velocity. Box 2: Sprint burndown. Box 3: Query tile.
 
 ### Note: This Question Is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to ft. As a result these questions will not appear in the review screen. You company has a prefect in Azure DevOps for a new web application. You need to ensure that when code is checked in, a build runs automatically. Solution: From the Triggers tab of the build pipeline, you selected Batch changes while a build is in progressDoes this meet the goal?
 
@@ -163,11 +232,22 @@ You need to recommend a solution to deploy the resources. Solution: Create a mai
 
 ### You need to find and isolate shared code. The shared code will be maintained in a series of packages. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 
-(ANSWER PHOTO)
+![Question 35](images/question35.jpg)
+
+- [x] Box 1: Create a dependency graph for the application. Box 2: Group the related components. Box 3: Assign ownership to each component group.
+- [ ] Box 1: Identify the most common language used. Box 2: Group the related components. Box 3: Assign ownership to each component group.
+- [ ] Box 1: Rewrite the components in the most common language. Box 2: Create a dependency graph for the application. Box 3: Group the related components.
+- [ ] Box 1: Assign ownership to each component group. Box 2: Rewrite the components in the most common language. Box 3: Identify the most common language used.
 
 ### You are configuring an Azure DevOps deployment pipeline. The deployed application will authenticate to a web service by using a secret stored in an Azure key vault. You need to use the secret in the deployment pipeline. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 
-(ANSWER PHOTO)
+![Question 36](images/question36.jpg)
+
+- [ ] Box 1: Add an app registration in Azure Active Directory (Azure AD). Box 2: Create a service principal in Azure Active Directory (Azure AD). Box 3: Add an Azure Resource Manager service connection to the pipeline.
+- [x] Box 1: Create a service principal in Azure Active Directory (Azure AD). Box 2: Configure an access policy in the key vault. Box 3: Add an Azure Resource Manager service connection to the pipeline.
+- [ ] Box 1: Export a certificate from the key vault. Box 2: Add an Azure Resource Manager service connection to the
+pipeline. Box 3: Generate a self-signed certificate.
+- [ ] Box 1: Generate a self-signed certificate. Box 2: Create a service principal in Azure Active Directory (Azure AD). Box 3: Export a certificate from the key vault.
 
 ### How should you confrere the release retention policy for the investment planning depletions suite?
 
@@ -223,7 +303,12 @@ You need to recommend a solution to deploy the resources. Solution: Create a mai
 
 ### How should you configure the filters for the Project5 trigger?
 
-(ANSWER PHOTO)
+![Question 46](images/question46.jpg)
+
+- [ ] Box 1: branch filter to exclude. Box 2: branch filter to exclude.
+- [ ] Box 1: path filter to include. Box 2: path filter to exclude.
+- [x] Box 1: path filter to exclude. Box 2: branch filter to include.
+- [ ] Box 1: path filter to exclude. Box 2: path filter to include.
 
 ### You are designing the security validation strategy for a project in Azure DevOps. You need to identify package dependencies that have known security issues and can be resolved by an update. What should you use?
 
@@ -238,7 +323,12 @@ You need to recommend a solution to deploy the resources. Solution: Create a mai
 ✑ Pull requests must have a Quality Gate status of Passed in SonarCloud.
 Which policy type should you configure for each requirement? To answer, drag the appropriate policy types to the correct requirements. Each policy type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point.
 
-(ANSWER PHOTO)
+![Question 49](images/question49.jpg)
+
+- [ ] Committed code must compile successfully: A check-in policy.Pull requests must have a Quality Gate status of Passed in SonarCloud: A status policy.
+- [ ] Committed code must compile successfully: A status policy.Pull requests must have a Quality Gate status of Passed in SonarCloud: A build policy.
+- [ ] Committed code must compile successfully: A build policy.Pull requests must have a Quality Gate status of Passed in SonarCloud: A check-in policy.
+- [x] Committed code must compile successfully: A check-in policy.Pull requests must have a Quality Gate status of Passed in SonarCloud: A build policy.
 
 ### You are deploying a server application that will run on a Server Core installation of Windows Server 2019. You create an Azure key vault and a secret. You need to use the key vault to secure API secrets for third-party integrations. Which three actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point. D18912E1457D5D1DDCBD40AB3BF70D5D
 
@@ -254,7 +344,14 @@ Which policy type should you configure for each requirement? To answer, drag the
 
 ### You need to recommend a procedure to implement the build agent for Project1. Which three actions should you recommend be performed in sequence?
 
-(ANSWER PHOTO)
+![Question 53](images/question53.jpg)
+
+- [x] Box 1: ign in to Azure DevOps by using an account that is assigned the Administrator service connection security role. Box 2: Create a personal access token in the Azure
+DevOps organization of Contoso. Box 3: Install and register the Azure Pipelines agent on an Azure virtual machine.
+- [ ] Box 1: Sign in to Azure DevOps by using an account that is assigned the Administrator service
+connection security role. Box 2: Install the Azure Pipelines agent on on- premises virtual machine. Box 3: Sign in to Azure DevOps by using an account that is assigned the agent pool administrator role.
+- [ ] Box 1: Create a personal access token in the Azure DevOps organization of Contoso. Box 2: Install the Azure Pipelines agent on on- premises virtual machine. Box 3: Sign in to Azure DevOps by using an account that is assigned the agent pool administrator role.
+- [ ] Box 1: Sign in to Azure DevOps by using an account that is assigned the agent pool administrator role. Box 2: Install the Azure Pipelines agent on on- premises virtual machine. Box 3: Create a personal access token in the Azure DevOps organization of Contoso.
 
 ### Post navigationCase Study 2 – Contoso, Ltd Background Contoso, Ltd. is a manufacturing company that has a main office in Chicago. Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization. The Azure DevOps organization includes: • The Docker extension • A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2016 The Azure subscription contains an Azure Automation account. Planned Changes Contoso plans to create projects in Azure DevOps as shown in the following table. Technical Requirements Contoso identities the following technical requirements: • Implement build agents rot Project 1. • Whenever possible, use Azure resources • Avoid using deprecated technologies • Implement a code flow strategy for Project2 that will: • Enable Team 2 to submit pull requests for Project2. • Enable Team 2 to work independently on changes to a copy of Project?
 
@@ -264,6 +361,7 @@ Which policy type should you configure for each requirement? To answer, drag the
 - [ ] Modify the ConfigurationMode property of the Local Configuration Manager (LCM).
 - [ ] Install PowerShell Core.
 - [ ] Modify the RefreshMode property of the Local Configuration Manager (LCM).
+
 
 ### You need to perform the GitHub code migration. The solution must support the planned changes for the DevOps environment. What should you use?
 
@@ -336,7 +434,12 @@ Which policy type should you configure for each requirement? To answer, drag the
 
 ### Where should the build and release agents for the investment planning application suite run? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.
 
-(ANSWER PHOTO)
+![Question 70](images/question70.jpg)
+
+- [ ] Build agent: A hosted service. Release agent: The developers' computers.
+- [ ] Build agent: A hosted service. Release agent: A hosted service.
+- [ ] Build agent: The developers' computers. Release agent: A hosted service.
+- [x] Build agent: A source control system. Release agent: A hosted service.
 
 ### You have Azure Pipelines and GitHub integrated as a source code repository. The build pipeline has continuous integration enabled. You plan to trigger an automated build whenever code changes are committed to the repository. You need to ensure that the system will wait until a build completes before queuing another build.What should you implement?
 
@@ -357,7 +460,14 @@ Which policy type should you configure for each requirement? To answer, drag the
 
 ### You need to configure Azure Automation for the computers in Pool7. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them m the correct order.
 
-(ANSWER PHOTO)
+![Question 30](images/question30.jpg)
+
+- [x] Box 1: Create a Desired State Configuration (DSC) configuration file that has an extension of ps1. Box 2: Run the Import-AzureRmAutomationDscConfiguration
+Azure PowerShell cmdlet. Box 3: Run the Start-AzureRmAutomationDscCompilationJob Azre PowerShell cdleut.
+- [ ] Box 1: Run the Import-AzureRmAutomationDscConfiguration
+Azure PowerShell cmdlet. Box 2: Create a Desired State Configuration (DSC) configuration file that has an extension of ps1. Box 3: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet.
+- [ ] Box 1: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet. Box 2: Create an Azure Resource Manager template file that hasan extension of . json. Box 3: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet.
+- [ ] Box 1: Create an Azure Resource Manager template file that has an extension of . json. Box 2: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet. Box 3: Run the Import-AzureRmAutomationDscConfiguration Azure PowerShell cmdlet.
 
 ### HOTSPOT You are using PowerShell to administer Azure Log Analytics workspaces. You need to list the available workspaces and their properties. How should you complete the command? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.
 
@@ -372,7 +482,12 @@ Which policy type should you configure for each requirement? To answer, drag the
 
 ### Your company has four projects. The version control requirements for each project are shown in the following table.You plan to use Azure Repos for all the projects. Which version control system should you use for each project? To answer, drag the appropriate version control systems to the correct projects. Each version control system may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point.
 
-(ANSWER PHOTO)
+![Question 81](images/question81.jpg)
+
+- [x] Project 1: Team Foundation Version Control.Project 2: Git.Project 3: Subversion.Project 4: Git.
+- [ ] Project 1: Git.Project 2: Perforce.Project 3: Subversion.Project 4: Team Foundation Version Control.
+- [ ] Project 1: Team Foundation Version Control.Project 2: Subversion.Project 3: Perforce.Project 4: Git.
+- [ ] Project 1: Subversion.Project 2: Perforce.Project 3: Team Foundation Version Control.Project 4: Git.
 
 ### Your company is building a new solution in Java. The company currently uses a SonarQube server to analyze the code of .NET solutions. You need to analyze and monitor the code quality of the Java solution.Which task types should you add to the build pipeline?
 
@@ -380,6 +495,15 @@ Which policy type should you configure for each requirement? To answer, drag the
 - [x] Gradle.
 - [ ] Octopus.
 - [ ] Gulp.
+
+### HOTSPOT - Where should the build and release agents for the investment planning applications suite run? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
+
+![Question 236](images/question236.jpg)
+
+- [ ] Build agent: A hosted service. Release agent: A hosted service.
+- [ ] Build agent: The developers' computers. Release agent: A hosted service.
+- [ ] Build agent: A hosted service. Release agent: The developers' computers.
+- [x] Build agent: A source control system. Release agent: A hosted service.
 
 ### Your development team is building a new web solution by using the Microsoft Visual Studio integrated development environment (IDE). You need to make a custom package available to all the developers. The package must be managed centrally, and the latest version must be available for consumption in Visual Studio automatically. Which three actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.
 
@@ -389,6 +513,15 @@ Which policy type should you configure for each requirement? To answer, drag the
 - [ ] Add the package URL to the Environment settings in Visual Studio.Add the package URL to the NuGet Package Manager settings in Visual Studio.F . Create a Git repository in Azure Repos.
 - [x] Add the package URL to the NuGet Package Manager settings in Visual Studio.F . Create a Git repository in Azure Repos.
 - [ ] F . Create a Git repository in Azure Repos.
+
+### DRAG DROP -You have an Azure Kubernetes Service (AKS) implementation that is RBAC-enabled. You plan to use Azure Container Instances as a hosted development environment to run containers in the AKS implementation. You need to configure Azure Container Instances as a hosted environment for running the containers in AKS. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. Select and Place:
+
+![Question 146](images/question146.jpg)
+
+- [x] Box 1: Create a YAML file. Box 2: Run kubectl apply. Box 3: Run helm init.
+- [ ] Box 1: Run az role assignment create. Box 2: Create a YAML file. Box 3: Run helm init.
+- [ ] Box 1: Run az aks install-connector. Box 2: Run kubectl apply. Box 3: Run az aks install-connector.
+- [ ] Box 1: Run helm init. Box 2: Run az role assignment create. Box 3: Run kubectl apply.
 
 ### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution After you answer a question in this section, you will NOT be able to return to it. As a result these questions will not appear in the review screen. You integrate a cloud-hosted Jenkins server and a new Azure DevOps deployment. You need Azure DevOps to send a notification to Jenkins when a developer commits changes to a branch in Azure Repos. Solution: You create a service hook subscription that uses the build completed event Does this meet the goal?
 
@@ -404,7 +537,21 @@ Which policy type should you configure for each requirement? To answer, drag the
 
 ### Your company uses Team Foundation Server 2013 (TFS 2013). You plan to migrate to Azure DevOps. You need to recommend a migration strategy that meets the following requirements: Preserves the dates of Team Foundation Version Control changesets. Preserves the changes dates of work items revisions. Minimizes migration effort. Migrates all TFS artifacts. What should you recommend?
 
-(ANSWER PHOTO)
+![Question 91](images/question91.jpg)
+
+- [x] On the TFS server: Upgrade TFS to the most recent RTW release. To perform the migration: Use the TFS Database Import Service.
+- [ ] On the TFS server: Install the TFS Java SDK. To perform the migration: Copy the assets manually.
+- [ ] On the TFS server: Upgrade to the most recent version of PowerShell Core. To perform the migration: Use the TFS Integration Platform.
+- [ ] On the TFS server: Install the TFS Java SDK. To perform the migration: Use the TFS Database Import Service.
+
+### HOTSPOT -You need to configure a cloud service to store the secrets required by the mobile applications to call the share pricing service. What should you include in the solution? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
+
+![Question 92](images/question92.jpg)
+
+- [ ] Required secrets: Certificate. Storage location: Azure Data Lake.
+- [x] Required secrets: Shared Access Authorization token. Storage location: Azure Storage with HTTPS access.
+- [ ] Required secrets: Shared Access Authorization token. Storage location: Azure Storage with HTTPS access.
+- [ ] Required secrets: Username and password. Storage location: Azure Storage with HTTP access.
 
 ### You need to configure a cloud service to store the secrets required by the mobile applications to call the share. What should you include in the solution?
 
@@ -419,7 +566,12 @@ Which policy type should you configure for each requirement? To answer, drag the
 
 ### You use Azure DevOps to manage the build and deployment of an app named App1. You have a release pipeline that deploys a virtual machine named VM1. You plan to monitor the release pipeline by using Azure Monitor You need to create an alert to monitor the performance of VM1. The alert must be triggered when the average CPU usage exceeds 70 percent for five minutes. The alert must calculate the average once every minute. How should you configure the alert rule? To answer, select the appropriate options in the answer area.
 
-(ANSWER PHOTO)
+![Question 94](images/question94.jpg)
+
+- [x] Aggregation granularity (Period): 5 minutes. Threshold value: Static. Operator: Greater than.
+- [ ] Aggregation granularity (Period): 1 minute. Threshold value: Static. Operator: Greater than.
+- [ ] Aggregation granularity (Period): 1 minute. Threshold value: Dynamic. Operator: Greater than.
+- [ ] Aggregation granularity (Period): 5 minutes. Threshold value: Dynamic. Operator: Less than.
 
 ### You need to create an alert to monitor the performance of VM1. The alert must be triggered when the average CPU usage exceeds 70 percent for five minutes. The alert must calculate the average once every minute.
 
@@ -435,7 +587,12 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 ### Your company has a project in Azure DevOps. You plan to create a release pipeline that will deploy resources by using Azure Resource Manager templates. The templates will reference secrets stored in Azure Key Vault. You need to recommend a solution for accessing the secrets stored in the key vault during deployments. The solution must use the principle of least privilege. What should you include in the recommendation?
 
-(ANSWER PHOTO)
+![Question 99](images/question99.jpg)
+
+- [ ] Restrict access to delete the key vault: a personal access token (PAT). Restrict access to the secrets in Key Vault by using: a personal access token (PAT).
+- [ ] Restrict access to delete the key vault: a personal access token (PAT). Restrict access to the secrets in Key Vault by using: RBAC.
+- [x] Restrict access to delete the key vault: an Azure Key Vault access policy. Restrict access to the secrets in Key Vault by using: RBAC.
+- [ ] Restrict access to delete the key vault: RBAC. Restrict access to the secrets in Key Vault by using: a personal access token (PAT).
 
 ### Your company deploys applications m Docket containers. You want to detect known exploits in the Docket images used to provision the Docker containers. You need to integrate image scanning into the application lifecycle. The solution must expose the exploits as early as possible during the application lifecycle. What should you configure?
 
@@ -489,9 +646,21 @@ How should you configure the alert rule? To answer, select the appropriate optio
 - [x] WhiteSource.
 - [ ] Jenkins.
 
+### DRAG DROP - You need to implement Project6. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. Select and Place:
+
+- [x] Box 1: Open the release pipeline editor. Box 2: Enable Gates. Box 3: Add Query Work Items.
+- [ ] Box 1: Add Query Work Items. Box 2: Enable Gates. Box 3: Add a manual intervention task.
+- [ ] Box 1: Add a manual intervention task. Box 2: Enable Gates. Box 3: Open the Triggers tab.
+- [ ] Box 1: Open the Triggers tab. Box 2: Add a manual intervention task. Box 3: Add Query Work Items.
+
 ### You are planning projects for three customers. Each customer's preferred process for work items is shown in the following table. The customers all plan to use Azure DevOps for work item management. Which work item process should you use for each customer? To answer, drag the appropriate work item process to the correct customers. Each work item process may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point.
 
-(ANSWER PHOTO)
+![Question 485](images/question485.jpg)
+
+- [ ] Litware: XP. Contoso: CMMI. A. Datum: Agile.
+- [ ] Litware: Scrum. Contoso: Agile. A. Datum: CMMI.
+- [x] Litware: Scrum. Contoso: Agile. A. Datum: CMMI.
+- [ ] Litware: XP. Contoso: CMMI. A. Datum: Scrum.
 
 ### You need to implement Project6. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them m the correct order.
 
@@ -783,13 +952,41 @@ How should you configure the alert rule? To answer, select the appropriate optio
 - [ ] Azure Active Directory (Azure AD) account that has multi-factor authentication (MFA) enabled.
 - [ ] Azure Active Directory (Azure AD) service principal.
 
-### You are implementing a package management solution for a Node.js application by using Azure Artifacts.
+### You are implementing a package management solution for a Node.js application by using Azure Artifacts. You need to configure the development environment to connect to the package repository. The solution must minimize the likelihood that credentials will be leaked. Which file should you use to configure each connection? To answer, drag the appropriate files to the correct connections. Each file may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point. Select and Place:
 
-### Your company plans to deploy an application to the following endpoints: Ten virtual machines hosted in Azure. Ten virtual machines hosted in an on-premises data center environment. All the virtual machines have the- Azure Pipelines agent.
+![Question 184](images/question184.jpg)
+
+- [ ] Feed registry information: The npmrc file in the user's home folder. Credentials: The npmrc file in the project.
+- [ ] Feed registry information: The Package.json file in the project. Credentials: The Project.json file in the project.
+- [ ] Feed registry information: The Project.json file in the project. Credentials: The npmrc file in the project.
+- [x] Feed registry information: The npmrc file in the project. Credentials: The npmrc file in the user's home folder.
+
+### Your company plans to deploy an application to the following endpoints: Ten virtual machines hosted in Azure. Ten virtual machines hosted in an on-premises data center environment. All the virtual machines have the- Azure Pipelines agent. You need to implement a release strategy for deploying the application to the endpoints. What should you recommend using to deploy the application to the endpoints? To answer, drag the appropriate components to the correct endpoints. Each component may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point. Select and Place:
+
+![Question 174](images/question174.jpg)
+
+- [ ] Ten virtual machines hosted in Azure: A management group. Ten virtual machines hosted in an on-premises data center environment: Application roles.
+- [ ] Ten virtual machines hosted in Azure: A resource group. Ten virtual machines hosted in an on-premises data center environment: A management group.
+- [x] Ten virtual machines hosted in Azure: A deployment group. Ten virtual machines hosted in an on-premises data center environment: A deployment group.
+- [ ] Ten virtual machines hosted in Azure: Application roles. Ten virtual machines hosted in an on-premises data center environment: A resource group.
 
 ### You need to configure access to Azure DevOps agent pools to meet the following requirements: Use a project agent pool when authoring build or release pipelines. View the agent pool and agents of the organization. Use the principle of least privilege. Which role memberships are required for the Azure DevOps organization and the project?
 
+![Question 185](images/question185.jpg)
+
+- [ ] Organization: Service Account. Project: Administrator.
+- [ ] Organization: User. Project: Service Account.
+- [ ] Organization: Administrator. Project: User.
+- [x] Organization: Reader. Project: Service Account.
+
 ### You need to recommend project metrics for dashboards in Azure DevOps. Which chart widgets should you recommend for each metric?
+
+![Question 196](images/question196.jpg)
+
+- [ ] The elapsed time from the creation of work items to their completion: Burndown. The elapsed time to complete work items once they are active: . The remaining work: Cycle Time.
+- [ ] The elapsed time from the creation of work items to their completion: Cycle Time. The elapsed time to complete work items once they are active: Burndown. The remaining work: Lead Time.
+- [ ] The elapsed time from the creation of work items to their completion: Velocity. The elapsed time to complete work items once they are active: Burndown. The remaining work: Cycle Time.
+- [ ] The elapsed time from the creation of work items to their completion: Burndown. The elapsed time to complete work items once they are active: Lead Time. The remaining work: Velocity.
 
 ### What should you use?
 
@@ -806,9 +1003,23 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 ### You need to create deployment files for an Azure Kubernetes Service (AKS) cluster. The deployments must meet the provisioning storage requirements shown in the following table.
 
+![Question 530](images/question530.jpg)
+
+- [ ] Deployment 1: azurekeyvault-flexvolume. Deployment 2: blobfuse-flexvol. Deployment 3: volume.beta.kubernetes.io/storage-provisioner.
+- [ ] Deployment 1: kubernetes.io/azure-disk. Deployment 2: kubernetes.io/azure-file. Deployment 3: volume.beta.kubernetes.io/storage-provisioner.
+- [ ] Deployment 1: azurekeyvault-flexvolume. Deployment 2: blobfuse-flexvol. Deployment 3: kubernetes.io/azure-file.
+- [x] Deployment 1: kubernetes.io/azure-file. Deployment 2: kubernetes.io/azure-disk. Deployment 3: azurekeyvault-flexvolume.
+
 ### You need to design a branching model for the new functionality. Which branch lifetime and branch time should you use in the branching model?
 
 ### Your company uses Git as a source code control system for a complex app named App1. You plan to add a new functionality to App1.
+
+![Question 525](images/question525.jpg)
+
+-[ ] Branch lifetime: Long-lived. Branch type: Feature.
+-[ ] Branch lifetime: Short-lived. Branch type: Integration.
+-[x] Branch lifetime: Short-lived. Branch type: Feature.
+-[ ] Branch lifetime: Long-lived. Branch type: Integration.
 
 ### What will Azure DevOps use to authenticate with the tool?
 
@@ -819,6 +1030,13 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 ### You are configuring Azure Pipelines for three projects in Azure DevOps as shown in the following table.
 
+![Question 527](images/question527.jpg)
+
+- [x] Project1: Git in Azure Repos. Project2: GitHub Enterprise. Project3: Bitbucket Cloud.
+- [ ] Project1: Assembla Subversion. Project2: GitHub Enterprise. Project3:Git in Azure Repos .
+- [ ] Project1: Bitbucket Cloud. Project2: Assembla Subversion. Project3: GitHub Enterprise.
+- [ ] Project1: GitHub Enterprise. Project2: Assembla Subversion. Project3: Git in Azure Repos.
+
 ### What should you recommend?
 
 - [ ] a single long-running branch.
@@ -828,13 +1046,51 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 ### You provision an Azure Kubernetes Service (AKS) cluster that has RBAC enabled. You have a Helm chart for a client application. You need to configure Helm and Tiller on the cluster and install the chart. Which three commands should you recommend be run in sequence?
 
-### You need to increase the security of your team's development process. Which type of security tool should you recommend for each stage of the development process?
+![Question 102](images/question102.jpg)
+
+- [ ] Box 1: . Box 2: . Box 3: .
+- [x] Box 1: kubectl create. Box 2: helm init. Box 3: helm install.
+- [ ] Box 1: . Box 2: . Box 3: .
+- [ ] Box 1: . Box 2: . Box 3: .
+
+### DRAG DROP - You need to use Azure Automation State Configuration to manage the ongoing consistency of virtual machine configurations. Which five actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select. Select and Place:
+
+![Question 105](images/question105.jpg)
+
+- [ ] Box 1: Assign the node configuration. Box 2: Create a management group. Box 3: Assign tags to the virtual machines. Box 4: Upload a configuration to Azure Automation State Configuration. Box 5: Compile a configuration into a node configuration.
+- [ ] Box 1: Onboard the virtual machines to Azure Automation State Configuration. Box 2: Assign tags to the virtual machines. Box 3: Upload a configuration to Azure Automation State
+Configuration. Box 4: Compile a configuration into a node configuration. Box 5: Assign the node configuration.
+- [ ] Box 1: Assign tags to the virtual machines. Box 2: Assign the node configuration. Box 3: Create a management group. Box 4: Check the compliance status of the node. Box 5: Onboard the virtual machines to Azure Automation State Configuration.
+- [x] Box 1: Assign the node configuration. Box 2: Upload a configuration to Azure Automation State Configuration. Box 3: Compile a configuration into a node configuration. Box 4: Onboard the virtual machines to Azure Automation State Configuration. Box 5: Check the compliance status of the node.
+
+### You need to increase the security of your team's development process. Which type of security tool should you recommend for each stage of the development process? To answer, drag the appropriate security tools to the correct stages. Each security tool may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point. Select and Place:
+
+![Question 180](images/question180.jpg)
+
+- [x] Pull request: Threat modeling. Continuous integration: Static code analysis. Continuous delivery: Penetration testing.
+- [ ] Pull request: Static code analysis. Continuous integration: Threat modeling. Continuous delivery: Penetration testing.
+- [ ] Pull request: Penetration testing. Continuous integration: Threat modeling. Continuous delivery: Static code analysis.
+- [ ] Pull request: Static code analysis. Continuous integration: . Continuous delivery: Threat modeling.
 
 ### You plan to use Azure Kubernetes Service (AKS) to host containers deployed from images hosted in a Docker Trusted Registry.
+
+### You plan to use Azure Kubernetes Service (AKS) to host containers deployed from images hosted in a Docker Trusted Registry. You need to recommend a solution for provisioning and connecting to AKS. The solution must ensure that AKS is RBAC-enabled and uses a custom service principal. Which three commands should you recommend be run in sequence? To answer, move the appropriate commands from the list of commands to the answer area and arrange them in the correct order. Select and Place:
+
+- [x] Box 1: az aks create. Box 2: az ad sp create-for-rbac. Box 3: kubectl create.
+- [ ] Box 1: kubectl create. Box 2: az aks get-credentials. Box 3: az ad sp create-for-rbac.
+- [ ] Box 1: az ad sp create-for-rbac. Box 2: az aks get-credentials. Box 3: az aks create.
+- [ ] Box 1: az aks create. Box 2: az role assignment create. Box 3: kubectl create.
 
 ### You need to implement a release strategy for deploying the application to the endpoints. What should you recommend using to deploy the application to the endpoints?
 
 ### Your company is creating a suite of three mobile applications. You need to control access to the application builds. The solution must be managed at the organization level. What should you use?
+
+![Question 192](images/question192.jpg)
+
+- [ ] Groups to control the build access: Azure Active Directory groups. Group type: Private.
+- [ ] Groups to control the build access: Azure Active Directory groups. Group type: Public.
+- [x] Groups to control the build access: Microsoft Visual Studio App Center distribution groups. Group type: Shared.
+- [ ] Groups to control the build access: Active Directory groups. Group type: Shared.
 
 ### Which parts of the taxonomy should you enable the team to perform autonomously?
 
@@ -886,4 +1142,18 @@ How should you configure the alert rule? To answer, select the appropriate optio
 
 ### You plan to collect feedback from pilot users on the features being delivered. All the pilot users have a corporate computer that has Google Chrome and the Microsoft Test & Feedback extension installed. The pilot users will test the application by using Chrome.
 
+![Question 154](images/question154.jpg)
+
+- [x] Developers: Basic. Pilot users: Stakeholder.
+- [ ] Developers: Stakeholder. Pilot users: Basic.
+- [ ] Developers: Stakeholder. Pilot users: Stakeholder.
+- [ ] Developers: Basic. Pilot users: Basic.
+
 ### Which package feed access levels should be assigned to the Developers and Team Leaders groups for the investment planning applications suite?
+
+![Question 296](images/question296.jpg)
+
+- [x] Developers: Reader. Team Leaders: Owner.
+- [ ] Developers: Collaborator. Team Leaders: Reader.
+- [ ] Developers: Contributor. Team Leaders: Owner.
+- [ ] Developers: Contributor. Team Leaders: Collaborator.
