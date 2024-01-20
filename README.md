@@ -225,7 +225,7 @@ that runs in Docker: Default.
 - [x] Box 1: Velocity. Box 2: Release pipeline overview. Box 3: Query tile.
 - [ ] Box 1: Velocity. Box 2: Sprint burndown. Box 3: Query tile.
 
-### Note: This Question Is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to ft. As a result these questions will not appear in the review screen. You company has a prefect in Azure DevOps for a new web application. You need to ensure that when code is checked in, a build runs automatically. Solution: From the Triggers tab of the build pipeline, you selected Batch changes while a build is in progressDoes this meet the goal?
+### You company has a prefect in Azure DevOps for a new web application. You need to ensure that when code is checked in, a build runs automatically. Solution: From the Triggers tab of the build pipeline, you selected Batch changes while a build is in progressDoes this meet the goal?
 
 - [ ] Yes.
 - [x] No.
@@ -299,7 +299,7 @@ pipeline. Box 3: Generate a self-signed certificate.
 
 ### Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization.Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization.The Azure subscription contains an Azure Automation account. Planned Changes Contoso plans to create projects in Azure DevOps as shown in the following table. Technical Requirements Contoso identities the following technical requirements: • Implement build agents rot Project 1. • Whenever possible, use Azure resources • Avoid using deprecated technologies • Implement a code flow strategy for Project2 that will: • Enable Team 2 to submit pull requests for Project2. • Enable Team 2 to work independently on changes to a copy of Project? • Ensure that any intermediary changes performed by Tram2 on a copy of Project2 will be subject to the same restrictions as the ones defied in the build policy of Project2. • Whenever possible. Implement automation and minimize administrative effort. • Implement Protect3, Project5, Project6, and Project7 based on the planned changes. • Implement Project4 and configure the project to push Docker images to Azure Container Reentry. DRAG DROP You need to implement Project6. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them m the correct order.
 
-(ANSWER PHOTO)
+![Question 123](images/question123.jpg)
 
 ### How should you configure the filters for the Project5 trigger?
 
@@ -432,7 +432,7 @@ connection security role. Box 2: Install the Azure Pipelines agent on on- premis
 - [x] Azure Log Analytics.
 - [ ] PL/SQL.
 
-### Where should the build and release agents for the investment planning application suite run? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.
+### Where should the build and release agents for the investment planning application suite run?
 
 ![Question 70](images/question70.jpg)
 
@@ -495,15 +495,6 @@ Azure PowerShell cmdlet. Box 2: Create a Desired State Configuration (DSC) confi
 - [x] Gradle.
 - [ ] Octopus.
 - [ ] Gulp.
-
-### HOTSPOT - Where should the build and release agents for the investment planning applications suite run? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
-
-![Question 236](images/question236.jpg)
-
-- [ ] Build agent: A hosted service. Release agent: A hosted service.
-- [ ] Build agent: The developers' computers. Release agent: A hosted service.
-- [ ] Build agent: A hosted service. Release agent: The developers' computers.
-- [x] Build agent: A source control system. Release agent: A hosted service.
 
 ### Your development team is building a new web solution by using the Microsoft Visual Studio integrated development environment (IDE). You need to make a custom package available to all the developers. The package must be managed centrally, and the latest version must be available for consumption in Visual Studio automatically. Which three actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.
 
@@ -765,6 +756,8 @@ How should you configure the alert rule? To answer, select the appropriate optio
 (ANSWER PHOTO)
 
 ### You have a project Azure DevOps. You plan to create a build pipeline that will deploy resources by using Azure Resource Manager templates. The templates will reference secretes stored in Azure Key Vault. You need to ensure that you can dynamically generate the resource ID of the key vault during template deployment. What should you include in the template?
+
+![Question 150](images/question150.jpg)
 
 ### Which two components are required to integrate Azure DevOps and Bitbucket?
 
