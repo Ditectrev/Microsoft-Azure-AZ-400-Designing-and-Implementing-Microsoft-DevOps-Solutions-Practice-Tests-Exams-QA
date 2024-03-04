@@ -1805,3 +1805,424 @@ Configuration. Box 4: Compile a configuration into a node configuration. Box 5: 
 - [ ] Bamboo.
 - [ ] Octopus.
 - [x] Slack.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You run the Register-AzureRmAutomationDscNode command in your company's environment. You need to make sure that your company's test servers remain correctly configured, regardless of configuration drift. Solution: You set the -ConfigurationMode parameter to ApplyOnly. Does the solution meet the goal?
+
+- [ ] Yes
+- [x] No
+
+### You need to consider the underlined segment to establish whether it is accurate. To compile an Internet Information Services (IIS) web application that runs docker, you should use a Default build agent pool. Select No adjustment required if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+
+- [ ] No adjustment required.
+- [ ] Hosted Windows Container.
+- [x] Hosted.
+- [ ] Hosted macOS
+
+### You need to consider the underlined segment to establish whether it is accurate. When moving to Azure DevOps, JIRA must be replaced with the build pipelines Azure DevOps service. Select No adjustment required if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+
+- [ ] No adjustment required.
+- [ ] repos
+- [x] release pipelines
+- [ ] boards
+
+### You need to consider the underlined segment to establish whether it is accurate. To deploy an application to a number of Azure virtual machines, you should create a universal group. Select No adjustment required if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+
+- [ ] No adjustment required.
+- [ ] security.
+- [x] deployment.
+- [ ] resource.
+
+### You need to consider the underlined segment to establish whether it is accurate. To find when common open source libraries are added to the code base, you should add Jenkins to the build pipeline. Select No adjustment required if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+
+- [ ] No adjustment required.
+- [ ] SourceGear Vault
+- [x] WhiteSource
+- [ ] OWASP ZAP
+
+###  You need to consider the underlined segment to establish whether it is accurate. Black Duck can be used to make sure that all the open source libraries conform to your company's licensing criteria. Select No adjustment required if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+
+- [x] No adjustment required.
+- [ ] Maven
+- [ ] Bamboo
+- [ ] CMAKE
+
+### Your company makes use of Azure SQL Database Intelligent Insights and Azure Application Insights for monitoring purposes. You have been tasked with analyzing the monitoring using ad-hoc queries. You need to utilize the correct query language. Solution: You use the Contextual Query Language (CQL). Does the solution meet the goal?
+
+- [ ] Yes
+- [x] No
+
+### Your company makes use of Azure SQL Database Intelligent Insights and Azure Application Insights for monitoring purposes. You have been tasked with analyzing the monitoring using ad-hoc queries. You need to utilize the correct query language. Solution: You use the Transact-SQL. Does the solution meet the goal?
+
+- [ ] Yes
+- [x] No
+
+### You manage an Azure web app that supports an e-commerce website. You need to increase the logging level when the web app exceeds normal usage patterns. The solution must minimize administrative overhead. Which two resources should you include in the solution? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.
+
+- [x] an Azure Automation runbook.
+- [x] an Azure Monitor alert that has a dynamic threshold.
+- [ ] an Azure Monitor alert that has a static threshold.
+- [ ] the Azure Monitor autoscale settings.
+- [ ] an Azure Monitor alert that uses an action group that has an email action.
+
+### HOTSPOT - You have an Azure Kubernetes Service (AKS) pod. You need to configure a probe to perform the following actions: -> Confirm that the pod is responding to service requests. -> Check the status of the pod four times a minute. -> Initiate a shutdown if the pod is unresponsive. How should you complete the YAML configuration file? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
+
+![Question 576](images/question576.jpg)
+
+- [ ] Box 1: timeoutSeconds: 15. Box 2: readinessProbe.
+- [ ] Box 1: livenessProbe. Box 2: startupProbe.
+- [ ] Box 1: initialDelaySeconds: 15. Box 2: livenessProbe.
+- [x] Box 1: readinessProbe. Box 2: periodSeconds: 15.
+
+### You need to create an instance of Azure Application Insights named az400-9940427-main and configure the instance to receive telemetry data from an Azure web app named az400-9940427-main. To complete this task, sign in to the Microsoft Azure portal.
+
+![Question 577](images/question577.jpg)
+
+### Your company wants to use Azure Application Insights to understand how user behaviors affect an application. Which Application Insights tool should you use to analyze each behavior?.
+
+![Question 578](images/question578.jpg)
+
+- [ ] Feature usage: Impact. Number of people who used the actions and its features: Impact. The effect that the performance of the application has on the usage of a page or a feature: User Flows.
+- [ ] Feature usage: Users. Number of people who used the actions and its features: User Flows. The effect that the performance of the application has on the usage of a page or a feature: Impact.
+- [x] Feature usage: User Flows. Number of people who used the actions and its features: Users. The effect that the performance of the application has on the usage of a page or a feature: Impact.
+- [ ] Feature usage: Users. Number of people who used the actions and its features: User Flows. The effect that the performance of the application has on the usage of a page or a feature: Impact.
+
+### You have an Azure DevOps project named Project1 and an Azure subscription named Sub1. Sub1 contains an Azure virtual machine scale set named VMSS1. VMSS1 hosts a web application named WebApp1. WebApp1 uses stateful sessions. The WebApp1 installation is managed by using the Custom Script extension. The script resides in an Azure Storage account named sa1. You plan to make a minor change to a UI element of WebApp1 and to gather user feedback about the change. You need to implement limited user testing for the new version of WebApp1 on VMSS1. Which three actions should you perform?
+
+- [ ] Modify the load balancer settings of VMSS1.
+- [x] Redeploy VMSS1.
+- [x] Upload a custom script file to sa1.
+- [x] Modify the Custom Script extension settings of VMSS1.
+- [ ] Update the configuration of a virtual machine in VMSS1.
+
+### You have several Azure virtual machines that run Windows Server 2019. You need to identify the distinct event IDs of each virtual machine as shown in the following table. How should you complete the Azure Monitor query? To answer, drag the appropriate values to the correct locations. Each value may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+
+![Question 579](images/question579.jpg)
+
+- [ ] Box 1: count (). Box 2: summarize.
+- [ ] Box 1: mv-expand. Box 2: render.
+- [x] Box 1: summarize. Box 2: makelist (EventID).
+- [ ] Box 1: render. Box 2: count ().
+
+### You have an Azure web app named Webapp1. You need to use an Azure Monitor query to create a report that details the top 10 pages of Webapp1 that failed. How should you complete the query?
+
+![Question 580](images/question580.jpg)
+
+- [x] Box 1: requests. Box 2: success == false.
+- [ ] Box 1: itemType == "availabilityResult". Box 2: traces.
+- [ ] Box 1: pageViews. Box 2: success == false.
+- [ ] Box 1: traces. Box 2: requests.
+
+### You are monitoring the health and performance of an Azure web app by using Azure Application Insights. You need to ensure that an alert is sent when the web app has a sudden rise in performance issues and failures. What should you use?
+
+- [ ] Custom events.
+- [ ] Application Insights Profiler.
+- [ ] Usage analysis.
+- [x] Smart Detection.
+- [ ] Continuous export.
+
+### HOTSPOT - You have a project in Azure DevOps named Contoso App that contains pipelines in Azure Pipelines for GitHub repositories. You need to ensure that developers receive Microsoft Teams notifications when there are failures in a pipeline of Contoso App. What should you run in Teams?
+
+![Question 581](images/question581.jpg)
+
+- [ ] Box 1: signin. Box 2: https://dev.azure.com/contoso/contoso-app/_work-items.
+- [ ] Box 1: feedback. Box 2: https://dev.azure.com/contoso/contoso-app/_packaging.
+- [ ] Box 1: subscriptions. Box 2: https://dev.azure.com/contoso/contoso-app/_work-items.
+- [x] Box 1: subscribe. Box 2: https://dev.azure.com/contoso/contoso-app/.
+
+### You are integrating Azure Pipelines and Microsoft Teams. You install the Azure Pipelines app in Microsoft Teams. You have an Azure DevOps organization named Contoso that contains a project name Project1. You subscribe to Project1 in Microsoft Teams. You need to ensure that you only receive events about failed builds in Microsoft Teams. What should you do first?
+
+- [x] From Microsoft Teams, run @azure pipelines subscribe https://dev.azure.com/Contoso/Project1.
+- [ ] From Azure Pipelines, add a Publish Build Artifacts task to Project1.
+- [ ] From Microsoft Teams, run @azure pipelines subscriptions.
+- [ ] From Azure Pipelines, enable continuous integration for Project1.
+
+### You have an Azure DevOps organization named Contoso. You need to receive Microsoft Teams notifications when work items are updated. What should you do
+
+- [x] From Azure DevOps, configure a service hook subscription.
+- [ ] From Microsoft Teams, configure a connector.
+- [ ] From the Microsoft Teams admin center, configure external access.
+- [ ] From Microsoft Teams, add a channel.
+- [ ] From Azure DevOps, install an extension.
+
+### You create an alert rule in Azure Monitor as shown in the following exhibit.
+
+![Question 582](images/question582.jpg)
+
+- [x] Failed attempt to delete the ASP-9bb7 resource.
+- [ ] Change to a role assignment for the ASP-9bb7 resource.
+- [ ] Successful attempt to delete the ASP-9bb7 resource.
+- [ ] Failed attempt to scale up the ASP-9bb7 resource.
+
+### You have a web app hosted on Azure App Service. The web app stores data in an Azure SQL database. You need to generate an alert when there are 10,000 simultaneous connections to the database. The solution must minimize development effort. Which option should you select in the Diagnostics settings of the database?
+
+- [x] Send to Log Analytics.
+- [ ] Stream to an event hub.
+- [ ] Archive to a storage account.
+
+### You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 that is configured for autoscaling. You have a project in Azure DevOps named Project1. Project1 is used to build a web app named App1 and deploy App1 to VMSS1. You need to ensure that an email alert is generated whenever VMSS1 scales in or out. Solution: From Azure Monitor, configure the autoscale settings.
+
+- [ ] Yes.
+- [x] No.
+
+### You configure an Azure Application Insights availability test. You need to notify the customer services department at your company by email when availability is degraded. You create an Azure logic app that will handle the email and follow up actions. Which type of trigger should you use to invoke the logic app?
+
+- [x] HTTPWebhook trigger.
+- [ ] HTTP trigger.
+- [ ] Request trigger.
+- [ ] ApiConnection trigger.
+
+### You have an Azure DevOps organization named Contoso and an Azure subscription. You use Azure DevOps to build a containerized app named App1 and deploy App1 to an Azure container instance named ACI1. You need to restart ACI1 when App1 stops responding. What should you do?
+
+- [ ] Add a liveness probe to the YAML configuration of App1.
+- [x] Add a readiness probe to the YAML configuration of App1.
+- [ ] Use Connection Monitor in Azure Network Watcher.
+- [ ] Use IP flow verify in Azure Network Watcher.
+
+### You have a multi-tier application that has an Azure Web Apps front end and an Azure SQL Database back end. You need to recommend a solution to capture and store telemetry data. The solution must meet the following requirements: Support using ad-hoc queries to identify baselines. Trigger alerts when metrics in the baseline are exceeded. Store application and database metrics in a central location. What should you include in the recommendation?
+
+- [ ] Azure Event Hubs.
+- [ ] Azure SQL Database Intelligent Insights.
+- [ ] Azure Application Insights.
+- [x] Azure Log Analytics.
+
+### You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 that is configured for autoscaling. You use Azure DevOps to build a web app named App1 and deploy App1 to VMSS1. App1 is used heavily and has usage patterns that vary on a weekly basis. You need to recommend a solution to detect an abnormal rise in the rate of failed requests to App1. The solution must minimize administrative effort. What should you include in the recommendation?
+
+- [x] Smart Detection feature in Azure Application Insights.
+- [ ] Failures feature in Azure Application Insights.
+- [ ] Azure Service Health alert.
+- [ ] Azure Monitor alert that uses an Azure Log Analytics query.
+
+### You have an Azure subscription that contains resources in several resource groups. You need to design a monitoring strategy that will provide a consolidated view. The solution must support the following requirements: Support role-based access control (RBAC) by using Azure Active Directory (Azure AD) identifies. Include visuals from Azure Monitor that are generated by using the Kusto query language. Support documentation written in markdown. Use the latest data available for each visual. What should you use to create the consolidated view?
+
+- [ ] Azure Monitor.
+- [ ] Microsoft Power BI.
+- [x] Azure Data Explorer.
+- [ ] Azure dashboards.
+
+### You are building an ASP.NET Core application. You plan to create an application utilization baseline by capturing telemetry data. You need to add code to the application to capture the telemetry data. The solution must minimize the costs of storing the telemetry data. Which two actions should you perform?
+
+- [ ] Add the 99 parameter to the ApplicationInsights.config file.
+- [x] From the code of the application, enable adaptive sampling.
+- [ ] From the code of the application, add Azure Application Insights telemetry.
+- [x] Add the 5 parameter to the ApplicationInsights.config file.
+- [ ] From the code of the application, disable adaptive sampling.
+
+### You have a build pipeline in Azure Pipelines that occasionally fails. You discover that a test measuring the response time of an API endpoint causes the failures. You need to prevent the build pipeline from failing due to the test. Which two actions should you perform?
+
+- [ ] Set Flaky test detection to Off.
+- [x] Clear Flaky tests included in test pass percentage.
+- [ ] Enable Test Impact Analysis (TIA).
+- [x] Manually mark the test as flaky.
+- [ ] Enable test slicing.
+
+### Your company uses the following resources: Windows Server 2019 container images hosted in an Azure Container Registry. Azure virtual machines that run the latest version of Ubuntu. An Azure Log Analytics workspace. Azure Active Directory (Azure AD). An Azure key vault For which two resources can you receive vulnerability assessments in Azure Security Center?
+
+- [ ] Azure Log Analytics workspace.
+- [x] Azure key vault.
+- [x] Azure virtual machines that run the latest version of Ubuntu.
+- [ ] Azure Active Directory (Azure AD).
+- [ ] Windows Server 2019 container images hosted in the Azure Container Registry.
+
+### You use Azure Pipelines to manage build pipelines, GitHub to store source code, and Dependabot to manage dependencies. You have an app named App1. Dependabot detects a dependency in App1 that requires an update. What should you do first to apply the update?
+
+- [ ] Create a pull request.
+- [x] Approve the pull request.
+- [ ] Create a branch.
+- [ ] Perform a commit.
+
+### You are designing a configuration management solution to support five apps hosted on Azure App Service. Each app is available in the following three environments: development, test, and production. You need to recommend a configuration management solution that meets the following requirements: Supports feature flags. Tracks configuration changes from the past 30 days. Stores hierarchically structured configuration values. Controls access to the configurations by using role-based access control (RBAC) permissions. Stores shared values as key/value pairs that can be used by all the apps Which Azure service should you recommend as the configuration management solution?
+
+- [ ] Azure Cosmos DB.
+- [ ] Azure App Service.
+- [x] Azure App Configuration.
+- [ ] Azure Key Vault.
+
+### You have a containerized solution that runs in Azure Container Instances. The solution contains a frontend container named App1 and a backend container named DB1. DB1 loads a large amount of data during startup. You need to verify that DB1 can handle incoming requests before users can submit requests to App1. What should you configure?
+
+- [ ] Liveness probe.
+- [ ] Performance log.
+- [x] Readiness probe.
+- [ ] Azure Load Balancer health probe.
+
+### You are designing a strategy to monitor the baseline metrics of Azure virtual machines that run Windows Server. You need to collect detailed data about the processes running in the guest operating system. Which two agents should you deploy? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.
+
+- [ ] the Telegraf agent
+- [x] the Azure Log Analytics agent
+- [ ] the Azure Network Watcher Agent for Windows
+- [x] the Dependency agent
+
+### DRAG DROP - You use Azure Pipelines to automate Continuous Integration/Continuous Deployment (CI/CD) for an Azure web app named WebApp1. You configure an Azure Monitor alert that is triggered when WebApp1 generates an error. You need to configure the alert to forward details of the error to a third-party system. The solution must minimize administrative effort. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. Select and Place:
+
+![Question 583](images/question583.jpg)
+
+- [x] Box 1: Create an Azure logic app. Box 2: Select the HTTP request trigger. Box 3: Update the action group in Azure Monitor.
+- [ ] Box 1: Select the HTTP request trigger. Box 2: Select the Recurrence trigger. Box 3: Update the action group in Azure Monitor.
+- [ ] Box 1: Select the HTTP request trigger. Box 2: Select the Recurrence trigger. Box 3: Create an Azure logic app.
+- [ ] Box 1: Update the action group in Azure Monitor. Box 2: Create an Azure logic app. Box 3: Select the Recurrence trigger.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 that is configured for autoscaling. You have a project in Azure DevOps named Project1. Project1 is used to build a web app named App1 and deploy App1 to VMSS1. You need to ensure that an email alert is generated whenever VMSS1 scales in or out. Solution: From Azure DevOps, configure the Notifications settings for Project1. Does this meet the goal?
+
+- [ ] Yes
+- [x] No
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 that is configured for autoscaling. You have a project in Azure DevOps named Project1. Project1 is used to build a web app named App1 and deploy App1 to VMSS1. You need to ensure that an email alert is generated whenever VMSS1 scales in or out. Solution: From Azure Monitor, create an action group. Does this meet the goal?
+
+- [x] Yes
+- [ ] No
+
+### You plan to provision a self-hosted Linux agent. Which authentication mechanism should you use to register the self-hosted agent?
+
+- [x] personal access token (PAT)
+- [ ] SSH key
+- [ ] Alternate credentials
+- [ ] certificate
+
+### You are building a Microsoft ASP.NET application that requires authentication. You need to authenticate users by using Azure Active Directory (Azure AD). What should you do first?
+
+- [ ] Assign an enterprise application to users and groups.
+- [x] Create an app registration in Azure AD
+- [ ] Configure the application to use a SAML endpoint
+- [ ] Create a new OAuth token from the application
+- [ ] Create a membership database in an Azure SQL database
+
+### You have an Azure DevOps organization named Contoso. You need to recommend an authentication mechanism that meets the following requirements: -> Supports authentication from Git -> Minimizes the need to provide credentials during authentication What should you recommend?
+
+- [x] personal access tokens (PATs) in Azure DevOps.
+- [ ] Alternate credentials in Azure DevOps.
+- [ ] user accounts in Azure Active Directory (Azure AD).
+- [ ] managed identities in Azure Active Directory (Azure AD).\
+
+### You have an application that consists of several Azure App Service web apps and Azure functions. You need to assess the security of the web apps and the functions. Which Azure feature can you use to provide a recommendation for the security of the application?
+
+- [ ] Security & Compliance in Azure Log Analytics.
+- [ ] Resource health in Azure Service Health.
+- [ ] Smart Detection in Azure Application Insights.
+- [x] Compute & apps in Azure Security Center.
+
+### DRAG DROP - Your company has an Azure subscription named Subscription1. Subscription1 is associated to an Azure Active Directory tenant named contoso.com. You need to provision an Azure Kubernetes Services (AKS) cluster in Subscription1 and set the permissions for the cluster by using RBAC roles that reference the identities in contoso.com. Which three objects should you create in sequence? To answer, move the appropriate objects from the list of objects to the answer area and arrange them in the correct order. Select and Place:
+
+![Question 584](images/question584.jpg)
+
+- [ ] Box 1: a cluster. Box 2: an RBAC binding. Box 3: a system-assigned managed identity.
+- [x] Box 1: a cluster. Box 2: a system-assigned managed identity. Box 3: an RBAC binding.
+- [ ] Box 1: an RBAC binding. Box 2: a cluster. Box 3: a system-assigned managed identity.
+- [ ] Box 1: a system-assigned managed identity. Box 2: an RBAC binding. Box 3: a cluster.
+
+### HOTSPOT - You manage build and release pipelines by using Azure DevOps. Your entire managed environment resides in Azure. You need to configure a service endpoint for accessing Azure Key Vault secrets. The solution must meet the following requirements: -> Ensure that the secrets are retrieved by Azure DevOps. -> Avoid persisting credentials and tokens in Azure DevOps. How should you configure the service endpoint? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
+
+![Question 585](images/question585.jpg)
+
+- [ ] Box 1: Managed Service Identity Authentication. Box 2: Team Foundation Server / Azure Pipelines service connection.
+- [ ] Box 1: Team Foundation Server / Azure Pipelines service connection. Box 2: Azure Active Directory Auth 2.0.
+- [x] Box 1: Team Foundation Server / Azure Pipelines service connection. Box 2: Managed Service Identity Authentication.
+- [ ] Box 1: Azure Active Directory Auth 2.0. Box 2: Managed Service Identity Authentication.
+
+### You have an Azure DevOps organization named Contoso that contains a project named Project1. You provision an Azure key vault named Keyvault1. You need to reference Keyvault1 secrets in a build pipeline of Project1. What should you do first?
+
+- [ ] Add a secure file to Project1.
+- [ ] Create an XAML build service.
+- [ ] Create a variable group in Project1.
+- [x] Configure the security policy of Contoso.
+
+### You have the following Azure policy. You assign the policy to the Tenant root group. What is the effect of the policy?
+
+![Question 586](images/question586.jpg)
+
+- [ ] prevents all HTTP traffic to existing Azure Storage accounts.
+- [x] ensures that all traffic to new Azure Storage accounts is encrypted.
+- [ ] prevents HTTPS traffic to new Azure Storage accounts when the accounts are accessed over the Internet.
+- [ ] ensures that all data for new Azure Storage accounts is encrypted at rest.
+
+### DRAG DROP - You use GitHub Enterprise Server as a source code repository. You create an Azure DevOps organization named Contoso. In the Contoso organization, you create a project named Project1. You need to link GitHub commits, pull requests, and issues to the work items of Project1. The solution must use OAuth-based authentication. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. Select and Place:
+
+![Question 587](images/question587.jpg)
+
+- [ ] Box 1: From Project Settings in Azure DevOps, add a GitHub connection. Box 2: From Organization settings in Azure DevOps, add an Auth configuration. Box 3: From Developer settings in GitHub Enterprise Server, register a new OAuth app.
+- [ ] Box 1: From Organization settings in Azure DevOps, add an Auth configuration. Box 2: From Developer settings in GitHub Enterprise Server, register a new OAuth app. Box 3: From Project Settings in Azure DevOps, add a GitHub connection.
+- [ ] Box 1: From Developer settings in GitHub Enterprise Server, generate a private kev. Box 2: From Organization settings in Azure DevOps, connect to Azure Active Directory (Azure AD). Box 3: From Developer settings in GitHub Enterprise Server, register a new OAuth app.
+- [x] Box 1: From Developer settings in GitHub Enterprise Server, register a new OAuth app. Box 2: From Organization settings in Azure DevOps, add an Auth configuration. Box 3: From Project Settings in Azure DevOps, add a GitHub connection.
+
+### DRAG DROP - You have a private project in Azure DevOps and two users named User1 and User2. You need to add User1 and User2 to groups to meet the following requirements: -> User1 must be able to create a code wiki. -> User2 must be able to edit wiki pages. -> The solution must use the principle of least privilege. To which group should you add each user? To answer, drag the appropriate groups to the correct users. Each group may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point. Select and Place:
+
+![Question 588](images/question588.jpg)
+
+- [ ] User 1: Project Valid Users. User 2: Project Administrators.
+- [x] User 1: Project Administrators. User 2: Contributors.
+- [ ] User 1: Project Administrators. User 2: Stakeholders.
+- [ ] User 1: Contributors. User 2: Project Administrators.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You plan to update the Azure DevOps strategy of your company. You need to identify the following issues as they occur during the company's development process: -> Licensing violations -> Prohibited libraries Solution: You implement continuous deployment. Does this meet the goal?
+
+- [ ] Yes
+- [x] No
+
+### HOTSPOT - Your company has an Azure subscription. The company requires that all resource groups in the subscription have a tag named organization set to a value of Contoso. You need to implement a policy to meet the tagging requirement. How should you complete the policy? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
+
+![Question 589](images/question589.jpg)
+
+- [ ] Box 1: "Deny". Box 2: "Microsoft Resources/subscriptions/resourceGroups".
+- [ ] Box 1: "Deny". Box 2: "Microsoft Resources/subscriptions/resourceGroups".
+- [ ] Box 1: "Microsoft Resources/deployments". Box 2: "Append".
+- [x] Box 1: "Microsoft Resources/subscriptions/resourceGroups". Box 2: "Deny".
+
+### You have an Azure DevOps project named Project1 and an Azure subscription named Sub1. You need to prevent releases from being deployed unless the releases comply with the Azure Policy rules assigned to Sub1. What should you do in the release pipeline of Project1?
+
+- [x] Add a deployment gate.
+- [ ] Modify the Deployment queue settings.
+- [ ] Configure a deployment trigger.
+- [ ] Create a pipeline variable.
+
+### HOTSPOT - You have a project in Azure DevOps that has three teams as shown in the Teams exhibit. (Click the Teams tab.)
+
+![Question 590](images/question590.jpg)
+
+### DRAG DROP - You have a project in Azure DevOps named Project1 that contains two Azure DevOps pipelines named Pipeline1 and Pipeline2. You need to ensure that Pipeline1 can deploy code successfully to an Azure web app named webapp1. The solution must ensure that Pipeline2 does not have permission to webapp1. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. Select and Place:
+
+![Question 591](images/question591.jpg)
+
+- [x] Box 1: Create a service principal in Azure Active Directory. Box 2: In Project1, create a service connection. Box 3: In Project1, configure permissions.
+- [ ] Box 1: In Project1, create a service connection. Box 2: Create a service principal in Azure Active Directory. Box 3: Create a system-assigned managed identity in Azure Active Directory.
+- [ ] Box 1: In Pipeline1, create a variable. Box 2: Create a service principal in Azure Active Directory. Box 3: Create a service principal in Azure Active Directory.
+- [ ] Box 1: In Project1, create a service connection. Box 2: Create a system-assigned managed identity in Azure Active Directory. Box 3: In Pipeline1, create a variable.
+
+### You plan to use a NuGet package in a project in Azure DevOps. The NuGet package is in a feed that requires authentication. You need to ensure that the project can restore the NuGet package automatically. What should the project use to automate the authentication?
+
+- [ ] an Azure Automation account.
+- [x] an Azure Artifacts Credential Provider.
+- [ ] an Azure Active Directory (Azure AD) account that has multi-factor authentication (MFA) enabled.
+- [ ] an Azure Active Directory (Azure AD) service principal.
+
+### You use Azure Pipelines to manage project builds and deployments. You plan to use Azure Pipelines for Microsoft Teams to notify the legal team when a new build is ready for release. You need to configure the Organization Settings in Azure DevOps to support Azure Pipelines for Microsoft Teams. What should you turn on?
+
+- [x] Third-party application access via OAuth.
+- [ ] Azure Active Directory Conditional Access Policy Validation.
+- [ ] Alternate authentication credentials.
+- [ ] SSH authentication.
+
+### You have an existing project in Azure DevOps. You plan to integrate GitHub as the repository for the project. You need to ensure that Azure Pipelines runs under the Azure Pipelines identity. Which authentication mechanism should you use?
+
+- [ ] personal access token (PAT)
+- [x] GitHub App
+- [ ] Azure Active Directory (Azure AD)
+- [ ] OAuth
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. The lead developer at your company reports that adding new application features takes longer than expected due to a large accumulated technical debt. You need to recommend changes to reduce the accumulated technical debt. Solution: You recommend reducing the code coupling and the dependency cycles?Does this meet the goal?
+
+- [ ] Yes
+- [x] No
+
+### HOTSPOT - Your company uses GitHub for source control. GitHub repositories store source code and store process documentation. The process documentation is saved as Microsoft Word documents that contain simple flow charts stored as .bmp files. You need to optimize the integration and versioning of the process documentation and the flow charts. The solution must meet the following requirements: -> Store documents as plain text. -> Minimize the number of files that must be maintained. -> Simplify the modification, merging, and reuse of flow charts. -> Simplify the modification, merging, and reuse of documents. Hot Area:
+
+![Question 592](images/question592.jpg)
+
+- [ ] Convert the docx files to: Mermaid diagrams. Convert the flow charts to: Markdown (.md).
+- [x] Convert the docx files to: Markdown (.md). Convert the flow charts to: Mermaid diagrams.
+- [ ] Convert the docx files to: Mermaid diagrams. Convert the flow charts to: Portable Network Graphics (png).
+- [ ] Convert the docx files to: LaTex Typesetting (tex). Convert the flow charts to: Markdown (.md).
+
+### You use GitHub for source control. A file that contains sensitive data is committed accidentally to the Git repository of a project. You need to delete the file and its history form the repository. Which two tools can you use? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.
+
+- [x] Git filter-branch command.
+- [x] BFG Repo-Cleaner.
+- [ ] Git rebase command.
+- [ ] GitHub Desktop.
