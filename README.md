@@ -27,13 +27,12 @@
 
 ### Litware, Inc. an independent software vendor (ISV) Litware has a main office and five branch offices. Application Architecture The company' s primary application is a single monolithic retirement fund management system based on ASP.NE T web forms that use logic written in V8.NET. Some new sections of the application are written in C#. Variations of the application are created for individual customers. Currently, there are more than 80 have code branches in the application's code base. The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access of the source code by using TFS proxy servers. Architectural Issues Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, AS dependencies are not obvious to individual developers. Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve. Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive. Requirements Planned Changes Litware plans to develop a new suite of applications for investment planning. The investment planning Applications will require only minor integration with the easting retirement fund management system. The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers. Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of package. Litware has started an internal cloud transformation process and plans to use cloud based services whenever suitable. Litware wants to become proactive m detecting failures, rather than always waning for customer bug reports. Technical Requirements The company's investment planning applications suite must meet the following technical requirements: New incoming connections through the firewall must be minimized. Members of a group named Developers must be able to install packages. The principle of least privilege must be used for all permission assignments A branching strategy that supports developing new functionality in isolation must be used. Members of a group named Team leaders must be able to create new packages and edit the permissions of package feeds Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use. By default, all App Center must be used to centralize the reporting of mobile application crashes and device types in use. Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release. The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HUPS. The required operating system configuration tor the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test servers configured the same way when the servers are created and checked periodically. Current Technical. The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations. Azure Automation State Configuration nodes are registered by using the following command. How should you complete the code to initialize App Center in the mobile application?
 
-![Question 11](images/question11.jpeg)
 ![Question 6](images/question6.jpg)
 
-- [x] Box 1: [MSAnalytics.self. Box 2: MSCrasches.self]
-- [ ] Box 1: [MSDistribute.self. Box 2: MSAnalytics.self]
-- [ ] Box 1: [MSPush.self. Box 2: MSCrasches.self]
-- [ ] Box 1: [MSAnalytics.self. Box 2: MSCrasches.self]
+- [x] Box 1: [MSAnalytics.self. Box 2: MSCrasches.self].
+- [ ] Box 1: [MSDistribute.self. Box 2: MSAnalytics.self].
+- [ ] Box 1: [MSPush.self. Box 2: MSCrasches.self].
+- [ ] Box 1: [MSAnalytics.self. Box 2: MSCrasches.self].
 
 ### You manage a project in Azure DevOps. You need to prevent the configuration of the project from changing over time. Solution: Perform a Subscription Health scan when packages are created. Does this meet the goal?
 
@@ -42,20 +41,20 @@
 
 ### You have an existing build pipeline in Azure Pipelines. You need to use incremental builds without purging the environment between pipeline executions. What should you use?
 
-- [ ] a File Transform task.
-- [x] a self-hosted agent.
+- [ ] File Transform task.
+- [x] Self-hosted agent.
 - [ ] Microsoft-hosted parallel jobs.
 
 ### You need to configure Azure Pipelines to control App2 builds. Which authentication method should you use?
 
 - [ ] Windows NTLM.
-- [ ] certificate.
+- [ ] Certificate.
 - [ ] SAML.
-- [x] personal access token (PAT).
+- [x] Personal Access Token (PAT).
 
 ### You have an Azure function hosted in an App Service plan named az400-9940427-func1. You need to configure az400-9940427-func1 to upgrade the functions automatically whenever new code is committed to the master branch of https://github.com/Azure-Samples/functions-quickstart. To complete this task, sign in to the Microsoft Azure portal.
 
-NO ANSWER
+- [x] 1. Open Microsoft Azure Portal. 2. Log into your Azure account, select App Services in the Azure portal left navigation, and then select configure az400-123456789-func1. 3. On the app page, select Deployment Center in the left menu. 4. On the Build provider page, select Azure Pipelines (Preview), and then select Continue. 5. On the Configure page, in the Code section: For GitHub, drop down and select the Organization, Repository, and Branch you want to deploy continuously. 6. Select Continue. 7. On the Test page, choose whether to enable load tests, and then select Continue. 8. Depending on your App Service plan pricing tier, you may see a Deploy to staging page. Choose whether to enable deployment slots, and then select Continue. 9. After you configure the build provider, review the settings on the Summary page, and then select Finish.
 
 ### You need to replace the existing DevOps tools to support the planned changes. What should you use?
 
@@ -66,9 +65,7 @@ NO ANSWER
 - [ ] Trello: GitHub repositories. Bamboo: Azure Artifacts. BitBucket: Azure Pipelines.
 - [ ] Trello: Azure Boards. Bamboo: GitHub Actions. BitBucket: Azure Artifacts.
 
-### Match the Azure services to the correct descriptions.
-
-![Question 15](images/question15.jpg)
+### Match the Azure services to the correct descriptions. [TODO: move to AZ-900]
 
 - [ ] Provide operating system virtualization: Azure App Service. Provide portable environment for virtualized applications: Azure virtual machines. Used to build, deploy, and scale web apps: Azure Container Instances. Provide a platform for serverless code: Azure Functions.
 - [ ] Provide operating system virtualization: Azure Functions. Provide portable environment for virtualized applications: Azure virtual machines. Used to build, deploy, and scale web apps: Azure Container Instances. Provide a platform for serverless code: Azure App Service.
@@ -77,18 +74,24 @@ NO ANSWER
 
 ### You are building an application that has the following assets: Source code. Logs from automated tests and builds. Large and frequently updated binary assets. A common library used by multiple applications. Where should you store each asset?
 
-(ANSWER PHOTO)
+![Question 15](images/question15.jpg)
+
+- [ ] Source code: Azure Repos. A common library used by multiple applications: Azure Storage. Logs from automated tests and builds: Azure Pipelines. Large and frequently updated binary assets: Azure Storage.
+- [ ] Source code: Azure Repos. A common library used by multiple applications: Azure Artifacts. Logs from automated tests and builds: Azure Pipelines. Large and frequently updated binary assets: Azure Test Plans.
+- [ ] Source code: Azure Test Plans. A common library used by multiple applications: Azure Artifacts. Logs from automated tests and builds: Azure Pipelines. Large and frequently updated binary assets: Azure Storage.
+- [x] Source code: Azure Repos. A common library used by multiple applications: Azure Artifacts. Logs from automated tests and builds: Azure Pipelines. Large and frequently updated binary assets: Azure Storage.
 
 ### You are defining release strategies for two applications as shown in the following table. Which release strategy should you use for each application?
 
 ![Question 16](images/question16.jpg)
+[TODO: missing picture]
 
-- [ ] App1: Rolling deployment. App2: Blue/Green deployment.
+- [x] App1: Canary deployment. App2: Blue/Green deployment.
 - [ ] App1: Blue/Green deployment. App2: Rolling deployment.
-- [x] App1: Canary deployment. App2: Rolling deployment.
+- [ ] App1: Canary deployment. App2: Rolling deployment.
 - [ ] App1: Rolling deployment. App2: Canary deployment.
 
-### You use Azure Container Registry Tasks commands to quickly build, push, and run a Docker container image natively within Azure, showing how to offload your "inner-loop" development cycle to the cloud. ACR Tasks is a suite of features within Azure Container Registry to help you manage and modify container images across the container lifecycle. References: https://docs.microsoft.com/en-us/azure/container-registry/container-registry-quickstart-task-cli You need to implement Project4. What should you do first?
+### You use Azure Container Registry Tasks commands to quickly build, push, and run a Docker container image natively within Azure, showing how to offload your "inner-loop" development cycle to the cloud. ACR Tasks is a suite of features within Azure Container Registry to help you manage and modify container images across the container lifecycle. References: https://docs.microsoft.com/en-us/azure/container-registry/container-registry-quickstart-task-cli. You need to implement Project4. What should you do first?
 
 - [ ] Add the FROM instruction in the Dockerfile file.
 - [ ] Add a Copy and Publish Build Artifacts task to the build pipeline.
@@ -107,10 +110,10 @@ NO ANSWER
 
 ![Question 19](images/question19.jpg)
 
-- [ ] Box 1: Create an app. Box 2: Add a secret. Box 3: Create a credential.
+- [x] Box 1: Create an app. Box 2: Add a secret. Box 3: Configure the ID and secret for App1.
 - [ ] Box 1: Create a managed service identity. Box 2: Create a credential. Box 3: Configure the ID and secret for App 1.
 - [ ] Box 1: Add a secret. Box 2: Create an app. Box 3: Create a managed service identity.
-- [x] Box 1: Create an app. Box 2: Create a managed service identity. Box 3: Configure the ID and secret for App1.
+- [ ] Box 1: Create an app. Box 2: Create a managed service identity. Box 3: Configure the ID and secret for App1.
 
 ### You have a Microsoft ASP.NET Core web app in Azure that is accessed worldwide. You need to run a URL ping test once every five minutes and create an alert when the web app is unavailable from specific Azure regions. The solution must minimize development time. What should you do?
 
