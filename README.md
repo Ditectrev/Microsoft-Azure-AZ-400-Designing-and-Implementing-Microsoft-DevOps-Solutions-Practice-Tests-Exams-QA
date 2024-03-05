@@ -18,7 +18,7 @@
 
 ### Contoso, Ltd. is a manufacturing company that has a main office in Chicago. Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization. The Azure DevOps organization includes: The Docker extension. A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2016. The Azure subscription contains an Azure Automation account. Contoso plans to create projects in Azure DevOps as shown in the following table. You need to configure Azure Automation for the computers in Group7. Contoso identifies the following technical requirements: Implement build agents for Project1. Whenever possible, use Azure resources. Avoid using deprecated technologies. Implement a code flow strategy for Project2 that will: Enable Team2 to submit pull requests for Project2. Enable Team2 to work independently on changes to a copy of Project2. Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2. Whenever possible implement automation and minimize administrative effort. Implement Project3, Project5, Project6, and Project7 based on the planned changes Implement Project4 and configure the project to push Docker images to Azure Container Registry. You need to implement the code flow strategy for Project2 in Azure DevOps. Which three actions should you perform in sequence?
 
-![Question 5](images/question5.jpg)
+![Question 3](images/question3.jpg)
 
 - [x] Box 1: Create a repository. Box 2: Create a branch. Box 3: Add a build validation policy.
 - [ ] Box 1: Create a fork. Box 2: Create a branch. Box 3: Add a build validation policy.
@@ -27,7 +27,7 @@
 
 ### Litware, Inc. an independent software vendor (ISV) Litware has a main office and five branch offices. Application Architecture The company' s primary application is a single monolithic retirement fund management system based on ASP.NE T web forms that use logic written in V8.NET. Some new sections of the application are written in C#. Variations of the application are created for individual customers. Currently, there are more than 80 have code branches in the application's code base. The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access of the source code by using TFS proxy servers. Architectural Issues Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, AS dependencies are not obvious to individual developers. Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve. Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive. Requirements Planned Changes Litware plans to develop a new suite of applications for investment planning. The investment planning Applications will require only minor integration with the easting retirement fund management system. The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers. Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of package. Litware has started an internal cloud transformation process and plans to use cloud based services whenever suitable. Litware wants to become proactive m detecting failures, rather than always waning for customer bug reports. Technical Requirements The company's investment planning applications suite must meet the following technical requirements: New incoming connections through the firewall must be minimized. Members of a group named Developers must be able to install packages. The principle of least privilege must be used for all permission assignments A branching strategy that supports developing new functionality in isolation must be used. Members of a group named Team leaders must be able to create new packages and edit the permissions of package feeds Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use. By default, all App Center must be used to centralize the reporting of mobile application crashes and device types in use. Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release. The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HUPS. The required operating system configuration tor the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test servers configured the same way when the servers are created and checked periodically. Current Technical. The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations. Azure Automation State Configuration nodes are registered by using the following command. How should you complete the code to initialize App Center in the mobile application?
 
-![Question 6](images/question6.jpg)
+![Question 4](images/question4.jpg)
 
 - [x] Box 1: [MSAnalytics.self. Box 2: MSCrasches.self].
 - [ ] Box 1: [MSDistribute.self. Box 2: MSAnalytics.self].
@@ -58,23 +58,16 @@
 
 ### You need to replace the existing DevOps tools to support the planned changes. What should you use?
 
-![Question 13](images/question13.jpg)
+![Question 9](images/question9.jpg)
 
 - [x] Trello: Azure Boards. Bamboo: Azure Pipelines. BitBucket: GitHub repositories.
 - [ ] Trello: Azure Test Plans. Bamboo: GitHub Actions. BitBucket: Azure Artifacts.
 - [ ] Trello: GitHub repositories. Bamboo: Azure Artifacts. BitBucket: Azure Pipelines.
 - [ ] Trello: Azure Boards. Bamboo: GitHub Actions. BitBucket: Azure Artifacts.
 
-### Match the Azure services to the correct descriptions. [TODO: move to AZ-900]
-
-- [ ] Provide operating system virtualization: Azure App Service. Provide portable environment for virtualized applications: Azure virtual machines. Used to build, deploy, and scale web apps: Azure Container Instances. Provide a platform for serverless code: Azure Functions.
-- [ ] Provide operating system virtualization: Azure Functions. Provide portable environment for virtualized applications: Azure virtual machines. Used to build, deploy, and scale web apps: Azure Container Instances. Provide a platform for serverless code: Azure App Service.
-- [x] Provide operating system virtualization: Azure virtual machines. Provide portable environment for virtualized applications: Azure Container Instances. Used to build, deploy, and scale web apps: Azure App Service. Provide a platform for serverless code: Azure Functions.
-- [ ] Provide operating system virtualization: Azure virtual machines. Provide portable environment for virtualized applications: Azure Functions. Used to build, deploy, and scale web apps: Azure App Service. Provide a platform for serverless code: Azure Container Instances.
-
 ### You are building an application that has the following assets: Source code. Logs from automated tests and builds. Large and frequently updated binary assets. A common library used by multiple applications. Where should you store each asset?
 
-![Question 15](images/question15.jpg)
+![Question 10](images/question10.jpg)
 
 - [ ] Source code: Azure Repos. A common library used by multiple applications: Azure Storage. Logs from automated tests and builds: Azure Pipelines. Large and frequently updated binary assets: Azure Storage.
 - [ ] Source code: Azure Repos. A common library used by multiple applications: Azure Artifacts. Logs from automated tests and builds: Azure Pipelines. Large and frequently updated binary assets: Azure Test Plans.
@@ -83,8 +76,8 @@
 
 ### You are defining release strategies for two applications as shown in the following table. Which release strategy should you use for each application?
 
-![Question 16](images/question16.jpg)
-[TODO: missing picture]
+![Question 11 part 1](images/question11_1.jpg)
+![Question 11 part 2](images/question11_2.png)
 
 - [x] App1: Canary deployment. App2: Blue/Green deployment.
 - [ ] App1: Blue/Green deployment. App2: Rolling deployment.
@@ -108,7 +101,7 @@
 
 ### You need to configure authentication for App1. The solution must support the planned changes. Which three actions should you perform in sequence?
 
-![Question 19](images/question19.jpg)
+![Question 14](images/question14.jpg)
 
 - [x] Box 1: Create an app. Box 2: Add a secret. Box 3: Configure the ID and secret for App1.
 - [ ] Box 1: Create a managed service identity. Box 2: Create a credential. Box 3: Configure the ID and secret for App 1.
@@ -129,9 +122,9 @@
 - [ ] Configure multi-factor authentication (MFA) for your GitHub account.
 - [x] Add the Azure Boards app to the repository.
 
-### You mc configuring Azure DevOps build pipelines. You plan to use hosted build agents. Which build agent pool should you use to compile each application type?
+### You are configuring Azure DevOps build pipelines. You plan to use hosted build agents. Which build agent pool should you use to compile each application type?
 
-![Question 23](images/question23.jpg)
+![Question 17](images/question17.jpg)
 
 - [ ] An application that runs on iOS: Hosted Windows Container. An Internet Information Services (IS) web application that runs in Docker: Hosted Ubuntu 1604.
 - [x] An application that runs on iOS: Hosted macOS. An Internet Information Services (IS) web application that runs in Docker: Hosted.
@@ -140,7 +133,7 @@
 
 ### How should you configure the release retention policy for the investment planning applications suite?
 
-![Question 24](images/question24.jpg)
+![Question 18](images/question18.jpg)
 
 - [x] Global release: Set the default retention policy to 30 days. Production stage: Set the stage retention policy to 60 days.
 - [ ] Global release: Set the maximum retention policy to 30 days. Production stage: Set the default retention policy to 30 days.
@@ -205,7 +198,7 @@
 - [ ] Box 1: Add an app registration in Azure Active Directory (Azure AD). Box 2: Create a service principal in Azure Active Directory (Azure AD). Box 3: Add an Azure Resource Manager service connection to the pipeline.
 - [x] Box 1: Create a service principal in Azure Active Directory (Azure AD). Box 2: Configure an access policy in the key vault. Box 3: Add an Azure Resource Manager service connection to the pipeline.
 - [ ] Box 1: Export a certificate from the key vault. Box 2: Add an Azure Resource Manager service connection to the
-pipeline. Box 3: Generate a self-signed certificate.
+      pipeline. Box 3: Generate a self-signed certificate.
 - [ ] Box 1: Generate a self-signed certificate. Box 2: Create a service principal in Azure Active Directory (Azure AD). Box 3: Export a certificate from the key vault.
 
 ### How should you confrere the release retention policy for the investment planning depletions suite?
@@ -307,9 +300,9 @@ pipeline. Box 3: Generate a self-signed certificate.
 ![Question 53](images/question53.jpg)
 
 - [x] Box 1: Sign in to Azure DevOps by using an account that is assigned the Administrator service connection security role. Box 2: Create a personal access token in the Azure
-DevOps organization of Contoso. Box 3: Install and register the Azure Pipelines agent on an Azure virtual machine.
+      DevOps organization of Contoso. Box 3: Install and register the Azure Pipelines agent on an Azure virtual machine.
 - [ ] Box 1: Sign in to Azure DevOps by using an account that is assigned the Administrator service
-connection security role. Box 2: Install the Azure Pipelines agent on on- premises virtual machine. Box 3: Sign in to Azure DevOps by using an account that is assigned the agent pool administrator role.
+      connection security role. Box 2: Install the Azure Pipelines agent on on- premises virtual machine. Box 3: Sign in to Azure DevOps by using an account that is assigned the agent pool administrator role.
 - [ ] Box 1: Create a personal access token in the Azure DevOps organization of Contoso. Box 2: Install the Azure Pipelines agent on on- premises virtual machine. Box 3: Sign in to Azure DevOps by using an account that is assigned the agent pool administrator role.
 - [ ] Box 1: Sign in to Azure DevOps by using an account that is assigned the agent pool administrator role. Box 2: Install the Azure Pipelines agent on on- premises virtual machine. Box 3: Create a personal access token in the Azure DevOps organization of Contoso.
 
@@ -892,7 +885,7 @@ connection security role. Box 2: Install the Azure Pipelines agent on on- premis
 ![Question 30](images/question30.jpg)
 
 - [x] Box 1: Create a Desired State Configuration (DSC) configuration file that has an extension of ps1. Box 2: Run the Import-AzureRmAutomationDscConfiguration
-Azure PowerShell cmdlet. Box 3: Run the Start-AzureRmAutomationDscCompilationJob Azre PowerShell cdleut.
+      Azure PowerShell cmdlet. Box 3: Run the Start-AzureRmAutomationDscCompilationJob Azre PowerShell cdleut.
 - [ ] Box 1: Run the Import-AzureRmAutomationDscConfiguration Azure PowerShell cmdlet. Box 2: Create a Desired State Configuration (DSC) configuration file that has an extension of ps1. Box 3: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet.
 - [ ] Box 1: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet. Box 2: Create an Azure Resource Manager template file that hasan extension of . json. Box 3: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet.
 - [ ] Box 1: Create an Azure Resource Manager template file that has an extension of . json. Box 2: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet. Box 3: Run the Import-AzureRmAutomationDscConfiguration Azure PowerShell cmdlet.
@@ -958,7 +951,7 @@ Azure PowerShell cmdlet. Box 3: Run the Start-AzureRmAutomationDscCompilationJob
 
 - [ ] Box 1: Assign the node configuration. Box 2: Create a management group. Box 3: Assign tags to the virtual machines. Box 4: Upload a configuration to Azure Automation State Configuration. Box 5: Compile a configuration into a node configuration.
 - [ ] Box 1: Onboard the virtual machines to Azure Automation State Configuration. Box 2: Assign tags to the virtual machines. Box 3: Upload a configuration to Azure Automation State
-Configuration. Box 4: Compile a configuration into a node configuration. Box 5: Assign the node configuration.
+      Configuration. Box 4: Compile a configuration into a node configuration. Box 5: Assign the node configuration.
 - [ ] Box 1: Assign tags to the virtual machines. Box 2: Assign the node configuration. Box 3: Create a management group. Box 4: Check the compliance status of the node. Box 5: Onboard the virtual machines to Azure Automation State Configuration.
 - [x] Box 1: Assign the node configuration. Box 2: Upload a configuration to Azure Automation State Configuration. Box 3: Compile a configuration into a node configuration. Box 4: Onboard the virtual machines to Azure Automation State Configuration. Box 5: Check the compliance status of the node.
 
@@ -1130,13 +1123,13 @@ Configuration. Box 4: Compile a configuration into a node configuration. Box 5: 
 ### You have a project in Azure DevOps. You create the following YAML template named Template1.yml. steps: – script: npm install – script: yarn install – script: npm run compile You create the following pipeline named File1.yml. parameters: usersteps: – task: MyTask@1 – script: echo Done You need to ensure that Template1.yaml runs before File1.yml. How should you update File1.yml?
 
 - [ ] parameters: usersteps: extends: template: template1.yml
-– task: MyTask@1 – script: echo Done
+      – task: MyTask@1 – script: echo Done
 - [ ] template: template1.yml parameters: usersteps:
-– task: MyTask@1 – script: echo Done
+      – task: MyTask@1 – script: echo Done
 - [x] extends: template: templatel.yml parameters: usersteps:
-– task: MyTask@1 – script: echo Done
+      – task: MyTask@1 – script: echo Done
 - [ ] parameters: usersteps: – template: templatel.yml
-– task: MyTask@1 – script: echo Done
+      – task: MyTask@1 – script: echo Done
 
 ### You plan to use Desired State Configuration (DSC) to maintain the configuration state of virtual machines that run Windows Server. You need to perform the following: Install Internet Information Services (IIS) on the virtual machines. Update the default home page of the IIS web server. How should you configure the DSC configuration file?
 
@@ -1842,7 +1835,7 @@ Configuration. Box 4: Compile a configuration into a node configuration. Box 5: 
 - [x] WhiteSource
 - [ ] OWASP ZAP
 
-###  You need to consider the underlined segment to establish whether it is accurate. Black Duck can be used to make sure that all the open source libraries conform to your company's licensing criteria. Select No adjustment required if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+### You need to consider the underlined segment to establish whether it is accurate. Black Duck can be used to make sure that all the open source libraries conform to your company's licensing criteria. Select No adjustment required if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
 
 - [x] No adjustment required.
 - [ ] Maven
