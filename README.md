@@ -159,14 +159,14 @@
 - [x] Yes.
 - [ ] No.
 
-### You need to configure Azure Automation for the computer in Group7. Which three actions should you perform in sequence? [???]
+### Contoso, Ltd. is a manufacturing company that has a main office in Chicago. Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization. The Azure DevOps organization includes: The Docker extension. A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2016. The Azure subscription contains an Azure Automation account. Contoso plans to create projects in Azure DevOps as shown in the following table. You need to configure Azure Automation for the computers in Group7. Contoso identifies the following technical requirements: Implement build agents for Project1. Whenever possible, use Azure resources. Avoid using deprecated technologies. Implement a code flow strategy for Project2 that will: Enable Team2 to submit pull requests for Project2. Enable Team2 to work independently on changes to a copy of Project2. Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2. Whenever possible implement automation and minimize administrative effort. Implement Project3, Project5, Project6, and Project7 based on the planned changes Implement Project4 and configure the project to push Docker images to Azure Container Registry. You need to configure Azure Automation for the computers in Group7. Which three actions should you perform in sequence?
 
-![Question 83](images/question83.jpg)
+![Question 22](images/question22.jpg)
 
-- [ ] Box 1: Create a repository. Box 2: Add an application access policy. Box 3: Create a branch.
-- [ ] Box 1: Create a fork. Box 2: Add an application access policy. Box 3: Add a build policy for the master branch.
-- [ ] Box 1: Create a repository. Box 2: Create a fork. Box 3: Add a build policy for the fork.
-- [x] Box 1: Create a repository. Box 2: Add a build policy for the master branch. Box 3: Create a branch.
+- [x] Box 1: Create a Desired State Configuration (DSC) configuration file that has an extension of .ps1. Box 2: Run the Import-AzureRmAutomationDscConfiguration Azure PowerShell cmdlet. Box 3: Run the Start-AzureRmAutomationDscCompilationJob Azre PowerShell cdleut.
+- [ ] Box 1: Run the Import-AzureRmAutomationDscConfiguration Azure PowerShell cmdlet. Box 2: Create a Desired State Configuration (DSC) configuration file that has an extension of .ps1. Box 3: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet.
+- [ ] Box 1: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet. Box 2: Create an Azure Resource Manager template file that hasan extension of .json. Box 3: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet.
+- [ ] Box 1: Create an Azure Resource Manager template file that has an extension of .json. Box 2: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet. Box 3: Run the Import-AzureRmAutomationDscConfiguration Azure PowerShell cmdlet.
 
 ### You need to meet the technical requirements for controlling access to Azure DevOps. What should you use?
 
@@ -177,7 +177,7 @@
 
 ### You are configuring the Azure DevOps dashboard. The solution must meet the technical requirements. Which widget should you use for each metric?
 
-![Question 32](images/question32.jpg)
+![Question 24](images/question24.jpg)
 
 - [x] Box 1: Sprint burndown. Box 2: Release pipeline overview. Box 3: Query tile.
 - [ ] Box 1: Query tile. Box 2: Velocity. Box 3: Cumulative flow diagram.
@@ -191,7 +191,7 @@
 
 ### You need to find and isolate shared code. The shared code will be maintained in a series of packages. Which three actions should you perform in sequence?
 
-![Question 35](images/question35.jpg)
+![Question 26](images/question26.jpg)
 
 - [x] Box 1: Create a dependency graph for the application. Box 2: Group the related components. Box 3: Assign ownership to each component group.
 - [ ] Box 1: Identify the most common language used. Box 2: Group the related components. Box 3: Assign ownership to each component group.
@@ -200,7 +200,7 @@
 
 ### You are configuring an Azure DevOps deployment pipeline. The deployed application will authenticate to a web service by using a secret stored in an Azure key vault. You need to use the secret in the deployment pipeline. Which three actions should you perform in sequence?
 
-![Question 36](images/question36.jpg)
+![Question 27](images/question27.jpg)
 
 - [ ] Box 1: Add an app registration in Azure Active Directory (Azure AD). Box 2: Create a service principal in Azure Active Directory (Azure AD). Box 3: Add an Azure Resource Manager service connection to the pipeline.
 - [x] Box 1: Create a service principal in Azure Active Directory (Azure AD). Box 2: Configure an access policy in the key vault. Box 3: Add an Azure Resource Manager service connection to the pipeline.
@@ -224,11 +224,11 @@
 ### You need to configure a virtual machine named VM1 to securely access stored secrets in an Azure Key Vault named az400-11566895-kv. To complete this task, sign in to the Microsoft Azure portal.
 
 - [x] 1. Sign in to Azure portal. 2. Locate virtual machine VM1. 3. Select Identity. 4. Enable the system-assigned identity for VM1 by setting the Status to On. 5. Allow the managed identity of VM1 in Key vault using Access control (IAM) blade role assignment.
-[TODO: add a photo]
+![Question 30 answer](images/question30_answer.jpeg)
 
 ### You have an Azure virtual machine named VM1 that runs Linux. You plan to deploy the Desired State Configuration (DSC) extension to VM1. You need to grant the Log Analytics agent the appropriate directory permissions. How should you complete the command?
 
-![Question 537](images/question537.jpg)
+![Question 31](images/question31.jpg)
 
 - [ ] Box 1: r. Box 2: /lib.
 - [ ] Box 1: rx. Box 2: /etc.
@@ -882,16 +882,6 @@
 - [ ] Jenkins.
 - [ ] Microsoft Visual SourceSafe.
 - [x] WhiteSource Bolt.
-
-### Contoso, Ltd. is a manufacturing company that has a main office in Chicago. Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization. The Azure DevOps organization includes: The Docker extension. A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2016. The Azure subscription contains an Azure Automation account. Contoso plans to create projects in Azure DevOps as shown in the following table. You need to configure Azure Automation for the computers in Group7. Contoso identifies the following technical requirements: Implement build agents for Project1. Whenever possible, use Azure resources. Avoid using deprecated technologies. Implement a code flow strategy for Project2 that will: Enable Team2 to submit pull requests for Project2. Enable Team2 to work independently on changes to a copy of Project2. Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2. Whenever possible implement automation and minimize administrative effort. Implement Project3, Project5, Project6, and Project7 based on the planned changes Implement Project4 and configure the project to push Docker images to Azure Container Registry. You need to configure Azure Automation for the computers in Group7. Which three actions should you perform in sequence?
-
-![Question 30](images/question30.jpg)
-
-- [x] Box 1: Create a Desired State Configuration (DSC) configuration file that has an extension of ps1. Box 2: Run the Import-AzureRmAutomationDscConfiguration
-      Azure PowerShell cmdlet. Box 3: Run the Start-AzureRmAutomationDscCompilationJob Azre PowerShell cdleut.
-- [ ] Box 1: Run the Import-AzureRmAutomationDscConfiguration Azure PowerShell cmdlet. Box 2: Create a Desired State Configuration (DSC) configuration file that has an extension of ps1. Box 3: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet.
-- [ ] Box 1: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet. Box 2: Create an Azure Resource Manager template file that hasan extension of . json. Box 3: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet.
-- [ ] Box 1: Create an Azure Resource Manager template file that has an extension of . json. Box 2: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet. Box 3: Run the Import-AzureRmAutomationDscConfiguration Azure PowerShell cmdlet.
 
 ### You need to ensure that the https://contoso.com/statushook webhook is called every time a repository named az40010480345acr1 receives a new version of an image named dotnetapp. To complete this task, sign in to the Microsoft Azure portal.
 
@@ -2225,3 +2215,12 @@
 - [x] BFG Repo-Cleaner.
 - [ ] Git rebase command.
 - [ ] GitHub Desktop.
+
+### ???
+
+![Question 83](images/question83.jpg)
+
+- [ ] Box 1: Create a repository. Box 2: Add an application access policy. Box 3: Create a branch.
+- [ ] Box 1: Create a fork. Box 2: Add an application access policy. Box 3: Add a build policy for the master branch.
+- [ ] Box 1: Create a repository. Box 2: Create a fork. Box 3: Add a build policy for the fork.
+- [x] Box 1: Create a repository. Box 2: Add a build policy for the master branch. Box 3: Create a branch.
