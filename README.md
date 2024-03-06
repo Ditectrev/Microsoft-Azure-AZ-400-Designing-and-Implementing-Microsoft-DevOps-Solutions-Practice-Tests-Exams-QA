@@ -147,12 +147,19 @@
 - [ ] Xamarin.UITest.
 - [ ] Microsoft.CodeAnalysis.
 
+### You are automating the testing process for your company. You need to automate UI testing of a web application. Which framework should you use?
+
+- [ ] JaCoco.
+- [x] Playwright.
+- [ ] Xamarin.UITest.
+- [ ] Microsoft.CodeAnalysis.
+
 ### You have an approval process that contains a condition. The condition requires that releases be approved by a team leader before they are deployed. You have a policy stating that approvals must occur within eight hours. You discover that deployments fail if the approvals lake longer than two hours. You need to ensure that the deployments only fail if the approvals take longer than eight hours. Solution: From Pre-deployment conditions, you modify the Timeout setting for pre-deployment approvals. Does this meet the goal?
 
-- [ ] Yes.
-- [x] No.
+- [x] Yes.
+- [ ] No.
 
-### You need to configure Azure Automation for the computer in Group7. Which three actions should you perform in sequence?
+### You need to configure Azure Automation for the computer in Group7. Which three actions should you perform in sequence? [???]
 
 ![Question 83](images/question83.jpg)
 
@@ -172,9 +179,9 @@
 
 ![Question 32](images/question32.jpg)
 
-- [ ] Box 1: Sprint burndown. Box 2: Release pipeline overview. Box 3: Cumulative flow diagram.
+- [x] Box 1: Sprint burndown. Box 2: Release pipeline overview. Box 3: Query tile.
 - [ ] Box 1: Query tile. Box 2: Velocity. Box 3: Cumulative flow diagram.
-- [x] Box 1: Velocity. Box 2: Release pipeline overview. Box 3: Query tile.
+- [ ] Box 1: Velocity. Box 2: Release pipeline overview. Box 3: Query tile.
 - [ ] Box 1: Velocity. Box 2: Sprint burndown. Box 3: Query tile.
 
 ### You company has a prefect in Azure DevOps for a new web application. You need to ensure that when code is checked in, a build runs automatically. Solution: From the Triggers tab of the build pipeline, you selected Batch changes while a build is in progress. Does this meet the goal?
@@ -197,15 +204,10 @@
 
 - [ ] Box 1: Add an app registration in Azure Active Directory (Azure AD). Box 2: Create a service principal in Azure Active Directory (Azure AD). Box 3: Add an Azure Resource Manager service connection to the pipeline.
 - [x] Box 1: Create a service principal in Azure Active Directory (Azure AD). Box 2: Configure an access policy in the key vault. Box 3: Add an Azure Resource Manager service connection to the pipeline.
-- [ ] Box 1: Export a certificate from the key vault. Box 2: Add an Azure Resource Manager service connection to the
-      pipeline. Box 3: Generate a self-signed certificate.
+- [ ] Box 1: Export a certificate from the key vault. Box 2: Add an Azure Resource Manager service connection to the pipeline. Box 3: Generate a self-signed certificate.
 - [ ] Box 1: Generate a self-signed certificate. Box 2: Create a service principal in Azure Active Directory (Azure AD). Box 3: Export a certificate from the key vault.
 
-### How should you confrere the release retention policy for the investment planning depletions suite?
-
-(ANSWER PHOTO)
-
-### You have a multi-tier application. The front end of the application is hosted in Azure App Service. You need to identify the average load times of the application pages . What should you use?
+### You have a multi-tier application. The front end of the application is hosted in Azure App Service. You need to identify the average load times of the application pages. What should you use?
 
 - [ ] Diagnostics logs of the App Service.
 - [x] Azure Application Insights.
@@ -221,7 +223,8 @@
 
 ### You need to configure a virtual machine named VM1 to securely access stored secrets in an Azure Key Vault named az400-11566895-kv. To complete this task, sign in to the Microsoft Azure portal.
 
-- [x] You can use a system-assigned managed identity for a Windows virtual machine (VM) to access Azure Key Vault. Sign in to Azure portal. Locate virtual machine VM1. Select Identity. Enable the system-assigned identity for VM1 by setting the Status to On.
+- [x] 1. Sign in to Azure portal. 2. Locate virtual machine VM1. 3. Select Identity. 4. Enable the system-assigned identity for VM1 by setting the Status to On. 5. Allow the managed identity of VM1 in Key vault using Access control (IAM) blade role assignment.
+[TODO: add a photo]
 
 ### You have an Azure virtual machine named VM1 that runs Linux. You plan to deploy the Desired State Configuration (DSC) extension to VM1. You need to grant the Log Analytics agent the appropriate directory permissions. How should you complete the command?
 
@@ -229,21 +232,21 @@
 
 - [ ] Box 1: r. Box 2: /lib.
 - [ ] Box 1: rx. Box 2: /etc.
-- [x] Box 1: rwx. Box 2: /temp.
+- [x] Box 1: rwx. Box 2: /tmp.
 - [ ] Box 1: x. Box 2: /usr.
 
-### During a code review, you discover many quality issues. Many modules contain unused variables and empty catch Modes. You need to recommend a solution to improve the quality o' the code. What should you recommend?
+### During a code review, you discover many quality issues. Many modules contain unused variables and empty catch blocks. You need to recommend a solution to improve the quality of the code. What should you recommend?
 
 - [ ] In a Gradle build task, select Run Checkstyle.
-- [ ] In an Xcode build task, select Use xcpretty from Advanced.
+- [ ] In a Xcode build task, select Use xcpretty from Advanced.
 - [ ] In a Grunt build task, select Enabled from Control Options.
-- [x] In a Maven build task, select Run PM.
+- [x] In a Maven build task, select Run PMD.
 
 ### You are using GitHub as a source code repository. You create a client-side Git hook on the commit-msg event. The hook requires that each commit message contain a custom work item tag. You need to make a commit that does not have a work item tag. Which git commit parameter should you use?
 
 - [ ] –squash.
 - [x] –no-verify.
-- [ ] –message '.
+- [ ] –message ".
 - [ ] –no-post-rewrite.
 
 ### Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization.Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization.The Azure subscription contains an Azure Automation account. Planned Changes Contoso plans to create projects in Azure DevOps as shown in the following table. Technical Requirements Contoso identities the following technical requirements: Implement build agents rot Project 1. Whenever possible, use Azure resources Avoid using deprecated technologies Implement a code flow strategy for Project2 that will: Enable Team 2 to submit pull requests for Project2. Enable Team 2 to work independently on changes to a copy of Project? Ensure that any intermediary changes performed by Tram2 on a copy of Project2 will be subject to the same restrictions as the ones defied in the build policy of Project2. Whenever possible. Implement automation and minimize administrative effort. Implement Protect3, Project5, Project6, and Project7 based on the planned changes. Implement Project4 and configure the project to push Docker images to Azure Container Reentry. You need to implement Project6. Which three actions should you perform in sequence?
