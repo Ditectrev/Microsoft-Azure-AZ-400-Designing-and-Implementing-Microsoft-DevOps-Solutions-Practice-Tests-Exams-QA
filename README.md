@@ -16,9 +16,10 @@
 - [ ] PL/SQL.
 - [ ] Transact-SQL.
 
-### Contoso, Ltd. is a manufacturing company that has a main office in Chicago. Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization. The Azure DevOps organization includes: The Docker extension. A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2016. The Azure subscription contains an Azure Automation account. Contoso plans to create projects in Azure DevOps as shown in the following table. You need to configure Azure Automation for the computers in Group7. Contoso identifies the following technical requirements: Implement build agents for Project1. Whenever possible, use Azure resources. Avoid using deprecated technologies. Implement a code flow strategy for Project2 that will: Enable Team2 to submit pull requests for Project2. Enable Team2 to work independently on changes to a copy of Project2. Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2. Whenever possible implement automation and minimize administrative effort. Implement Project3, Project5, Project6, and Project7 based on the planned changes Implement Project4 and configure the project to push Docker images to Azure Container Registry. You need to implement the code flow strategy for Project2 in Azure DevOps. Which three actions should you perform in sequence?
+### Contoso, Ltd. is a manufacturing company that has a main office in Chicago. Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization. The Azure DevOps organization includes: The Docker extension. A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2016. The Azure subscription contains an Azure Automation account. Contoso plans to create projects in Azure DevOps as shown in the following table. Contoso identifies the following technical requirements: Implement build agents for Project 1. Whenever possible, use Azure resources. Avoid using deprecated technologies. Implement a code flow strategy for Project2 that will: Enable Team2 to submit pull requests for Project2. Enable Team2 to work independently on changes to a copy of Project2. Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2. Whenever possible implement automation and minimize administrative effort. Implement Protect3, Project5, Project6, and Project7 based on the planned changes. Implement Project4 and configure the project to push Docker images to Azure Container Registry. You need to implement the code flow strategy for Project2 in Azure DevOps. Which three actions should you perform in sequence?
 
-![Question 3](images/question3.jpg)
+![Question 3 part 1](images/question3_12_22_34_35_40_41_43.jpg)
+![Question 3 part 2](images/question3_2.jpg)
 
 - [x] Box 1: Create a repository. Box 2: Create a branch. Box 3: Add a build validation policy.
 - [ ] Box 1: Create a fork. Box 2: Create a branch. Box 3: Add a build validation policy.
@@ -47,7 +48,7 @@
 
 ### Woodgrove Bank is a financial services company that has a main office in the United Kingdom. Woodgrove Bank plans to implement the following project management changes: Implement Azure DevOps for project tracking. Centralize source code control in private GitHub repositories. Implement Azure Pipelines for build pipelines and release pipelines. Woodgrove Bank plans to implement the following changes to the identity environment: Deploy an Azure AD tenant named woodgrovebank.com. Sync the Active Directory domain to Azure AD. Configure App1 to use a service principal. Integrate GitHub with Azure AD. Woodgrove Bank plans to implement the following changes to the core apps: Migrate App1 to ASP.NET Core. Integrate Azure Pipelines and the third-party build tool used to develop App2. Woodgrove Bank plans to implement the following changes to the DevOps environment: Deploy App1 to Azure App Service. Implement source control for the DB1 schema. Migrate all the source code from TFS1 to GitHub. Deploy App2 to an Azure virtual machine named VM1. Merge the POC branch into the GitHub default branch. Implement an Azure DevOps dashboard for stakeholders to monitor development progress. Woodgrove Bank identifies the following technical requirements: The initial databases for new environments must contain both schema and reference data. An Azure Monitor alert for VM1 must be configured to meet the following requirements: The commit history of the POC branch must replace the history of the default branch. The Azure DevOps dashboard must display the metrics shown in the following table. Access to Azure DevOps must be restricted to specific IP addresses. Page load times for App1 must be captured and monitored. Administrative effort must be minimized. You need to configure Azure Pipelines to control App2 builds. Which authentication method should you use?
 
-![Question 7](images/question535.jpg)
+![Question 7](images/question7_9_14_23_39_42.jpg)
 
 - [ ] Windows NTLM.
 - [ ] Certificate.
@@ -60,8 +61,8 @@
 
 ### Woodgrove Bank is a financial services company that has a main office in the United Kingdom. Woodgrove Bank plans to implement the following project management changes: Implement Azure DevOps for project tracking. Centralize source code control in private GitHub repositories. Implement Azure Pipelines for build pipelines and release pipelines. Woodgrove Bank plans to implement the following changes to the identity environment: Deploy an Azure AD tenant named woodgrovebank.com. Sync the Active Directory domain to Azure AD. Configure App1 to use a service principal. Integrate GitHub with Azure AD. Woodgrove Bank plans to implement the following changes to the core apps: Migrate App1 to ASP.NET Core. Integrate Azure Pipelines and the third-party build tool used to develop App2. Woodgrove Bank plans to implement the following changes to the DevOps environment: Deploy App1 to Azure App Service. Implement source control for the DB1 schema. Migrate all the source code from TFS1 to GitHub. Deploy App2 to an Azure virtual machine named VM1. Merge the POC branch into the GitHub default branch. Implement an Azure DevOps dashboard for stakeholders to monitor development progress. Woodgrove Bank identifies the following technical requirements: The initial databases for new environments must contain both schema and reference data. An Azure Monitor alert for VM1 must be configured to meet the following requirements: The commit history of the POC branch must replace the history of the default branch. The Azure DevOps dashboard must display the metrics shown in the following table. Access to Azure DevOps must be restricted to specific IP addresses. Page load times for App1 must be captured and monitored. Administrative effort must be minimized. You need to replace the existing DevOps tools to support the planned changes. What should you use?
 
-![Question 9 part 1](images/question535.jpg)
-![Question 9 part 2](images/question9.jpg)
+![Question 9 part 1](images/question7_9_14_23_39_42.jpg)
+![Question 9 part 2](images/question9_2.jpg)
 
 - [x] Trello: Azure Boards. Bamboo: Azure Pipelines. BitBucket: GitHub repositories.
 - [ ] Trello: Azure Test Plans. Bamboo: GitHub Actions. BitBucket: Azure Artifacts.
@@ -87,7 +88,9 @@
 - [ ] App1: Canary deployment. App2: Rolling deployment.
 - [ ] App1: Rolling deployment. App2: Canary deployment.
 
-### You use Azure Container Registry Tasks commands to quickly build, push, and run a Docker container image natively within Azure, showing how to offload your "inner-loop" development cycle to the cloud. ACR Tasks is a suite of features within Azure Container Registry to help you manage and modify container images across the container lifecycle. References: https://docs.microsoft.com/en-us/azure/container-registry/container-registry-quickstart-task-cli. You need to implement Project4. What should you do first?
+### Contoso, Ltd. is a manufacturing company that has a main office in Chicago. Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization. The Azure DevOps organization includes: The Docker extension. A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2016. The Azure subscription contains an Azure Automation account. Contoso plans to create projects in Azure DevOps as shown in the following table. Contoso identifies the following technical requirements: Implement build agents for Project 1. Whenever possible, use Azure resources. Avoid using deprecated technologies. Implement a code flow strategy for Project2 that will: Enable Team2 to submit pull requests for Project2. Enable Team2 to work independently on changes to a copy of Project2. Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2. Whenever possible implement automation and minimize administrative effort. Implement Protect3, Project5, Project6, and Project7 based on the planned changes. Implement Project4 and configure the project to push Docker images to Azure Container Registry. You need to implement Project4. What should you do first?
+
+![Question 12](images/question3_12_22_34_35_40_41_43.jpg)
 
 - [ ] Add the FROM instruction in the Dockerfile file.
 - [ ] Add a Copy and Publish Build Artifacts task to the build pipeline.
@@ -104,8 +107,8 @@
 
 ### Woodgrove Bank is a financial services company that has a main office in the United Kingdom. Woodgrove Bank plans to implement the following project management changes: Implement Azure DevOps for project tracking. Centralize source code control in private GitHub repositories. Implement Azure Pipelines for build pipelines and release pipelines. Woodgrove Bank plans to implement the following changes to the identity environment: Deploy an Azure AD tenant named woodgrovebank.com. Sync the Active Directory domain to Azure AD. Configure App1 to use a service principal. Integrate GitHub with Azure AD. Woodgrove Bank plans to implement the following changes to the core apps: Migrate App1 to ASP.NET Core. Integrate Azure Pipelines and the third-party build tool used to develop App2. Woodgrove Bank plans to implement the following changes to the DevOps environment: Deploy App1 to Azure App Service. Implement source control for the DB1 schema. Migrate all the source code from TFS1 to GitHub. Deploy App2 to an Azure virtual machine named VM1. Merge the POC branch into the GitHub default branch. Implement an Azure DevOps dashboard for stakeholders to monitor development progress. Woodgrove Bank identifies the following technical requirements: The initial databases for new environments must contain both schema and reference data. An Azure Monitor alert for VM1 must be configured to meet the following requirements: The commit history of the POC branch must replace the history of the default branch. The Azure DevOps dashboard must display the metrics shown in the following table. Access to Azure DevOps must be restricted to specific IP addresses. Page load times for App1 must be captured and monitored. Administrative effort must be minimized. You need to configure authentication for App1. The solution must support the planned changes. Which three actions should you perform in sequence? You need to replace the existing DevOps tools to support the planned changes. What should you use?
 
-![Question 9 part 1](images/question535.jpg)
-![Question 9 part 2](images/question14.jpg)
+![Question 14 part 1](images/question7_9_14_23_39_42.jpg)
+![Question 14 part 2](images/question14_2.jpg)
 
 - [x] Box 1: Create an app. Box 2: Add a secret. Box 3: Configure the ID and secret for App1.
 - [ ] Box 1: Create a managed service identity. Box 2: Create a credential. Box 3: Configure the ID and secret for App 1.
@@ -163,9 +166,10 @@
 - [x] Yes.
 - [ ] No.
 
-### Contoso, Ltd. is a manufacturing company that has a main office in Chicago. Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization. The Azure DevOps organization includes: The Docker extension. A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2016. The Azure subscription contains an Azure Automation account. Contoso plans to create projects in Azure DevOps as shown in the following table. You need to configure Azure Automation for the computers in Group7. Contoso identifies the following technical requirements: Implement build agents for Project1. Whenever possible, use Azure resources. Avoid using deprecated technologies. Implement a code flow strategy for Project2 that will: Enable Team2 to submit pull requests for Project2. Enable Team2 to work independently on changes to a copy of Project2. Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2. Whenever possible implement automation and minimize administrative effort. Implement Project3, Project5, Project6, and Project7 based on the planned changes Implement Project4 and configure the project to push Docker images to Azure Container Registry. You need to configure Azure Automation for the computers in Group7. Which three actions should you perform in sequence?
+### Contoso, Ltd. is a manufacturing company that has a main office in Chicago. Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization. The Azure DevOps organization includes: The Docker extension. A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2016. The Azure subscription contains an Azure Automation account. Contoso plans to create projects in Azure DevOps as shown in the following table. Contoso identifies the following technical requirements: Implement build agents for Project 1. Whenever possible, use Azure resources. Avoid using deprecated technologies. Implement a code flow strategy for Project2 that will: Enable Team2 to submit pull requests for Project2. Enable Team2 to work independently on changes to a copy of Project2. Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2. Whenever possible implement automation and minimize administrative effort. Implement Protect3, Project5, Project6, and Project7 based on the planned changes. Implement Project4 and configure the project to push Docker images to Azure Container Registry. You need to configure Azure Automation for the computers in Group7. Which three actions should you perform in sequence?
 
-![Question 22](images/question22.jpg)
+![Question 22 part 1](images/question3_12_22_34_35_40_41_43.jpg)
+![Question 22 part 2](images/question22_2.jpg)
 
 - [x] Box 1: Create a Desired State Configuration (DSC) configuration file that has an extension of .ps1. Box 2: Run the Import-AzureRmAutomationDscConfiguration Azure PowerShell cmdlet. Box 3: Run the Start-AzureRmAutomationDscCompilationJob Azre PowerShell cdleut.
 - [ ] Box 1: Run the Import-AzureRmAutomationDscConfiguration Azure PowerShell cmdlet. Box 2: Create a Desired State Configuration (DSC) configuration file that has an extension of .ps1. Box 3: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet.
@@ -174,7 +178,7 @@
 
 ### Woodgrove Bank is a financial services company that has a main office in the United Kingdom. Woodgrove Bank plans to implement the following project management changes: Implement Azure DevOps for project tracking. Centralize source code control in private GitHub repositories. Implement Azure Pipelines for build pipelines and release pipelines. Woodgrove Bank plans to implement the following changes to the identity environment: Deploy an Azure AD tenant named woodgrovebank.com. Sync the Active Directory domain to Azure AD. Configure App1 to use a service principal. Integrate GitHub with Azure AD. Woodgrove Bank plans to implement the following changes to the core apps: Migrate App1 to ASP.NET Core. Integrate Azure Pipelines and the third-party build tool used to develop App2. Woodgrove Bank plans to implement the following changes to the DevOps environment: Deploy App1 to Azure App Service. Implement source control for the DB1 schema. Migrate all the source code from TFS1 to GitHub. Deploy App2 to an Azure virtual machine named VM1. Merge the POC branch into the GitHub default branch. Implement an Azure DevOps dashboard for stakeholders to monitor development progress. Woodgrove Bank identifies the following technical requirements: The initial databases for new environments must contain both schema and reference data. An Azure Monitor alert for VM1 must be configured to meet the following requirements: The commit history of the POC branch must replace the history of the default branch. The Azure DevOps dashboard must display the metrics shown in the following table. Access to Azure DevOps must be restricted to specific IP addresses. Page load times for App1 must be captured and monitored. Administrative effort must be minimized. You need to meet the technical requirements for controlling access to Azure DevOps. What should you use?
 
-![Question 23](images/question535.jpg)
+![Question 23](images/question7_9_14_23_39_42.jpg)
 
 - [ ] Azure Multi-Factor Authentication (MFA).
 - [ ] On-premises firewall rules.
@@ -255,20 +259,20 @@
 - [ ] –message ".
 - [ ] –no-post-rewrite.
 
-### Contoso, Ltd. is a manufacturing company that has a main office in Chicago. Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization. The Azure DevOps organization includes: The Docker extension. A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2016. The Azure subscription contains an Azure Automation account. Contoso plans to create projects in Azure DevOps as shown in the following table. Contoso identifies the following technical requirements: Implement build agents for Project 1. Whenever possible, use Azure resources. Avoid using deprecated technologies. Implement a code flow strategy for Project2 that will: Enable Team2 to submit pull requests for Project2. Enable Team2 to work independently on changes to a copy of Project2. Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2. Whenever possible implement automation and minimize administrative effort. Implement Protect3, Project5, Project6, and Project7 based on the planned changes. Implement Project4 and configure the project to push Docker images to Azure Container Reentry. You need to implement Project6. Which three actions should you perform in sequence?
+### Contoso, Ltd. is a manufacturing company that has a main office in Chicago. Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization. The Azure DevOps organization includes: The Docker extension. A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2016. The Azure subscription contains an Azure Automation account. Contoso plans to create projects in Azure DevOps as shown in the following table. Contoso identifies the following technical requirements: Implement build agents for Project 1. Whenever possible, use Azure resources. Avoid using deprecated technologies. Implement a code flow strategy for Project2 that will: Enable Team2 to submit pull requests for Project2. Enable Team2 to work independently on changes to a copy of Project2. Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2. Whenever possible implement automation and minimize administrative effort. Implement Protect3, Project5, Project6, and Project7 based on the planned changes. Implement Project4 and configure the project to push Docker images to Azure Container Registry. You need to implement Project6. Which three actions should you perform in sequence?
 
-![Question 34 part 1](images/question123.jpg)
-![Question 34 part 2](images/question277.jpg)
+![Question 34 part 1](images/question3_12_22_34_35_40_41_43.jpg)
+![Question 34 part 2](images/question34_2.jpg)
 
 - [x] Box 1: Open the release pipeline editor. Box 2: Enable Gates. Box 3: Add Query Work Items.
 - [ ] Box 1: Add Query Work Items. Box 2: Enable Gates. Box 3: Open the Triggers tab.
 - [ ] Box 1: Add a manual intervention task. Box 2: Open the release pipeline editor. Box 3: Enable Gates.
 - [ ] Box 1: Open the Triggers tab. Box 2: Add a manual intervention task. Box 3: Add Query Work Items.
 
-### Contoso, Ltd. is a manufacturing company that has a main office in Chicago. Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization. The Azure DevOps organization includes: The Docker extension. A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2016. The Azure subscription contains an Azure Automation account. Contoso plans to create projects in Azure DevOps as shown in the following table. Contoso identifies the following technical requirements: Implement build agents for Project 1. Whenever possible, use Azure resources. Avoid using deprecated technologies. Implement a code flow strategy for Project2 that will: Enable Team2 to submit pull requests for Project2. Enable Team2 to work independently on changes to a copy of Project2. Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2. Whenever possible implement automation and minimize administrative effort. Implement Protect3, Project5, Project6, and Project7 based on the planned changes. Implement Project4 and configure the project to push Docker images to Azure Container Reentry. How should you configure the filters for the Project5 trigger?
+### Contoso, Ltd. is a manufacturing company that has a main office in Chicago. Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization. The Azure DevOps organization includes: The Docker extension. A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2016. The Azure subscription contains an Azure Automation account. Contoso plans to create projects in Azure DevOps as shown in the following table. Contoso identifies the following technical requirements: Implement build agents for Project 1. Whenever possible, use Azure resources. Avoid using deprecated technologies. Implement a code flow strategy for Project2 that will: Enable Team2 to submit pull requests for Project2. Enable Team2 to work independently on changes to a copy of Project2. Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2. Whenever possible implement automation and minimize administrative effort. Implement Protect3, Project5, Project6, and Project7 based on the planned changes. Implement Project4 and configure the project to push Docker images to Azure Container Registry. How should you configure the filters for the Project5 trigger?
 
-![Question 35 part 1](images/question123.jpg)
-![Question 35 part 2](images/question46.jpg)
+![Question 35 part 1](images/question3_12_22_34_35_40_41_43.jpg)
+![Question 35 part 2](images/question35_2.jpg)
 
 - [ ] Box 1: branch filter to exclude. Box 2: branch filter to exclude.
 - [ ] Box 1: path filter to include. Box 2: path filter to exclude.
@@ -284,7 +288,7 @@
 
 ### You are configuring the settings of a new Git repository in Azure Repos. You need to ensure that pull requests in a branch meet the following criteria before they are merged: Committed code must compile successfully. Pull requests must have a Quality Gate status of Passed in SonarCloud. Which policy type should you configure for each requirement?
 
-![Question 37](images/question49.jpg)
+![Question 37](images/question37.jpg)
 
 - [x] Committed code must compile successfully: A build policy. Pull requests must have a Quality Gate status of Passed in SonarCloud: A status policy.
 - [ ] Committed code must compile successfully: A status policy. Pull requests must have a Quality Gate status of Passed in SonarCloud: A build policy.
@@ -301,22 +305,27 @@
 
 ### Woodgrove Bank is a financial services company that has a main office in the United Kingdom. Woodgrove Bank plans to implement the following project management changes: Implement Azure DevOps for project tracking. Centralize source code control in private GitHub repositories. Implement Azure Pipelines for build pipelines and release pipelines. Woodgrove Bank plans to implement the following changes to the identity environment: Deploy an Azure AD tenant named woodgrovebank.com. Sync the Active Directory domain to Azure AD. Configure App1 to use a service principal. Integrate GitHub with Azure AD. Woodgrove Bank plans to implement the following changes to the core apps: Migrate App1 to ASP.NET Core. Integrate Azure Pipelines and the third-party build tool used to develop App2. Woodgrove Bank plans to implement the following changes to the DevOps environment: Deploy App1 to Azure App Service. Implement source control for the DB1 schema. Migrate all the source code from TFS1 to GitHub. Deploy App2 to an Azure virtual machine named VM1. Merge the POC branch into the GitHub default branch. Implement an Azure DevOps dashboard for stakeholders to monitor development progress. Woodgrove Bank identifies the following technical requirements: The initial databases for new environments must contain both schema and reference data. An Azure Monitor alert for VM1 must be configured to meet the following requirements: The commit history of the POC branch must replace the history of the default branch. The Azure DevOps dashboard must display the metrics shown in the following table. Access to Azure DevOps must be restricted to specific IP addresses. Page load times for App1 must be captured and monitored. Administrative effort must be minimized. You need to configure the alert for VM1. The solution must meet the technical requirements. Which two settings should you configure?
 
-![Question 39](images/question535.jpg)
+![Question 39 part 1](images/question7_9_14_23_39_42.jpg)
+![Question 39 part 2](images/question39_2.jpeg)
 
-- [ ] a
+- [ ] Threshold value: 80%. Aggregation granularity (Period): 5 minutes.
+- [x] Threshold value: 80%. Aggregation granularity (Period): 15 minutes.
+- [ ] Threshold value: 50%. Aggregation granularity (Period): 15 minutes.
+- [ ] Threshold value: 50%. Aggregation granularity (Period): 5 minutes.
 
-### You need to recommend a procedure to implement the build agent for Project1. Which three actions should you recommend be performed in sequence?
+### Contoso, Ltd. is a manufacturing company that has a main office in Chicago. Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization. The Azure DevOps organization includes: The Docker extension. A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2016. The Azure subscription contains an Azure Automation account. Contoso plans to create projects in Azure DevOps as shown in the following table. Contoso identifies the following technical requirements: Implement build agents for Project 1. Whenever possible, use Azure resources. Avoid using deprecated technologies. Implement a code flow strategy for Project2 that will: Enable Team2 to submit pull requests for Project2. Enable Team2 to work independently on changes to a copy of Project2. Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2. Whenever possible implement automation and minimize administrative effort. Implement Protect3, Project5, Project6, and Project7 based on the planned changes. Implement Project4 and configure the project to push Docker images to Azure Container Registry. You need to recommend a procedure to implement the build agent for Project1. Which three actions should you recommend be performed in sequence?
 
-![Question 53](images/question53.jpg)
+![Question 40 part 1](images/question3_12_22_34_35_40_41_43.jpg)
+![Question 40 part 2](images/question40_2.jpg)
 
-- [x] Box 1: Sign in to Azure DevOps by using an account that is assigned the Administrator service connection security role. Box 2: Create a personal access token in the Azure
-      DevOps organization of Contoso. Box 3: Install and register the Azure Pipelines agent on an Azure virtual machine.
-- [ ] Box 1: Sign in to Azure DevOps by using an account that is assigned the Administrator service
-      connection security role. Box 2: Install the Azure Pipelines agent on on- premises virtual machine. Box 3: Sign in to Azure DevOps by using an account that is assigned the agent pool administrator role.
-- [ ] Box 1: Create a personal access token in the Azure DevOps organization of Contoso. Box 2: Install the Azure Pipelines agent on on- premises virtual machine. Box 3: Sign in to Azure DevOps by using an account that is assigned the agent pool administrator role.
-- [ ] Box 1: Sign in to Azure DevOps by using an account that is assigned the agent pool administrator role. Box 2: Install the Azure Pipelines agent on on- premises virtual machine. Box 3: Create a personal access token in the Azure DevOps organization of Contoso.
+- [x] Box 1: Sign in to Azure DevOps by using an account that is assigned the Administrator service connection security role. Box 2: Create a Personal Access Token in the Azure DevOps organization of Contoso. Box 3: Install and register the Azure Pipelines agent on an Azure virtual machine.
+- [ ] Box 1: Sign in to Azure DevOps by using an account that is assigned the Administrator service connection security role. Box 2: Install the Azure Pipelines agent on on- premises virtual machine. Box 3: Sign in to Azure DevOps by using an account that is assigned the agent pool administrator role.
+- [ ] Box 1: Create a Personal Access Token in the Azure DevOps organization of Contoso. Box 2: Install the Azure Pipelines agent on on- premises virtual machine. Box 3: Sign in to Azure DevOps by using an account that is assigned the agent pool administrator role.
+- [ ] Box 1: Sign in to Azure DevOps by using an account that is assigned the agent pool administrator role. Box 2: Install the Azure Pipelines agent on on- premises virtual machine. Box 3: Create a Personal Access Token in the Azure DevOps organization of Contoso.
 
-### Contoso, Ltd. is a manufacturing company that has a main office in Chicago. Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization. The Azure DevOps organization includes: The Docker extension. A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2016. The Azure subscription contains an Azure Automation account. Contoso plans to create projects in Azure DevOps as shown in the following table. You need to configure Azure Automation for the computers in Group7. Contoso identifies the following technical requirements: Implement build agents for Project1. Whenever possible, use Azure resources. Avoid using deprecated technologies. Implement a code flow strategy for Project2 that will: Enable Team2 to submit pull requests for Project2. Enable Team2 to work independently on changes to a copy of Project2. Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2. Whenever possible implement automation and minimize administrative effort. Implement Project3, Project5, Project6, and Project7 based on the planned changes Implement Project4 and configure the project to push Docker images to Azure Container Registry. You add the virtual machines as managed nodes in Azure Automation State Configuration. You need to configure the computer in Group7. What should you do?
+### Contoso, Ltd. is a manufacturing company that has a main office in Chicago. Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization. The Azure DevOps organization includes: The Docker extension. A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2016. The Azure subscription contains an Azure Automation account. Contoso plans to create projects in Azure DevOps as shown in the following table. Contoso identifies the following technical requirements: Implement build agents for Project 1. Whenever possible, use Azure resources. Avoid using deprecated technologies. Implement a code flow strategy for Project2 that will: Enable Team2 to submit pull requests for Project2. Enable Team2 to work independently on changes to a copy of Project2. Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2. Whenever possible implement automation and minimize administrative effort. Implement Protect3, Project5, Project6, and Project7 based on the planned changes. Implement Project4 and configure the project to push Docker images to Azure Container Registry. You add the virtual machines as managed nodes in Azure Automation State Configuration. You need to configure the computer in Group7. What should you do?
+
+![Question 41](images/question3_12_22_34_35_40_41_43.jpg)
 
 - [x] Run the Register-AzureRmAutomationDscNode Azure Powershell cmdlet.
 - [ ] Modify the ConfigurationMode property of the Local Configuration Manager (LCM).
@@ -325,12 +334,21 @@
 
 ### Woodgrove Bank is a financial services company that has a main office in the United Kingdom. Woodgrove Bank plans to implement the following project management changes: Implement Azure DevOps for project tracking. Centralize source code control in private GitHub repositories. Implement Azure Pipelines for build pipelines and release pipelines. Woodgrove Bank plans to implement the following changes to the identity environment: Deploy an Azure AD tenant named woodgrovebank.com. Sync the Active Directory domain to Azure AD. Configure App1 to use a service principal. Integrate GitHub with Azure AD. Woodgrove Bank plans to implement the following changes to the core apps: Migrate App1 to ASP.NET Core. Integrate Azure Pipelines and the third-party build tool used to develop App2. Woodgrove Bank plans to implement the following changes to the DevOps environment: Deploy App1 to Azure App Service. Implement source control for the DB1 schema. Migrate all the source code from TFS1 to GitHub. Deploy App2 to an Azure virtual machine named VM1. Merge the POC branch into the GitHub default branch. Implement an Azure DevOps dashboard for stakeholders to monitor development progress. Woodgrove Bank identifies the following technical requirements: The initial databases for new environments must contain both schema and reference data. An Azure Monitor alert for VM1 must be configured to meet the following requirements: The commit history of the POC branch must replace the history of the default branch. The Azure DevOps dashboard must display the metrics shown in the following table. Access to Azure DevOps must be restricted to specific IP addresses. Page load times for App1 must be captured and monitored. Administrative effort must be minimized. You need to perform the GitHub code migration. The solution must support the planned changes for the DevOps environment. What should you use?
 
-![Question ???](images/question535.jpg)
+![Question 42](images/question7_9_14_23_39_42.jpg)
 
 - [ ] git clone.
 - [ ] GitHub Importer.
 - [ ] Import repository in Azure Repos.
 - [x] git-tfs.
+
+### Contoso, Ltd. is a manufacturing company that has a main office in Chicago. Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization. The Azure DevOps organization includes: The Docker extension. A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2016. The Azure subscription contains an Azure Automation account. Contoso plans to create projects in Azure DevOps as shown in the following table. Contoso identifies the following technical requirements: Implement build agents for Project 1. Whenever possible, use Azure resources. Avoid using deprecated technologies. Implement a code flow strategy for Project2 that will: Enable Team2 to submit pull requests for Project2. Enable Team2 to work independently on changes to a copy of Project2. Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2. Whenever possible implement automation and minimize administrative effort. Implement Protect3, Project5, Project6, and Project7 based on the planned changes. Implement Project4 and configure the project to push Docker images to Azure Container Registry. In Azure DevOps, you create Project3. You need to meet the requirements of the project. What should you do first?
+
+![Question 43](images/question3_12_22_34_35_40_41_43.jpg)
+
+- [ ] From Azure DevOps, create a service endpoint.
+- [ ] From SonarQube, obtain an authentication token.
+- [ ] From Azure DevOps, modify the build definition.
+- [x] From SonarQube, create a project.
 
 ### Your company implements an Agile development methodology. You plan to implement retrospectives at the end of each sprint. Which three questions should you include?
 
@@ -347,15 +365,12 @@
 - [x] Gate.
 - [ ] Azure function.
 
-### Litware, Inc. an independent software vendor (ISV) Litware has a main office and five branch offices. Application Architecture The company' s primary application is a single monolithic retirement fund management system based on ASP.NE T web forms that use logic written in V8.NET. Some new sections of the application are written in C#. Variations of the application are created for individual customers. Currently, there are more than 80 have code branches in the application's code base. The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access of the source code by using TFS proxy servers. Architectural Issues Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, AS dependencies are not obvious to individual developers. Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve. Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive. Requirements Planned Changes Litware plans to develop a new suite of applications for investment planning. The investment planning Applications will require only minor integration with the easting retirement fund management system. The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers. Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of package. Litware has started an internal cloud transformation process and plans to use cloud based services whenever suitable. Litware wants to become proactive m detecting failures, rather than always waning for customer bug reports. Technical Requirements The company's investment planning applications suite must meet the following technical requirements: New incoming connections through the firewall must be minimized. Members of a group named Developers must be able to install packages. The principle of least privilege must be used for all permission assignments A branching strategy that supports developing new functionality in isolation must be used. Members of a group named Team leaders must be able to create new packages and edit the permissions of package feeds Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use. By default, all App Center must be used to centralize the reporting of mobile application crashes and device types in use. Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release. The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HUPS. The required operating system configuration tor the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test servers configured the same way when the servers are created and checked periodically. Current Technical. The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations. Azure Automation State Configuration nodes are registered by using the following command. You need to configure a cloud service to store the secrets required by the mobile applications to call the share pricing service. What should you include in the solution?
+### Your company hosts a web application in Azure, and makes use of Azure Pipelines for managing the build and release of the application. When stakeholders report that system performance has been adversely affected by the most recent releases, you configure alerts in Azure Monitor. You are informed that new releases must satisfy specified performance baseline conditions in the staging environment before they can be deployed to production. You need to make sure that releases not satisfying the performance baseline are prevented from being deployed. Which of the following actions should you take?
 
-![Question 11](images/question11.jpeg)
-![Question 92](images/question92.jpg)
-
-- [ ] Required secrets: Certificate. Storage location: Azure Data Lake.
-- [x] Required secrets: Shared Access Authorization token. Storage location: Azure Storage with HTTPS access.
-- [ ] Required secrets: Shared Access Authorization token. Storage location: Azure Storage with HTTPS access.
-- [ ] Required secrets: Username and password. Storage location: Azure Storage with HTTP access.
+- [ ] You should make use of a branch control check.
+- [ ] You should make use of an alert trigger.
+- [x] You should make use of a gate.
+- [ ] You should make use of an approval check.
 
 ### Your company uses Azure DevOps. Only users who have accounts in Azure Active Directory can access the Azure DevOps environment. You need to ensure that only devices that are connected to the on-premises network can access the Azure DevOps environment. What should you do?
 
@@ -364,12 +379,32 @@
 - [ ] In Azure DevOps, configure Security in Project Settings.
 - [x] In Azure Active Directory, configure conditional access.
 
-### Your company uses Azure DevOps to manage the build and release processes for applications. You use a Git repository for applications source control. You need to implement a pull request strategy that reduces the history volume in the master branch. Solution: You implement a pull request strategy that uses a three-way merge.Does this meet the goal?
+### Your company uses Azure DevOps to manage the build and release processes for applications. You use a Git repository for applications source control. You need to implement a pull request strategy that reduces the history volume in the master branch. Solution: You implement a pull request strategy that uses a three-way merge. Does this meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
-### You integrate a cloud- hosted Jenkins server and a new Azure DevOps deployment You need Azure DevOps to send a notification to Jenkins when a developer commits changes to a branch in Azure Repos. Solution: You create a service hook subscription that uses the code pushed event. Does this meet the goal?
+### Your company uses Azure DevOps to manage the build and release processes for applications. You use a Git repository for applications source control. You need to implement a pull request strategy that reduces the history volume in the master branch. Solution: You implement a pull request strategy that uses an explicit merge. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Your company uses Azure DevOps to manage the build and release processes for applications. You use a Git repository for applications source control. You need to implement a pull request strategy that reduces the history volume in the master branch. You implement a pull request strategy that uses fast-forward merges. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Your company uses Azure DevOps to manage the build and release processes for applications. You use a Git repository for applications source control. You need to implement a pull request strategy that reduces the history volume in the master branch. You implement a pull request strategy that uses squash merges. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### You integrate a cloud-hosted Jenkins server and a new Azure DevOps deployment. You need Azure DevOps to send a notification to Jenkins when a developer commits changes to a branch in Azure Repos. Solution: You add a trigger to the build pipeline. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You integrate a cloud-hosted Jenkins server and a new Azure DevOps deployment. You need Azure DevOps to send a notification to Jenkins when a developer commits changes to a branch in Azure Repos. Solution: You create a service hook subscription that uses the code pushed event. Does this meet the goal?
 
 - [x] Yes.
 - [ ] No.
@@ -384,16 +419,31 @@
 - [ ] Microsoft Visual Studio test plans.
 - [ ] Gradle wrapper scripts.
 - [x] SonarCloud analysis.
-- [ ] the JavaScript task runner.
+- [ ] JavaScript task runner.
 
 ### Your company has a project in Azure DevOps for a new application. The application will be deployed to several Azure virtual machines that run Windows Server 2016. You need to recommend a deployment strategy for the virtual machines. The strategy must meet the following requirements: Ensure that the virtual machines maintain a consistent configuration. Minimize administrative effort to configure the virtual machines. What should you include in the recommendation?
 
 - [ ] Deployment YAML and Azure pipeline stage templates.
-- [x] Azure Resource Manager templates and the Custom Script Extension for Windows.
-- [ ] Azure Resource Manager templates and the PowerShell Desired State Configuration (DSC) extension for Windows.
+- [ ] Azure Resource Manager templates and the Custom Script Extension for Windows.
+- [x] Azure Resource Manager templates and the PowerShell Desired State Configuration (DSC) extension for Windows.
 - [ ] Deployment YAML and Azure pipeline deployment groups.
 
-### You use Azure SQL Database Intelligent Insights and Azure Application Insights foe monitoring. You need to write ad-hoc Queries against the monitoring data. Which Query language should you use?
+### Your company has a project in Azure DevOps for a new application. The application will be deployed to several Azure virtual machines that run Windows Server 2019. You need to recommend a deployment strategy for the virtual machines. The strategy must meet the following requirements: Ensure that the virtual machines maintain a consistent configuration. Minimize administrative effort to configure the virtual machines. What should you include in the recommendation?
+
+- [ ] Deployment YAML and Azure pipeline stage templates.
+- [ ] Azure Resource Manager templates and the Custom Script Extension for Windows.
+- [x] Azure Resource Manager templates and the PowerShell Desired State Configuration (DSC) extension for Windows.
+- [ ] Deployment YAML and Azure pipeline deployment groups.
+
+### You have created an Azure DevOps project for a new application that will be deployed to a number of Windows Server 2016 Azure virtual machines. You are preparing a deployment solution that allows for the virtual machines to maintain a uniform configuration, and also keep administrative effort with regards to configuring the virtual machines to a minimum. Which of the following should be part of your solution? (Choose two.)
+
+- [x] Azure Resource Manager templates.
+- [x] The PowerShell Desired State Configuration (DSC) extension for Windows.
+- [ ] Azure pipeline deployment groups.
+- [ ] The Custom Script Extension for Windows.
+- [ ] Azure pipeline stage templates.
+
+### You use Azure SQL Database Intelligent Insights and Azure Application Insights for monitoring. You need to write ad-hoc queries against the monitoring data. Which query language should you use?
 
 - [ ] PL/pgSQL.
 - [ ] Transact-SQL.
@@ -402,38 +452,53 @@
 
 ### Where should the build and release agents for the investment planning application suite run?
 
-![Question 70](images/question70.jpg)
+![Question 60](images/question60.jpg)
 
 - [ ] Build agent: A hosted service. Release agent: The developers' computers.
-- [ ] Build agent: A hosted service. Release agent: A hosted service.
+- [x] Build agent: A hosted service. Release agent: A hosted service.
 - [ ] Build agent: The developers' computers. Release agent: A hosted service.
-- [x] Build agent: A source control system. Release agent: A hosted service.
+- [ ] Build agent: A source control system. Release agent: A hosted service.
 
 ### You have Azure Pipelines and GitHub integrated as a source code repository. The build pipeline has continuous integration enabled. You plan to trigger an automated build whenever code changes are committed to the repository. You need to ensure that the system will wait until a build completes before queuing another build. What should you implement?
 
-- [ ] path filters.
-- [x] batch changes.
-- [ ] scheduled builds.
-- [ ] branch filters.
+- [ ] Path filters.
+- [x] Batch changes.
+- [ ] Scheduled builds.
+- [ ] Branch filters.
 
 ### You manage a project in Azure DevOps. You need to prevent the configuration of the project from changing over time. Solution: Implement Continuous Assurance for the project. Does this meet the goal?
 
 - [x] Yes.
 - [ ] No.
 
-### You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 that is configured for autoscaling. You have a project in Azure DevOps named Project1. Project1 is used to build a web app named App1 and deploy App1 to VMSS1. You need to ensure that an email alert is generated whenever VMSS1 scales in or out. Solution: From Azure DevOps, configure the Service hooks settings for Project1.Does this meet the goal?
+### You manage a project in Azure DevOps. You need to prevent the configuration of the project from changing over time. Solution: Implement Continuous Integration for the project. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You manage a project in Azure DevOps. You need to prevent the configuration of the project from changing over time. Solution: Add a code coverage step to the build pipelines. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 that is configured for autoscaling. You have a project in Azure DevOps named Project1. Project1 is used to build a web app named App1 and deploy App1 to VMSS1. You need to ensure that an email alert is generated whenever VMSS1 scales in or out. Solution: From Azure DevOps, configure the Service hooks settings for Project1. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 that is configured for autoscaling. You have a project in Azure DevOps named Project1. Project1 is used to build a web app named App1 and deploy App1 to VMSS1. You need to ensure that an email alert is generated whenever VMSS1 scales in or out. Solution: From Azure DevOps, configure the Notifications settings for Project1. Does this meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
 ### You are using PowerShell to administer Azure Log Analytics workspaces. You need to list the available workspaces and their properties. How should you complete the command?
 
-![Question 536](images/question536.jpg)
+![Question 67](images/question67.jpg)
 
-- [x] Box 1: Get-AzResource. Box 2: ResourceType.
-- [ ] Box 1: Get-AzResourceProvider. Box 2: ResourceGroupName.
-- [ ] Box 1: Get-AzResource. Box 2: Resourceld.
-- [ ] Box 1: Get-AzResourceGroup. Box 2: Get-AzResource.
+- [x] Box 1: Get-AzResource. Box 2: -ResourceType.
+- [ ] Box 1: Get-AzResourceProvider. Box 2: -ResourceGroupName.
+- [ ] Box 1: Get-AzResource. Box 2: -ResourceId.
+- [ ] Box 1: Get-AzResourceGroup. Box 2: -Get-AzResource.
 
 ### You have a project in Azure DevOps named Project1. Project! contains a pipeline that builds a container image named Image! and pushes Image1 to an Azure container registry named ACR1. Image! uses a base image stored in Docker Hub. You need to ensure that Image1 is updated automatically whenever the base image is updated. What should you do?
 
@@ -477,11 +542,6 @@
 - [ ] Box 1: Run helm init. Box 2: Run az role assignment create. Box 3: Run kubectl apply.
 
 ### You integrate a cloud-hosted Jenkins server and a new Azure DevOps deployment. You need Azure DevOps to send a notification to Jenkins when a developer commits changes to a branch in Azure Repos. Solution: You create a service hook subscription that uses the build completed event. Does this meet the goal?
-
-- [ ] Yes.
-- [x] No.
-
-### You integrate a cloud-hosted Jenkins server and a new Azure DevOps deployment. You need Azure DevOps to send a notification to Jenkins when a developer commits changes to a branch in Azure Repos. Solution: You add a trigger to the build pipeline. Does this meet the goal?
 
 - [ ] Yes.
 - [x] No.
@@ -530,10 +590,10 @@
 
 ![Question 99](images/question99.jpg)
 
-- [ ] Restrict access to delete the key vault: a personal access token (PAT). Restrict access to the secrets in Key Vault by using: a personal access token (PAT).
-- [ ] Restrict access to delete the key vault: a personal access token (PAT). Restrict access to the secrets in Key Vault by using: RBAC.
+- [ ] Restrict access to delete the key vault: a Personal Access Token (PAT). Restrict access to the secrets in Key Vault by using: a Personal Access Token (PAT).
+- [ ] Restrict access to delete the key vault: a Personal Access Token (PAT). Restrict access to the secrets in Key Vault by using: RBAC.
 - [x] Restrict access to delete the key vault: an Azure Key Vault access policy. Restrict access to the secrets in Key Vault by using: RBAC.
-- [ ] Restrict access to delete the key vault: RBAC. Restrict access to the secrets in Key Vault by using: a personal access token (PAT).
+- [ ] Restrict access to delete the key vault: RBAC. Restrict access to the secrets in Key Vault by using: a Personal Access Token (PAT).
 
 ### You need to recommend a solution for deploying charts by using Helm and Tiller to Azure Kubernetes Service (AKS) in an RBAC-enabled cluster. Which three commands should you recommend be run in sequence?
 
@@ -717,13 +777,6 @@
 - [x] Upstream sources.
 - [ ] Views.
 
-### In Azure DevOps, you create Project3. You need to meet the requirements of the project. What should you do first?
-
-- [x] From Azure DevOps, create a service endpoint.
-- [ ] From SonarQube, obtain an authentication token.
-- [ ] From Azure DevOps, modify the build definition.
-- [ ] From SonarQube, create a project.
-
 ### question 166 NO IDEA
 
 ### You have 50 Node.js-based projects that you scan by using WhiteSource. Each project includes Package.json, Package-lock.json, and Npm-shrinkwrap.json files. You need to minimize the number of libraries reports by WhiteSource to only the libraries that you explicitly reference. What should you do?
@@ -750,7 +803,7 @@
 - [ ] Create a service connection for GitHub.
 - [x] From Import a Git repository, click Import.
 - [ ] Create a pull request.
-- [ ] Create a personal access token in Azure DevOps.
+- [ ] Create a Personal Access Token in Azure DevOps.
 
 ### Your company is building a mobile app that targets Android devices and OS devices. Your team uses Azure DevOps to manage all work items and release cycles. You need to recommend a solution to perform the following tasks. Collect crash reports for issue analysis. Distribute beta releases to your testers. Get user feedback on the functionality of new apps. What should you include in the recommendation?
 
@@ -775,7 +828,7 @@
 
 ### You are developing an open source solution that uses a GitHub repository. You create a new public project in Azure DevOps. You plan to use Azure Pipelines for continuous build. The solution will use the GitHub Checks API. Which authentication type should you use?
 
-- [ ] Personal access token.
+- [ ] Personal Access Token.
 - [ ] SAML.
 - [x] GitHub App.
 - [ ] OAuth.
@@ -794,7 +847,7 @@
 ### Your company uses cloud-hosted Jenkins for builds. You need to ensure that Jenkins can retrieve source code from Azure Repos. Which three actions should you perform?
 
 - [x] Add the Team Foundation Server (TFS) plug-in to Jenkins.
-- [x] Create a personal access token m your Azure DevOps account.
+- [x] Create a Personal Access Token m your Azure DevOps account.
 - [ ] Create a webhook in Jenkins.
 - [ ] Add a domain to your Jenkins account.
 - [x] Create a service hook m Azure DevOps.
@@ -925,7 +978,7 @@
 ### What will Azure DevOps use to authenticate with the tool?
 
 - [ ] Certificate authentication.
-- [x] Personal access token (PAT).
+- [x] Personal Access Token (PAT).
 - [ ] Shared Access Signature (SAS) token.
 - [ ] NTLM authentication.
 
@@ -1395,14 +1448,6 @@
 - [ ] Azure Advisor.
 - [x] Azure Security Center.
 
-### You have created an Azure DevOps project for a new application that will be deployed to a number of Windows Server 2016 Azure virtual machines. You are preparing a deployment solution that allows for the virtual machines to maintain a uniform configuration, and also keep administrative effort with regards to configuring the virtual machines to a minimum. Which of the following should be part of your solution? (Choose two.)
-
-- [x] Azure Resource Manager templates.
-- [ ] The PowerShell Desired State Configuration (DSC) extension for Windows.
-- [ ] Azure pipeline deployment groups.
-- [x] The Custom Script Extension for Windows.
-- [ ] Azure pipeline stage templates.
-
 ### Your company has an Azure DevOps project, which includes a build pipeline that makes use of roughly fifty open source libraries. You have been tasked with making sure that you are able to scan project for common security weaknesses in the open source libraries. Which of the following actions should you take?
 
 - [x] You should create a build task and use the WhiteSource Bolt service.
@@ -1416,13 +1461,6 @@
 - [ ] You should make use of views.
 - [ ] You should make use of dynamic code analysis.
 - [x] You should make use of upstream sources.
-
-### Your company hosts a web application in Azure, and makes use of Azure Pipelines for managing the build and release of the application. When stakeholders report that system performance has been adversely affected by the most recent releases, you configure alerts in Azure Monitor. You are informed that new releases must satisfy specified performance baseline conditions in the staging environment before they can be deployed to production. You need to make sure that releases not satisfying the performance baseline are prevented from being deployed. Which of the following actions should you take?
-
-- [ ] You should make use of a branch control check.
-- [ ] You should make use of an alert trigger.
-- [x] You should make use of a gate.
-- [ ] You should make use of an approval check.
 
 ### You are currently defining a release strategy for an app, named APP-01. The strategy should allow you to keep the time it takes to deploy new releases of the app to a minimum. The strategy should also allow you to roll back in the shortest time required. Which of the following is the release strategy you should use?
 
@@ -1655,7 +1693,7 @@
 - [ ] From Azure, create a shared access signature (SAS).
 - [x] From the build server, create a certificate, and then upload the certificate to Azure Storage.
 - [ ] From the build server, create a certificate, and then upload the certificate to Azure Key Vault.
-- [ ] From DevOps, create a personal access token (PAT).
+- [ ] From DevOps, create a Personal Access Token (PAT).
 - [x] From the build server, run config.cmd.
 
 ### You are developing an application. The application source has multiple branches. You make several changes to a branch used for experimentation. You need to update the main branch to capture the changes made to the experimentation branch and override the history of the Git repository. Which Git option should you use?
@@ -1730,16 +1768,6 @@
 - [ ] Automation & Control.
 - [x] IT Service Management Connector (ITSM).
 - [ ] Insight & Analytics.
-
-### You manage a project in Azure DevOps. You need to prevent the configuration of the project from changing over time. Solution: Implement Continuous Integration for the project. Does this meet the goal?
-
-- [ ] Yes.
-- [x] No.
-
-### You manage a project in Azure DevOps. You need to prevent the configuration of the project from changing over time. Solution: Add a code coverage step to the build pipelines. Does this meet the goal?
-
-- [ ] Yes.
-- [x] No.
 
 ### You need to configure an Azure web app named az400-9940427-main to contain an environmental variable named "MAX_ITEMS". The environmental variable must have a value of 50. To complete this task, sign in to the Microsoft Azure portal.
 
@@ -2058,19 +2086,14 @@
 - [ ] Box 1: Select the HTTP request trigger. Box 2: Select the Recurrence trigger. Box 3: Create an Azure logic app.
 - [ ] Box 1: Update the action group in Azure Monitor. Box 2: Create an Azure logic app. Box 3: Select the Recurrence trigger.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 that is configured for autoscaling. You have a project in Azure DevOps named Project1. Project1 is used to build a web app named App1 and deploy App1 to VMSS1. You need to ensure that an email alert is generated whenever VMSS1 scales in or out. Solution: From Azure DevOps, configure the Notifications settings for Project1. Does this meet the goal?
-
-- [ ] Yes
-- [x] No
-
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 that is configured for autoscaling. You have a project in Azure DevOps named Project1. Project1 is used to build a web app named App1 and deploy App1 to VMSS1. You need to ensure that an email alert is generated whenever VMSS1 scales in or out. Solution: From Azure Monitor, create an action group. Does this meet the goal?
+### You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 that is configured for autoscaling. You have a project in Azure DevOps named Project1. Project1 is used to build a web app named App1 and deploy App1 to VMSS1. You need to ensure that an email alert is generated whenever VMSS1 scales in or out. Solution: From Azure Monitor, create an action group. Does this meet the goal?
 
 - [x] Yes
 - [ ] No
 
 ### You plan to provision a self-hosted Linux agent. Which authentication mechanism should you use to register the self-hosted agent?
 
-- [x] personal access token (PAT)
+- [x] Personal Access Token (PAT)
 - [ ] SSH key
 - [ ] Alternate credentials
 - [ ] certificate
@@ -2085,7 +2108,7 @@
 
 ### You have an Azure DevOps organization named Contoso. You need to recommend an authentication mechanism that meets the following requirements: -> Supports authentication from Git -> Minimizes the need to provide credentials during authentication What should you recommend?
 
-- [x] personal access tokens (PATs) in Azure DevOps.
+- [x] Personal Access Tokens (PATs) in Azure DevOps.
 - [ ] Alternate credentials in Azure DevOps.
 - [ ] user accounts in Azure Active Directory (Azure AD).
 - [ ] managed identities in Azure Active Directory (Azure AD).\
@@ -2149,7 +2172,7 @@
 - [ ] User 1: Project Administrators. User 2: Stakeholders.
 - [ ] User 1: Contributors. User 2: Project Administrators.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You plan to update the Azure DevOps strategy of your company. You need to identify the following issues as they occur during the company's development process: -> Licensing violations -> Prohibited libraries Solution: You implement continuous deployment. Does this meet the goal?
+### You plan to update the Azure DevOps strategy of your company. You need to identify the following issues as they occur during the company's development process: -> Licensing violations -> Prohibited libraries Solution: You implement continuous deployment. Does this meet the goal?
 
 - [ ] Yes
 - [x] No
@@ -2199,12 +2222,12 @@
 
 ### You have an existing project in Azure DevOps. You plan to integrate GitHub as the repository for the project. You need to ensure that Azure Pipelines runs under the Azure Pipelines identity. Which authentication mechanism should you use?
 
-- [ ] personal access token (PAT)
+- [ ] Personal Access Token (PAT)
 - [x] GitHub App
 - [ ] Azure Active Directory (Azure AD)
 - [ ] OAuth
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. The lead developer at your company reports that adding new application features takes longer than expected due to a large accumulated technical debt. You need to recommend changes to reduce the accumulated technical debt. Solution: You recommend reducing the code coupling and the dependency cycles?Does this meet the goal?
+### The lead developer at your company reports that adding new application features takes longer than expected due to a large accumulated technical debt. You need to recommend changes to reduce the accumulated technical debt. Solution: You recommend reducing the code coupling and the dependency cycles?Does this meet the goal?
 
 - [ ] Yes
 - [x] No
@@ -2233,3 +2256,13 @@
 - [ ] Box 1: Create a fork. Box 2: Add an application access policy. Box 3: Add a build policy for the master branch.
 - [ ] Box 1: Create a repository. Box 2: Create a fork. Box 3: Add a build policy for the fork.
 - [x] Box 1: Create a repository. Box 2: Add a build policy for the master branch. Box 3: Create a branch.
+
+### Litware, Inc. an independent software vendor (ISV) Litware has a main office and five branch offices. Application Architecture The company' s primary application is a single monolithic retirement fund management system based on ASP.NE T web forms that use logic written in V8.NET. Some new sections of the application are written in C#. Variations of the application are created for individual customers. Currently, there are more than 80 have code branches in the application's code base. The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access of the source code by using TFS proxy servers. Architectural Issues Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, AS dependencies are not obvious to individual developers. Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve. Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive. Requirements Planned Changes Litware plans to develop a new suite of applications for investment planning. The investment planning Applications will require only minor integration with the easting retirement fund management system. The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers. Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of package. Litware has started an internal cloud transformation process and plans to use cloud based services whenever suitable. Litware wants to become proactive m detecting failures, rather than always waning for customer bug reports. Technical Requirements The company's investment planning applications suite must meet the following technical requirements: New incoming connections through the firewall must be minimized. Members of a group named Developers must be able to install packages. The principle of least privilege must be used for all permission assignments A branching strategy that supports developing new functionality in isolation must be used. Members of a group named Team leaders must be able to create new packages and edit the permissions of package feeds Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use. By default, all App Center must be used to centralize the reporting of mobile application crashes and device types in use. Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release. The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HUPS. The required operating system configuration tor the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test servers configured the same way when the servers are created and checked periodically. Current Technical. The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations. Azure Automation State Configuration nodes are registered by using the following command. You need to configure a cloud service to store the secrets required by the mobile applications to call the share pricing service. What should you include in the solution?
+
+![Question 11](images/question11.jpeg)
+![Question 92](images/question92.jpg)
+
+- [ ] Required secrets: Certificate. Storage location: Azure Data Lake.
+- [x] Required secrets: Shared Access Authorization token. Storage location: Azure Storage with HTTPS access.
+- [ ] Required secrets: Shared Access Authorization token. Storage location: Azure Storage with HTTPS access.
+- [ ] Required secrets: Username and password. Storage location: Azure Storage with HTTP access.
