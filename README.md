@@ -500,7 +500,7 @@
 - [ ] Box 1: Get-AzResource. Box 2: -ResourceId.
 - [ ] Box 1: Get-AzResourceGroup. Box 2: -Get-AzResource.
 
-### You have a project in Azure DevOps named Project1. Project! contains a pipeline that builds a container image named Image! and pushes Image1 to an Azure container registry named ACR1. Image! uses a base image stored in Docker Hub. You need to ensure that Image1 is updated automatically whenever the base image is updated. What should you do?
+### You have a project in Azure DevOps named Project1. Project1 contains a pipeline that builds a container image named Image1 and pushes Image1 to an Azure container registry named ACR1. Image1 uses a base image stored in Docker Hub. You need to ensure that Image1 is updated automatically whenever the base image is updated. What should you do?
 
 - [x] Create and run an Azure Container Registry task.
 - [ ] Add a Docker Hub service connection to Azure Pipelines.
@@ -509,19 +509,26 @@
 
 ### Your company has four projects. The version control requirements for each project are shown in the following table. You plan to use Azure Repos for all the projects. Which version control system should you use for each project?
 
-![Question 81](images/question81.jpg)
+![Question 69](images/question69.jpg)
 
-- [x] Project 1: Team Foundation Version Control.Project 2: Git.Project 3: Subversion.Project 4: Git.
-- [ ] Project 1: Git.Project 2: Perforce.Project 3: Subversion.Project 4: Team Foundation Version Control.
-- [ ] Project 1: Team Foundation Version Control.Project 2: Subversion.Project 3: Perforce.Project 4: Git.
-- [ ] Project 1: Subversion.Project 2: Perforce.Project 3: Team Foundation Version Control.Project 4: Git.
+- [ ] Project 1: Team Foundation Version Control. Project 2: Git. Project 3: Subversion. Project 4: Git.
+- [ ] Project 1: Git. Project 2: Perforce. Project 3: Subversion. Project 4: Team Foundation Version Control.
+- [x] Project 1: Team Foundation Version Control. Project 2: Git. Project 3: Git. Project 4: Team Foundation Version Control.
+- [ ] Project 1: Subversion. Project 2: Perforce. Project 3: Team Foundation Version Control. Project 4: Git.
+
+### Your company is building a new solution in Java. The company currently uses a SonarQube server to analyze the code of .NET solutions. You need to analyze and monitor the code quality of the Java solution. Which task types should you add to the build pipeline?
+
+- [ ] CocoaPods.
+- [ ] Xcode.
+- [x] Maven.
+- [ ] Gulp.
 
 ### Your company is building a new solution in Java. The company currently uses a SonarQube server to analyze the code of .NET solutions. You need to analyze and monitor the code quality of the Java solution. Which task types should you add to the build pipeline?
 
 - [ ] Chef.
 - [x] Gradle.
 - [ ] Octopus.
-- [ ] Gulp.
+- [ ] CocoaPods.
 
 ### Your development team is building a new web solution by using the Microsoft Visual Studio integrated development environment (IDE). You need to make a custom package available to all the developers. The package must be managed centrally, and the latest version must be available for consumption in Visual Studio automatically. Which three actions should you perform?
 
@@ -534,7 +541,7 @@
 
 ### You have an Azure Kubernetes Service (AKS) implementation that is RBAC-enabled. You plan to use Azure Container Instances as a hosted development environment to run containers in the AKS implementation. You need to configure Azure Container Instances as a hosted environment for running the containers in AKS. Which three actions should you perform in sequence?
 
-![Question 146](images/question146.jpg)
+![Question 73](images/question73.jpg)
 
 - [x] Box 1: Create a YAML file. Box 2: Run kubectl apply. Box 3: Run helm init.
 - [ ] Box 1: Run az role assignment create. Box 2: Create a YAML file. Box 3: Run helm init.
@@ -546,6 +553,14 @@
 - [ ] Yes.
 - [x] No.
 
+### Your company uses cloud-hosted Jenkins for builds. You need to ensure that Jenkins can retrieve source code from Azure Repos. Which three actions should you perform?
+
+- [x] Add the Team Foundation Server (TFS) plug-in to Jenkins.
+- [x] Create a Personal Access Token m your Azure DevOps account.
+- [ ] Create a webhook in Jenkins.
+- [x] Create a service hook in Azure DevOps.
+- [ ] Add a personal access token to your Jenkins account.
+
 ### Your company builds a multi tier web application. You use Azure DevOps and host the production application on Azure virtual machines. Your team prepares an Azure Resource Manager template of the virtual machine that you mil use to test new features. You need to create a staging environment in Azure that meets the following requirements: Minimizes the cost of Azure hosting. Provisions the virtual machines automatically. Use the custom Azure Resource Manager template to provision the virtual machines. What should you do?
 
 - [x] In Azure DevOps, configure new tasks in the release pipeline to create and delete the virtual machines m Azure DevTest Labs.
@@ -555,12 +570,19 @@
 
 ### Your company uses Team Foundation Server 2013 (TFS 2013). You plan to migrate to Azure DevOps. You need to recommend a migration strategy that meets the following requirements: Preserves the dates of Team Foundation Version Control changesets. Preserves the changes dates of work items revisions. Minimizes migration effort. Migrates all TFS artifacts. What should you recommend?
 
-![Question 91](images/question91.jpg)
+![Question 77](images/question77.jpg)
 
 - [x] On the TFS server: Upgrade TFS to the most recent RTW release. To perform the migration: Use the TFS Database Import Service.
 - [ ] On the TFS server: Install the TFS Java SDK. To perform the migration: Copy the assets manually.
 - [ ] On the TFS server: Upgrade to the most recent version of PowerShell Core. To perform the migration: Use the TFS Integration Platform.
 - [ ] On the TFS server: Install the TFS Java SDK. To perform the migration: Use the TFS Database Import Service.
+
+### Your company is currently making use of Team Foundation Server 2013 (TFS 2013), but intend to migrate to Azure DevOps. You have been tasked with supplying a migration approach that allows for the preservation of Team Foundation Version Control changesets dates, as well as the changes dates of work items revisions. The approach should also allow for the migration of all TFS artifacts, while keeping migration effort to a minimum. You have suggested upgrading TFS to the most recent RTW release. Which of the following should also be suggested?
+
+- [ ] Installing the TFS kava SDK.
+- [x] Using the TFS Database Import Service to perform the upgrade.
+- [ ] Upgrading PowerShell Core to the latest version.
+- [ ] Using the TFS Integration Platform to perform the upgrade.
 
 ### What should you use to implement the code quality restriction on the release pipeline for the investment planning applications suite?
 
@@ -673,13 +695,6 @@
 
 - [ ] Yes.
 - [x] No.
-
-### Your company is building a new solution in Java. The company currently uses a SonarQube server to analyze the code of .NET solutions. You need to analyze and monitor the code quality of the Java solution. Which task types should you add to the build pipeline?
-
-- [ ] Octopus.
-- [ ] Chef.
-- [x] Maven.
-- [ ] Grunt.
 
 ### You are developing a multi-tier application. The application will use Azure App Service web apps as the front end and an Azure SQL database as the back end. The application will use Azure functions to write some data to Azure Storage. You need to send the Azure DevOps team an email message when the front end fails to return a status code of 200. Which feature should you use?
 
@@ -843,14 +858,6 @@
 - [x] Azure Log Analytics.
 
 ### 258 NO IDEA
-
-### Your company uses cloud-hosted Jenkins for builds. You need to ensure that Jenkins can retrieve source code from Azure Repos. Which three actions should you perform?
-
-- [x] Add the Team Foundation Server (TFS) plug-in to Jenkins.
-- [x] Create a Personal Access Token m your Azure DevOps account.
-- [ ] Create a webhook in Jenkins.
-- [ ] Add a domain to your Jenkins account.
-- [x] Create a service hook m Azure DevOps.
 
 ### You need to recommend a Docker container build strategy that meets the following requirements: Minimizes image sizes. Minimizes the security surface area of the final image. What should you include in the recommendation?
 
@@ -1506,13 +1513,6 @@
 - [ ] Agile.
 - [ ] Scrum.
 - [x] CMMI.
-
-### Your company is currently making use of Team Foundation Server 2013 (TFS 2013), but intend to migrate to Azure DevOps. You have been tasked with supplying a migration approach that allows for the preservation of Team Foundation Version Control changesets dates, as well as the changes dates of work items revisions. The approach should also allow for the migration of all TFS artifacts, while keeping migration effort to a minimum. You have suggested upgrading TFS to the most recent RTW release. Which of the following should also be suggested?
-
-- [ ] Installing the TFS kava SDK.
-- [x] Using the TFS Database Import Service to perform the upgrade.
-- [ ] Upgrading PowerShell Core to the latest version.
-- [ ] Using the TFS Integration Platform to perform the upgrade.
 
 ### You have been tasked with strengthening the security of your team's development process. You need to suggest a security tool type for the Continuous Integration (CI) phase of the development process. Which of the following is the option you would suggest?
 
