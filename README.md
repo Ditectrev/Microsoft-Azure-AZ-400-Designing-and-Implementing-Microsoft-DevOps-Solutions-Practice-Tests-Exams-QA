@@ -4,7 +4,7 @@
 
 ### You plan to create a project in Azure DevOps. Multiple developers will work on the project. The developers will work offline frequently and will require access to the full project history while they are offline. Which version control solution should you use?
 
-- [ ] TortotseSVN.
+- [ ] TortoiseSVN.
 - [ ] Team Foundation Version Control.
 - [ ] Subversion.
 - [x] Git.
@@ -21,10 +21,10 @@
 ![Question 3 part 1](images/question3_12_22_34_35_40_41_43.jpg)
 ![Question 3 part 2](images/question3_2.jpg)
 
-- [x] Box 1: Create a repository. Box 2: Create a branch. Box 3: Add a build validation policy.
+- [x] Box 1: Create a repository. Box 2: Create a fork. Box 3: Add a build validation policy.
 - [ ] Box 1: Create a fork. Box 2: Create a branch. Box 3: Add a build validation policy.
 - [ ] Box 1: Create a repository. Box 2: Add a build policy. Box 3: Add a build validation policy.
-- [ ] Box 1: Add a build validation policy. Box 2: Add a build policy. Box 3: Create a fork.
+- [ ] Box 1: Create a repository. Box 2: Add a build policy. Box 3: Create a branch.
 
 ### Litware, Inc. an independent software vendor (ISV) Litware has a main office and five branch offices. Application Architecture The company' s primary application is a single monolithic retirement fund management system based on ASP.NE T web forms that use logic written in V8.NET. Some new sections of the application are written in C#. Variations of the application are created for individual customers. Currently, there are more than 80 have code branches in the application's code base. The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access of the source code by using TFS proxy servers. Architectural Issues Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, AS dependencies are not obvious to individual developers. Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve. Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive. Requirements Planned Changes Litware plans to develop a new suite of applications for investment planning. The investment planning Applications will require only minor integration with the easting retirement fund management system. The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers. Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of package. Litware has started an internal cloud transformation process and plans to use cloud based services whenever suitable. Litware wants to become proactive m detecting failures, rather than always waning for customer bug reports. Technical Requirements The company's investment planning applications suite must meet the following technical requirements: New incoming connections through the firewall must be minimized. Members of a group named Developers must be able to install packages. The principle of least privilege must be used for all permission assignments A branching strategy that supports developing new functionality in isolation must be used. Members of a group named Team leaders must be able to create new packages and edit the permissions of package feeds Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use. By default, all App Center must be used to centralize the reporting of mobile application crashes and device types in use. Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release. The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HUPS. The required operating system configuration tor the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test servers configured the same way when the servers are created and checked periodically. Current Technical. The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations. Azure Automation State Configuration nodes are registered by using the following command. How should you complete the code to initialize App Center in the mobile application?
 
@@ -587,39 +587,53 @@
 ### What should you use to implement the code quality restriction on the release pipeline for the investment planning applications suite?
 
 - [ ] Trigger.
-- [x] Pre deployment approval.
+- [ ] Pre-deployment approval.
 - [ ] Post-deployment approval.
-- [ ] Deployment gate.
+- [x] Deployment gate.
 
 ### You use Azure DevOps to manage the build and deployment of an app named App1. You have a release pipeline that deploys a virtual machine named VM1. You plan to monitor the release pipeline by using Azure Monitor You need to create an alert to monitor the performance of VM1. The alert must be triggered when the average CPU usage exceeds 70 percent for five minutes. The alert must calculate the average once every minute. How should you configure the alert rule?
 
-![Question 94](images/question94.jpg)
+![Question 80](images/question80.jpg)
 
 - [x] Aggregation granularity (Period): 5 minutes. Threshold value: Static. Operator: Greater than.
 - [ ] Aggregation granularity (Period): 1 minute. Threshold value: Static. Operator: Greater than.
 - [ ] Aggregation granularity (Period): 1 minute. Threshold value: Dynamic. Operator: Greater than.
 - [ ] Aggregation granularity (Period): 5 minutes. Threshold value: Dynamic. Operator: Less than.
 
+### You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 that is configured for autoscaling. You have a project in Azure DevOps named Project1. Project1 is used to build a web app named App1 and deploy App1 to VMSS1. You need to ensure that an email alert is generated whenever VMSS1 scales in or out. Solution: From Azure Monitor, create an action group. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
 ### You have a project in Azure DevOps. You plan to deploy a self-hosted agent by using an unattended configuration script. Which two values should you define in the configuration script?
 
 - [x] Authorization credentials.
 - [ ] Project name.
 - [ ] Deployment group name.
-- [x] Organization URLthe agent pool name.
+- [x] Organization URL.
 - [ ] Agent pool name.
 
 ### Your company has a project in Azure DevOps. You plan to create a release pipeline that will deploy resources by using Azure Resource Manager templates. The templates will reference secrets stored in Azure Key Vault. You need to recommend a solution for accessing the secrets stored in the key vault during deployments. The solution must use the principle of least privilege. What should you include in the recommendation?
 
-![Question 99](images/question99.jpg)
+![Question 83](images/question83.jpg)
 
 - [ ] Restrict access to delete the key vault: a Personal Access Token (PAT). Restrict access to the secrets in Key Vault by using: a Personal Access Token (PAT).
 - [ ] Restrict access to delete the key vault: a Personal Access Token (PAT). Restrict access to the secrets in Key Vault by using: RBAC.
-- [x] Restrict access to delete the key vault: an Azure Key Vault access policy. Restrict access to the secrets in Key Vault by using: RBAC.
-- [ ] Restrict access to delete the key vault: RBAC. Restrict access to the secrets in Key Vault by using: a Personal Access Token (PAT).
+- [ ] Restrict access to delete the key vault: an Azure Key Vault access policy. Restrict access to the secrets in Key Vault by using: RBAC.
+- [x] Restrict access to delete the key vault: RBAC. Restrict access to the secrets in Key Vault by using: an Azure Key Vault access policy.
+
+### You provision an Azure Kubernetes Service (AKS) cluster that has RBAC enabled. You have a Helm chart for a client application. You need to configure Helm and Tiller on the cluster and install the chart. Which three commands should you recommend be run in sequence?
+
+![Question 84](images/question84_85.jpg)
+
+- [ ] Box 1: helm init. Box 2: kubectl create. Box 3: helm install.
+- [x] Box 1: kubectl create. Box 2: helm init. Box 3: helm install.
+- [ ] Box 1: helm init. Box 2: helm serve. Box 3: helm completion.
+- [ ] Box 1: kubectl create. Box 2: helm init. Box 3: helm serve.
 
 ### You need to recommend a solution for deploying charts by using Helm and Tiller to Azure Kubernetes Service (AKS) in an RBAC-enabled cluster. Which three commands should you recommend be run in sequence?
 
-![Question 102](images/question102.jpg)
+![Question 85](images/question84_85.jpg)
 
 - [ ] Box 1: helm init. Box 2: kubectl create. Box 3: helm install.
 - [x] Box 1: kubectl create. Box 2: helm init. Box 3: helm install.
@@ -633,6 +647,13 @@
 - [ ] Modify the security settings of the pipelines.
 - [ ] Configure the security policy of Contoso.
 
+### You have an Azure DevOps organization named Contoso that contains a project named Project1. You provision an Azure key vault named Keyvault1. You need to reference Keyvault1 secrets in a build pipeline of Project1. What should you do first?
+
+- [ ] Add a secure file to Project1.
+- [ ] Create an XAML build service.
+- [x] Create a variable group in Project1.
+- [ ] Configure the security policy of Contoso.
+
 ### You have a project in Azure DevOps. You have an Azure Resource Group deployment project in Microsoft Visual Studio that is checked in to the Azure DevOps project. You need to create a release pipeline that will deploy resources by using Azure Resource Manager templates. The solution must minimize administrative effort. Which task type should you include in the solution?
 
 - [ ] Azure Cloud Service Deployment.
@@ -640,9 +661,14 @@
 - [x] Azure PowerShell.
 - [ ] Azure App Service Manage.
 
-### You need to use Azure Automation Sure Configuration to manage the ongoing consistency of virtual machine configurations. Which five actions should you perform in sequence?
+### You need to use Azure Automation State Configuration to manage the ongoing consistency of virtual machine configurations. Which five actions should you perform in sequence?
 
-(ANSWER PHOTO)
+![Question 89](images/question89.jpg)
+
+- [x] Box 1: Upload a configuration to Azure Automation State Configuration. Box 2: Compile a configuration into a node configuration. Box 3: Onboard the virtual machines to Azure Automation State Configuration. Box 4: Assign the node configuration. Box 5: Check the compliance status of the node.
+- [ ] Box 1: Onboard the virtual machines to Azure Automation State Configuration. Box 2: Assign tags to the virtual machines. Box 3: Upload a configuration to Azure Automation State Configuration. Box 4: Compile a configuration into a node configuration. Box 5: Assign the node configuration.
+- [ ] Box 1: Assign tags to the virtual machines. Box 2: Assign the node configuration. Box 3: Create a management group. Box 4: Check the compliance status of the node. Box 5: Onboard the virtual machines to Azure Automation State Configuration.
+- [ ] Box 1: Assign the node configuration. Box 2: Upload a configuration to Azure Automation State Configuration. Box 3: Compile a configuration into a node configuration. Box 4: Onboard the virtual machines to Azure Automation State Configuration. Box 5: Check the compliance status of the node.
 
 ### You are automating the build process for a Java-based application by using Azure DevOps. You need to add code coverage testing and publish the outcomes to the pipeline. What should you use?
 
@@ -997,25 +1023,6 @@
 - [ ] Project1: Assembla Subversion. Project2: GitHub Enterprise. Project3:Git in Azure Repos.
 - [ ] Project1: Bitbucket Cloud. Project2: Assembla Subversion. Project3: GitHub Enterprise.
 - [ ] Project1: GitHub Enterprise. Project2: Assembla Subversion. Project3: Git in Azure Repos.
-
-### You provision an Azure Kubernetes Service (AKS) cluster that has RBAC enabled. You have a Helm chart for a client application. You need to configure Helm and Tiller on the cluster and install the chart. Which three commands should you recommend be run in sequence?
-
-![Question 102](images/question102.jpg)
-
-- [ ] Box 1: helm init. Box 2: kubectl create. Box 3: helm install.
-- [x] Box 1: kubectl create. Box 2: helm init. Box 3: helm install.
-- [ ] Box 1: helm init. Box 2: helm serve. Box 3: helm completion.
-- [ ] Box 1: kubectl create. Box 2: helm init. Box 3: helm serve.
-
-### You need to use Azure Automation State Configuration to manage the ongoing consistency of virtual machine configurations. Which five actions should you perform in sequence?
-
-![Question 105](images/question105.jpg)
-
-- [ ] Box 1: Assign the node configuration. Box 2: Create a management group. Box 3: Assign tags to the virtual machines. Box 4: Upload a configuration to Azure Automation State Configuration. Box 5: Compile a configuration into a node configuration.
-- [ ] Box 1: Onboard the virtual machines to Azure Automation State Configuration. Box 2: Assign tags to the virtual machines. Box 3: Upload a configuration to Azure Automation State
-      Configuration. Box 4: Compile a configuration into a node configuration. Box 5: Assign the node configuration.
-- [ ] Box 1: Assign tags to the virtual machines. Box 2: Assign the node configuration. Box 3: Create a management group. Box 4: Check the compliance status of the node. Box 5: Onboard the virtual machines to Azure Automation State Configuration.
-- [x] Box 1: Assign the node configuration. Box 2: Upload a configuration to Azure Automation State Configuration. Box 3: Compile a configuration into a node configuration. Box 4: Onboard the virtual machines to Azure Automation State Configuration. Box 5: Check the compliance status of the node.
 
 ### You need to increase the security of your team's development process. Which type of security tool should you recommend for each stage of the development process?
 
@@ -2086,11 +2093,6 @@
 - [ ] Box 1: Select the HTTP request trigger. Box 2: Select the Recurrence trigger. Box 3: Create an Azure logic app.
 - [ ] Box 1: Update the action group in Azure Monitor. Box 2: Create an Azure logic app. Box 3: Select the Recurrence trigger.
 
-### You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 that is configured for autoscaling. You have a project in Azure DevOps named Project1. Project1 is used to build a web app named App1 and deploy App1 to VMSS1. You need to ensure that an email alert is generated whenever VMSS1 scales in or out. Solution: From Azure Monitor, create an action group. Does this meet the goal?
-
-- [x] Yes
-- [ ] No
-
 ### You plan to provision a self-hosted Linux agent. Which authentication mechanism should you use to register the self-hosted agent?
 
 - [x] Personal Access Token (PAT)
@@ -2137,13 +2139,6 @@
 - [ ] Box 1: Team Foundation Server / Azure Pipelines service connection. Box 2: Azure Active Directory Auth 2.0.
 - [x] Box 1: Team Foundation Server / Azure Pipelines service connection. Box 2: Managed Service Identity Authentication.
 - [ ] Box 1: Azure Active Directory Auth 2.0. Box 2: Managed Service Identity Authentication.
-
-### You have an Azure DevOps organization named Contoso that contains a project named Project1. You provision an Azure key vault named Keyvault1. You need to reference Keyvault1 secrets in a build pipeline of Project1. What should you do first?
-
-- [ ] Add a secure file to Project1.
-- [ ] Create an XAML build service.
-- [ ] Create a variable group in Project1.
-- [x] Configure the security policy of Contoso.
 
 ### You have the following Azure policy. You assign the policy to the Tenant root group. What is the effect of the policy?
 
@@ -2248,19 +2243,10 @@
 - [ ] Git rebase command.
 - [ ] GitHub Desktop.
 
-### ???
-
-![Question 83](images/question83.jpg)
-
-- [ ] Box 1: Create a repository. Box 2: Add an application access policy. Box 3: Create a branch.
-- [ ] Box 1: Create a fork. Box 2: Add an application access policy. Box 3: Add a build policy for the master branch.
-- [ ] Box 1: Create a repository. Box 2: Create a fork. Box 3: Add a build policy for the fork.
-- [x] Box 1: Create a repository. Box 2: Add a build policy for the master branch. Box 3: Create a branch.
-
 ### Litware, Inc. an independent software vendor (ISV) Litware has a main office and five branch offices. Application Architecture The company' s primary application is a single monolithic retirement fund management system based on ASP.NE T web forms that use logic written in V8.NET. Some new sections of the application are written in C#. Variations of the application are created for individual customers. Currently, there are more than 80 have code branches in the application's code base. The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access of the source code by using TFS proxy servers. Architectural Issues Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, AS dependencies are not obvious to individual developers. Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve. Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive. Requirements Planned Changes Litware plans to develop a new suite of applications for investment planning. The investment planning Applications will require only minor integration with the easting retirement fund management system. The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers. Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of package. Litware has started an internal cloud transformation process and plans to use cloud based services whenever suitable. Litware wants to become proactive m detecting failures, rather than always waning for customer bug reports. Technical Requirements The company's investment planning applications suite must meet the following technical requirements: New incoming connections through the firewall must be minimized. Members of a group named Developers must be able to install packages. The principle of least privilege must be used for all permission assignments A branching strategy that supports developing new functionality in isolation must be used. Members of a group named Team leaders must be able to create new packages and edit the permissions of package feeds Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use. By default, all App Center must be used to centralize the reporting of mobile application crashes and device types in use. Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release. The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HUPS. The required operating system configuration tor the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test servers configured the same way when the servers are created and checked periodically. Current Technical. The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations. Azure Automation State Configuration nodes are registered by using the following command. You need to configure a cloud service to store the secrets required by the mobile applications to call the share pricing service. What should you include in the solution?
 
 ![Question 11](images/question11.jpeg)
-![Question 92](images/question92.jpg)
+![Question 92](images/question922.jpg)
 
 - [ ] Required secrets: Certificate. Storage location: Azure Data Lake.
 - [x] Required secrets: Shared Access Authorization token. Storage location: Azure Storage with HTTPS access.
