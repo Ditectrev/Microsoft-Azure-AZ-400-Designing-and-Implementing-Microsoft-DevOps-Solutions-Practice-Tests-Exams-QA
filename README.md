@@ -686,16 +686,30 @@
 - [ ] Create an active subscription in App Center Test.
 - [ ] Add the device owner to the organization in App Center.
 
+### You have a private distribution group that contains provisioned and unprovisioned devices. You need to distribute a new iOS application to the distribution group by using Microsoft Visual Studio App Center. What should you do?
+
+- [x] Select Register devices and sign my app.
+- [ ] Create an active subscription in App Center Test.
+- [ ] Create an unsigned build.
+- [ ] Add the device owner to the collaborators group.
+
 ### Your company is concerned that when developers introduce open source libraries, it creates licensing compliance issues. You need to add an automated process to the build pipeline to detect when common open source libraries are added to the code base. What should you use?
 
-- [ ] PDM.
-- [ ] OWASPZAP.
-- [x] WhiteSource.
+- [ ] Code Style.
+- [ ] OWASP ZAP.
+- [x] WhiteSource Bolt.
 - [ ] Jenkins.
+
+### Your company is concerned that when developers introduce open source Libraries, it creates licensing compliance issues. You need to add an automated process to the build pipeline to detect when common open source libraries are added to the code base. What should you use?
+
+- [ ] SourceGear.
+- [ ] Microsoft Visual SourceSafe.
+- [x] Black Duck.
+- [ ] PDM.
 
 ### You are planning projects for three customers. Each customer's preferred process for work items is shown in the following table. The customers all plan to use Azure DevOps for work item management. Which work item process should you use for each customer?
 
-![Question 485](images/question485.jpg)
+![Question 95](images/question95.jpg)
 
 - [ ] Litware: XP. Contoso: CMMI. A. Datum: Agile.
 - [ ] Litware: Scrum. Contoso: Agile. A. Datum: CMMI.
@@ -708,6 +722,13 @@
 - [ ] Bamboo.
 - [ ] Microsoft Lync.
 - [x] Microsoft Teams.
+
+### Your company plans to use an agile approach to software development. You need to recommend an application to provide communication between members of the development team who work in locations around the world. The applications must meet the following requirements: Provide the ability to isolate the members of different project teams into separate communication channels and to keep a history of the chats within those channels. Be available on Windows 10, Mac OS, iOS, and Android operating systems. Provide the ability to add external contractors and suppliers to projects. Integrate directly with Azure DevOps. What should you recommend?
+
+- [ ] Skype for Business.
+- [ ] Bamboo.
+- [ ] Octopus.
+- [x] Slack.
 
 ### You have an Azure Resource Manager template that deploys a multi-tier application. You need to prevent the user who performs the deployment from viewing the account credentials and connection strings used by the application. What should you use?
 
@@ -722,14 +743,41 @@
 - [ ] Yes.
 - [x] No.
 
+### Your company has a project in Azure DevOps for a new web application. You need to ensure that when code is checked in, a build runs automatically. Solution: From the Pre-deployment conditions settings of the release pipeline, you select Batch changes while a build is in progress. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Your company has a project in Azure DevOps for a new web application. You need to ensure that when code is checked in, a build runs automatically. Solution: From the Pre-deployment conditions settings of the release pipeline, you select After stage. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
 ### You are developing a multi-tier application. The application will use Azure App Service web apps as the front end and an Azure SQL database as the back end. The application will use Azure functions to write some data to Azure Storage. You need to send the Azure DevOps team an email message when the front end fails to return a status code of 200. Which feature should you use?
 
 - [ ] Service Map in Azure Log Analytics.
 - [ ] Profiler in Azure Application Insights.
-- [ ] Availability tests in Azure Application Insights.
-- [x] Application Map in Azure Application Insights.
+- [x] Availability tests in Azure Application Insights.
+- [ ] Application Map in Azure Application Insights.
 
-### You have an approval process that contains a condition. The condition requires that releases be approved by a team leader before they are deployed. You have a poky stating that approvals must occur within eight hour. You discover that deployments fail if the approvals take longer than two hours. You need to ensure that the deployments only fail if the approvals take longer than eight hours. Solution: From Post-deployment conditions, you modify the Time between re-evaluation of gates option. Does this meet the goal?
+### You have a multi-tier application that has an Azure Web Apps front end and an Azure SQL Database back end. You need to recommend a solution to capture and store telemetry data. The solution must meet the following requirements: Support using ad-hoc queries to identify baselines. Trigger alerts when metrics in the baseline are exceeded. Store application and database metrics in a central location. What should you include in the recommendation?
+
+- [ ] Azure Event Hubs.
+- [ ] Azure SQL Database Intelligent Insights.
+- [ ] Azure Application Insights.
+- [x] Azure Log Analytics.
+
+### You have an approval process that contains a condition. The condition requires that releases be approved by a team leader before they are deployed. You have a policy stating that approvals must occur within eight hours. You discover that deployments fail if the approvals lake longer than two hours. You need to ensure that the deployments only fail if the approvals take longer than eight hours. Solution: From Post-deployment conditions, you modify the Time between re-evaluation of gates option. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You have an approval process that contains a condition. The condition requires that releases be approved by a team leader before they are deployed. You have a policy stating that approvals must occur within eight hours. You discover that deployments fail if the approvals lake longer than two hours. You need to ensure that the deployments only fail if the approvals take longer than eight hours. Solution: From Pre-deployment conditions, you modify the Time between re-evaluation of gates option. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You have an approval process that contains a condition. The condition requires that releases be approved by a team leader before they are deployed. You have a policy stating that approvals must occur within eight hours. You discover that deployments fail if the approvals lake longer than two hours. You need to ensure that the deployments only fail if the approvals take longer than eight hours. Solution: From Post-deployment conditions, you modify the Timeout setting for post-deployment approvals. Does this meet the goal?
 
 - [ ] Yes.
 - [x] No.
@@ -860,13 +908,6 @@
 - [ ] Adding users.
 - [ ] Assigning entitlements.
 
-### Your company is concerned that when developers introduce open source Libraries, it creates licensing compliance issues. You need to add an automated process to the build pipeline to detect when common open source libraries are added to the code base. What should you use?
-
-- [ ] Code Style.
-- [ ] Microsoft Visual SourceSafe.
-- [x] Black Duck.
-- [ ] Jenkins.
-
 ### You are developing an open source solution that uses a GitHub repository. You create a new public project in Azure DevOps. You plan to use Azure Pipelines for continuous build. The solution will use the GitHub Checks API. Which authentication type should you use?
 
 - [ ] Personal Access Token.
@@ -875,13 +916,6 @@
 - [ ] OAuth.
 
 ### question 229 NO IDEA
-
-### You have multi-tier application that h« an Azure Web Apps front end and art Azure SQL Datable back end. You need to recommend a solution to capture and store telemetry data. The solution must meet the following requirements: Support using ad-hoc queries to identify baselines. Trigger alerts when metrics in the baseline are exceeded. Store application and database metrics in a central location. What should you include in the recommendation?
-
-- [ ] Azure Application Insights.
-- [ ] Azure SQL Database Intelligent Insights.
-- [ ] Azure Event Hubs.
-- [x] Azure Log Analytics.
 
 ### 258 NO IDEA
 
@@ -1113,16 +1147,6 @@
 - [ ] Developers: Contributor. Team Leaders: Owner.
 - [ ] Developers: Contributor. Team Leaders: Collaborator.
 
-### Your company has a project in Azure DevOps for a new web application. You need to ensure that when code is checked in, a build runs automatically. Solution: From the Pre-deployment conditions settings of the release pipeline, you select Batch changes while a build is in progress. Does this meet the goal?
-
-- [ ] Yes.
-- [x] No.
-
-### Your company has a project in Azure DevOps for a new web application. You need to ensure that when code is checked in, a build runs automatically. Solution: From the Pre-deployment conditions settings of the release pipeline, you select After stage. Does this meet the goal?
-
-- [ ] Yes.
-- [x] No.
-
 ### Your company uses Azure DevOps for the build pipelines and deployment pipelines of Java-based projects. You need to recommend a strategy for managing technical debt. Which two actions should you include in the recommendation?
 
 - [ ] Configure post-deployment approvals in the deployment pipeline.
@@ -1351,11 +1375,6 @@
 - [x] Register additional self-hosted agents.
 - [ ] Purchase self-hosted parallel jobs.
 - [ ] Purchase Microsoft-hosted parallel jobs.
-
-### You have an approval process that contains a condition. The condition requires that releases be approved by a team leader before they are deployed. You have a policy stating that approvals must occur within eight hours. You discover that deployment fail if the approvals take longer than two hours. You need to ensure that the deployments only fail if the approvals take longer than eight hours. Solution: From Post-deployment conditions, you modify the Timeout setting for post-deployment approvals. Does this meet the goal?
-
-- [ ] Yes.
-- [x] No.
 
 ### You have several apps that use an Azure SQL Database named db1. You need to ensure that queries to db1 are tuned by Azure over time. The solution must only apply to db1. To complete this task, sign in to the Microsoft Azure portal.
 
@@ -1794,11 +1813,6 @@
 - [ ] Yes.
 - [x] No.
 
-### You have an approval process that contains a condition. The condition requires that releases be approved by a team leader before they are deployed. You have a policy stating that approvals must occur within eight hours. You discover that deployment fail if the approvals take longer than two hours. You need to ensure that the deployments only fail if the approvals take longer than eight hours. Solution: From Pre-deployment conditions, you modify the Time between re-evaluation of gates option. Does this meet the goal?
-
-- [x] Yes.
-- [ ] No.
-
 ### You plan to create a release pipeline that will deploy Azure resources by using Azure Resource Manager templates. The release pipeline will create the following resources: Two resource groups Four Azure virtual machines in one resource group Two Azure SQL databases in other resource group You need to recommend a solution to deploy the resources. Solution: Create a main template that will deploy the resources in one resource group and a nested template that will deploy the resources in the other resource group. Does this meet the goal?
 
 - [ ] Yes.
@@ -1831,13 +1845,6 @@
 
 - [ ] Yes.
 - [x] No.
-
-### Your company plans to use an agile approach to software development. You need to recommend an application to provide communication between members of the development team who work in locations around the world. The applications must meet the following requirements: Provide the ability to isolate the members of different project teams into separate communication channels and to keep a history of the chats within those channels. Be available on Windows 10, Mac OS, iOS, and Android operating systems. Provide the ability to add external contractors and suppliers to projects. Integrate directly with Azure DevOps. What should you recommend?
-
-- [ ] Microsoft Project.
-- [ ] Bamboo.
-- [ ] Octopus.
-- [x] Slack.
 
 ### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You run the Register-AzureRmAutomationDscNode command in your company's environment. You need to make sure that your company's test servers remain correctly configured, regardless of configuration drift. Solution: You set the -ConfigurationMode parameter to ApplyOnly. Does the solution meet the goal?
 
@@ -2010,13 +2017,6 @@
 - [x] Add a readiness probe to the YAML configuration of App1.
 - [ ] Use Connection Monitor in Azure Network Watcher.
 - [ ] Use IP flow verify in Azure Network Watcher.
-
-### You have a multi-tier application that has an Azure Web Apps front end and an Azure SQL Database back end. You need to recommend a solution to capture and store telemetry data. The solution must meet the following requirements: Support using ad-hoc queries to identify baselines. Trigger alerts when metrics in the baseline are exceeded. Store application and database metrics in a central location. What should you include in the recommendation?
-
-- [ ] Azure Event Hubs.
-- [ ] Azure SQL Database Intelligent Insights.
-- [ ] Azure Application Insights.
-- [x] Azure Log Analytics.
 
 ### You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 that is configured for autoscaling. You use Azure DevOps to build a web app named App1 and deploy App1 to VMSS1. App1 is used heavily and has usage patterns that vary on a weekly basis. You need to recommend a solution to detect an abnormal rise in the rate of failed requests to App1. The solution must minimize administrative effort. What should you include in the recommendation?
 
