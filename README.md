@@ -438,9 +438,9 @@
 ### You have created an Azure DevOps project for a new application that will be deployed to a number of Windows Server 2016 Azure virtual machines. You are preparing a deployment solution that allows for the virtual machines to maintain a uniform configuration, and also keep administrative effort with regards to configuring the virtual machines to a minimum. Which of the following should be part of your solution? (Choose two.)
 
 - [x] Azure Resource Manager templates.
-- [x] The PowerShell Desired State Configuration (DSC) extension for Windows.
+- [x] PowerShell Desired State Configuration (DSC) extension for Windows.
 - [ ] Azure pipeline deployment groups.
-- [ ] The Custom Script Extension for Windows.
+- [ ] Custom Script Extension for Windows.
 - [ ] Azure pipeline stage templates.
 
 ### You use Azure SQL Database Intelligent Insights and Azure Application Insights for monitoring. You need to write ad-hoc queries against the monitoring data. Which query language should you use?
@@ -894,12 +894,12 @@
 - [ ] Configure the File System Agent plug in.
 - [ ] Delete Package lock.json.
 - [ ] Configure the Artifactory plug-in.
-- [x] Add a devDependencies section to Package-lock.json.
+- [x] Add a devDependencies section to Package.json.
 
 ### Your company develops a client banking application that processes a large volume of data. Code quality is an ongoing issue for the company. Recently, the code quality has deteriorated because of an increase in time pressure on the development team. You need to implement static code analysis. During which phase should you use static code analysis?
 
-- [ ] Build.
-- [x] Production release.
+- [x] Build.
+- [ ] Production release.
 - [ ] Staging.
 - [ ] Integration testing.
 
@@ -915,8 +915,15 @@
 
 - [ ] Jenkins integration.
 - [ ] Azure Application Insights widgets.
-- [x] The Microsoft Test & Feedback extension.
-- [ ] Microsoft Visual Studio App Center integration.
+- [ ] Microsoft Test & Feedback extension.
+- [x] Microsoft Visual Studio App Center integration.
+
+### You are in the process of building a mobile app aimed at Android and iOS devices. All work items and release cycles are managed via Azure DevOps. You want to make sure that crash reports for issue analysis is collected, and that beta releases are distributed to your testers. Also, you want to ensure that user feedback on the functionality of new apps is received. Which of the following must be part of your solution?
+
+- [x] Microsoft Test & Feedback extension.
+- [ ] OWASP ZAP.
+- [ ] TFS Integration Platform.
+- [ ] Code Style.
 
 ### You manage build pipelines and deployment pipelines by using Azure DevOps. Your company has a team of 500 developers. New members are added continual lo the team You need to automate me management of users and licenses whenever possible. Which task must you perform manually?
 
@@ -1447,13 +1454,6 @@
 - [ ] Box 1: Service hooks. Box 2: A Microsoft-hosted agent.
 - [ ] Box 1: Service hooks. Box 2: A Microsoft-hosted agent.
 - [x] Box 1: A self-hosted agent. Box 2: An External Git service connection.
-
-### You are in the process of building a mobile app aimed at Android and iOS devices. All work items and release cycles are managed via Azure DevOps. You want to make sure that crash reports for issue analysis is collected, and that beta releases are distributed to your testers. Also, you want to ensure that user feedback on the functionality of new apps is received. Which of the following must be part of your solution?
-
-- [x] The Microsoft Test & Feedback extension.
-- [ ] OWASP ZAP.
-- [ ] TFS Integration Platform.
-- [ ] Code Style.
 
 ### Your company makes use of Azure SQL Database Intelligent Insights and Azure Application Insights for monitoring purposes. You have been tasked with analyzing the monitoring using ad-hoc queries. You need to utilize the correct query language. Solution: You use Azure Log Analytics. Does the solution meet the goal?
 
