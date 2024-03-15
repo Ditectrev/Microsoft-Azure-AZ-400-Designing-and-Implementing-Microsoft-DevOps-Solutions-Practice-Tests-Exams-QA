@@ -925,12 +925,19 @@
 - [ ] TFS Integration Platform.
 - [ ] Code Style.
 
-### You manage build pipelines and deployment pipelines by using Azure DevOps. Your company has a team of 500 developers. New members are added continual lo the team You need to automate me management of users and licenses whenever possible. Which task must you perform manually?
+### You manage build pipelines and deployment pipelines by using Azure DevOps. Your company has a team of 500 developers. New members are added continually to the team. You need to automate the management of users and licenses whenever possible. Which task must you perform manually?
 
-- [x] Modifying group memberships.
-- [ ] Procuring licenses.
+- [ ] Modifying group memberships.
+- [x] Procuring licenses.
 - [ ] Adding users.
 - [ ] Assigning entitlements.
+
+### You are making use of Azure DevOps manage build pipelines, and also deploy pipelines. The development team is quite large, and is regularly added to. You have been informed that the management of users and licenses must be automated when it can be. Which of the following is a task that can't be automated?
+
+- [ ] Group membership changes.
+- [ ] License assignment.
+- [ ] Assigning entitlements.
+- [x] License procurement.
 
 ### You are developing an open source solution that uses a GitHub repository. You create a new public project in Azure DevOps. You plan to use Azure Pipelines for continuous build. The solution will use the GitHub Checks API. Which authentication type should you use?
 
@@ -973,16 +980,7 @@
 - [ ] Single fork per team member.
 - [x] Single long-running branch with multiple short-lived topic branches.
 
-### You are configuring a release pipeline in Azure DevOps as shown in the exhibit.
-
-![Question 542](images/question542.jpg)
-
-- [x] Box 1: 7. Box 2: The Web Application artifact.
-- [ ] Box 1: 0. Box 2: The Production stage.
-- [ ] Box 1: 2. Box 2: The Develooment stage.
-- [ ] Box 1: 5. Box 2: The Production stage.
-
-### What should the project use to automate the authentication?
+### You plan to use a NuGet package in a project in Azure DevOps. The NuGet package is in a feed that requires authentication. You need to ensure that the project can restore the NuGet package automatically. What should the project use to automate the authentication?
 
 - [ ] Azure Automation account.
 - [x] Azure Artifacts Credential Provider.
@@ -1532,13 +1530,6 @@
 - [x] Static code analysis.
 - [ ] Threat modeling.
 - [ ] Dynamic code analysis.
-
-### You are making use of Azure DevOps manage build pipelines, and also deploy pipelines. The development team is quite large, and is regularly added to. You have been informed that the management of users and licenses must be automated when it can be. Which of the following is a task that can't be automated?
-
-- [ ] Group membership changes.
-- [ ] License assignment.
-- [ ] Assigning entitlements.
-- [x] License procurement.
 
 ### You need to consider the underlined segment to establish whether it is accurate. The Burnup widget measures the elapsed time from creation of work items to their completion.
 
@@ -2170,13 +2161,6 @@
 - [ ] Box 1: In Pipeline1, create a variable. Box 2: Create a service principal in Azure Active Directory. Box 3: Create a service principal in Azure Active Directory.
 - [ ] Box 1: In Project1, create a service connection. Box 2: Create a system-assigned managed identity in Azure Active Directory. Box 3: In Pipeline1, create a variable.
 
-### You plan to use a NuGet package in a project in Azure DevOps. The NuGet package is in a feed that requires authentication. You need to ensure that the project can restore the NuGet package automatically. What should the project use to automate the authentication?
-
-- [ ] an Azure Automation account.
-- [x] an Azure Artifacts Credential Provider.
-- [ ] an Azure Active Directory (Azure AD) account that has multi-factor authentication (MFA) enabled.
-- [ ] an Azure Active Directory (Azure AD) service principal.
-
 ### You use Azure Pipelines to manage project builds and deployments. You plan to use Azure Pipelines for Microsoft Teams to notify the legal team when a new build is ready for release. You need to configure the Organization Settings in Azure DevOps to support Azure Pipelines for Microsoft Teams. What should you turn on?
 
 - [x] Third-party application access via OAuth.
@@ -2228,3 +2212,12 @@
 - [ ] Replace the Register-AzureRmAutomationDscNode cmdlet with Register-AzureRmAutomationScheduledRunbook.
 - [ ] Add the AllowModuleOverwrite parameter.
 - [ ] Add the DefaultProfile parameter.
+
+### You are configuring a release pipeline in Azure DevOps as shown in the exhibit.
+
+![Question 542](images/question542.jpg)
+
+- [x] Box 1: 7. Box 2: The Web Application artifact.
+- [ ] Box 1: 0. Box 2: The Production stage.
+- [ ] Box 1: 2. Box 2: The Develooment stage.
+- [ ] Box 1: 5. Box 2: The Production stage.
