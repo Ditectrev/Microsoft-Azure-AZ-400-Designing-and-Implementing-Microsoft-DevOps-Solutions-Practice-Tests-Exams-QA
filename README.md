@@ -26,7 +26,7 @@
 - [ ] Box 1: Create a repository. Box 2: Add a build policy. Box 3: Add a build validation policy.
 - [ ] Box 1: Create a repository. Box 2: Add a build policy. Box 3: Create a branch.
 
-### Litware, Inc. an independent software vendor (ISV) Litware has a main office and five branch offices. Application Architecture The company' s primary application is a single monolithic retirement fund management system based on ASP.NE T web forms that use logic written in V8.NET. Some new sections of the application are written in C#. Variations of the application are created for individual customers. Currently, there are more than 80 have code branches in the application's code base. The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access of the source code by using TFS proxy servers. Architectural Issues Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, AS dependencies are not obvious to individual developers. Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve. Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive. Requirements Planned Changes Litware plans to develop a new suite of applications for investment planning. The investment planning Applications will require only minor integration with the easting retirement fund management system. The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers. Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of package. Litware has started an internal cloud transformation process and plans to use cloud based services whenever suitable. Litware wants to become proactive m detecting failures, rather than always waning for customer bug reports. Technical Requirements The company's investment planning applications suite must meet the following technical requirements: New incoming connections through the firewall must be minimized. Members of a group named Developers must be able to install packages. The principle of least privilege must be used for all permission assignments A branching strategy that supports developing new functionality in isolation must be used. Members of a group named Team leaders must be able to create new packages and edit the permissions of package feeds Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use. By default, all App Center must be used to centralize the reporting of mobile application crashes and device types in use. Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release. The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HUPS. The required operating system configuration tor the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test servers configured the same way when the servers are created and checked periodically. Current Technical. The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations. Azure Automation State Configuration nodes are registered by using the following command. How should you complete the code to initialize App Center in the mobile application?
+### Litware, Inc. an independent software vendor (ISV) Litware has a main office and five branch offices. Application Architecture The company' s primary application is a single monolithic retirement fund management system based on ASP.NE T web forms that use logic written in V8.NET. Some new sections of the application are written in C#. Variations of the application are created for individual customers. Currently, there are more than 80 have code branches in the application's code base. The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access of the source code by using TFS proxy servers. Architectural Issues Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, AS dependencies are not obvious to individual developers. Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve. Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive. Requirements Planned Changes Litware plans to develop a new suite of applications for investment planning. The investment planning Applications will require only minor integration with the easting retirement fund management system. The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers. Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of package. Litware has started an internal cloud transformation process and plans to use cloud based services whenever suitable. Litware wants to become proactive m detecting failures, rather than always waning for customer bug reports. Technical Requirements The company's investment planning applications suite must meet the following technical requirements: New incoming connections through the firewall must be minimized. Members of a group named Developers must be able to install packages. The principle of least privilege must be used for all permission assignments A branching strategy that supports developing new functionality in isolation must be used. Members of a group named Team leaders must be able to create new packages and edit the permissions of package feeds Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use. By default, all App Center must be used to centralize the reporting of mobile application crashes and device types in use. Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release. The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HUPS. The required operating system configuration tor the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test servers configured the same way when the servers are created and checked periodically. The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations. Azure Automation State Configuration nodes are registered by using the following command. How should you complete the code to initialize App Center in the mobile application?
 
 ![Question 4](images/question4.jpg)
 
@@ -784,12 +784,12 @@
 
 ### You use Azure Artifacts to host NuGet packages that you create. You need to make one of the packages available to anonymous users outside your organization. The solution must minimize the number of publication points. What should you do?
 
-- [x] Create a new feed for the package.
-- [ ] Publish the package to a public NuGet repository.
+- [ ] Create a new feed for the package.
+- [x] Publish the package to a public NuGet repository.
 - [ ] Promote the package to a release view.
 - [ ] Change the feed URL of the package.
 
-### Your company creates a web application. You need to recommend a solution that automatically sends to Microsoft Teams a dairy summary of the exceptions that occur m the application. Which two Azure services should you recommend?
+### Your company creates a web application. You need to recommend a solution that automatically sends to Microsoft Teams a daily summary of the exceptions that occur m the application. Which two Azure services should you recommend?
 
 - [ ] Microsoft Visual Studio App Center.
 - [ ] Azure DevOps Project.
@@ -797,12 +797,21 @@
 - [ ] Azure PipelinesAzure Application Insights.
 - [x] Azure Application Insights.
 
+### You have recently created a web application for your company. You have been tasked with making sure that a summary of the exceptions that transpire in the application is automatically sent to Microsoft Teams on a daily basis. Which of the following Azure services should you use?
+
+![Question 109](images/question109.jpg)
+
+- [x] Azure Logic Apps, Azure Application Insights.
+- [ ] Azure Application Insights, Azure DevOps Project.
+- [ ] Azure DevOps Project, Azure Pipelines.
+- [ ] Azure Logic Apps, Azure Pipelines.
+
 ### Your company has a project in Azure DevOps for a new web application. The company identifies security as one of the highest priorities. You need to recommend a solution to minimize the likelihood that infrastructure credentials will be leaked. What should you recommend?
 
 - [ ] Add a Run Inline Azure PowerShell task to the pipeline.
 - [ ] Add a PowerShell task to the pipeline and run Set-AzureKeyVaultSecret.
-- [x] Add a Azure Key Vault task to the pipeline.
-- [ ] Add Azure Key Vault references to Azure Resource Manger templates.
+- [ ] Add a Azure Key Vault task to the pipeline.
+- [x] Add Azure Key Vault references to Azure Resource Manger templates.
 
 ### Your company has a hybrid cloud between Azure and Azure Stack. The company uses Azure DevOps for its CI/CD pipelines. Some applications are built by using Erlang and Hack. You need to ensure that Erlang and Hack are supported as part of the build strategy across the hybrid cloud. The solution must minimize management overhead. What should you use to execute the build pipeline?
 
@@ -813,11 +822,11 @@
 
 ### You plan to create an image that will contain a .NET Core application. You have a Dockerfile file that contains the following code. You need to ensure that the image is as small as possible when the image is built. Which line should you modify in the file?
 
-![Question 136](images/question136.jpg)
+![Question 112](images/question112.png)
 
-- [x] 1.
+- [ ] 1.
 - [ ] 3.
-- [ ] 4.
+- [x] 4.
 - [ ] 7.
 
 ### Your company develops an app for iOS. All users of the app have devices that are members of a private distribution group in Microsoft Visual Studio App Center. You plan to distribute a new release of the app. You need to identify which certificate file you require to distribute the new release from App Center. Which file type should you upload to App Center?
@@ -829,28 +838,17 @@
 
 ### Your company has a prefect in Azure DevOps for a new web application. You need to ensure that when code is checked in, a build runs automatically. Solution: from the Triggers tab of the build pipeline, you select Enable continuous integration Does this meet the goal?
 
-- [ ] Yes.
-- [x] No.
-
-### You have an Azure Kubermets Service (AKS) implementation that is RBAC-enabled. You plan to use Azure Container Instances as a hosted development environment to run containers in the AKS implementation. You need to conjure Azure Container Instances as a hosted environment for running me containers in AKS. Which three actions should you perform m sequence?
-
-(ANSWER PHOTO)
+- [x] Yes.
+- [ ] No.
 
 ### You have a project Azure DevOps. You plan to create a build pipeline that will deploy resources by using Azure Resource Manager templates. The templates will reference secretes stored in Azure Key Vault. You need to ensure that you can dynamically generate the resource ID of the key vault during template deployment. What should you include in the template?
 
-![Question 150](images/question150.jpg)
+![Question 115](images/question115.jpg)
 
 - [ ] Box 1: Microsoft.KeyVault/vaults. Box 2: templateLink.
-- [x] Box 1: Microsoft Resources/deployment. Box 2: templateLink.
+- [x] Box 1: Microsoft.Resources/deployment. Box 2: templateLink.
 - [ ] Box 1: Microsoft.KeyVault/vaults. Box 2: deployment.
 - [ ] Box 1: templateLink. Box 2: deployment.
-
-### To resolve the current technical issue, what should you do to the Register-AzureRmAutomationDscNode command?
-
-- [x] Change the value of the ConfigurationMode parameter.
-- [ ] Replace the Register-AzureRmAutomationDscNode cmdlet with Register-AzureRmAutomationScheduledRunbook.
-- [ ] Add the AllowModuleOverwrite parameter.
-- [ ] Add the DefaultProfile parameter.
 
 ### Which branching strategy should you recommend for the investment planning applications suite?
 
@@ -859,14 +857,37 @@
 - [ ] Development isolation.
 - [x] Feature isolation.
 
+### You intend to make use of Azure Artifacts to share packages that you wrote, tested, validated, and deployed. You want to use a solitary feed to release several builds of each package. You have to make sure that the release of packages that are in development is restricted. Which of the following actions should you take?
+
+- [ ] You should make use of static code analysis.
+- [x] You should make use of views.
+- [ ] You should make use of dynamic code analysis.
+- [ ] You should make use of upstream sources.
+
 ### You plan to share packages that you wrote, tested, validated, and deployed by using Azure Artifacts. You need to release multiple builds of each package by using a single feed. The solution must limit the release of packages that are in development. What should you use?
 
 - [ ] Global symbols.
 - [ ] Local symbols.
-- [x] Upstream sources.
-- [ ] Views.
+- [ ] Upstream sources.
+- [x] Views.
 
-### question 166 NO IDEA
+### You need to configure access to Azure DevOps agent pools to meet the following requirements: Use a project agent pool when authoring build release pipelines. View the agent pool and agents of the organization. Use the principle of least privilege. Which role memberships are required for the Azure DevOps organization and the project?
+
+![Question 119](images/question119.jpg)
+
+- [ ] Organization: Service Account. Project: Administrator.
+- [ ] Organization: User. Project: Service Account.
+- [x] Organization: Reader. Project: User.
+- [ ] Organization: Reader. Project: Service Account.
+
+### Your company has an Azure subscription. The company requires that all resource groups in the subscription have a tag named organization set to a value of Contoso. You need to implement a policy to meet the tagging requirement. How should you complete the policy?
+
+![Question 120](images/question120.jpg)
+
+- [ ] Box 1: "Deny". Box 2: "Microsoft Resources/subscriptions/resourceGroups".
+- [ ] Box 1: "Append". Box 2: "Microsoft Resources/subscriptions/resourceGroups".
+- [x] Box 1: "Microsoft Resources/subscriptions/resourceGroups". Box 2: "Append".
+- [ ] Box 1: "Microsoft Resources/subscriptions/resourceGroups". Box 2: "Deny".
 
 ### You have 50 Node.js-based projects that you scan by using WhiteSource. Each project includes Package.json, Package-lock.json, and Npm-shrinkwrap.json files. You need to minimize the number of libraries reports by WhiteSource to only the libraries that you explicitly reference. What should you do?
 
@@ -875,16 +896,12 @@
 - [ ] Configure the Artifactory plug-in.
 - [x] Add a devDependencies section to Package-lock.json.
 
-### question 174 NO IDEA
-
 ### Your company develops a client banking application that processes a large volume of data. Code quality is an ongoing issue for the company. Recently, the code quality has deteriorated because of an increase in time pressure on the development team. You need to implement static code analysis. During which phase should you use static code analysis?
 
 - [ ] Build.
 - [x] Production release.
 - [ ] Staging.
 - [ ] Integration testing.
-
-### 197 NO IDEA
 
 ### You have a GitHub repository. You create a new repository in Azure DevOps. You need to recommend a procedure to clone the repository from GitHub to Azure DevOps. What should you recommend?
 
@@ -914,10 +931,6 @@
 - [ ] SAML.
 - [x] GitHub App.
 - [ ] OAuth.
-
-### question 229 NO IDEA
-
-### 258 NO IDEA
 
 ### You need to recommend a Docker container build strategy that meets the following requirements: Minimizes image sizes. Minimizes the security surface area of the final image. What should you include in the recommendation?
 
@@ -986,15 +999,6 @@
 - [ ] Ten virtual machines hosted in Azure: A resource group. Ten virtual machines hosted in an on-premises data center environment: A management group.
 - [x] Ten virtual machines hosted in Azure: A deployment group. Ten virtual machines hosted in an on-premises data center environment: A deployment group.
 - [ ] Ten virtual machines hosted in Azure: Application roles. Ten virtual machines hosted in an on-premises data center environment: A resource group.
-
-### You need to configure access to Azure DevOps agent pools to meet the following requirements: Use a project agent pool when authoring build or release pipelines. View the agent pool and agents of the organization. Use the principle of least privilege. Which role memberships are required for the Azure DevOps organization and the project?
-
-![Question 185](images/question185.jpg)
-
-- [ ] Organization: Service Account. Project: Administrator.
-- [ ] Organization: User. Project: Service Account.
-- [ ] Organization: Administrator. Project: User.
-- [x] Organization: Reader. Project: Service Account.
 
 ### You need to recommend project metrics for dashboards in Azure DevOps. Which chart widgets should you recommend for each metric?
 
@@ -1124,8 +1128,6 @@
 - [x] win1803.
 - [ ] macOS-10.13.
 - [ ] vs.2015-win2012r2.
-
-### You need to configure access to Azure DevOps Agent pooh to meet the forwarding requirements: Use a project agent pool when authoring build release pipelines. View the agent pool and agents of the organization. Use the principle of least privilege. Which role memberships are required for the Azure 0e%Oos organization and the project?
 
 ### Your company is building a new web application.
 
@@ -1428,15 +1430,6 @@
 - [x] Create an Azure Service Health alert.
 - [x] Create and configure an action group.
 
-### You have recently created a web application for your company. You have been tasked with making sure that a summary of the exceptions that transpire in the application is automatically sent to Microsoft Teams on a daily basis. Which of the following Azure services should you use?
-
-![Question 554](images/question554.jpg)
-
-- [x] Box 1: Azure Logic Apps. Box 2: Azure Application Insights.
-- [ ] Box 1: Azure Application Insights. Box 2: Azure Logic Apps.
-- [ ] Box 1: Azure DevOps Project. Box 2: Azure Pipelines.
-- [ ] Box 1: Azure Logic Apps. Box 2: Azure Application Insights.
-
 ### You are preparing to deploy an Azure resource group via Terraform. To achieve your goal, you have to install the necessary frameworks. Which of the following are the frameworks you should use?
 
 ![Question 555](images/question555.jpg)
@@ -1487,13 +1480,6 @@
 - [ ] You should create a deployment task and use the WhiteSource Bolt service.
 - [ ] You should create a build task and use the Chef service.
 - [ ] You should create a deployment task and use the Chef service.
-
-### You intend to make use of Azure Artifacts to share packages that you wrote, tested, validated, and deployed. You want to use a solitary feed to release several builds of each package. You have to make sure that the release of packages that are in development is restricted. Which of the following actions should you take?
-
-- [ ] You should make use of static code analysis.
-- [ ] You should make use of views.
-- [ ] You should make use of dynamic code analysis.
-- [x] You should make use of upstream sources.
 
 ### You are currently defining a release strategy for an app, named APP-01. The strategy should allow you to keep the time it takes to deploy new releases of the app to a minimum. The strategy should also allow you to roll back in the shortest time required. Which of the following is the release strategy you should use?
 
@@ -1779,14 +1765,6 @@
 - [ ] Modify the WhiteSource Bolt policy and set the action for the licenses used by the development tools to Reassign.
 - [x] Modify the devDependencies section of the project's Package.json file.
 - [ ] Configure WhiteSource Bolt to scan the node_modules directory only.
-
-### Your company creates a web application. You need to recommend a solution that automatically sends to Microsoft Teams a daily summary of the exceptions that occur in the application. Which two Azure services should you recommend?
-
-- [x] Azure Logic Apps.
-- [ ] Azure Pipelines.
-- [ ] Microsoft Visual Studio App Center.
-- [ ] Azure DevOps Project.
-- [x] Azure Application Insights.
 
 ### Your company uses ServiceNow for incident management. You develop an application that runs on Azure. The company needs to generate a ticket in ServiceNow when the application fails to authenticate. Which Azure Log Analytics solution should you use?
 
@@ -2172,15 +2150,6 @@
 - [ ] Yes
 - [x] No
 
-### HOTSPOT - Your company has an Azure subscription. The company requires that all resource groups in the subscription have a tag named organization set to a value of Contoso. You need to implement a policy to meet the tagging requirement. How should you complete the policy? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
-
-![Question 589](images/question589.jpg)
-
-- [ ] Box 1: "Deny". Box 2: "Microsoft Resources/subscriptions/resourceGroups".
-- [ ] Box 1: "Deny". Box 2: "Microsoft Resources/subscriptions/resourceGroups".
-- [ ] Box 1: "Microsoft Resources/deployments". Box 2: "Append".
-- [x] Box 1: "Microsoft Resources/subscriptions/resourceGroups". Box 2: "Deny".
-
 ### You have an Azure DevOps project named Project1 and an Azure subscription named Sub1. You need to prevent releases from being deployed unless the releases comply with the Azure Policy rules assigned to Sub1. What should you do in the release pipeline of Project1?
 
 - [x] Add a deployment gate.
@@ -2243,7 +2212,7 @@
 - [ ] Git rebase command.
 - [ ] GitHub Desktop.
 
-### Litware, Inc. an independent software vendor (ISV) Litware has a main office and five branch offices. Application Architecture The company' s primary application is a single monolithic retirement fund management system based on ASP.NE T web forms that use logic written in V8.NET. Some new sections of the application are written in C#. Variations of the application are created for individual customers. Currently, there are more than 80 have code branches in the application's code base. The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access of the source code by using TFS proxy servers. Architectural Issues Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, AS dependencies are not obvious to individual developers. Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve. Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive. Requirements Planned Changes Litware plans to develop a new suite of applications for investment planning. The investment planning Applications will require only minor integration with the easting retirement fund management system. The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers. Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of package. Litware has started an internal cloud transformation process and plans to use cloud based services whenever suitable. Litware wants to become proactive m detecting failures, rather than always waning for customer bug reports. Technical Requirements The company's investment planning applications suite must meet the following technical requirements: New incoming connections through the firewall must be minimized. Members of a group named Developers must be able to install packages. The principle of least privilege must be used for all permission assignments A branching strategy that supports developing new functionality in isolation must be used. Members of a group named Team leaders must be able to create new packages and edit the permissions of package feeds Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use. By default, all App Center must be used to centralize the reporting of mobile application crashes and device types in use. Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release. The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HUPS. The required operating system configuration tor the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test servers configured the same way when the servers are created and checked periodically. Current Technical. The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations. Azure Automation State Configuration nodes are registered by using the following command. You need to configure a cloud service to store the secrets required by the mobile applications to call the share pricing service. What should you include in the solution?
+### Litware, Inc. an independent software vendor (ISV) Litware has a main office and five branch offices. Application Architecture The company' s primary application is a single monolithic retirement fund management system based on ASP.NE T web forms that use logic written in V8.NET. Some new sections of the application are written in C#. Variations of the application are created for individual customers. Currently, there are more than 80 have code branches in the application's code base. The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access of the source code by using TFS proxy servers. Architectural Issues Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, AS dependencies are not obvious to individual developers. Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve. Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive. Requirements Planned Changes Litware plans to develop a new suite of applications for investment planning. The investment planning Applications will require only minor integration with the easting retirement fund management system. The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers. Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of package. Litware has started an internal cloud transformation process and plans to use cloud based services whenever suitable. Litware wants to become proactive m detecting failures, rather than always waning for customer bug reports. Technical Requirements The company's investment planning applications suite must meet the following technical requirements: New incoming connections through the firewall must be minimized. Members of a group named Developers must be able to install packages. The principle of least privilege must be used for all permission assignments A branching strategy that supports developing new functionality in isolation must be used. Members of a group named Team leaders must be able to create new packages and edit the permissions of package feeds Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use. By default, all App Center must be used to centralize the reporting of mobile application crashes and device types in use. Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release. The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HUPS. The required operating system configuration tor the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test servers configured the same way when the servers are created and checked periodically. The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations. Azure Automation State Configuration nodes are registered by using the following command. You need to configure a cloud service to store the secrets required by the mobile applications to call the share pricing service. What should you include in the solution?
 
 ![Question 11](images/question11.jpeg)
 ![Question 92](images/question922.jpg)
@@ -2252,3 +2221,10 @@
 - [x] Required secrets: Shared Access Authorization token. Storage location: Azure Storage with HTTPS access.
 - [ ] Required secrets: Shared Access Authorization token. Storage location: Azure Storage with HTTPS access.
 - [ ] Required secrets: Username and password. Storage location: Azure Storage with HTTP access.
+
+### To resolve the current technical issue, what should you do to the Register-AzureRmAutomationDscNode command?
+
+- [x] Change the value of the ConfigurationMode parameter.
+- [ ] Replace the Register-AzureRmAutomationDscNode cmdlet with Register-AzureRmAutomationScheduledRunbook.
+- [ ] Add the AllowModuleOverwrite parameter.
+- [ ] Add the DefaultProfile parameter.
