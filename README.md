@@ -1139,32 +1139,45 @@
 - [x] Groups to control the build access: Microsoft Visual Studio App Center distribution groups. Group type: Shared.
 - [ ] Groups to control the build access: Active Directory groups. Group type: Shared.
 
-### Which parts of the taxonomy should you enable the team to perform autonomously?
+### Your company has 60 developers who are assigned to four teams. Each team has 15 members. The company uses an agile development methodology. You need to structure the work of the development teams so that each team owns their respective work while working together to reach a common goal. Which parts of the taxonomy should you enable the team to perform autonomously?
 
-- [x] Features and Tasks.
+- [ ] Features and Tasks.
 - [ ] Initiatives and Epics.
 - [ ] Epics and Features.
-- [ ] Stories and Tasks.
+- [x] Stories and Tasks.
 
-### Which Azure DevOps component should you use?
+### Your company has an Azure DevOps project, The source code for the project is stored in an on-premises repository and uses on an on-premises build server. You plan to use Azure DevOps to control the build process on the build server by using a self-hosted agent. You need to implement the self-hosted agent. You download and install the agent on the build server. Which two actions should you perform next?
+
+- [ ] From Azure, create a shared access signature (SAS).
+- [ ] From the build server, create a certificate, and then upload the certificate to Azure Storage.
+- [ ] From the build server, create a certificate, and then upload the certificate to Azure Key Vault.
+- [x] From DevOps, create a Personal Access Token (PAT).
+- [x] From the build server, run config.cmd.
+
+### Your company creates a new Azure DevOps team. You plan to use Azure DevOps for sprint planning. You need to visualize the flow of your work by using an agile methodology. Which Azure DevOps component should you use?
 
 - [x] Kanban boards.
 - [ ] sprint planning.
 - [ ] delivery plans.
 - [ ] portfolio backlogs.
 
-### You need to create the distribution groups shown in the following table.
+### You are implementing an Azure DevOps strategy for mobile devices using App Center. You plan to use distribution groups to control access to releases. You need to create the distribution groups shown in the following table. Which type of distribution group should you use for each group?
 
-### You are implementing an Azure DevOps strategy for mobile devices using App Center. You plan to use distribution groups to control access to releases.
+![Question 157](images/question157.jpg)
 
-![Question 546](images/question546.jpg)
+- [ ] Group 1: Shared. Group 2: Public. Group 3: Private.
+- [ ] Group 1: Private. Group 2: Shared. Group 3: Public.
+- [x] Group 1: Private. Group 2: Public. Group 3: Shared.
+- [ ] Group 1: Public. Group 2: Shared. Group 3: Private.
 
-- [x] Group1: Private. Group2: Public. Group3: Shared.
-- [ ] Group1: Shared. Group2: Private. Group3: Public.
-- [ ] Group1: Public. Group2: Shared. Group3: Private.
-- [ ] Group1: Private. Group2: Shared. Group3: Public.
+### Your company is building a new web application. You plan to collect feedback from pilot users on the features being delivered. All the pilot users have a corporate computer that has Google Chrome and the Microsoft Test & Feedback extension installed. The pilot users will test the application by using Chrome. You need to identify which access levels are required to ensure that developers can request and gather feedback from the pilot users. The solution must use the principle of least privilege. Which access levels in Azure DevOps should you identify?
 
-### You need to identify which access levels are required to ensure that developers can request and gather feedback from the pilot users. The solution must use the principle of least privilege. Which access levels m Azure DevOps should you identify?
+![Question 158](images/question158.jpg)
+
+- [x] Developers: Basic. Pilot users: Stakeholder.
+- [ ] Developers: Stakeholder. Pilot users: Basic.
+- [ ] Developers: Stakeholder. Pilot users: Stakeholder.
+- [ ] Developers: Basic. Pilot users: Basic.
 
 ### Your company has a project in Azure DevOps. You need to ensure that when there are multiple builds pending deployment, only the most recent build is deployed. What should you use?
 
@@ -1173,24 +1186,23 @@
 - [ ] Release gates.
 - [ ] Pull request triggers.
 
-### You have an Azure DevOps organization named Contoso and an Azure DevOps project named Project1. You plan to use Microsoft-hosted agents to build container images that will host full Microsoft .NET Framework apps in a YAML pipeline in Project1. What are two possible virtual machine images that you can use for the Microsoft-hosted agent pool? Each correct answer presents a complete solution.
+### You have an Azure DevOps organization named Contoso and an Azure DevOps project named Project1. You plan to use Microsoft-hosted agents to build container images that will host full Microsoft .NET Framework apps in a YAML pipeline in Project1. What are two possible virtual machine images that you can use for the Microsoft-hosted agent pool?
 
-- [ ] vs2017-win2016.
-- [x] ubuntu-16.04.
-- [x] win1803.
+- [x] windows-2019.
+- [x] ubuntu-22.04.
+- [ ] win1803.
 - [ ] macOS-10.13.
 - [ ] vs.2015-win2012r2.
 
-### Your company is building a new web application.
+### You are configuring a release pipeline in Azure DevOps as shown in the exhibit.
 
-### You plan to collect feedback from pilot users on the features being delivered. All the pilot users have a corporate computer that has Google Chrome and the Microsoft Test & Feedback extension installed. The pilot users will test the application by using Chrome.
+![Question 161 part 1](images/question161_1.jpg)
+![Question 161 part 2](images/question161_2.png)
 
-![Question 154](images/question154.jpg)
-
-- [x] Developers: Basic. Pilot users: Stakeholder.
-- [ ] Developers: Stakeholder. Pilot users: Basic.
-- [ ] Developers: Stakeholder. Pilot users: Stakeholder.
-- [ ] Developers: Basic. Pilot users: Basic.
+- [x] How many stages have triggers set?: 7. Which component should you modify to enable continuous delivery?: The Web Application artifact.
+- [ ] How many stages have triggers set?: 0. Which component should you modify to enable continuous delivery?: The Production stage.
+- [ ] How many stages have triggers set?: 2. Which component should you modify to enable continuous delivery?: The Develooment stage.
+- [ ] How many stages have triggers set?: 7. Which component should you modify to enable continuous delivery?: The Internal Review stage.
 
 ### Which package feed access levels should be assigned to the Developers and Team Leaders groups for the investment planning applications suite?
 
@@ -1727,14 +1739,6 @@
 - [ ] Box 1: Create a PowerShell configuration file. Box 2: Load the file to Azure Blob storage. Box 3: Load the file to Azure Files.
 - [ ] Box 1: Load the file to Azure Files. Box 2: Load the file to Azure Blob storage. Box 3: Create a PowerShell configuration file.
 
-### Your company has an Azure DevOps project, The source code for the project is stored in an on-premises repository and uses on an on-premises build server. You plan to use Azure DevOps to control the build process on the build server by using a self-hosted agent. You need to implement the self-hosted agent. You download and install the agent on the build server. Which two actions should you perform next?
-
-- [ ] From Azure, create a shared access signature (SAS).
-- [x] From the build server, create a certificate, and then upload the certificate to Azure Storage.
-- [ ] From the build server, create a certificate, and then upload the certificate to Azure Key Vault.
-- [ ] From DevOps, create a Personal Access Token (PAT).
-- [x] From the build server, run config.cmd.
-
 ### You are developing an application. The application source has multiple branches. You make several changes to a branch used for experimentation. You need to update the main branch to capture the changes made to the experimentation branch and override the history of the Git repository. Which Git option should you use?
 
 - [ ] Rebase.
@@ -2241,12 +2245,3 @@
 - [ ] Replace the Register-AzureRmAutomationDscNode cmdlet with Register-AzureRmAutomationScheduledRunbook.
 - [ ] Add the AllowModuleOverwrite parameter.
 - [ ] Add the DefaultProfile parameter.
-
-### You are configuring a release pipeline in Azure DevOps as shown in the exhibit.
-
-![Question 542](images/question542.jpg)
-
-- [x] Box 1: 7. Box 2: The Web Application artifact.
-- [ ] Box 1: 0. Box 2: The Production stage.
-- [ ] Box 1: 2. Box 2: The Develooment stage.
-- [ ] Box 1: 5. Box 2: The Production stage.
