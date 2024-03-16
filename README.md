@@ -700,7 +700,7 @@
 - [x] WhiteSource Bolt.
 - [ ] Jenkins.
 
-### Your company is concerned that when developers introduce open source Libraries, it creates licensing compliance issues. You need to add an automated process to the build pipeline to detect when common open source libraries are added to the code base. What should you use?
+### Your company is concerned that when developers introduce open source libraries, it creates licensing compliance issues. You need to add an automated process to the build pipeline to detect when common open source libraries are added to the code base. What should you use?
 
 - [ ] SourceGear.
 - [ ] Microsoft Visual SourceSafe.
@@ -989,16 +989,16 @@
 
 ### You are implementing a package management solution for a Node.js application by using Azure Artifacts. You need to configure the development environment to connect to the package repository. The solution must minimize the likelihood that credentials will be leaked. Which file should you use to configure each connection?
 
-![Question 184](images/question184.jpg)
+![Question 135](images/question135.jpg)
 
-- [ ] Feed registry information: The npmrc file in the user's home folder. Credentials: The npmrc file in the project.
+- [ ] Feed registry information: The .npmrc file in the user's home folder. Credentials: The .npmrc file in the project.
 - [ ] Feed registry information: The Package.json file in the project. Credentials: The Project.json file in the project.
-- [ ] Feed registry information: The Project.json file in the project. Credentials: The npmrc file in the project.
-- [x] Feed registry information: The npmrc file in the project. Credentials: The npmrc file in the user's home folder.
+- [ ] Feed registry information: The Project.json file in the project. Credentials: The .npmrc file in the project.
+- [x] Feed registry information: The .npmrc file in the project. Credentials: The .npmrc file in the user's home folder.
 
-### Your company plans to deploy an application to the following endpoints: Ten virtual machines hosted in Azure. Ten virtual machines hosted in an on-premises data center environment. All the virtual machines have the- Azure Pipelines agent. You need to implement a release strategy for deploying the application to the endpoints. What should you recommend using to deploy the application to the endpoints?
+### Your company plans to deploy an application to the following endpoints: Ten virtual machines hosted in Azure. Ten virtual machines hosted in an on-premises data center environment. All the virtual machines have the Azure Pipelines agent. You need to implement a release strategy for deploying the application to the endpoints. What should you recommend using to deploy the application to the endpoints?
 
-![Question 174](images/question174.jpg)
+![Question 136](images/question136.jpg)
 
 - [ ] Ten virtual machines hosted in Azure: A management group. Ten virtual machines hosted in an on-premises data center environment: Application roles.
 - [ ] Ten virtual machines hosted in Azure: A resource group. Ten virtual machines hosted in an on-premises data center environment: A management group.
@@ -1007,44 +1007,72 @@
 
 ### You need to recommend project metrics for dashboards in Azure DevOps. Which chart widgets should you recommend for each metric?
 
-![Question 197](images/question197.jpg)
+![Question 137](images/question137.jpg)
 
-- [ ] The elapsed time from the creation of work items to their completion: Burndown. The elapsed time to complete work items once they are active: . The remaining work: Cycle Time.
+- [ ] The elapsed time from the creation of work items to their completion: Burndown. The elapsed time to complete work items once they are active: Lead Time. The remaining work: Cycle Time.
 - [ ] The elapsed time from the creation of work items to their completion: Cycle Time. The elapsed time to complete work items once they are active: Burndown. The remaining work: Lead Time.
-- [ ] The elapsed time from the creation of work items to their completion: Velocity. The elapsed time to complete work items once they are active: Burndown. The remaining work: Cycle Time.
+- [x] The elapsed time from the creation of work items to their completion: Lead Time. The elapsed time to complete work items once they are active: Cycle Time. The remaining work: Burndown.
 - [ ] The elapsed time from the creation of work items to their completion: Burndown. The elapsed time to complete work items once they are active: Lead Time. The remaining work: Velocity.
 
-### What should you use?
+### You need to consider the underlined segment to establish whether it is accurate. To find when common open source libraries are added to the code base, you should add [Jenkins] to the build pipeline.
+
+- [ ] No adjustment required.
+- [ ] SourceGear Vault.
+- [x] WhiteSource.
+- [ ] OWASP ZAP.
+
+### Your company is concerned that when developers introduce open source libraries, it creates licensing compliance issues. You need to add an automated process to the build pipeline to detect when common open source libraries are added to the code base. What should you use?
 
 - [ ] SourceGear Vault.
 - [ ] Jenkins.
 - [ ] Microsoft Visual SourceSafe.
 - [x] WhiteSource Bolt.
 
-### You need to ensure that the https://contoso.com/statushook webhook is called every time a repository named az40010480345acr1 receives a new version of an image named dotnetapp. To complete this task, sign in to the Microsoft Azure portal.
+### You have several apps that use an Azure SQL Database named db1. You need to ensure that queries to db1 are tuned by Azure over time. The solution must only apply to db1. To complete this task, sign in to the Microsoft Azure portal.
 
-![Question 553](images/question553.jpg)
+- [x] 1. To enable automatic tuning on a single database, navigate to the database in the Azure portal and select Automatic tuning. 2. Select the automatic tuning options you want to enable and select Apply.
+![Question 140 answer](images/question140_answer.jpg)
 
-### You need to ensure that an Azure web app named az400-9940427-main can retrieve secrets from an Azure key vault named az400-9940427-kv1 by using a system managed identity. The solution must use the principle of least privilege. To complete this task, sign in to the Microsoft Azure portal.
+### You need to ensure that the https://contoso.com/statushook webhook is called every time a repository named az400123456789acr1 receives a new version of an image named dotnetapp. To complete this task, sign in to the Microsoft Azure portal.
 
-![Question 574](images/question574.jpg)
+- [x] 1. Sign in to the Azure portal. 2. Navigate to the container registry az400123456789acr1. 3. Under Services, select Webhooks. 4. Select the existing webhook https://contoso.com/statushook, and double-click on it to get its properties. 5. For Trigger actions select image push.
+![Question 141 answer](images/question141_answer.jpg)
 
-- [x] Set up staging environments in Azure App Service.
+### You need to ensure that an Azure web app named az400-123456789-main can retrieve secrets from an Azure key vault named az400-123456789-kv1 by using a system managed identity. The solution must use the principle of least privilege. To complete this task, sign in to the Microsoft Azure portal.
+
+- [x] 1. In Azure portal navigate to the az400-123456789-main app. 2. Scroll down to the Settings group in the left navigation. 3. Select Managed identity. 4. Within the System assigned tab, switch Status to On. Click Save.
+![Question 142 answer](images/question142_answer.jpg)
+
+### You have an Azure key vault named KV1 and three web servers. You plan to deploy an app named App1 to the web servers. You need to ensure that App1 can retrieve a secret from KV1. The solution must meet the following requirements: Minimize the number of permission grants required. Follow the principle of least privilege. What should you include in the solution?
+
+- [ ] Role-based access control (RBAC) permission.
+- [ ] System-assigned managed identity.
+- [x] User-assigned managed identity.
+- [ ] Service principal.
 
 ### You need to create deployment files for an Azure Kubernetes Service (AKS) cluster. The deployments must meet the provisioning storage requirements shown in the following table.
 
-![Question 530](images/question530.jpg)
+![Question 144 part 1](images/question144_145_1.jpg)
+![Question 144 part 2](images/question144_2.jpeg)
 
 - [ ] Deployment 1: azurekeyvault-flexvolume. Deployment 2: blobfuse-flexvol. Deployment 3: volume.beta.kubernetes.io/storage-provisioner.
 - [ ] Deployment 1: kubernetes.io/azure-disk. Deployment 2: kubernetes.io/azure-file. Deployment 3: volume.beta.kubernetes.io/storage-provisioner.
 - [ ] Deployment 1: azurekeyvault-flexvolume. Deployment 2: blobfuse-flexvol. Deployment 3: kubernetes.io/azure-file.
 - [x] Deployment 1: kubernetes.io/azure-file. Deployment 2: kubernetes.io/azure-disk. Deployment 3: azurekeyvault-flexvolume.
 
-### You need to design a branching model for the new functionality. Which branch lifetime and branch time should you use in the branching model?
+### You need to create deployment files for an Azure Kubernetes Service (AKS) cluster. The deployments must meet the provisioning storage requirements shown in the following table.
 
-### Your company uses Git as a source code control system for a complex app named App1. You plan to add a new functionality to App1.
+![Question 145 part 1](images/question144_145_1.jpg)
+![Question 145 part 2](images/question145_2.png)
 
-![Question 525](images/question525.jpg)
+- [ ] Deployment 1: blobfuse-flexvol. Deployment 2: blobfuse-flexvol. Deployment 3: volume.beta.kubernetes.io/storage-provisioner.
+- [ ] Deployment 1: provisioner: kubernetes.io/azure-disk. Deployment 2: provisioner: kubernetes.io/azure-file. Deployment 3: volume.beta.kubernetes.io/storage-provisioner.
+- [ ] Deployment 1: driver: secrets-store.csi.k8s.io. Deployment 2: blobfuse-flexvol. Deployment 3: provisioner: kubernetes.io/azure-file.
+- [x] Deployment 1: provisioner: kubernetes.io/azure-file. Deployment 2:  provisioner: kubernetes.io/azure-disk. Deployment 3: driver: secrets-store.csi.k8s.io.
+
+### Your company uses Git as a source code control system for a complex app named App1. You plan to add a new functionality to App1. You need to design a branching model for the new functionality. Which branch lifetime and branch time should you use in the branching model?
+
+![Question 146](images/question146.jpg)
 
 - [ ] Branch lifetime: Long-lived. Branch type: Feature.
 - [ ] Branch lifetime: Short-lived. Branch type: Integration.
@@ -1382,10 +1410,6 @@
 - [x] Register additional self-hosted agents.
 - [ ] Purchase self-hosted parallel jobs.
 - [ ] Purchase Microsoft-hosted parallel jobs.
-
-### You have several apps that use an Azure SQL Database named db1. You need to ensure that queries to db1 are tuned by Azure over time. The solution must only apply to db1. To complete this task, sign in to the Microsoft Azure portal.
-
-![Question 549](images/question549.jpg)
 
 ### You plan to implement a CI/CD strategy for an Azure Web App named az400-11566895-main. You need to configure a staging environment for az400-11566895-main. To complete this task, sign in to the Microsoft Azure portal.
 
@@ -1840,13 +1864,6 @@
 - [ ] security.
 - [x] deployment.
 - [ ] resource.
-
-### You need to consider the underlined segment to establish whether it is accurate. To find when common open source libraries are added to the code base, you should add Jenkins to the build pipeline. Select No adjustment required if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
-
-- [ ] No adjustment required.
-- [ ] SourceGear Vault
-- [x] WhiteSource
-- [ ] OWASP ZAP
 
 ### You need to consider the underlined segment to establish whether it is accurate. Black Duck can be used to make sure that all the open source libraries conform to your company's licensing criteria. Select No adjustment required if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
 
