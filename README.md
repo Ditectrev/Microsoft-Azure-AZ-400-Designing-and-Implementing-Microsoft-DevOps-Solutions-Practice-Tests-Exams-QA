@@ -1079,7 +1079,7 @@
 - [x] Branch lifetime: Short-lived. Branch type: Feature.
 - [ ] Branch lifetime: Long-lived. Branch type: Integration.
 
-### What will Azure DevOps use to authenticate with the tool?
+### You store source code in a Git repository in Azure Repos. You use a third-party continuous integration (CI) tool to control builds. What will Azure DevOps use to authenticate with the tool?
 
 - [ ] Certificate authentication.
 - [x] Personal Access Token (PAT).
@@ -1088,32 +1088,51 @@
 
 ### You are configuring Azure Pipelines for three projects in Azure DevOps as shown in the following table. Which version control system should you recommend for each project?
 
-![Question 527](images/question527.jpg)
+![Question 148 part 1](images/question148_1.jpg)
+![Question 148 part 2](images/question148_2.png)
 
-- [x] Project1: Git in Azure Repos. Project2: GitHub Enterprise. Project3: Bitbucket Cloud.
-- [ ] Project1: Assembla Subversion. Project2: GitHub Enterprise. Project3:Git in Azure Repos.
+- [ ] Project1: Git in Azure Repos. Project2: GitHub Enterprise. Project3: Bitbucket Cloud.
+- [x] Project1: Git in Azure Repos. Project2: GitHub Enterprise. Project3: Subversion.
 - [ ] Project1: Bitbucket Cloud. Project2: Assembla Subversion. Project3: GitHub Enterprise.
 - [ ] Project1: GitHub Enterprise. Project2: Assembla Subversion. Project3: Git in Azure Repos.
 
+### You have been tasked with strengthening the security of your team's development process. You need to suggest a security tool type for the Continuous Integration (CI) phase of the development process. Which of the following is the option you would suggest?
+
+- [ ] Penetration Testing.
+- [x] Static Code Analysis.
+- [ ] Threat Modeling.
+- [ ] Dynamic Code Analysis.
+
 ### You need to increase the security of your team's development process. Which type of security tool should you recommend for each stage of the development process?
 
-![Question 180](images/question180.jpg)
+![Question 150](images/question150.jpg)
 
-- [x] Pull request: Threat modeling. Continuous integration: Static code analysis. Continuous delivery: Penetration testing.
-- [ ] Pull request: Static code analysis. Continuous integration: Threat modeling. Continuous delivery: Penetration testing.
+- [ ] Pull request: Threat modeling. Continuous integration: Static code analysis. Continuous delivery: Penetration testing.
+- [ ] Pull request: Static code analysis. Continuous integration: Static code analysis. Continuous delivery: Penetration testing.
 - [ ] Pull request: Penetration testing. Continuous integration: Threat modeling. Continuous delivery: Static code analysis.
 - [ ] Pull request: Static code analysis. Continuous integration: Penetration testing. Continuous delivery: Threat modeling.
 
 ### You plan to use Azure Kubernetes Service (AKS) to host containers deployed from images hosted in a Docker Trusted Registry. You need to recommend a solution for provisioning and connecting to AKS. The solution must ensure that AKS is RBAC-enabled and uses a custom service principal. Which three commands should you recommend be run in sequence?
 
-- [x] Box 1: az aks create. Box 2: az ad sp create-for-rbac. Box 3: kubectl create.
+![Question 151](images/question151.jpg)
+
+- [ ] Box 1: az aks create. Box 2: az ad sp create-for-rbac. Box 3: kubectl create.
 - [ ] Box 1: kubectl create. Box 2: az aks get-credentials. Box 3: az ad sp create-for-rbac.
-- [ ] Box 1: az ad sp create-for-rbac. Box 2: az aks get-credentials. Box 3: az aks create.
+- [x] Box 1: az ad sp create-for-rbac. Box 2: az aks create. Box 3: az role assignment create.
 - [ ] Box 1: az aks create. Box 2: az role assignment create. Box 3: kubectl create.
+
+### You need to deploy Azure Kubernetes Service (AKS) to host an application. The solution must meet the following requirements: Containers must only be published internally. AKS clusters must be able to create and manage containers in Azure. What should you use for each requirement?
+
+- [ ] Containers must only be published internally: Azure Container Registry. AKS clusters must be able to create and manage containers in Azure: An Azure Active Directory (Azure AD) group.
+- [ ] Containers must only be published internally: Azure Container Instances. AKS clusters must be able to create and manage containers in Azure: An Azure Automation account.
+- [ ] Containers must only be published internally: Dockerfile. AKS clusters must be able to create and manage containers in Azure: An Azure service principal.
+- [x] Containers must only be published internally: Azure Container Registry. AKS clusters must be able to create and manage containers in Azure: An Azure service principal.
+
+![Question 152](images/question152.png)
 
 ### Your company is creating a suite of three mobile applications. You need to control access to the application builds. The solution must be managed at the organization level. What should you use?
 
-![Question 192](images/question192.jpg)
+![Question 153](images/question153.jpg)
 
 - [ ] Groups to control the build access: Azure Active Directory groups. Group type: Private.
 - [ ] Groups to control the build access: Azure Active Directory groups. Group type: Public.
@@ -1547,13 +1566,6 @@
 - [ ] Agile.
 - [ ] Scrum.
 - [x] CMMI.
-
-### You have been tasked with strengthening the security of your team's development process. You need to suggest a security tool type for the Continuous Integration (CI) phase of the development process. Which of the following is the option you would suggest?
-
-- [ ] Penetration testing.
-- [x] Static code analysis.
-- [ ] Threat modeling.
-- [ ] Dynamic code analysis.
 
 ### You need to consider the underlined segment to establish whether it is accurate. The Burnup widget measures the elapsed time from creation of work items to their completion.
 
