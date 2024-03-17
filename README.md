@@ -1273,14 +1273,14 @@
 - [x] Yeoman, Terratest.
 - [ ] Terratest, Yeoman.
 
-### You are creating a YAML-based Azure pipeline to deploy an Azure Data factory instance that has the following requirements; If a Data Factory instance exists already, the instance must be overwritten. No other resources in a resource group named Fabrikam must be affected. How should you complete the code?
+### You are creating a YAML-based Azure pipeline to deploy an Azure Data factory instance that has the following requirements: If a Data Factory instance exists already, the instance must be overwritten. No other resources in a resource group named Fabrikam must be affected. How should you complete the code?
 
-![Question 531](images/question531.jpg)
+![Question 171](images/question171.jpeg)
 
-- [x] Box 1: Create Or Update Resource Group. Box 2: Incrementall.
-- [ ] Box 1: Resource Group. Box 2: Linked artifact.
-- [ ] Box 1: Resource Group. Box 2: West us.
-- [ ] Box 1: Linked artifact. Box 2: Resource Group.
+- [x] Box 1: 'Create Or Update Resource Group'. Box 2: 'Incremental'.
+- [ ] Box 1: 'Select Resource Group'. Box 2: 'Complete'.
+- [ ] Box 1: 'Select Resource Group'. Box 2: 'Validation only'.
+- [ ] Box 1: 'Start'. Box 2: 'Incremental'.
 
 ### You use release pipelines in Azure Pipelines to deploy an app. Secrets required be the pipeline are stored as pipeline variables. Logging of commands is enabled for the Azure Pipelines agent. You need to prevent the values of the secrets from being logged. What should you do?
 
@@ -1291,12 +1291,12 @@
 
 ### You are using the Dependency Tracker extension in a project in Azure DevOps. You generate a risk graph for the project. What should you use in the risk graph to identify the number of dependencies and the risk level of the project?
 
-![Question 532](images/question532.jpg)
+![Question 173](images/question173.png)
 
 - [ ] Number of dependencies: Node color. Risk level: Link color.
 - [ ] Number of dependencies: Link color. Risk level: Link length.
 - [ ] Number of dependencies: Node color. Risk level: Link length.
-- [ ] Number of dependencies: Link width. Risk level: Link color.
+- [x] Number of dependencies: Link width. Risk level: Link color.
 
 ### You need to recommend an integration strategy for the build process of a Java application. The solution must meet the following requirements: The build must access an on-premises dependency management system. The build outputs must be stored as Server artifacts in Azure DevOps. The source code must be stored in a Git repository in Azure DevOps. Solution: Configure the build pipeline to use a Microsoft-hosted agent pool running a Linux image. Include the Java Tool Installer task in the build pipeline. Does this meet the goal?
 
@@ -2251,3 +2251,61 @@
 - [ ] Replace the Register-AzureRmAutomationDscNode cmdlet with Register-AzureRmAutomationScheduledRunbook.
 - [ ] Add the AllowModuleOverwrite parameter.
 - [ ] Add the DefaultProfile parameter.
+
+### Your company plans to implement a new compliance strategy that will require all Azure web apps to be backed up every five hours. You need to back up an Azure web app named az400-11566895-main every five hours to an Azure Storage account in your resource group.
+
+![Question 593](images/question593.jpg)
+
+### You are integrating an Azure Boards project and a GitHub repository. You need to authenticate Azure Boards to GitHub. Which two authentication methods can you use?
+
+- [ ] a trusted root certificate
+- [ ] a publisher certificate
+- [x] Azure Active Directory (Azure AD)
+- [x] GitHub user credentials
+- [ ] a personal access token (PAT)
+
+### You plan to deploy a new database environment. The solution must meet the technical requirements. You need to prepare the database for the deployment . How should you format the export?
+
+- [ ] NDF
+- [ ] MDF
+- [ ] BACPAC
+- [x] DACPAC
+
+### How should you confrere the release retention policy for the investment planning depletions suite? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.
+
+![Question 92](images/question922.jpg)
+
+- [ ] Required secrets: Azure Storage with HTTPS access. Storage location: Shared Access Authorization token.
+- [ ] Required secrets: Azure Data Lake. Storage location: Personal access token.
+- [x] Required secrets: Shared Access Authorization token. Storage location: Azure Storage with HTTPS access.
+- [ ] Required secrets: Azure Storage with HTTPS access. Storage location: Certificate.
+
+### Your team uses Azure Pipelines to deploy applications. You need to ensure that when a failure occurs during the build or release process. all the team members are notified by using Microsoft Teams. The solution must minimize development effort. What should you do?
+
+- [ ] Use Azure Automation to connect to the Azure DevOps REST API and notify the team members.
+- [ ] Install the Azure Pipelines app for Teams and configure a subscription to receive notifications in a channel.
+- [x] Install the Azure Boards app for Teams and configure a subscription to receive notifications in a channel.
+- [ ] Use an Azure function to connect to the Azure DevOps REST API and notify the team members.
+
+### You have an Azure DevOps project that uses many package feeds. You need to simplify the project by using a single feed that stores packages produced by your company and packages consumed from remote feeds. The solution must support public feeds and authenticated feeds. What should you enable in DevOps?
+
+- [ ] Universal Packages
+- [x] views in Azure Artifacts
+- [ ] upstream sources
+- [ ] a symbol server
+
+### DRAG DROP You have a project in Azure DevOps that uses packages from multiple public feeds. Some of the feeds are unreliable. You need to consolidate the packages into a single feed. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+
+![Question 597](images/question597.jpg)
+
+- [ ] Box 1: Create a Microsoft Visual Studio project that includes all the packages. Box 2: Create a NuGet package. Box 3: Create an Azure Artifacts feed that uses upstream sources.
+- [x] Box 1: Create a NuGet package. Box 2: Create an Azure Artifacts feed that uses upstream sources. Box 3: Create a Microsoft Visual Studio project that includes all the packages.
+- [ ] Box 1: Create an Azure Artifacts feed that uses upstream sources. Box 2: Create a NuGet package. Box 3: Create a NuGet package.
+- [ ] Box 1: Create a Microsoft Visual Studio project that includes all the packages. Box 2: Create a NuGet package. Box 3: Create a NuGet package.
+
+### You are designing an Azure DevOps strategy for your company’s development team. You suspect that the team’s productivity is low due to accumulate technical debt. You need to recommend a metric to assess the amount of the team’s technical debt. What should you recommend?
+
+- [ ] the number of code modules in an application.
+- [ ] the number of unit test failures.
+- [ ] the percentage of unit test failures.
+- [x] the percentage of overall time spent on rework.
