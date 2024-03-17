@@ -1206,7 +1206,7 @@
 
 ### Which package feed access levels should be assigned to the Developers and Team Leaders groups for the investment planning applications suite?
 
-![Question 296](images/question296.jpg)
+![Question 162](images/question162.jpg)
 
 - [x] Developers: Reader. Team Leaders: Owner.
 - [ ] Developers: Collaborator. Team Leaders: Reader.
@@ -1220,10 +1220,16 @@
 - [x] Integrate Azure DevOps and SonarQube.
 - [ ] Integrate Azure DevOps and Azure DevTest Labs.
 
+### Your company uses Azure DevOps for the build pipelines and deployment pipelines of Java-based projects. You need to recommend a strategy for managing technical debt. Which action should you include in the recommendation?
+
+- [ ] Configure post-deployment approvals in the deployment pipeline.
+- [x] Integrate Azure DevOps and SonarQube.
+- [ ] Integrate Azure DevOps and Azure DevTest Labs.
+
 ### Your company deploys applications in Docker containers. You want to detect known exploits in the Docker images used to provision the Docker containers. You need to integrate image scanning into the application lifecycle. The solution must expose the exploits as early as possible during the application lifecycle. What should you configure?
 
 - [x] Task executed in the continuous integration pipeline and a scheduled task that analyzes the image registry.
-- [ ] manual tasks performed during the planned phase and the deployment phase.
+- [ ] Manual tasks performed during the planned phase and the deployment phase.
 - [ ] Task executed in the continuous deployment pipeline and a scheduled task against a running production container.
 - [ ] Task executed in the continuous integration pipeline and a scheduled task that analyzes the production container.
 
@@ -1234,6 +1240,13 @@
 - [ ] Git fetch.
 - [ ] No-fast-forward merge
 
+### You use a Git repository in Azure Repos to manage the source code of a web application. Developers commit changes directly to the master branch. You need to implement a change management procedure that meets the following requirements: The master branch must be protected, and new changes must be built in the feature branches first. Changes must be reviewed and approved by at least one release manager before each merge. Changes must be brought into the master branch by using pull requests. What should you configure in Azure Repos?
+
+- [x] Branch policies of the master branch.
+- [ ] Services in Project Settings.
+- [ ] Deployment pools in Project Settings.
+- [ ] Branch security of the master branch.
+
 ### Your company has an on-premises Bitbucket Server that is used for Git-based source control. The server is protected by a firewall that blocks inbound Internet traffic. You plan to use Azure DevOps to manage the build and release processes. Which two components are required to integrate Azure DevOps and Bitbucket?
 
 - [ ] Deployment group.
@@ -1241,6 +1254,24 @@
 - [ ] Service hooks.
 - [x] Self-hosted agent.
 - [x] External Git service connection.
+
+### You have an on-premises Bitbucket Server with a firewall configured to block inbound Internet traffic. The server is used for Git-based source control. You intend to manage the build and release processes using Azure DevOps. This plan requires you to integrate Azure DevOps and Bitbucket. Which of the following will allow for this integration?
+
+![Question 169](images/question169.jpg)
+
+- [ ] A Microsoft-hosted agent, Service hooks.
+- [ ] Service hooks, A Microsoft-hosted agent.
+- [ ] Service hooks, A Microsoft-hosted agent.
+- [x] A self-hosted agent, An External Git service connection.
+
+### You are preparing to deploy an Azure resource group via Terraform. To achieve your goal, you have to install the necessary frameworks. Which of the following are the frameworks you should use?
+
+![Question 170](images/question170.jpg)
+
+- [ ] Vault, Terratest.
+- [ ] Yeoman, Tiller.
+- [x] Yeoman, Terratest.
+- [ ] Terratest, Yeoman.
 
 ### You are creating a YAML-based Azure pipeline to deploy an Azure Data factory instance that has the following requirements; If a Data Factory instance exists already, the instance must be overwritten. No other resources in a resource group named Fabrikam must be affected. How should you complete the code?
 
@@ -1490,24 +1521,6 @@
 - [x] Create an Azure Service Health alert.
 - [x] Create and configure an action group.
 
-### You are preparing to deploy an Azure resource group via Terraform. To achieve your goal, you have to install the necessary frameworks. Which of the following are the frameworks you should use?
-
-![Question 555](images/question555.jpg)
-
-- [ ] Box 1: Vault. Box 2: Terratest.
-- [ ] Box 1: Yeoman. Box 2: Tiller.
-- [x] Box 1: Yeoman. Box 2: Terratest.
-- [ ] Box 1: Terratest. Box 2: Yeoman.
-
-### You have an on-premises Bitbucket Server with a firewall configured to block inbound Internet traffic. The server is used for Git-based source control. You intend to manage the build and release processes using Azure DevOps. This plan requires you to integrate Azure DevOps and Bitbucket. Which of the following will allow for this integration?
-
-![Question 556](images/question556.jpg)
-
-- [ ] Box 1: A Microsoft-hosted agent. Box 2: Service hooks.
-- [ ] Box 1: Service hooks. Box 2: A Microsoft-hosted agent.
-- [ ] Box 1: Service hooks. Box 2: A Microsoft-hosted agent.
-- [x] Box 1: A self-hosted agent. Box 2: An External Git service connection.
-
 ### Your company makes use of Azure SQL Database Intelligent Insights and Azure Application Insights for monitoring purposes. You have been tasked with analyzing the monitoring using ad-hoc queries. You need to utilize the correct query language. Solution: You use Azure Log Analytics. Does the solution meet the goal?
 
 - [ ] Yes.
@@ -1755,13 +1768,6 @@
 
 - [ ] Yes.
 - [x] No.
-
-### You use a Git repository in Azure Repos to manage the source code of a web application. Developers commit changes directly to the master branch. You need to implement a change management procedure that meets the following requirements: The master branch must be protected, and new changes must be built in the feature branches first. Changes must be reviewed and approved by at least one release manager before each merge. Changes must be brought into the master branch by using pull requests. What should you configure in Azure Repos?
-
-- [x] Branch policies of the master branch.
-- [ ] Services in Project Settings.
-- [ ] Deployment pools in Project Settings.
-- [ ] Branch security of the master branch.
 
 ### You plan to update the Azure DevOps strategy of your company. You need to identify the following issues as they occur during the company's development process: Licensing violations Prohibited libraries Solution: You implement continuous integration. Does this meet the goal?
 
