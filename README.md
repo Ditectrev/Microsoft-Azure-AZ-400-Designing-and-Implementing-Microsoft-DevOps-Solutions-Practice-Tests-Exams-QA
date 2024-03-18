@@ -1298,39 +1298,59 @@
 - [ ] Number of dependencies: Node color. Risk level: Link length.
 - [x] Number of dependencies: Link width. Risk level: Link color.
 
-### You need to recommend an integration strategy for the build process of a Java application. The solution must meet the following requirements: The build must access an on-premises dependency management system. The build outputs must be stored as Server artifacts in Azure DevOps. The source code must be stored in a Git repository in Azure DevOps. Solution: Configure the build pipeline to use a Microsoft-hosted agent pool running a Linux image. Include the Java Tool Installer task in the build pipeline. Does this meet the goal?
+### You need to recommend an integration strategy for the build process of a Java application. The solution must meet the following requirements: The builds must access an on-premises dependency management system. The build outputs must be stored as Server artifacts in Azure DevOps. The source code must be stored in a Git repository in Azure DevOps. Solution: Configure the build pipeline to use a Hosted Ubuntu agent pool. Include the Java Tool Installer task in the build pipeline. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You need to recommend an integration strategy for the build process of a Java application. The solution must meet the following requirements: The builds must access an on-premises dependency management system. The build outputs must be stored as Server artifacts in Azure DevOps. The source code must be stored in a Git repository in Azure DevOps. Solution: Configure the build pipeline to use a Microsoft-hosted agent pool running a Linux image. Include the Java Tool Installer task in the build pipeline. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You need to recommend an integration strategy for the build process of a Java application. The solution must meet the following requirements: The builds must access an on-premises dependency management system. The build outputs must be stored as Server artifacts in Azure DevOps. The source code must be stored in a Git repository in Azure DevOps. Solution: Configure the build pipeline to use a Hosted VS 2019 agent pool. Include the Java Tool Installer task in the build pipeline. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You need to recommend an integration strategy for the build process of a Java application. The solution must meet the following requirements: The builds must access an on-premises dependency management system. The build outputs must be stored as Server artifacts in Azure DevOps. The source code must be stored in a Git repository in Azure DevOps. Solution: Install and configure a self-hosted build agent on an on-premises machine. Configure the build pipeline to use the Default agent pool. Include the Java Tool Installer task in the build pipeline. Does this meet the goal?
 
 - [x] Yes.
 - [ ] No.
 
 ### You have an Azure solution that contains a build pipeline in Azure Pipelines. You experience intermittent delays before the build pipeline starts. You need to reduce the time it takes to start the build pipeline. What should you do?
 
-- [ ] Enable self-hosted build agents.
+- [x] Enable self-hosted build agents.
 - [ ] Create a new agent pool.
 - [ ] Split the build pipeline into multiple stages.
-- [x] Purchase an additional parallel job.
+- [ ] Purchase an additional parallel job.
 
-### You have a project in Azure DevOps. You create the following YAML template named Template1.yml. steps: – script: npm install – script: yarn install – script: npm run compile You create the following pipeline named File1.yml. parameters: usersteps: – task: MyTask@1 – script: echo Done You need to ensure that Template1.yaml runs before File1.yml. How should you update File1.yml?
+### You have a project in Azure DevOps. You create the following YAML template named Template1.yml. steps: – script: npm install. – script: yarn install. – script: npm run compile. You create the following pipeline named File1.yml. parameters: usersteps: – task: MyTask@1. – script: echo Done. You need to ensure that Template1.yaml runs before File1.yml. How should you update File1.yml?
 
-- [ ] parameters: usersteps: extends: template: template1.yml
-      – task: MyTask@1 – script: echo Done
-- [ ] template: template1.yml parameters: usersteps:
-      – task: MyTask@1 – script: echo Done
-- [x] extends: template: templatel.yml parameters: usersteps:
-      – task: MyTask@1 – script: echo Done
-- [ ] parameters: usersteps: – template: templatel.yml
-      – task: MyTask@1 – script: echo Done
+- [ ] parameters: usersteps: extends: template: template1.yml. – task: MyTask@1 – script: echo Done.
+- [ ] template: template1.yml parameters: usersteps: – task: MyTask@1. – script: echo Done.
+- [x] extends: template: templatel.yml parameters: usersteps: – task: MyTask@1. – script: echo Done.
+- [ ] parameters: usersteps: – template: templatel.yml – task: MyTask@1. – script: echo Done.
 
 ### You plan to use Desired State Configuration (DSC) to maintain the configuration state of virtual machines that run Windows Server. You need to perform the following: Install Internet Information Services (IIS) on the virtual machines. Update the default home page of the IIS web server. How should you configure the DSC configuration file?
 
-![Question 533](images/question533.jpg)
+![Question 180](images/question180.png)
 
 - [x] Box 1: WindowsFeature. Box 2: File.
 - [ ] Box 1: Script. Box 2: Package.
 - [ ] Box 1: WindowsFeature. Box 2: Package.
 - [ ] Box 1: Script. Box 2: WindowsFeature.
 
-### You plan to onboard 10 new developers. You need to recommend a development environment that meets the following requirements: Integrates with GitHub Provides integrated debugging tools Supports remote workers and hot-desking environments Supports developers who use browsers, tablets, and Chromebooks What should you recommend?
+### You plan to use Desired State Configuration (DSC) to maintain the configuration of a server that runs Windows Server 2019. The server must have the following features installed: A web server. An email server. How should you complete the DSC configuration file?
+
+![Question 181](images/question181.jpg)
+
+- [ ] Box 1: = @("Mail-Server", "IIS"). Box 2: Ensure.
+- [x] Box 1: = @("SMTP-Server", "Web-Server"). Box 2: Ensure.
+- [ ] Box 1: = @("Mail-Server", "Web-Server"). Box 2: Install.
+- [ ] Box 1: = @("SMTP-Server", "IIS"). Box 2: Required.
+
+### You plan to onboard 10 new developers. You need to recommend a development environment that meets the following requirements: Integrates with GitHub. Provides integrated debugging tools. Supports remote workers and hot-desking environments. Supports developers who use browsers, tablets, and Chromebooks What should you recommend?
 
 - [ ] VS Code.
 - [ ] Xamarin Studio.
@@ -1353,7 +1373,8 @@
 
 ### You have an Azure subscription that contains the resources shown in the following table. You plan to create a linked service in DF1. The linked service will connect to SQL1 by using Microsoft SQL Server authentication. The password for the SQL Server login will be stored in KV1. You need to configure DF1 to retrieve the password when the data factory connects to SQL1. The solution must use the principle of least privilege. How should you configure DF1?
 
-![Question 534](images/question534.jpg)
+![Question 185 part 1](images/question185_1.png)
+![Question 185 part 2](images/question185_2.jpg)
 
 - [ ] Permission type: Access policy. Access method: Secret.
 - [ ] Permission type: Access policy. Access method: Role-based access control (RBAC).
@@ -1369,21 +1390,21 @@
 
 ### You have an Azure DevOps organization named Contoso. You have 10 Azure virtual machines that run Windows Server 2019. The virtual machines host an application that you build and deploy by using Azure Pipelines. Each virtual machine has the Web Server (IIS) role installed and configured. You need to ensure that the web server configurations on the virtual machines is maintained automatically. The solution must provide centralized management of the configuration settings and minimize management overhead. Which four actions should you perform in sequence?
 
-![Question 538](images/question538.jpg)
+![Question 187](images/question187.jpg)
 
-- [x] Box 1: Create an Azure Automation account. Box 2: Instali the custom Desired State Configuration (DSC) extension on the virtual machines. Box 3: Onboard the virtual machines to the Azure Automation account. Box 4: Complete the Desired State Configuration (DSC) configuration.
-- [ ] Box 1: Instali the custom Desired State Configuration (DSC) extension on the virtual machines. Box 2: Create a zip file and upload it to Azure Blob storage. Box 3: Onboard the virtual machines to the Azure Automation account. Box 4: Complete the Desired State Configuration (DSC) configuration.
-- [ ] Box 1: Complete the Desired State Configuration (DSC) configuration. Box 2: Onboard the virtual machines to the Azure Automation account. Box 3: Create a zip file and upload it to Azure Blob storage. Box 4: Complete the Desired State Configuration (DSC) configuration.
+- [ ] Box 1: Create an Azure Automation account. Box 2: Install the custom Desired State Configuration (DSC) extension on the virtual machines. Box 3: Onboard the virtual machines to the Azure Automation account. Box 4: Complete the Desired State Configuration (DSC) configuration.
+- [ ] Box 1: Install the custom Desired State Configuration (DSC) extension on the virtual machines. Box 2: Create a zip file and upload it to Azure Blob storage. Box 3: Onboard the virtual machines to the Azure Automation account. Box 4: Complete the Desired State Configuration (DSC) configuration.
+- [x] Box 1: Create an Azure Automation account. Box 2: Complete the Desired State Configuration (DSC) configuration. Box 3: Onboard the virtual machines to the Azure Automation account. Box 4: Install the custom Desired State Configuration (DSC) extension on the virtual machines.
 - [ ] Box 1: Onboard the virtual machines to the Azure Automation account. Box 2: Complete the Desired State Configuration (DSC) configuration. Box 3: Create a zip file and upload it to Azure Blob storage. Box 4: Create an Azure Automation account.
 
 ### You have an Azure Kubernetes Service (AKS) cluster. You need to deploy an application to the cluster by using Azure DevOps. Which three actions should you perform in sequence?
 
-![Question 539](images/question539.jpg)
+![Question 188](images/question188.jpg)
 
-- [ ] Box 1: Add a llelm package and deploy a task to the deployment pipeline. Box 2: Configure RBAC roles in the cluster. Box 3: Create a service account in the cluster.
-- [ ] Box 1: Add a Docker Compose task to the deployment pipeline. Box 2: Configure RBAC roles in the cluster. Box 3: Create a service account in the cluster.
+- [ ] Box 1: Add a Helm package and deploy a task to the deployment pipeline. Box 2: Configure RBAC roles in the cluster. Box 3: Create a service account in the cluster.
+- [x] Box 1: Create a service principal in Azure Active Directory (Azure AD). Box 2: Configure RBAC roles in the cluster. Box 3: Add a Helm package and deploy a task to the deployment pipeline.
 - [ ] Box 1: Create a service account in the cluster. Box 2: Configure RBAC roles in the cluster. Box 3: Add a llelm package and deploy a task to the deployment pipeline.
-- [x] Box 1: Create a service principal in Azure Active Directory (Azure AD). Box 2: Add a llelm package and deploy a task to the deployment pipeline. Box 3: Add a Docker Compose task to the deployment pipeline.
+- [ ] Box 1: Create a service principal in Azure Active Directory (Azure AD). Box 2: Add a Helm package and deploy a task to the deployment pipeline. Box 3: Add a Docker Compose task to the deployment pipeline.
 
 ### You have a project in Azure DevOps. You need to associate an automated test to a test case. Which three actions should you perform in sequence?
 
@@ -1850,16 +1871,6 @@
 - [ ] Box 1: Visual Studio Test. Box 2: Visual Studio Build. Box 3: Prepare Analysis Configuration. Box 4: Visual Studio Test.
 - [ ] Box 1: Publish Build Artifacts. Box 2: Prepare Analysis Configuration. Box 3: Visual Studio Build. Box 4: Run Code Analysis.
 - [x] Box 1: Prepare Analysis Configuration. Box 2: Visual Studio Build. Box 3: Visual Studio Test. Box 4: Run Code Analysis.
-
-### You need to recommend an integration strategy for the build process of a Java application. The solution must meet the following requirements: The builds must access an on-premises dependency management system. The build outputs must be stored as Server artifacts in Azure DevOps. The source code must be stored in a Git repository in Azure DevOps. Solution: Configure the build pipeline to use a Hosted VS 2017 agent pool. Include the Java Tool Installer task in the build pipeline. Does this meet the goal?
-
-- [ ] Yes.
-- [x] No.
-
-### You need to recommend an integration strategy for the build process of a Java application. The solution must meet the following requirements: The builds must access an on-premises dependency management system. The build outputs must be stored as Server artifacts in Azure DevOps. The source code must be stored in a Git repository in Azure DevOps. Solution: Install and configure a self-hosted build agent on an on-premises machine. Configure the build pipeline to use the Default agent pool. Include the Java Tool Installer task in the build pipeline. Does this meet the goal?
-
-- [ ] Yes.
-- [x] No.
 
 ### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You run the Register-AzureRmAutomationDscNode command in your company's environment. You need to make sure that your company's test servers remain correctly configured, regardless of configuration drift. Solution: You set the -ConfigurationMode parameter to ApplyOnly. Does the solution meet the goal?
 
