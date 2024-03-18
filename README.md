@@ -55,7 +55,7 @@
 - [ ] SAML.
 - [x] Personal Access Token (PAT).
 
-### You have an Azure function hosted in an App Service plan named az400-9940427-func1. You need to configure az400-9940427-func1 to upgrade the functions automatically whenever new code is committed to the master branch of https://github.com/Azure-Samples/functions-quickstart. To complete this task, sign in to the Microsoft Azure portal.
+### You have an Azure function hosted in an App Service plan named az400-123456789-func1. You need to configure az400-123456789-func1 to upgrade the functions automatically whenever new code is committed to the master branch of https://github.com/Azure-Samples/functions-quickstart. To complete this task, sign in to the Microsoft Azure portal.
 
 - [x] 1. Open Microsoft Azure Portal. 2. Log into your Azure account, select App Services in the Azure portal left navigation, and then select configure az400-123456789-func1. 3. On the app page, select Deployment Center in the left menu. 4. On the Build provider page, select Azure Pipelines (Preview), and then select Continue. 5. On the Configure page, in the Code section: For GitHub, drop down and select the Organization, Repository, and Branch you want to deploy continuously. 6. Select Continue. 7. On the Test page, choose whether to enable load tests, and then select Continue. 8. Depending on your App Service plan pricing tier, you may see a Deploy to staging page. Choose whether to enable deployment slots, and then select Continue. 9. After you configure the build provider, review the settings on the Summary page, and then select Finish.
 
@@ -318,10 +318,10 @@
 ![Question 40 part 1](images/question3_12_22_34_35_40_41_43.jpg)
 ![Question 40 part 2](images/question40_2.jpg)
 
-- [x] Box 1: Sign in to Azure DevOps by using an account that is assigned the Administrator service connection security role. Box 2: Create a Personal Access Token in the Azure DevOps organization of Contoso. Box 3: Install and register the Azure Pipelines agent on an Azure virtual machine.
+- [x] Box 1: Sign in to Azure DevOps by using an account that is assigned the Administrator service connection security role. Box 2: Create a personal access token in the Azure DevOps organization of Contoso. Box 3: Install and register the Azure Pipelines agent on an Azure virtual machine.
 - [ ] Box 1: Sign in to Azure DevOps by using an account that is assigned the Administrator service connection security role. Box 2: Install the Azure Pipelines agent on on- premises virtual machine. Box 3: Sign in to Azure DevOps by using an account that is assigned the agent pool administrator role.
-- [ ] Box 1: Create a Personal Access Token in the Azure DevOps organization of Contoso. Box 2: Install the Azure Pipelines agent on on- premises virtual machine. Box 3: Sign in to Azure DevOps by using an account that is assigned the agent pool administrator role.
-- [ ] Box 1: Sign in to Azure DevOps by using an account that is assigned the agent pool administrator role. Box 2: Install the Azure Pipelines agent on on- premises virtual machine. Box 3: Create a Personal Access Token in the Azure DevOps organization of Contoso.
+- [ ] Box 1: Create a personal access token in the Azure DevOps organization of Contoso. Box 2: Install the Azure Pipelines agent on on- premises virtual machine. Box 3: Sign in to Azure DevOps by using an account that is assigned the agent pool administrator role.
+- [ ] Box 1: Sign in to Azure DevOps by using an account that is assigned the agent pool administrator role. Box 2: Install the Azure Pipelines agent on on- premises virtual machine. Box 3: Create a personal access token in the Azure DevOps organization of Contoso.
 
 ### Contoso, Ltd. is a manufacturing company that has a main office in Chicago. Contoso plans to improve its IT development and operations processes by implementing Azure DevOps principles. Contoso has an Azure subscription and creates an Azure DevOps organization. The Azure DevOps organization includes: The Docker extension. A deployment pool named Pool7 that contains 10 Azure virtual machines that run Windows Server 2016. The Azure subscription contains an Azure Automation account. Contoso plans to create projects in Azure DevOps as shown in the following table. Contoso identifies the following technical requirements: Implement build agents for Project 1. Whenever possible, use Azure resources. Avoid using deprecated technologies. Implement a code flow strategy for Project2 that will: Enable Team2 to submit pull requests for Project2. Enable Team2 to work independently on changes to a copy of Project2. Ensure that any intermediary changes performed by Team2 on a copy of Project2 will be subject to the same restrictions as the ones defined in the build policy of Project2. Whenever possible implement automation and minimize administrative effort. Implement Protect3, Project5, Project6, and Project7 based on the planned changes. Implement Project4 and configure the project to push Docker images to Azure Container Registry. You add the virtual machines as managed nodes in Azure Automation State Configuration. You need to configure the computer in Group7. What should you do?
 
@@ -559,7 +559,7 @@
 - [x] Create a Personal Access Token m your Azure DevOps account.
 - [ ] Create a webhook in Jenkins.
 - [x] Create a service hook in Azure DevOps.
-- [ ] Add a personal access token to your Jenkins account.
+- [ ] Add a Personal Access Token to your Jenkins account.
 
 ### Your company builds a multi tier web application. You use Azure DevOps and host the production application on Azure virtual machines. Your team prepares an Azure Resource Manager template of the virtual machine that you mil use to test new features. You need to create a staging environment in Azure that meets the following requirements: Minimizes the cost of Azure hosting. Provisions the virtual machines automatically. Use the custom Azure Resource Manager template to provision the virtual machines. What should you do?
 
@@ -617,8 +617,8 @@
 
 ![Question 83](images/question83.jpg)
 
-- [ ] Restrict access to delete the key vault: a Personal Access Token (PAT). Restrict access to the secrets in Key Vault by using: a Personal Access Token (PAT).
-- [ ] Restrict access to delete the key vault: a Personal Access Token (PAT). Restrict access to the secrets in Key Vault by using: RBAC.
+- [ ] Restrict access to delete the key vault: a personal access token (PAT). Restrict access to the secrets in Key Vault by using: a personal access token (PAT).
+- [ ] Restrict access to delete the key vault: a personal access token (PAT). Restrict access to the secrets in Key Vault by using: RBAC.
 - [ ] Restrict access to delete the key vault: an Azure Key Vault access policy. Restrict access to the secrets in Key Vault by using: RBAC.
 - [x] Restrict access to delete the key vault: RBAC. Restrict access to the secrets in Key Vault by using: an Azure Key Vault access policy.
 
@@ -1408,69 +1408,88 @@
 
 ### You have a project in Azure DevOps. You need to associate an automated test to a test case. Which three actions should you perform in sequence?
 
-![Question 540](images/question540.jpg)
+![Question 189](images/question189.jpg)
 
 - [ ] Box 1: Debug the project. Box 2: Add the automated test to a build pipeline. Box 3: Create a work item.
 - [x] Box 1: Create a test project. Box 2: Check in a project to the Azure DevOps repository. Box 3: Add the automated test to a build pipeline.
 - [ ] Box 1: Debug the project. Box 2: Add the automated test to a build pipeline. Box 3: Create a work item.
 - [ ] Box 1: Create a work item. Box 2: Check in a project to the Azure DevOps repository. Box 3: Debug the project.
 
+### You have a project in Azure DevOps named Project that has a release pipeline in Azure Pipeline named ReleaseP1. You need to ensure that when a new release is generated for ReleaseP1, a new release note document is created. The release notes must contain new features and bug fixes. Which three actions should you perform in sequence?
+
+![Question 190](images/question190.png)
+
+- [ ] Box 1: Create a personal access token (PAT). Box 2: Create a service principal. Box 3: Create a PowerShell task in ReleaseP1 that writes the retrieved data to a markdown file.
+- [ ] Box 1: Create a personal access token (PAT). Box 2: Create a query that retrieves the feature and bug fix information. Box 3: Create a PowerShell task in ReleaseP1 that writes the retrieved data to a markdown file.
+- [ ] Box 1: Create a query that retrieves the feature and bug fix information. Box 2: Create a personal access token (PAT). Box 3: Create a PowerShell task in ReleaseP1 that writes the retrieved data to a markdown file.
+- [ ] Box 1: Create a query that retrieves the feature and bug fix information. Box 2: Create a service principal. Box 3: Add a dashboard widget that retrieves the feature and bug fix information.
+
+### You use Azure Pipelines to manage project builds and deployments. You plan to use Azure Pipelines for Microsoft Teams to notify the legal team when a new build is ready for release. You need to configure the Organization Settings in Azure DevOps to support Azure Pipelines for Microsoft Teams. What should you turn on?
+
+- [x] Third-party application access via OAuth.
+- [ ] Azure Active Directory Conditional Access Policy Validation.
+- [ ] Alternate authentication credentials.
+- [ ] SSH authentication.
+
 ### You use Azure Pipelines to manage the build and deployment of apps. You are planning the release strategies for a new app. You need to choose strategies for the following scenarios: Releases will be made available to users who are grouped by their tolerance for software faults. Code will be deployed to enable functionality that will be available in later releases of the app. When a new release occurs, the existing deployment will remain active to minimize recovery time if a return to the previous version is required. Which strategy should you choose for each scenario?
 
-![Question 541](images/question541.jpg)
+![Question 192](images/question192.jpg)
 
-- [x] Box 1: Progressive exposure. Box 2: Feature flags. Box 3: Blue/green.
-- [ ] Box 1: Blue/green. Box 2: Progressive exposure. Box 3: Feature flags.
-- [ ] Box 1: Feature flags. Box 2: Progressive exposure. Box 3: Blue/green.
-- [ ] Box 1: Blue/green. Box 2: Feature flags. Box 3: Progressive exposure.
+- [x] Releases will be made available to users who are grouped by their tolerance for software faults: Progressive exposure. Code will be deployed to enable functionality that will be available in later releases of the app: Feature flags. When a new release occurs, the existing deployment will remain active to minimize recovery time if a return to the previous version is required: Blue/green.
+- [ ] Releases will be made available to users who are grouped by their tolerance for software faults: Blue/green. Code will be deployed to enable functionality that will be available in later releases of the app: Progressive exposure. When a new release occurs, the existing deployment will remain active to minimize recovery time if a return to the previous version is required: Feature flags.
+- [ ] Releases will be made available to users who are grouped by their tolerance for software faults: Feature flags. Code will be deployed to enable functionality that will be available in later releases of the app: Progressive exposure. When a new release occurs, the existing deployment will remain active to minimize recovery time if a return to the previous version is required: Blue/green.
+- [ ] Releases will be made available to users who are grouped by their tolerance for software faults: Blue/green. Code will be deployed to enable functionality that will be available in later releases of the app: Feature flags. When a new release occurs, the existing deployment will remain active to minimize recovery time if a return to the previous version is required: Progressive exposure.
 
 ### As part of your application build process, you need to deploy a group of resources to Azure by using an Azure Resource Manager template located on GitHub. Which three action should you perform in sequence?
 
-![Question 543](images/question543.jpg)
+![Question 193](images/question193.jpg)
 
 - [x] Box 1: Create a release pipeline. Box 2: Add an Azure Resource Group Deployment task. Box 3: Set the template parameters.
 - [ ] Box 1: Set the template parameters. Box 2: Create a job agent. Box 3: Create a release pipeline.
 - [ ] Box 1: Create a job agent. Box 2: Create a package. Box 3: Add an Azure Resource Group Deployment task.
 - [ ] Box 1: Create a release pipeline. Box 2: Create a package. Box 3: Set the template parameters.
 
-### You are finalizing a release in GitHub. You need to apply the following labels to the release: Name Email Release v3.0 Release date How should you complete the git command?
+### You are finalizing a release in GitHub. You need to apply the following labels to the release: Name. Email. Release v3.0. Release date. How should you complete the git command?
 
-![Question 544](images/question544.jpg)
+![Question 194](images/question194.jpg)
 
 - [ ] Box 1: add. Box 2: -c. Box 3: -b.
 - [ ] Box 1: commit. Box 2: -b. Box 3: -c.
 - [ ] Box 1: push. Box 2: -a. Box 3: -a.
-- [ ] Box 1: tag. Box 2: -a. Box 3: -m.
+- [x] Box 1: tag. Box 2: -a. Box 3: -m.
 
 ### You manage the Git repository for a large enterprise application. During the development of the application, you use a file named Config.json. You need to prevent Config.json from being committed to the source control whenever changes to the application are committed. Which three actions should you perform in sequence?
 
-![Question 545](images/question545.jpg)
+![Question 195](images/question195.jpg)
 
-- [x] Box 1: Delete and recreate the repository. Box 2: Add Config.json to the gitignore file. Box 3: Runthe git add . gitignore command.
-- [ ] Box 1: Add Config.json to the gitignore file. Box 2: Run the git reflog expire command. Box 3: Run the git commit command.
+- [ ] Box 1: Delete and recreate the repository. Box 2: Add Config.json to the .gitignore file. Box 3: Run the git add .gitignore command.
+- [x] Box 1: Add Config.json to the .gitignore file. Box 2: Run the git add .gitignore command. Box 3: Run the git commit command.
 - [ ] Box 1: Delete and recreate the repository. Box 2: Run the git commit command. Box 3: Run the git reflog expire command.
-- [ ] Box 1: Runthe git add .gitignore command. Box 2: Add Config.json to the gitignore file. Box 3: Delete and recreate the repository.
+- [ ] Box 1: Run the git add .gitignore command. Box 2: Add Config.json to the .gitignore file. Box 3: Delete and recreate the repository.
 
 ### You manage the Git repository for a large enterprise application. You need to minimize the data size of the repository. How should you complete the commands?
 
-![Question 547](images/question547.jpg)
+![Question 196](images/question196.jpg)
 
 - [x] Box 1: aggressive. Box 2: prune.
 - [ ] Box 1: prune. Box 2: auto.
 - [ ] Box 1: prune. Box 2: force.
 - [ ] Box 1: auto. Box 2: aggressive.
 
-### You plan to deploy a website that will be hosted in two Azure regions. You need to create an Azure Traffic Manager profile named az40011566895n1-tm in a resource group named RG1lod11566895. The solution must ensure that users will always connect to a copy of the website that is in the same country. To complete this task, sign in to the Microsoft Azure portal.
+### You plan to deploy a website that will be hosted in two Azure regions. You need to create an Azure Traffic Manager profile named az400123456789n1-tm in a resource group named RG1lod123456789. The solution must ensure that users will always connect to a copy of the website that is in the same country. To complete this task, sign in to the Microsoft Azure portal.
 
-![Question 548](images/question548.jpg)
+- [x] 1. Go to the Azure portal, navigate to Traffic Manager profiles and click on the Add button to create a routing profile. 2. In the Create Traffic Manager profile, enter, or select these settings: Name: az400123456789n1-tm. Routing method: Geographic. Resource group: RG1lod123456789.
+
+![Question 197 answer part 1](images/question197_answer1.jpg)
+![Question 197 answer part 2](images/question197_answer2.jpg)
 
 ### You are developing an iOS application by using Azure DevOps. You need to test the application manually on 10 devices without releasing the application to the public. Which two actions should you perform?
 
 - [ ] Create a Microsoft Intune device compliance policy.
-- [x] Deploy a certificate from an internal certification authority (CA) to each device.
+- [ ] Deploy a certificate from an internal certification authority (CA) to each device.
 - [ ] Register the application in the iTunes store.
 - [ ] Onboard the devices into Microsoft Intune.
-- [ ] Distribute a new release of the application.
+- [x] Distribute a new release of the application.
 - [x] Register the IDs of the devices in the Apple Developer portal.
 
 ### Your company develops an application named App1 that is deployed in production. As part of an application update, a new service is being added to App1. The new service requires access to an application named App2 that is currently in development. You need to ensure that you can deploy the update to App1 before App2 becomes available. You must be able to enable the service in App1 once App2 is deployed. What should you do?
@@ -1486,6 +1505,13 @@
 - [x] DACPAC.
 - [ ] LDF file.
 - [ ] MDF file.
+
+### You have an Azure DevOps project named Project1 and an Azure subscription named Sub1. You need to prevent releases from being deployed unless the releases comply with the Azure Policy rules assigned to Sub1. What should you do in the release pipeline of Project1?
+
+- [x] Add a deployment gate.
+- [ ] Modify the Deployment queue settings.
+- [ ] Configure a deployment trigger.
+- [ ] Create a pipeline variable.
 
 ### You have a free tier of an Azure DevOps organization named Contoso. Contoso contains 10 private projects. Each project has multiple jobs with no dependencies. The build process requires access to resource files located in an onpremises file system. You frequently run the jobs on five self-hosted agents but experience long build times and frequently queued builds. You need to minimize the number of queued builds and the time it takes to run the builds. What should you do?
 
@@ -2191,13 +2217,6 @@
 - [ ] Yes
 - [x] No
 
-### You have an Azure DevOps project named Project1 and an Azure subscription named Sub1. You need to prevent releases from being deployed unless the releases comply with the Azure Policy rules assigned to Sub1. What should you do in the release pipeline of Project1?
-
-- [x] Add a deployment gate.
-- [ ] Modify the Deployment queue settings.
-- [ ] Configure a deployment trigger.
-- [ ] Create a pipeline variable.
-
 ### HOTSPOT - You have a project in Azure DevOps that has three teams as shown in the Teams exhibit. (Click the Teams tab.)
 
 ![Question 590](images/question590.jpg)
@@ -2210,13 +2229,6 @@
 - [ ] Box 1: In Project1, create a service connection. Box 2: Create a service principal in Azure Active Directory. Box 3: Create a system-assigned managed identity in Azure Active Directory.
 - [ ] Box 1: In Pipeline1, create a variable. Box 2: Create a service principal in Azure Active Directory. Box 3: Create a service principal in Azure Active Directory.
 - [ ] Box 1: In Project1, create a service connection. Box 2: Create a system-assigned managed identity in Azure Active Directory. Box 3: In Pipeline1, create a variable.
-
-### You use Azure Pipelines to manage project builds and deployments. You plan to use Azure Pipelines for Microsoft Teams to notify the legal team when a new build is ready for release. You need to configure the Organization Settings in Azure DevOps to support Azure Pipelines for Microsoft Teams. What should you turn on?
-
-- [x] Third-party application access via OAuth.
-- [ ] Azure Active Directory Conditional Access Policy Validation.
-- [ ] Alternate authentication credentials.
-- [ ] SSH authentication.
 
 ### You have an existing project in Azure DevOps. You plan to integrate GitHub as the repository for the project. You need to ensure that Azure Pipelines runs under the Azure Pipelines identity. Which authentication mechanism should you use?
 
