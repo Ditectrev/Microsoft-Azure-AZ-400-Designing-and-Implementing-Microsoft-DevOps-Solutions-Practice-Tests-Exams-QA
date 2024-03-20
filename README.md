@@ -1479,7 +1479,6 @@
 ### You plan to deploy a website that will be hosted in two Azure regions. You need to create an Azure Traffic Manager profile named az400123456789n1-tm in a resource group named RG1lod123456789. The solution must ensure that users will always connect to a copy of the website that is in the same country. To complete this task, sign in to the Microsoft Azure portal.
 
 - [x] 1. Go to the Azure portal, navigate to Traffic Manager profiles and click on the Add button to create a routing profile. 2. In the Create Traffic Manager profile, enter, or select these settings: Name: az400123456789n1-tm. Routing method: Geographic. Resource group: RG1lod123456789.
-
 ![Question 197 answer part 1](images/question197_answer1.jpg)
 ![Question 197 answer part 2](images/question197_answer2.jpg)
 
@@ -1516,13 +1515,22 @@
 ### You have a free tier of an Azure DevOps organization named Contoso. Contoso contains 10 private projects. Each project has multiple jobs with no dependencies. The build process requires access to resource files located in an onpremises file system. You frequently run the jobs on five self-hosted agents but experience long build times and frequently queued builds. You need to minimize the number of queued builds and the time it takes to run the builds. What should you do?
 
 - [ ] Configure the pipelines to use the Microsoft-hosted agents.
-- [x] Register additional self-hosted agents.
-- [ ] Purchase self-hosted parallel jobs.
+- [ ] Register additional self-hosted agents.
+- [x] Purchase self-hosted parallel jobs.
 - [ ] Purchase Microsoft-hosted parallel jobs.
 
-### You plan to implement a CI/CD strategy for an Azure Web App named az400-11566895-main. You need to configure a staging environment for az400-11566895-main. To complete this task, sign in to the Microsoft Azure portal.
+### Your company plans to implement a new compliance strategy that will require all Azure web apps to be backed up every five hours. You need to back up an Azure web app named az400-123456789-main every five hours to an Azure Storage account in your resource group.
 
-![Question 550](images/question550.jpg)
+- [x] 1. Open the App Service az400-123456789-main, which you want to protect, in the Azure Portal and browse to Settings > Backups. Click Configure and a Backup Configuration blade should appear. 2. Select the storage account. 3. Click + to create a private container. You could name this container after the web app or App Service. 4. Select the container. 5. If you want to schedule backups, then set Scheduled Backup to On and configure a schedule: every five hours. 6. Select your retention. Note that 0 means never delete backups. 7. Decide if at least one backup should always be retained. 8. Choose if any connected databases should be included in the web app backup. 9. Click Save to finalize the backup configuration.
+![Question 203 answer](images/question203_answer.jpg)
+
+### You plan to implement a CI/CD strategy for an Azure Web App named az400-123456789-main. You need to configure a staging environment for az400-123456789-main. To complete this task, sign in to the Microsoft Azure portal.
+
+- [x] 1. In the Azure portal, search for and select App Services and select your app az400-123456789-main. 2. In the left pane, select Deployment slots > Add Slot. 3. In the Add a slot dialog box, give the slot a name, and select whether to clone an app configuration from another deployment slot. Select Add to continue. 4. After the slot is added, select Close to close the dialog box. The new slot is now shown on the Deployment slots page.
+![Question 204 answer part 1](images/question204_answer1.jpg)
+![Question 204 answer part 2](images/question204_answer2.png)
+![Question 204 answer part 3](images/question204_answer3.jpeg)
+![Question 204 answer part 4](images/question204_answer4.png)
 
 ### You plan to use Terraform to deploy an Azure resource group. You need to install the required frameworks to support the planned deployment. Which two frameworks should you install?
 
@@ -1532,9 +1540,10 @@
 - [x] Yeoman.
 - [ ] Tiller.
 
-### You need to create a virtual machine template in an Azure DevTest Labs environment named az400-9940427-dtl1. The template must be based on Windows Server 2019 Datacenter. Virtual machines created from the template must include the selenium tool and the Google Chrome browser. To complete this task, sign in to the Microsoft Azure portal.
+### You need to create a virtual machine template in an Azure DevTest Labs environment named az400-123456789-dtl1. The template must be based on Windows Server 2019 Datacenter. Virtual machines created from the template must include the selenium tool and the Google Chrome browser. To complete this task, sign in to the Microsoft Azure portal.
 
-![Question 551](images/question551.jpg)
+- [x] 1. Open Microsoft Azure Portal. 2. Select All Services, and then select DevTest Labs in the DEVOPS section. 3. From the list of labs, select the az400-123456789-dtl1 lab. 4. On the home page for your lab, select + Add on the toolbar. 5. Select the Windows Server 2019 Datacenter base image for the VM. 6. Select automation options at the bottom of the page above the Submit button. 7. You see the Azure Resource Manager template for creating the virtual machine. 8. The JSON segment in the resources section has the definition for the image type you selected earlier.
+![Question 206 answer](images/question206_answer.jpg)
 
 ### Your company has a release pipeline in an Azure DevOps project. You plan to deploy to an Azure Kubernetes Services (AKS) cluster by using the Helm package and deploy task. You need to install a service in the AKS namespace for the planned deployment. Which service should you install?
 
@@ -1545,7 +1554,9 @@
 
 ### You plan to add a new web farm that will be published by using an IP address of 10.0.0.5. You need to allow traffic from the web farm to an Azure Database for MySQL server named az400-11566895-mysql. To complete this task, sign in to the Microsoft Azure portal.
 
-![Question 552](images/question552.jpg)
+- [x] 1. On the MySQL server page, under Settings heading, click Connection Security to open the Connection Security page for the Azure Database for MySQL. 2. In the firewall rules for the Azure Database for MySQL, you can specify a single IP address or a range of addresses. If you want to limit the rule to a single IP address, type the same address in the Start IP and End IP fields. Opening the firewall enables administrators, users, and application to access any database on the MySQL server to which they have valid credentials. 3. Click Save on the toolbar to save this server-level firewall rule. Wait for the confirmation that the update to the firewall rules is successful.
+![Question 208 answer part 1](images/question208_answer1.jpg)
+![Question 208 answer part 2](images/question208_answer2.jpeg)
 
 ### You have an Azure DevOps project that contains a release pipeline and a Git repository. When a new code revision is committed to the repository, a build and release is triggered. You need to ensure that release information for the pipeline is added automatically to the work items associated to the Git commit. What should you do?
 
@@ -1666,7 +1677,7 @@
 - [x] Contributor.
 - [ ] Owner.
 
-### You plan to store signed images in an Azure Container Registry instance named az4009940427acr1. You need to modify the SKU for az4009940427acr1 to support the planned images. The solution must minimize costs. To complete this task, sign in to the Microsoft Azure portal.
+### You plan to store signed images in an Azure Container Registry instance named az400123456789acr1. You need to modify the SKU for az400123456789acr1 to support the planned images. The solution must minimize costs. To complete this task, sign in to the Microsoft Azure portal.
 
 ![Question 557](images/question557.jpg)
 
@@ -1857,11 +1868,11 @@
 - [x] IT Service Management Connector (ITSM).
 - [ ] Insight & Analytics.
 
-### You need to configure an Azure web app named az400-9940427-main to contain an environmental variable named "MAX_ITEMS". The environmental variable must have a value of 50. To complete this task, sign in to the Microsoft Azure portal.
+### You need to configure an Azure web app named az400-123456789-main to contain an environmental variable named "MAX_ITEMS". The environmental variable must have a value of 50. To complete this task, sign in to the Microsoft Azure portal.
 
 ![Question 570](images/question570.jpg)
 
-### You need to prepare a network security group (NSG) named az400-9940427-nsg1 to host an Azure DevOps pipeline agent. The solution must allow only the required outbound port for Azure DevOps and deny all other inbound and outbound access to the Internet. To complete this task, sign in to the Microsoft Azure portal.
+### You need to prepare a network security group (NSG) named az400-123456789-nsg1 to host an Azure DevOps pipeline agent. The solution must allow only the required outbound port for Azure DevOps and deny all other inbound and outbound access to the Internet. To complete this task, sign in to the Microsoft Azure portal.
 
 ![Question 571](images/question571.jpg)
 
@@ -1958,7 +1969,7 @@
 - [ ] Box 1: initialDelaySeconds: 15. Box 2: livenessProbe.
 - [x] Box 1: readinessProbe. Box 2: periodSeconds: 15.
 
-### You need to create an instance of Azure Application Insights named az400-9940427-main and configure the instance to receive telemetry data from an Azure web app named az400-9940427-main. To complete this task, sign in to the Microsoft Azure portal.
+### You need to create an instance of Azure Application Insights named az400-123456789-main and configure the instance to receive telemetry data from an Azure web app named az400-123456789-main. To complete this task, sign in to the Microsoft Azure portal.
 
 ![Question 577](images/question577.jpg)
 
@@ -2274,10 +2285,6 @@
 - [ ] Replace the Register-AzureRmAutomationDscNode cmdlet with Register-AzureRmAutomationScheduledRunbook.
 - [ ] Add the AllowModuleOverwrite parameter.
 - [ ] Add the DefaultProfile parameter.
-
-### Your company plans to implement a new compliance strategy that will require all Azure web apps to be backed up every five hours. You need to back up an Azure web app named az400-11566895-main every five hours to an Azure Storage account in your resource group.
-
-![Question 593](images/question593.jpg)
 
 ### You are integrating an Azure Boards project and a GitHub repository. You need to authenticate Azure Boards to GitHub. Which two authentication methods can you use?
 
