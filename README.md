@@ -1743,7 +1743,7 @@
 
 ### You need to deploy Internet Information Services (IIS) to an Azure virtual machine that runs Windows Server 2019. How should you complete the Desired State Configuration (DSC) configuration script?
 
-![Question 560](images/question560.jpg)
+![Question 237](images/question237.jpg)
 
 - [x] Box 1: Configuration. Box 2: WindowsFeature.
 - [ ] Box 1: IncludeAllSubFeature. Box 2: File.
