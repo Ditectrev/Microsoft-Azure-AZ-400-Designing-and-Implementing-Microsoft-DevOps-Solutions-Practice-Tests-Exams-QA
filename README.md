@@ -224,7 +224,7 @@
 - [ ] Azure Advisor.
 - [ ] Activity log of the App Service.
 
-### You have an application that consists of several Azure App Service web apps and Azure functions. You need to access the security of the web apps and the functions. Which Azure features can you use to provide a recommendation for the security of the application?
+### You have an application that consists of several Azure App Service web apps and Azure functions. You need to access the security of the web apps and the functions. Which Azure feature can you use to provide a recommendation for the security of the application?
 
 - [ ] Security & Compliance in Azure Log Analytics.
 - [ ] Resource health in Azure Service Health.
@@ -1033,9 +1033,9 @@
 - [x] 1. To enable automatic tuning on a single database, navigate to the database in the Azure portal and select Automatic tuning. 2. Select the automatic tuning options you want to enable and select Apply.
 ![Question 140 answer](images/question140_answer.jpg)
 
-### You need to ensure that the https://contoso.com/statushook webhook is called every time a repository named az400123456789acr1 receives a new version of an image named dotnetapp. To complete this task, sign in to the Microsoft Azure portal.
+### You need to ensure that the https://contoso.com/statushook webhook is called every time a repository named az4009940427acr1 receives a new version of an image named dotnetapp. To complete this task, sign in to the Microsoft Azure portal.
 
-- [x] 1. Sign in to the Azure portal. 2. Navigate to the container registry az400123456789acr1. 3. Under Services, select Webhooks. 4. Select the existing webhook https://contoso.com/statushook, and double-click on it to get its properties. 5. For Trigger actions select image push.
+- [x] 1. Sign in to the Azure portal. 2. Navigate to the container registry az4009940427acr1. 3. Under Services, select Webhooks. 4. Select the existing webhook https://contoso.com/statushook, and double-click on it to get its properties. 5. For Trigger actions select image push.
 ![Question 141 answer](images/question141_answer.jpg)
 
 ### You need to ensure that an Azure web app named az400-123456789-main can retrieve secrets from an Azure key vault named az400-123456789-kv1 by using a system managed identity. The solution must use the principle of least privilege. To complete this task, sign in to the Microsoft Azure portal.
@@ -1560,8 +1560,8 @@
 
 ### You have an Azure DevOps project that contains a release pipeline and a Git repository. When a new code revision is committed to the repository, a build and release is triggered. You need to ensure that release information for the pipeline is added automatically to the work items associated to the Git commit. What should you do?
 
-- [ ] Modify the Integrations options for the pipeline.
-- [x] Modify the post-deployment conditions for the last stage of the pipeline.
+- [x] Modify the Integrations options for the pipeline.
+- [ ] Modify the post-deployment conditions for the last stage of the pipeline.
 - [ ] Add an agentless job to the pipeline.
 - [ ] Modify the service hooks for the project.
 
@@ -1584,6 +1584,21 @@
 - [ ] Yes.
 - [x] No.
 
+### Your company makes use of Azure SQL Database Intelligent Insights and Azure Application Insights for monitoring purposes. You have been tasked with analyzing the monitoring using ad-hoc queries. You need to utilize the correct query language. Solution: You use the Contextual Query Language (CQL). Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Your company makes use of Azure SQL Database Intelligent Insights and Azure Application Insights for monitoring purposes. You have been tasked with analyzing the monitoring using ad-hoc queries. You need to utilize the correct query language. Solution: You use the Transact-SQL. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Your company makes use of Azure SQL Database Intelligent Insights and Azure Application Insights for monitoring purposes. You have been tasked with analyzing the monitoring using ad-hoc queries. You need to utilize the correct query language. Solution: You use the Kusto Query Language (KQL). Does the solution meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
 ### You need to consider the underlined segment to establish whether it is accurate. Your company has a multi-tier application that has its front end hosted in Azure App Service. To pinpoint the average load times of the application pages, you should make use of Azure Event Hubs.
 
 - [ ] No adjustment required.
@@ -1605,6 +1620,20 @@
 - [ ] You should create a build task and use the Chef service.
 - [ ] You should create a deployment task and use the Chef service.
 
+### You have an Azure DevOps project that contains a build pipeline. The build pipeline uses approximately 50 open source libraries. You need to ensure that all the open source libraries comply with your company's licensing standards. Which service should you use?
+
+- [ ] NuGet.
+- [ ] Maven.
+- [x] Black Duck.
+- [ ] Helm.
+
+### You have an Azure DevOps project that contains a build pipeline. The build pipeline uses approximately 50 open source libraries. You need to ensure that all the open source libraries comply with your company's licensing standards. Which service should you use?
+
+- [ ] Ansible.
+- [ ] Maven.
+- [x] WhiteSource Bolt.
+- [ ] Helm.
+
 ### You are currently defining a release strategy for an app, named APP-01. The strategy should allow you to keep the time it takes to deploy new releases of the app to a minimum. The strategy should also allow you to roll back in the shortest time required. Which of the following is the release strategy you should use?
 
 - [x] Red/Black deployment.
@@ -1619,12 +1648,40 @@
 - [x] npm install.
 - [ ] npm update.
 
+### You use WhiteSource Bolt to scan a Node.js application. The WhiteSource Bolt scan identifies numerous libraries that have invalid licenses. The libraries are used only during development and are not part of a production deployment. You need to ensure that WhiteSource Bolt only scans production dependencies. Which two actions should you perform?
+
+- [x] Run npm install and specify the –production flag.
+- [ ] Modify the WhiteSource Bolt policy and set the action for the licenses used by the development tools to Reassign.
+- [ ] Modify the devDependencies section of the project's Package.json file.
+- [x] Configure WhiteSource Bolt to scan the node_modules directory only.
+
 ### You are making use of Azure DevOps to configure Azure Pipelines for project, named PROJ-01. You are preparing to use a version control system that allows for source code to be stored on a managed Windows server located on the company network. Which of the following is the version control system you should use?
 
 - [x] Github Enterprise.
 - [ ] Bitbucket cloud.
 - [ ] Github Professional.
 - [ ] Git in Azure Repos.
+
+### You have a GitHub repository. You need to ensure that all the code in the repository is scanned for vulnerabilities. What should you use?
+
+- [ ] Dependabot alerts.
+- [ ] branch protection rules.
+- [x] CodeQL actions.
+- [ ] GitHub Advisory Database databases.
+
+### You have an Azure DevOps project that contains a build pipeline. The build pipeline uses approximately 50 open source libraries. You need to ensure that the project can be scanned for known security vulnerabilities in the open source libraries. What should you do?
+
+![Question 226](images/question226.jpg)
+
+- [x] Object to create: A build task. Service to use: WhiteSource Bolt.
+- [ ] Object to create: An artifacts repository. Service to use: WhiteSource Bolt.
+- [ ] Object to create: A deployment task. Service to use: A build task.
+- [ ] Object to create: WhiteSource Bolt. Service to use: A build task.
+
+### You plan to store signed images in an Azure Container Registry instance named az4009940427acr1. You need to modify the SKU for az4009940427acr1 to support the planned images. The solution must minimize costs. To complete this task, sign in to the Microsoft Azure portal.
+
+- [x] 1. Open Microsoft Azure Portal, and select the Azure Container Registry instance named az4009940427acr1. 2. Under Policies, select Content Trust > Enabled > Save.
+![Question 227 answer](images/question227_answer.jpg)
 
 ### Your company has an Azure DevOps environment that can only be accessed by Azure Active Directory users. You are instructed to make sure that the Azure DevOps environment can only be accessed from devices connected to the company's on-premises network. Which of the following actions should you take?
 
@@ -1664,31 +1721,11 @@
 - [x] Cycle time.
 - [ ] Burndown.
 
-### You have an Azure DevOps project that contains a build pipeline. The build pipeline uses approximately 50 open source libraries. You need to ensure that all the open source libraries comply with your company's licensing standards. Which service should you use?
-
-- [ ] NuGet.
-- [ ] Maven.
-- [x] Black Duck.
-- [ ] Helm.
-
 ### You administer an Azure DevOps project that includes package feeds. You need to ensure that developers can unlist and deprecate packages. The solution must use the principle of least privilege. Which access level should you grant to the developers?
 
 - [ ] Collaborator.
 - [x] Contributor.
 - [ ] Owner.
-
-### You plan to store signed images in an Azure Container Registry instance named az400123456789acr1. You need to modify the SKU for az400123456789acr1 to support the planned images. The solution must minimize costs. To complete this task, sign in to the Microsoft Azure portal.
-
-![Question 557](images/question557.jpg)
-
-### You have an Azure DevOps project that contains a build pipeline. The build pipeline uses approximately 50 open source libraries. You need to ensure that the project can be scanned for known security vulnerabilities in the open source libraries. What should you do?
-
-![Question 558](images/question558.jpg)
-
-- [x] Object to create: A build task. Service to use: WhiteSource Bolt.
-- [ ] Object to create: An artifacts repository. Service to use: WhiteSource Bolt.
-- [ ] Object to create: A deployment task. Service to use: A build task.
-- [ ] Object to create: WhiteSource Bolt. Service to use: A build task.
 
 ### You are creating a NuGet package. You plan to distribute the package to your development team privately. You need to share the package and test that the package can be consumed. Which four actions should you perform in sequence?
 
@@ -1854,13 +1891,6 @@
 - [ ] Box 1: microsoft/dotnet:2.2-aspnetcore-runtime. Box 2: dotnet publish -c Release -o out. Box 3: Microsoft/dotnet:2.2-sdk.
 - [ ] Box 1: dotnet restore. Box 2: Microsoft/dotnet:2.2-sdk. Box 3: microsoft/dotnet:2.2-aspnetcore-runtime.
 
-### You use WhiteSource Bolt to scan a Node.js application. The WhiteSource Bolt scan identifies numerous libraries that have invalid licenses. The libraries are used only during development and are not part of a production deployment. You need to ensure that WhiteSource Bolt only scans production dependencies. Which two actions should you perform?
-
-- [x] Run npm install and specify the –production flag.
-- [ ] Modify the WhiteSource Bolt policy and set the action for the licenses used by the development tools to Reassign.
-- [x] Modify the devDependencies section of the project's Package.json file.
-- [ ] Configure WhiteSource Bolt to scan the node_modules directory only.
-
 ### Your company uses ServiceNow for incident management. You develop an application that runs on Azure. The company needs to generate a ticket in ServiceNow when the application fails to authenticate. Which Azure Log Analytics solution should you use?
 
 - [ ] Application Insights Connector.
@@ -1941,16 +1971,6 @@
 - [ ] Maven
 - [ ] Bamboo
 - [ ] CMAKE
-
-### Your company makes use of Azure SQL Database Intelligent Insights and Azure Application Insights for monitoring purposes. You have been tasked with analyzing the monitoring using ad-hoc queries. You need to utilize the correct query language. Solution: You use the Contextual Query Language (CQL). Does the solution meet the goal?
-
-- [ ] Yes
-- [x] No
-
-### Your company makes use of Azure SQL Database Intelligent Insights and Azure Application Insights for monitoring purposes. You have been tasked with analyzing the monitoring using ad-hoc queries. You need to utilize the correct query language. Solution: You use the Transact-SQL. Does the solution meet the goal?
-
-- [ ] Yes
-- [x] No
 
 ### You manage an Azure web app that supports an e-commerce website. You need to increase the logging level when the web app exceeds normal usage patterns. The solution must minimize administrative overhead. Which two resources should you include in the solution? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.
 
@@ -2170,13 +2190,6 @@
 - [ ] Alternate credentials in Azure DevOps.
 - [ ] user accounts in Azure Active Directory (Azure AD).
 - [ ] managed identities in Azure Active Directory (Azure AD).\
-
-### You have an application that consists of several Azure App Service web apps and Azure functions. You need to assess the security of the web apps and the functions. Which Azure feature can you use to provide a recommendation for the security of the application?
-
-- [ ] Security & Compliance in Azure Log Analytics.
-- [ ] Resource health in Azure Service Health.
-- [ ] Smart Detection in Azure Application Insights.
-- [x] Compute & apps in Azure Security Center.
 
 ### DRAG DROP - Your company has an Azure subscription named Subscription1. Subscription1 is associated to an Azure Active Directory tenant named contoso.com. You need to provision an Azure Kubernetes Services (AKS) cluster in Subscription1 and set the permissions for the cluster by using RBAC roles that reference the identities in contoso.com. Which three objects should you create in sequence? To answer, move the appropriate objects from the list of objects to the answer area and arrange them in the correct order. Select and Place:
 
