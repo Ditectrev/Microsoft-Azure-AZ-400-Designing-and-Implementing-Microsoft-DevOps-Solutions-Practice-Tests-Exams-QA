@@ -1690,12 +1690,17 @@
 - [ ] Configure Security in Project Settings from Azure DevOps.
 - [x] Configure conditional access in Azure Active Directory.
 
-### You run the Register-AzureRmAutomationDscNode command in your company's environment. You need to make sure that your company's test servers remain correctly configured, regardless of configuration drift.Solution: You set the -ConfigurationMode parameter to ApplyAndAutocorrect. Does the solution meet the goal?
+### You run the Register-AzureRmAutomationDscNode command in your company's environment. You need to make sure that your company's test servers remain correctly configured, regardless of configuration drift. Solution: You set the -ConfigurationMode parameter to ApplyAndAutocorrect. Does the solution meet the goal?
 
 - [x] Yes.
 - [ ] No.
 
 ### Establish if the solution satisfies the requirements. You run the Register-AzureRmAutomationDscNode command in your company's environment. You need to make sure that your company's test servers remain correctly configured, regardless of configuration drift. Solution: You set the -ConfigurationMode parameter to ApplyAndMonitor. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Establish if the solution satisfies the requirements. You run the Register-AzureRmAutomationDscNode command in your company's environment. You need to make sure that your company's test servers remain correctly configured, regardless of configuration drift. Solution: You set the -ConfigurationMode parameter to ApplyOnly. Does the solution meet the goal?
 
 - [ ] Yes.
 - [x] No.
@@ -1707,7 +1712,7 @@
 - [ ] Scrum.
 - [x] CMMI.
 
-### You need to consider the underlined segment to establish whether it is accurate. The Burnup widget measures the elapsed time from creation of work items to their completion.
+### You need to consider the underlined segment to establish whether it is accurate. The [Burnup widget] measures the elapsed time from creation of work items to their completion.
 
 - [ ] No adjustment required.
 - [x] Lead time.
@@ -1938,11 +1943,6 @@
 - [ ] Box 1: Visual Studio Test. Box 2: Visual Studio Build. Box 3: Prepare Analysis Configuration. Box 4: Visual Studio Test.
 - [ ] Box 1: Publish Build Artifacts. Box 2: Prepare Analysis Configuration. Box 3: Visual Studio Build. Box 4: Run Code Analysis.
 - [x] Box 1: Prepare Analysis Configuration. Box 2: Visual Studio Build. Box 3: Visual Studio Test. Box 4: Run Code Analysis.
-
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You run the Register-AzureRmAutomationDscNode command in your company's environment. You need to make sure that your company's test servers remain correctly configured, regardless of configuration drift. Solution: You set the -ConfigurationMode parameter to ApplyOnly. Does the solution meet the goal?
-
-- [ ] Yes
-- [x] No
 
 ### You need to consider the underlined segment to establish whether it is accurate. To compile an Internet Information Services (IIS) web application that runs docker, you should use a Default build agent pool. Select No adjustment required if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
 
