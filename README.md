@@ -1734,10 +1734,10 @@
 
 ### You are creating a NuGet package. You plan to distribute the package to your development team privately. You need to share the package and test that the package can be consumed. Which four actions should you perform in sequence?
 
-![Question 559](images/question559.jpg)
+![Question 236](images/question236.jpg)
 
-- [x] Box 1: Configure a self-hosted agent. Box 2: Create a new Azure Artifacts feed. Box 3: Publish a package. Box 4: Connect to an Azure Artifacts feed.
-- [ ] Box 1: Create a new Azure Artifacts feed. Box 2: Publish a package. Box 3: Configure a self-hosted agent. Box 4: Connect to an Azure Artifacts feed.
+- [ ] Box 1: Configure a self-hosted agent. Box 2: Create a new Azure Artifacts feed. Box 3: Publish a package. Box 4: Connect to an Azure Artifacts feed.
+- [x] Box 1: Create a new Azure Artifacts feed. Box 2: Publish a package. Box 3: Connect to an Azure Artifacts feed. Box 4: Install a package.
 - [ ] Box 1: Configure a self-hosted agent. Box 2: Publish a package. Box 3: Connect to an Azure Artifacts feed. Box 4: Create a new Azure Artifacts feed.
 - [ ] Box 1: Create a new Azure Artifacts feed. Box 2: Connect to an Azure Artifacts feed. Box 3: Publish a package. Box 4: Configure a self-hosted agent.
 
