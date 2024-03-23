@@ -1759,16 +1759,8 @@
 
 ### You manage a website that uses an Azure SQL Database named db1 in a resource group named RG1lod11566895. You need to modify the SQL database to protect against SQL injection. To complete this task, sign in to the Microsoft Azure portal.
 
-![Question 561](images/question561.jpg)
-
-### Your company has an Azure subscription. The company requires that all resource group in the subscription have a tag named organization set to a value of Contoso. You need to implement a policy to meet the tagging requirement. How should you complete the policy?
-
-![Question 562](images/question562.jpg)
-
-- [ ] Box 1: Deny. Box 2: MicrosoftResources/subscriptions/resourceGroups.
-- [ ] Box 1: Microsoft Resources/subscriptions. Box 2: MicrosoftResources/subscriptions/resourceGroups.
-- [ ] Box 1: Deny. Box 2: Microsoft Resources/deployments.
-- [x] Box 1: MicrosoftResources/subscriptions/resourceGroups. Box 2: Deny.
+- [x] 1. From the Azure portal, open your server or managed instance. 2. Under the Security heading, select Security Center. 3. Select Enable Azure Defender for SQL.
+![Question 239 answer](images/question239_answer.jpg)
 
 ### Your company has a project in Azure DevOps for a new web application. The company uses ServiceNow for change management. You need to ensure that a change request is processed before any components can be deployed to the production environment. What are two ways to integrate ServiceNow into the Azure DevOps release pipeline?
 
@@ -1779,12 +1771,13 @@
 
 ### You have an application named App1 that has a custom domain of app.contoso.com. You create a test in Azure Application Insights as shown in the following exhibit.
 
-![Question 563](images/question563.jpg)
+![Question 241 part 1](images/question241_1.jpg)
+![Question 241 part 2](images/question241_2.png)
 
-- [x] Box 1: every five minutes at a random location. Box 2: all the HTML, JavaScripts, and images of App1 load.
-- [ ] Box 1: every 30 seconds at a random location. Box 2: the HTML of App1 and the HTML from URLs in <a> tags load.
-- [ ] Box 1: the HTML of App1 and the HTML from URLs in <a> tags load. Box 2: App1 responds to an ICMP ping.
-- [ ] Box 1: all the HTML, JavaScripts, and images of App1 load. Box 2: App1 responds to an ICMP ping.
+- [ ] The test will execute [...]: every five minutes at a random location. The test will pass if [...] within 30 seconds: all the HTML, JavaScripts, and images of App1 load.
+- [x] The test will execute [...]: every five minutes per location. The test will pass if [...] within 30 seconds: all the HTML, JavaScripts, and images of App1 load.
+- [ ] The test will execute [...]: the HTML of App1 and the HTML from URLs in <a> tags load. The test will pass if [...] within 30 seconds: App1 responds to an ICMP ping.
+- [ ] The test will execute [...]: all the HTML, JavaScripts, and images of App1 load. The test will pass if [...] within 30 seconds: App1 responds to an ICMP ping.
 
 ### You are creating a build pipeline in Azure Pipelines. You define several tests that might fail due to third-party applications. You need to ensure that the build pipeline completes successfully if the third-party applications are unavailable. What should you do?
 
