@@ -171,7 +171,7 @@
 ![Question 22 part 1](images/question3_12_22_34_35_40_41_43.jpg)
 ![Question 22 part 2](images/question22_2.jpg)
 
-- [x] Box 1: Create a Desired State Configuration (DSC) configuration file that has an extension of .ps1. Box 2: Run the Import-AzureRmAutomationDscConfiguration Azure PowerShell cmdlet. Box 3: Run the Start-AzureRmAutomationDscCompilationJob Azre PowerShell cdleut.
+- [x] Box 1: Create a Desired State Configuration (DSC) configuration file that has an extension of .ps1. Box 2: Run the Import-AzureRmAutomationDscConfiguration Azure PowerShell cmdlet. Box 3: Run the Start-AzureRmAutomationDscCompilationJob Azre PowerShell cmdlet.
 - [ ] Box 1: Run the Import-AzureRmAutomationDscConfiguration Azure PowerShell cmdlet. Box 2: Create a Desired State Configuration (DSC) configuration file that has an extension of .ps1. Box 3: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet.
 - [ ] Box 1: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet. Box 2: Create an Azure Resource Manager template file that hasan extension of .json. Box 3: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet.
 - [ ] Box 1: Create an Azure Resource Manager template file that has an extension of .json. Box 2: Run the New-AzureRmResourceGroupDeployment Azure PowerShell cmdlet. Box 3: Run the Import-AzureRmAutomationDscConfiguration Azure PowerShell cmdlet.
@@ -2345,3 +2345,132 @@
 - [ ] the number of unit test failures.
 - [ ] the percentage of unit test failures.
 - [x] the percentage of overall time spent on rework.
+
+### You have an Azure subscription that contains multiple Azure pipelines. You need to deploy a monitoring solution for the pi*lines. The solution must meet the following requirements: ✑ Parse logs from multiple sources. ✑ identify the root cause of issues. What advanced feature of a monitoring tool should include in the solution?
+
+- [ ] directed monitoring
+- [x] synthetic monitoring
+- [ ] analytics
+- [ ] Alert Management
+
+### You manage code by using GitHub. You need to ensure that repository owners are notified if a new vulnerable dependency or malware is found in their repository. What should you do?
+
+- [ ] Configure branch protection rules for each repository.
+- [x] Configure Dependabot alerts.
+- [ ] Configure CodeQL scanning actions.
+- [ ] Subscribe all the repository owners to the GitHub Advisory Database.
+
+### You have a project in Azure DevOps named Project1. You need to ensure that all new pipelines in Project1 execute three specific tasks during pipeline execution. What should you create?
+
+- [x] a task group
+- [ ] a JSON template
+- [ ] a YAML template
+- [ ] a PowerShell task
+
+### After you answer a question in this section, you will NOT be able to return to it As a result, these questions will not appear in the review screen. You use Azure Pipelines to build and test a React js application You have a pipeline that has a single job. You discover that installing JavaScript packages from npm lakes approximately five minutes each time you run the pipeline. You need to recommend a solution to reduce the pipeline execution time. Solution: You recommend enabling pipeline caching. Does this meet the goal?
+
+- [x] Yes
+- [ ] No
+
+### You have a project in Azure DevOps named Project1. Project1 contains a build pipeline named Pipe1 that builds an application named Appl. You have an agent pool named Pool1 that contains a Windows Server 2019-based self-hosted agent. Pipe1 uses Pool1. You plan to implement another project named Project2. Project2 will have a build pipeline named Pipe2 that builds an application named App2. App1 and App2 have conflicting dependencies. You need to minimize the possibility that the two build pipelines will conflict with each other. The solution must minimize infrastructure costs. What should you do?
+
+- [x] Create two container jobs.
+- [ ] Change the self-hosted agent to use Red Hat Enterprise Linux (RHEL) 9.
+- [ ] Add another self-hosted agent.
+- [ ] Add a Docker Compose task to the build pipelines.
+
+### You have a brand policy in a project in Azure DevOps. The policy requires that code always builds successfully. You need to ensure that a specific user can always merge change to the master branch, even if the code fails to compile. The solution must use the principle of least privilege. What should you do?
+
+- [ ] From the Security setting of the repository, modify the access control tor the user.
+- [x] From the Security settings of the branch, modify the access control for the user.
+- [ ] Add the user to the Build Administrators group.
+- [ ] Add the user to the Project Administrators group.
+
+### You use GitHub for source control and project-related discussions. You receive a notification when an entry is made to any team discussion. You need to ensure that you receive email notifications only for discussions in which you commented or in which you are mentioned. Which two Notifications settings should you clear? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.
+
+- [ ] Participating.
+- [x] Automatically watch repositories.
+- [ ] Automatically watch teams.
+- [x] Watching
+
+### You have an Azure subscription. The subscription contains virtual machines that run either Windows Server or Linux. You plan to use Prometheus to monitor performance metrics. You need to integrate Prometheus and Azure Monitor. Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.
+
+- [x] Install a Prometheus server on a Windows virtual machine in Azure.
+- [x] On each virtual machine, expose the metrics endpoint.
+- [ ] On each virtual machine, enable the Azure Diagnostics extension.
+- [ ] On each virtual machine, enable the containerized agent for Azure Monitor.
+- [ ] Expose a virtual network service endpoint for Azure Storage.
+- [ ] Install a Prometheus server on a Linux virtual machine in Azure.
+
+### You have a private project in Azure DevOps. You need to ensure that a project manager can create custom work item queries to report on the project’s progress. The solution must use the principle of least privilege. To which security group should you add the project manager?
+
+- [ ] Project Collection Administrators.
+- [ ] Reader.
+- [ ] Project Administrators.
+- [x] Contributor.
+
+### You need !0 the merge the POC branch into the default branch. The solution must meet the technical requirements. Which command should you run?
+
+- [ ] it push.
+- [ ] git merge — allow-unrelated-histories.
+- [ ] git rebase.
+- [x] git merge –squash.
+
+### You need to recommend changes to reduce the accumulated technical debt. Solution: You recommend increasing the code duplication. Does this meet the goal?
+
+- [ ] Yes
+- [x] No
+
+### You need to meet the technical requirements for monitoring App1. What should you use?
+
+- [ ] Splunk
+- [x] Azure Application Insights
+- [ ] Azure Advisor
+- [ ] App Service logs
+
+### You have an Azure DevOps organization that contains a project named Project1. You need to create a published wiki in Project1. What should you do first?
+
+- [ ] Modify the Storage settings of Project1.
+- [ ] In Project1, create an Azure DevOps pipeline.
+- [x] In Project1, create an Azure DevOps repository.
+- [ ] Modify the Team configuration settings of Project1.
+
+### You manage projects by using Azure Boards. You have a current work item name item A that is dependant on a work item named item3. You need to define the dependency for item A. What should you do in the web portal for Azure DevOps?
+
+- [ ] From Backlogs, open the context menu, select Add link and then select item3. Set Link type to Related and add the ID of item A.
+- [x] From item A open the Links tab, and then select Add link. Set Link type to Successor and add the ID of item B.
+- [ ] From Queries, open the context menu, select Add link, and then select Existing item.
+- [ ] From item A, open the Links tab, and then select Add link. Set Link type to References and add the ID Of item B.
+
+### DRAG DROP You have an Azure subscription that uses Azure Automation State Configuration to manage the configuration of virtual machines. You need to identify which nodes are noncompliant. How should you complete the query?
+
+![Question 926](images/question926.jpg)
+
+- [x] Box 1: Category. Box 2: OperationName. Box 3: ResultType.
+- [ ] Box 1: Category. Box 2: ResultType. Box 3: OperationName.
+- [ ] Box 1: OperationName. Box 2: Category. Box 3: ResultType.
+- [ ] Box 1: ResultType. Box 2: OperationName. Box 3: Category.
+
+### You have the services shown in the following table. You manage a project by using Azure Boards. You need to notify the services Of build Status changes. Which services can be notified by using a web hook?
+
+![Question 927](images/question927.jpg)
+
+- [ ] Service1 only
+- [ ] Service2 only
+- [x] Service1 and Service2 only
+
+### You have an Azure subscription that contains the resources shown in the following table. Project1 produces 9pm packages that are published to Feed1. Feed1 is consumed by multiple projects. You need to ensure that only tested packages are available for consumption. The solution must minimize development effort. What should you do?
+
+![Question 928](images/question928.jpg)
+
+- [ ] Create a feed view named @default. After the 9pm packages test successfully, configure a release pipeline that tags the packages as release.
+- [ ] Create a feed view named @release and set @release as the default view. After the 9pm packages test successfully, configure a release pipeline that tags the packages as release.
+- [x] Create a feed view named @release and set @release as the default view After the 9pm packages test successfully, configure a release pipeline that promotes a package to the @release view.
+- [ ] Create a feed view named @default. After the 9pm packages test successfully, configure a release pipeline that promotes a package to the @default view.
+
+### You have an on-premises app named App1 that accesses Azure resources by using credentials stored in a configuration file. You plan to upgrade App1 to use an Azure service principal. What is required for App1 to programmatically sign in to Azure Active Directory (Azure AD)?
+
+- [ ] the application ID, a client secret, and the object ID.
+- [ ] a client secret, the object ID, and the tenant ID.
+- [x] the application ID, a client secret, and the tenant ID.
+- [ ] the application ID, a client secret, and the subscription ID.
