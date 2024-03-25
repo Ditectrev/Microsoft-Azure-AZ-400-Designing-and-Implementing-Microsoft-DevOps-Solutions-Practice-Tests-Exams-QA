@@ -1782,18 +1782,17 @@
 ### You are creating a build pipeline in Azure Pipelines. You define several tests that might fail due to third-party applications. You need to ensure that the build pipeline completes successfully if the third-party applications are unavailable. What should you do?
 
 - [ ] Configure the build pipeline to use parallel jobs.
-- [ ] Configure flaky tests.
+- [x] Configure flaky tests.
 - [ ] Increase the test pass percentage.
-- [x] Add the Requirements quality widget to your dashboard.
+- [ ] Add the Requirements quality widget to your dashboard.
 
-### You have an Azure subscription that contains a resources group named RG1. RG1 contains the following resources: Four Azure virtual machines that run Windows Server and have Internet Services (IIS) installed. SQL Server on an Azure virtual machine. An Azure Load Balancer. You need to deploy an application to the virtual machines in RG1 by using Azure Pipelines. Which four actions should you perform in sequence?
+### You have a build pipeline in Azure Pipelines that occasionally fails. You discover that a test measuring the response time of an API endpoint causes the failures. You need to prevent the build pipeline from failing due to the test. Which two actions should you perform?
 
-![Question 564](images/question564.jpg)
-
-- [x] Box 1: Create an agent pool. Box 2: Create a deployment group. Box 3: Execute the Azure Pipelines Agent extension to the virtual machines. Box 4: Add and configure a deployment group job for the pipeline.
-- [ ] Box 1: Create an agent pool. Box 2: Execute the Azure Pipelines Agent extension to the virtual machines. Box 3: Create a deployment group. Box 4: .Add the Puppet Agent extension to the virtual machines
-- [ ] Box 1: Add and configure a deployment group job for the pipeline. Box 2: Create an agent pool. Box 3: Create a deployment group. Box 4: Add the Puppet Agent extension to the virtual machines.
-- [ ] Box 1: Create a deployment group. Box 2: Add the Puppet Agent extension to the virtual machines. Box 3: Execute the Azure Pipelines Agent extension to the virtual machines. Box 4: Create an agent pool.
+- [ ] Set Flaky test detection to Off.
+- [x] Clear Flaky tests included in test pass percentage.
+- [ ] Enable Test Impact Analysis (TIA).
+- [x] Manually mark the test as flaky.
+- [ ] Enable test slicing.
 
 ### You have a build pipeline in Azure Pipelines that uses different jobs to compile an application for 10 different architectures. The build pipeline takes approximately one day to complete. You need to reduce the time it takes to execute the build pipeline. Which two actions should you perform?
 
@@ -1803,18 +1802,28 @@
 - [ ] Reduce the size of the repository.
 - [x] Create an agent pool.
 
+### You have an Azure subscription that contains a resources group named RG1. RG1 contains the following resources: Four Azure virtual machines that run Windows Server and have Internet Services (IIS) installed. SQL Server on an Azure virtual machine. An Azure Load Balancer. You need to deploy an application to the virtual machines in RG1 by using Azure Pipelines. Which four actions should you perform in sequence?
+
+![Question 245](images/question245.jpg)
+
+- [ ] Box 1: Create an agent pool. Box 2: Create a deployment group. Box 3: Execute the Azure Pipelines Agent extension to the virtual machines. Box 4: Add and configure a deployment group job for the pipeline.
+- [ ] Box 1: Create an agent pool. Box 2: Execute the Azure Pipelines Agent extension to the virtual machines. Box 3: Create a deployment group. Box 4: .Add the Puppet Agent extension to the virtual machines
+- [ ] Box 1: Add and configure a deployment group job for the pipeline. Box 2: Create an agent pool. Box 3: Create a deployment group. Box 4: Add the Puppet Agent extension to the virtual machines.
+- [x] Box 1: Create a deployment group. Box 2: Add the Puppet Agent extension to the virtual machines. Box 3: Add and configure a deployment group job for the pipeline. Box 4: Execute the Azure Pipelines Agent extension to the virtual machines.
+
 ### You company uses a Git source-code repository. You plan to implement Gitflow as a workflow strategy. You need to identify which branch types are used for production code and preproduction code in the strategy. Which branch type should you identify for each code type?
 
-![Question 565](images/question565.jpg)
+![Question 246](images/question246.png)
 
 - [ ] Box 1: Develop. Box 2: Feature.
-- [ ] Box 1: Feature. Box 2: Master.
-- [x] Box 1: Master. Box 2: Develop.
-- [ ] Box 1: Master. Box 2: Feature.
+- [ ] Box 1: Feature. Box 2: Main.
+- [x] Box 1: Main. Box 2: Develop.
+- [ ] Box 1: Main. Box 2: Feature.
 
 ### You have an Azure DevOps release pipeline as shown in the following exhibit. You need to complete the pipeline to configure OWASP ZAP for security testing. Which five Azure CLI tasks should you add in sequence?
 
-![Question 566](images/question566.jpg)
+![Question 247 part 1](images/question247_1.jpg)
+![Question 247 part 2](images/question247_2.jpg)
 
 - [x] Box 1: Call the Baseline Scan. Box 2: Download the file. Box 3: Convert Report Format. Box 4: Publish Test Results. Box 5: Destroy OWASP Container.
 - [ ] Box 1: Docker CLI installer. Box 2: Destroy OWASP Container. Box 3: Publish Test Results. Box 4: Call the Baseline Scan. Box 5: Download the file.
@@ -1825,68 +1834,101 @@
 
 - [ ] Single stage Dockerfile.
 - [ ] Azure Kubernetes Service (AKS) pod.
-- [ ] Multi-stage Dockerfile.
-- [x] Docker Compose file.
+- [x] Multi-stage Dockerfile.
+- [ ] Docker Compose file.
+
+### You have an Azure Pipelines application CI/CD pipeline named Pipeline1. You need to add OWASP ZAP testing to Pipeline1. Which four actions should you add to Pipeline1 in sequence?
+
+![Question 249](images/question249.png)
+
+- [ ] Box 1: Start a container. Box 2: Run the baseline. Box 3: Run an active scan. Box 4: Report the results.
+- [x] Box 1: Pull OWASP ZAP Weekly. Box 2: Start a container. Box 3: Run the baseline. Box 4: Report the results.
+- [ ] Box 1: Spider the site. Box 2: Run the baseline. Box 3: Run an active scan. Box 4: Report the results.
+- [ ] Box 1: Spider the site. Box 2: Run the baseline. Box 3: Pull OWASP ZAP Weekly. Box 4: Report the results.
 
 ### You have an Azure subscription that contains an Azure Active Directory (Azure AD) tenant. You are configuring a build pipeline in Azure Pipelines that will include a task named Task1. Task1 will authenticate by using an Azure AD service principal. Which three values should you configure for Task1?
 
 - [x] Tenant ID.
-- [x] Subscription ID.
-- [ ] Client secret.
+- [ ] Subscription ID.
+- [x] Client secret.
 - [x] App ID.
 - [ ] Object ID.
 
+### You have a tenant in Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra. The tenant contains three groups named Group1, Group2, and Group3. You create a new project in Azure DevOps named Project1. You need to secure the service connections for Project1. The solution must meet the following requirements: The members of Group1 must be able to share and unshare a service connection with other projects. The members of Group2 must be able to rename a service connection and update the description. The members of Group3 must be able to use the service connection within build or release pipelines. The principle of least privilege must be followed. Which permission should you grant to each group?
+
+![Question 251](images/question251.png)
+
+- [ ] Group 1: Project-level Administrator. Group 2: Contributor. Group 3: User.
+- [ ] Group 1: Project-level Administrator. Group 2: Contributor. Group 3: Organizational-level Administrator.
+- [x] Group 1: Organizational-level Administrator. Group 2: Project-level Administrator. Group 3: User.
+- [ ] Group 1: Organizational-level Administrator. Group 2: Creator. Group 3: User.
+
 ### You are deploying a new application that uses Azure virtual machines. You plan to use the Desired State Configuration (DSC) extension on the virtual machines. You need to ensure that the virtual machines always have the same Windows feature installed. Which three actions should you perform in sequence?
 
-![Question 567](images/question567.jpg)
+![Question 252](images/question252.jpg)
 
 - [ ] Box 1: Create a YAML configuration file. Box 2: Load the file to Azure Blob storage. Box 3: Create a PowerShell configuration file.
-- [x] Box 1: Create a Power Shell configuration file. Box 2: Load the file to Azure Blob storage. Box 3: Configure the Custom Script Extension on the virtual machines.
-- [ ] Box 1: Create a PowerShell configuration file. Box 2: Load the file to Azure Blob storage. Box 3: Load the file to Azure Files.
+- [ ] Box 1: Create a PowerShell configuration file. Box 2: Load the file to Azure Blob storage. Box 3: Configure the Custom Script Extension on the virtual machines.
+- [x] Box 1: Create a PowerShell configuration file. Box 2: Load the file to Azure Blob storage. Box 3: Configure the DSC extension on the virtual machines.
 - [ ] Box 1: Load the file to Azure Files. Box 2: Load the file to Azure Blob storage. Box 3: Create a PowerShell configuration file.
 
 ### You are developing an application. The application source has multiple branches. You make several changes to a branch used for experimentation. You need to update the main branch to capture the changes made to the experimentation branch and override the history of the Git repository. Which Git option should you use?
 
-- [ ] Rebase.
+- [x] Rebase.
 - [ ] Fetch.
-- [x] Merge.
+- [ ] Merge.
 - [ ] Push.
 
-### You plan to update the Azure DevOps strategy of your company. You need to identify the following issues as they occur during the company's development process: Licensing violations Prohibited libraries. Solution: You implement pre-deployment gates. Does this meet the goal?
+### You plan to update the Azure DevOps strategy of your company. You need to identify the following issues as they occur during the company's development process: Licensing violations. Prohibited libraries. Solution: You implement pre-deployment gates. Does this meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
-### You plan to update the Azure DevOps strategy of your company. You need to identify the following issues as they occur during the company's development process: Licensing violations Prohibited libraries. Solution: You implement automated security testing. Does this meet the goal?
+### You plan to update the Azure DevOps strategy of your company. You need to identify the following issues as they occur during the company's development process: Licensing violations. Prohibited libraries. Solution: You implement automated security testing. Does this meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
-### You plan to update the Azure DevOps strategy of your company. You need to identify the following issues as they occur during the company's development process: Licensing violations Prohibited libraries Solution: You implement continuous integration. Does this meet the goal?
+### You plan to update the Azure DevOps strategy of your company. You need to identify the following issues as they occur during the company's development process: Licensing violations. Prohibited libraries. Solution: You implement continuous integration. Does this meet the goal?
 
-- [x] Yes.
-- [ ] No.
+- [ ] Yes.
+- [x] No.
+
+### You plan to update the Azure DevOps strategy of your company. You need to identify the following issues as they occur during the company's development process: Licensing violations. Prohibited libraries. Solution: You implement continuous deployment. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
 
 ### You plan to create alerts that will be triggered based on the page load performance of a home page. You have the Application Insights log query shown in the following exhibit.
 
-![Question 568](images/question568.jpg)
+![Question 258 part 1](images/question258_1.jpg)
+![Question 258 part 2](images/question258_2.png)
 
-- [ ] Box 1: percentile_duration_50. Box 2: item Type.
-- [x] Box 1: percentile_duration_95. Box 2: success.
-- [ ] Box 1: success. Box 2: percentile_duration_95.
-- [ ] Box 1: percentile_duration_95. Box 2: source.
+- [x] To create an alert based on the page load experience of most users, the alerting level must be based on [...]: percentile_duration_95. To only create an alert when authentication error occurs on the server, the query must be filtered on [...]: resultCode.
+- [ ] To create an alert based on the page load experience of most users, the alerting level must be based on [...]: percentile_duration_95. To only create an alert when authentication error occurs on the server, the query must be filtered on [...]: success.
+- [ ] To create an alert based on the page load experience of most users, the alerting level must be based on [...]: success. To only create an alert when authentication error occurs on the server, the query must be filtered on [...]: percentile_duration_95.
+- [ ] To create an alert based on the page load experience of most users, the alerting level must be based on [...]: percentile_duration_50. To only create an alert when authentication error occurs on the server, the query must be filtered on [...]: source.
 
 ### You plan to deploy a runbook that will create Azure AD user accounts. You need to ensure that runbooks can run the Azure PowerShell cmdlets for Azure Active Directory. To complete this task, sign in to the Microsoft Azure portal.
 
-- [x] See solution below.
+- [x] 1. Select the Automation account with the runbook. 2. select Modules, the "browse gallery". 3. search "AzureAD" and install it.
 
 ### You are creating a container for an ASP.NET Core app. You need to create a Dockerfile file to build the image. The solution must ensure that the size of the image is minimized. How should you configure the file?
 
-![Question 569](images/question569.jpg)
+![Question 260](images/question260.png)
 
-- [x] Box 1: Microsoft/dotnet:2.2-sdk. Box 2: dotnet restore. Box 3: microsoft/dotnet:2.2-aspnetcore-runtime.
+- [ ] Box 1: mcr.microsoft.com/dotnet/sdk:5.0. Box 2: dotnet restore. Box 3: mcr.microsoft.com/dotnet/aspnet:5.0.
+- [ ] Box 1: mcr.microsoft.com/dotnet/aspnet:5.0. Box 2: mcr.microsoft.com/dotnet/sdk:5.0. Box 3: dotnet restore.
+- [x] Box 1: mcr.microsoft.com/dotnet/sdk:5.0. Box 2: dotnet publish -c Release -o out. Box 3: mcr.microsoft.com/dotnet/aspnet:5.0.
+- [ ] Box 1: dotnet restore. Box 2: mcr.microsoft.com/dotnet/sdk:5.0. Box 3: mcr.microsoft.com/dotnet/aspnet:5.0.
+
+### You are creating a container for an ASP.NET Core app. You need to create a Dockerfile file to build the image. The solution must ensure that the size of the image is minimized. How should you configure the file?
+
+![Question 261](images/question261.jpg)
+
+- [ ] Box 1: Microsoft/dotnet:2.2-sdk. Box 2: dotnet restore. Box 3: microsoft/dotnet:2.2-aspnetcore-runtime.
 - [ ] Box 1: microsoft/dotnet:2.2-aspnetcore-runtime. Box 2: Microsoft/dotnet:2.2-sdk. Box 3: dotnet restore.
-- [ ] Box 1: microsoft/dotnet:2.2-aspnetcore-runtime. Box 2: dotnet publish -c Release -o out. Box 3: Microsoft/dotnet:2.2-sdk.
+- [x] Box 1: Microsoft/dotnet:2.2-sdk. Box 2: dotnet publish -c Release -o out. Box 3: microsoft/dotnet:2.2-aspnetcore-runtime.
 - [ ] Box 1: dotnet restore. Box 2: Microsoft/dotnet:2.2-sdk. Box 3: microsoft/dotnet:2.2-aspnetcore-runtime.
 
 ### Your company uses ServiceNow for incident management. You develop an application that runs on Azure. The company needs to generate a ticket in ServiceNow when the application fails to authenticate. Which Azure Log Analytics solution should you use?
@@ -2109,14 +2151,6 @@
 - [x] Add the 5 parameter to the ApplicationInsights.config file.
 - [ ] From the code of the application, disable adaptive sampling.
 
-### You have a build pipeline in Azure Pipelines that occasionally fails. You discover that a test measuring the response time of an API endpoint causes the failures. You need to prevent the build pipeline from failing due to the test. Which two actions should you perform?
-
-- [ ] Set Flaky test detection to Off.
-- [x] Clear Flaky tests included in test pass percentage.
-- [ ] Enable Test Impact Analysis (TIA).
-- [x] Manually mark the test as flaky.
-- [ ] Enable test slicing.
-
 ### Your company uses the following resources: Windows Server 2019 container images hosted in an Azure Container Registry. Azure virtual machines that run the latest version of Ubuntu. An Azure Log Analytics workspace. Azure Active Directory (Azure AD). An Azure key vault For which two resources can you receive vulnerability assessments in Azure Security Center?
 
 - [ ] Azure Log Analytics workspace.
@@ -2228,11 +2262,6 @@
 - [x] User 1: Project Administrators. User 2: Contributors.
 - [ ] User 1: Project Administrators. User 2: Stakeholders.
 - [ ] User 1: Contributors. User 2: Project Administrators.
-
-### You plan to update the Azure DevOps strategy of your company. You need to identify the following issues as they occur during the company's development process: -> Licensing violations -> Prohibited libraries Solution: You implement continuous deployment. Does this meet the goal?
-
-- [ ] Yes
-- [x] No
 
 ### HOTSPOT - You have a project in Azure DevOps that has three teams as shown in the Teams exhibit. (Click the Teams tab.)
 
