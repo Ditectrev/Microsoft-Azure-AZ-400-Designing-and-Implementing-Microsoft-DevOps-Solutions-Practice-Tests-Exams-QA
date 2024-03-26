@@ -1938,13 +1938,15 @@
 - [x] IT Service Management Connector (ITSM).
 - [ ] Insight & Analytics.
 
-### You need to configure an Azure web app named az400-123456789-main to contain an environmental variable named "MAX_ITEMS". The environmental variable must have a value of 50. To complete this task, sign in to the Microsoft Azure portal.
+### You need to configure an Azure web app named az400-123456789-main to contain an environmental variable named 'MAX_ITEMS'. The environmental variable must have a value of 50. To complete this task, sign in to the Microsoft Azure portal.
 
-![Question 570](images/question570.jpg)
+- [x] 1. In the Azure portal, navigate to the az400-123456789-main app's management page. In the app's left menu, click Configuration > Application settings. 2. Click New Application settings. 3. Enter the following: Name: MAX_ITEMS. Value: 50.
+![Question 263 answer](images/question263_answer.jpg)
 
 ### You need to prepare a network security group (NSG) named az400-123456789-nsg1 to host an Azure DevOps pipeline agent. The solution must allow only the required outbound port for Azure DevOps and deny all other inbound and outbound access to the Internet. To complete this task, sign in to the Microsoft Azure portal.
 
-![Question 571](images/question571.jpg)
+- [x] 1. Open Microsoft Azure Portal and Log into your Azure account. 2. Select network security group (NSG) named az400-123456789-nsg1. 3. Select Settings, Outbound security rules, and click Add 4. Click Advanced. 5. Change the following settings: Name: Allow-Outbound. Priority: 100 (or any number lower than 65000). Source: Any. Source Port Range: *. Destination: Any. Destination Port Range: 443. Protocol: TCP. Action: Allow.
+![Question 264 answer](images/question264_answer.jpg)
 
 ### You plan to create a release pipeline that will deploy Azure resources by using Azure Resource Manager templates. The release pipeline will create the following resources: Two resource groups Four Azure virtual machines in one resource group Two Azure SQL databases in other resource group You need to recommend a solution to deploy the resources. Solution: Create a single standalone template that will deploy all the resources. Does this meet the goal?
 
