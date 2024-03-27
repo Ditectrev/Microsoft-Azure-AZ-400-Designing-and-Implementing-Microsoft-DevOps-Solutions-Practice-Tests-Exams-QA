@@ -1014,7 +1014,7 @@
 - [x] The elapsed time from the creation of work items to their completion: Lead Time. The elapsed time to complete work items once they are active: Cycle Time. The remaining work: Burndown.
 - [ ] The elapsed time from the creation of work items to their completion: Burndown. The elapsed time to complete work items once they are active: Lead Time. The remaining work: Velocity.
 
-### You need to consider the underlined segment to establish whether it is accurate. To find when common open source libraries are added to the code base, you should add [Jenkins] to the build pipeline.
+### To find when common open source libraries are added to the code base, you should add [Jenkins] to the build pipeline.
 
 - [ ] No adjustment required.
 - [ ] SourceGear Vault.
@@ -1599,7 +1599,7 @@
 - [x] Yes.
 - [ ] No.
 
-### You need to consider the underlined segment to establish whether it is accurate. Your company has a multi-tier application that has its front end hosted in Azure App Service. To pinpoint the average load times of the application pages, you should make use of Azure Event Hubs.
+### Your company has a multi-tier application that has its front end hosted in Azure App Service. To pinpoint the average load times of the application pages, you should make use of [Azure Event Hubs].
 
 - [ ] No adjustment required.
 - [x] Azure Application Insights.
@@ -1712,7 +1712,7 @@
 - [ ] Scrum.
 - [x] CMMI.
 
-### You need to consider the underlined segment to establish whether it is accurate. The [Burnup widget] measures the elapsed time from creation of work items to their completion.
+### The [Burnup widget] measures the elapsed time from creation of work items to their completion.
 
 - [ ] No adjustment required.
 - [x] Lead time.
@@ -1948,83 +1948,82 @@
 - [x] 1. Open Microsoft Azure Portal and Log into your Azure account. 2. Select network security group (NSG) named az400-123456789-nsg1. 3. Select Settings, Outbound security rules, and click Add 4. Click Advanced. 5. Change the following settings: Name: Allow-Outbound. Priority: 100 (or any number lower than 65000). Source: Any. Source Port Range: *. Destination: Any. Destination Port Range: 443. Protocol: TCP. Action: Allow.
 ![Question 264 answer](images/question264_answer.jpg)
 
-### You plan to create a release pipeline that will deploy Azure resources by using Azure Resource Manager templates. The release pipeline will create the following resources: Two resource groups Four Azure virtual machines in one resource group Two Azure SQL databases in other resource group You need to recommend a solution to deploy the resources. Solution: Create a single standalone template that will deploy all the resources. Does this meet the goal?
+### You plan to create a release pipeline that will deploy Azure resources by using Azure Resource Manager templates. The release pipeline will create the following resources: Two resource groups. Four Azure virtual machines in one resource group. Two Azure SQL databases in other resource group. You need to recommend a solution to deploy the resources. Solution: Create a single standalone template that will deploy all the resources. Does this meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
-### You plan to create a release pipeline that will deploy Azure resources by using Azure Resource Manager templates. The release pipeline will create the following resources: Two resource groups Four Azure virtual machines in one resource group Two Azure SQL databases in other resource group You need to recommend a solution to deploy the resources. Solution: Create two standalone templates, each of which will deploy the resources in its respective group. Does this meet the goal?
+### You plan to create a release pipeline that will deploy Azure resources by using Azure Resource Manager templates. The release pipeline will create the following resources: Two resource groups. Four Azure virtual machines in one resource group. Two Azure SQL databases in other resource group. You need to recommend a solution to deploy the resources. Solution: Create two standalone templates, each of which will deploy the resources in its respective group. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### You plan to create a release pipeline that will deploy Azure resources by using Azure Resource Manager templates. The release pipeline will create the following resources: Two resource groups. Four Azure virtual machines in one resource group. Two Azure SQL databases in other resource group. You need to recommend a solution to deploy the resources. Solution: Create a main template that will deploy the resources in one resource group and a nested template that will deploy the resources in the other resource group. Does this meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
-### You plan to create a release pipeline that will deploy Azure resources by using Azure Resource Manager templates. The release pipeline will create the following resources: Two resource groups Four Azure virtual machines in one resource group Two Azure SQL databases in other resource group You need to recommend a solution to deploy the resources. Solution: Create a main template that will deploy the resources in one resource group and a nested template that will deploy the resources in the other resource group. Does this meet the goal?
-
-- [ ] Yes.
-- [x] No.
+### When moving to Azure DevOps, JIRA must be replaced with the build pipelines Azure [DevOps] service.
+- [ ] No adjustment required.
+- [ ] Repos.
+- [ ] Release pipelines.
+- [x] Boards.
 
 ### You currently use JIRA, Jenkins, and Octopus as part of your DevOps processes. You plan to use Azure DevOps to replace these tools. Which Azure DevOps service should you use to replace each tool?
 
-![Question 572](images/question572.jpg)
+![Question 269](images/question269.jpg)
 
-- [x] Box 1: Release pipelines. Box 2: Repos. Box 3: Build pipelines.
-- [ ] Box 1: Repos. Box 2: Release pipelines. Box 3: Repos.
-- [ ] Box 1: Build pipelines. Box 2: Boards. Box 3: Build pipelines.
-- [ ] Box 1: Boards. Box 2: Release pipelines. Box 3: Release pipelines.
+- [ ] JIRA: Release pipelines. Jenkins: Repos. Octopus: Build pipelines.
+- [ ] JIRA: Repos. Jenkins: Release pipelines. Octopus: Repos.
+- [ ] JIRA: Build pipelines. Jenkins: Boards. Octopus: Build pipelines.
+- [x] JIRA: Boards. Jenkins: Build pipelines. Octopus: Release pipelines.
 
 ### You are developing a full Microsoft .NET Framework solution that includes unit tests. You need to configure SonarQube to perform a code quality validation of the C# code as part of the build pipelines. Which four tasks should you perform in sequence?
 
-![Question 573](images/question573.jpg)
+![Question 270](images/question270.jpg)
 
 - [ ] Box 1: Visual Studio Build. Box 2: Run Code Analysis. Box 3: Publish Build Artifacts. Box 4: Prepare Analysis Configuration.
 - [ ] Box 1: Visual Studio Test. Box 2: Visual Studio Build. Box 3: Prepare Analysis Configuration. Box 4: Visual Studio Test.
 - [ ] Box 1: Publish Build Artifacts. Box 2: Prepare Analysis Configuration. Box 3: Visual Studio Build. Box 4: Run Code Analysis.
 - [x] Box 1: Prepare Analysis Configuration. Box 2: Visual Studio Build. Box 3: Visual Studio Test. Box 4: Run Code Analysis.
 
-### You need to consider the underlined segment to establish whether it is accurate. To compile an Internet Information Services (IIS) web application that runs docker, you should use a Default build agent pool. Select No adjustment required if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+### To compile an Internet Information Services (IIS) web application that runs docker, you should use a [Default build agent pool].
 
 - [ ] No adjustment required.
-- [ ] Hosted Windows Container.
-- [x] Hosted.
+- [x] Hosted Windows Container.
+- [ ] Hosted.
 - [ ] Hosted macOS
 
-### You need to consider the underlined segment to establish whether it is accurate. When moving to Azure DevOps, JIRA must be replaced with the build pipelines Azure DevOps service. Select No adjustment required if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+### To deploy an application to a number of Azure virtual machines, you should create a [universal] group.
 
 - [ ] No adjustment required.
-- [ ] repos
-- [x] release pipelines
-- [ ] boards
+- [ ] Security.
+- [x] Deployment.
+- [ ] Resource.
 
-### You need to consider the underlined segment to establish whether it is accurate. To deploy an application to a number of Azure virtual machines, you should create a universal group. Select No adjustment required if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
-
-- [ ] No adjustment required.
-- [ ] security.
-- [x] deployment.
-- [ ] resource.
-
-### You need to consider the underlined segment to establish whether it is accurate. Black Duck can be used to make sure that all the open source libraries conform to your company's licensing criteria. Select No adjustment required if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+### [Black Duck] can be used to make sure that all the open source libraries conform to your company's licensing criteria.
 
 - [x] No adjustment required.
-- [ ] Maven
-- [ ] Bamboo
-- [ ] CMAKE
+- [ ] Maven.
+- [ ] Bamboo.
+- [ ] CMAKE.
 
-### You manage an Azure web app that supports an e-commerce website. You need to increase the logging level when the web app exceeds normal usage patterns. The solution must minimize administrative overhead. Which two resources should you include in the solution? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.
+### You manage an Azure web app that supports an e-commerce website. You need to increase the logging level when the web app exceeds normal usage patterns. The solution must minimize administrative overhead. Which two resources should you include in the solution?
 
-- [x] an Azure Automation runbook.
-- [x] an Azure Monitor alert that has a dynamic threshold.
-- [ ] an Azure Monitor alert that has a static threshold.
-- [ ] the Azure Monitor autoscale settings.
-- [ ] an Azure Monitor alert that uses an action group that has an email action.
+- [x] Azure Automation runbook.
+- [x] Azure Monitor alert that has a dynamic threshold.
+- [ ] Azure Monitor alert that has a static threshold.
+- [ ] Azure Monitor autoscale settings.
+- [ ] Azure Monitor alert that uses an action group that has an email action.
 
-### HOTSPOT - You have an Azure Kubernetes Service (AKS) pod. You need to configure a probe to perform the following actions: -> Confirm that the pod is responding to service requests. -> Check the status of the pod four times a minute. -> Initiate a shutdown if the pod is unresponsive. How should you complete the YAML configuration file? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
+### You have an Azure Kubernetes Service (AKS) pod. You need to configure a probe to perform the following actions: Confirm that the pod is responding to service requests. Check the status of the pod four times a minute. Initiate a shutdown if the pod is unresponsive. How should you complete the YAML configuration file?
 
-![Question 576](images/question576.jpg)
+![Question 275](images/question275.jpg)
 
-- [ ] Box 1: timeoutSeconds: 15. Box 2: readinessProbe.
-- [ ] Box 1: livenessProbe. Box 2: startupProbe.
-- [ ] Box 1: initialDelaySeconds: 15. Box 2: livenessProbe.
-- [x] Box 1: readinessProbe. Box 2: periodSeconds: 15.
+- [ ] Box 1: readinessProbe: 15. Box 2: timeoutSeconds: 15.
+- [x] Box 1: livenessProbe. Box 2: periodSeconds: 15.
+- [ ] Box 1: ShutdownProbe: 15. Box 2: initialDelaySeconds: 15.
+- [ ] Box 1: readinessProbe. Box 2: periodSeconds: 15.
 
 ### You need to create an instance of Azure Application Insights named az400-123456789-main and configure the instance to receive telemetry data from an Azure web app named az400-123456789-main. To complete this task, sign in to the Microsoft Azure portal.
 
