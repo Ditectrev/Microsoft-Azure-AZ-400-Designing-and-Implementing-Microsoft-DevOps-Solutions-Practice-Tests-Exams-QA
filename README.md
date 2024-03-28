@@ -1964,6 +1964,7 @@
 - [x] No.
 
 ### When moving to Azure DevOps, JIRA must be replaced with the build pipelines Azure [DevOps] service.
+
 - [ ] No adjustment required.
 - [ ] Repos.
 - [ ] Release pipelines.
@@ -2027,33 +2028,45 @@
 
 ### You need to create an instance of Azure Application Insights named az400-123456789-main and configure the instance to receive telemetry data from an Azure web app named az400-123456789-main. To complete this task, sign in to the Microsoft Azure portal.
 
-![Question 577](images/question577.jpg)
+- [x] 1. Login to Az Portal 2. Create an App Insights resource. 3. Locate your Az Web App, if it does not exist, create it. 4. Go to the resource, to Settings, to Application Insights and enable it. Select the App Insights resource you created earlier and Apply.
+![Question 276 answer](images/question276_answer.jpg)
 
-### Your company wants to use Azure Application Insights to understand how user behaviors affect an application. Which Application Insights tool should you use to analyze each behavior?.
+### Your company wants to use Azure Application Insights to understand how user behaviors affect an application. Which Application Insights tool should you use to analyze each behavior?
 
-![Question 578](images/question578.jpg)
+![Question 277](images/question277.jpg)
 
 - [ ] Feature usage: Impact. Number of people who used the actions and its features: Impact. The effect that the performance of the application has on the usage of a page or a feature: User Flows.
-- [ ] Feature usage: Users. Number of people who used the actions and its features: User Flows. The effect that the performance of the application has on the usage of a page or a feature: Impact.
-- [x] Feature usage: User Flows. Number of people who used the actions and its features: Users. The effect that the performance of the application has on the usage of a page or a feature: Impact.
+- [x] Feature usage: Users. Number of people who used the actions and its features: User Flows. The effect that the performance of the application has on the usage of a page or a feature: Impact.
+- [ ] Feature usage: User Flows. Number of people who used the actions and its features: Users. The effect that the performance of the application has on the usage of a page or a feature: Impact.
 - [ ] Feature usage: Users. Number of people who used the actions and its features: User Flows. The effect that the performance of the application has on the usage of a page or a feature: Impact.
 
 ### You have an Azure DevOps project named Project1 and an Azure subscription named Sub1. Sub1 contains an Azure virtual machine scale set named VMSS1. VMSS1 hosts a web application named WebApp1. WebApp1 uses stateful sessions. The WebApp1 installation is managed by using the Custom Script extension. The script resides in an Azure Storage account named sa1. You plan to make a minor change to a UI element of WebApp1 and to gather user feedback about the change. You need to implement limited user testing for the new version of WebApp1 on VMSS1. Which three actions should you perform?
 
 - [ ] Modify the load balancer settings of VMSS1.
-- [x] Redeploy VMSS1.
+- [ ] Redeploy VMSS1.
 - [x] Upload a custom script file to sa1.
 - [x] Modify the Custom Script extension settings of VMSS1.
-- [ ] Update the configuration of a virtual machine in VMSS1.
+- [x] Update the configuration of a virtual machine in VMSS1.
 
-### You have several Azure virtual machines that run Windows Server 2019. You need to identify the distinct event IDs of each virtual machine as shown in the following table. How should you complete the Azure Monitor query? To answer, drag the appropriate values to the correct locations. Each value may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+### You have several Azure virtual machines that run Windows Server 2019. You need to identify the distinct event IDs of each virtual machine as shown in the following table. How should you complete the Azure Monitor query?
 
-![Question 579](images/question579.jpg)
+![Question 279 part 1](images/question279_1.jpg)
+![Question 279 part 2](images/question279_2.png)
 
-- [ ] Box 1: count (). Box 2: summarize.
+- [ ] Box 1: count(). Box 2: summarize.
 - [ ] Box 1: mv-expand. Box 2: render.
-- [x] Box 1: summarize. Box 2: makelist (EventID).
-- [ ] Box 1: render. Box 2: count ().
+- [ ] Box 1: summarize. Box 2: makelist(EventID).
+- [x] Box 1: summarize. Box 2: makeset(EventID).
+
+### You have a GitHub repository that contains the source code for an app named App1. You need to create process documentation for App1. The solution must include a diagram that displays the relationships between the phases of App1 as shown in the following exhibit. How should you complete the markdown code?
+
+![Question 280 part 1](images/question280_1.png)
+![Question 280 part 2](images/question280_2.png)
+
+- [ ] Box 1: sequenceDiagram. Box 2: flowChart.
+- [x] Box 1: stateDiagram. Box 2: Processing.
+- [ ] Box 1: stateDiagram. Box 2: Failed.
+- [ ] Box 1: sequenceDiagram. Box 2: Waiting.
 
 ### You have an Azure web app named Webapp1. You need to use an Azure Monitor query to create a report that details the top 10 pages of Webapp1 that failed. How should you complete the query?
 
