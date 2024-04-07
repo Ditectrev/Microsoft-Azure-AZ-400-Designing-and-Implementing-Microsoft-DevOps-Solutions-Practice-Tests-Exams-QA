@@ -2070,7 +2070,7 @@
 
 ### You have an Azure web app named Webapp1. You need to use an Azure Monitor query to create a report that details the top 10 pages of Webapp1 that failed. How should you complete the query?
 
-![Question 580](images/question580.jpg)
+![Question 281](images/question281.jpg)
 
 - [x] Box 1: requests. Box 2: success == false.
 - [ ] Box 1: itemType == "availabilityResult". Box 2: traces.
@@ -2085,9 +2085,9 @@
 - [x] Smart Detection.
 - [ ] Continuous export.
 
-### HOTSPOT - You have a project in Azure DevOps named Contoso App that contains pipelines in Azure Pipelines for GitHub repositories. You need to ensure that developers receive Microsoft Teams notifications when there are failures in a pipeline of Contoso App. What should you run in Teams?
+### You have a project in Azure DevOps named Contoso App that contains pipelines in Azure Pipelines for GitHub repositories. You need to ensure that developers receive Microsoft Teams notifications when there are failures in a pipeline of Contoso App. What should you run in Teams?
 
-![Question 581](images/question581.jpg)
+![Question 283](images/question283.jpg)
 
 - [ ] Box 1: signin. Box 2: https://dev.azure.com/contoso/contoso-app/_work-items.
 - [ ] Box 1: feedback. Box 2: https://dev.azure.com/contoso/contoso-app/_packaging.
@@ -2096,22 +2096,22 @@
 
 ### You are integrating Azure Pipelines and Microsoft Teams. You install the Azure Pipelines app in Microsoft Teams. You have an Azure DevOps organization named Contoso that contains a project name Project1. You subscribe to Project1 in Microsoft Teams. You need to ensure that you only receive events about failed builds in Microsoft Teams. What should you do first?
 
-- [x] From Microsoft Teams, run @azure pipelines subscribe https://dev.azure.com/Contoso/Project1.
+- [ ] From Microsoft Teams, run @azure pipelines subscribe https://dev.azure.com/Contoso/Project1.
 - [ ] From Azure Pipelines, add a Publish Build Artifacts task to Project1.
-- [ ] From Microsoft Teams, run @azure pipelines subscriptions.
+- [x] From Microsoft Teams, run @azure pipelines subscriptions.
 - [ ] From Azure Pipelines, enable continuous integration for Project1.
 
-### You have an Azure DevOps organization named Contoso. You need to receive Microsoft Teams notifications when work items are updated. What should you do
+### You have an Azure DevOps organization named Contoso. You need to receive Microsoft Teams notifications when work items are updated. What should you do?
 
-- [x] From Azure DevOps, configure a service hook subscription.
-- [ ] From Microsoft Teams, configure a connector.
+- [ ] From Azure DevOps, configure a service hook subscription.
+- [x] From Microsoft Teams, configure a connector.
 - [ ] From the Microsoft Teams admin center, configure external access.
 - [ ] From Microsoft Teams, add a channel.
 - [ ] From Azure DevOps, install an extension.
 
-### You create an alert rule in Azure Monitor as shown in the following exhibit.
+### You create an alert rule in Azure Monitor as shown in the following exhibit. Which action will trigger an alert?
 
-![Question 582](images/question582.jpg)
+![Question 286](images/question286.jpg)
 
 - [x] Failed attempt to delete the ASP-9bb7 resource.
 - [ ] Change to a role assignment for the ASP-9bb7 resource.
@@ -2131,17 +2131,35 @@
 
 ### You configure an Azure Application Insights availability test. You need to notify the customer services department at your company by email when availability is degraded. You create an Azure logic app that will handle the email and follow up actions. Which type of trigger should you use to invoke the logic app?
 
-- [x] HTTPWebhook trigger.
+- [ ] HTTPWebhook trigger.
 - [ ] HTTP trigger.
-- [ ] Request trigger.
+- [x] Request trigger.
 - [ ] ApiConnection trigger.
 
 ### You have an Azure DevOps organization named Contoso and an Azure subscription. You use Azure DevOps to build a containerized app named App1 and deploy App1 to an Azure container instance named ACI1. You need to restart ACI1 when App1 stops responding. What should you do?
 
-- [ ] Add a liveness probe to the YAML configuration of App1.
-- [x] Add a readiness probe to the YAML configuration of App1.
+- [x] Add a liveness probe to the YAML configuration of App1.
+- [ ] Add a readiness probe to the YAML configuration of App1.
 - [ ] Use Connection Monitor in Azure Network Watcher.
 - [ ] Use IP flow verify in Azure Network Watcher.
+
+### You use Azure Pipelines to automate Continuous Integration/Continuous Deployment (CI/CD) for an Azure web app named WebApp1. You configure an Azure Monitor alert that is triggered when WebApp1 generates an error. You need to configure the alert to forward details of the error to a third-party system. The solution must minimize administrative effort. Which three actions should you perform in sequence?
+
+![Question 291](images/question291.jpg)
+
+- [x] Box 1: Create an Azure logic app. Box 2: Select the HTTP request trigger. Box 3: Update the action group in Azure Monitor.
+- [ ] Box 1: Select the HTTP request trigger. Box 2: Select the Recurrence trigger. Box 3: Update the action group in Azure Monitor.
+- [ ] Box 1: Select the HTTP request trigger. Box 2: Select the Recurrence trigger. Box 3: Create an Azure logic app.
+- [ ] Box 1: Update the action group in Azure Monitor. Box 2: Create an Azure logic app. Box 3: Select the Recurrence trigger.
+
+### Your company has an Azure subscription named Subscription1. Subscription1 is associated to an Azure Active Directory tenant named contoso.com. You need to provision an Azure Kubernetes Services (AKS) cluster in Subscription1 and set the permissions for the cluster by using RBAC roles that reference the identities in contoso.com. Which three objects should you create in sequence?
+
+![Question 292](images/question292.jpg)
+
+- [ ] Box 1: a cluster. Box 2: an RBAC binding. Box 3: a system-assigned managed identity.
+- [ ] Box 1: a cluster. Box 2: a system-assigned managed identity. Box 3: an RBAC binding.
+- [x] Box 1: an application registration in contoso.com. Box 2: a cluster. Box 3: an RBAC binding.
+- [ ] Box 1: a system-assigned managed identity. Box 2: an RBAC binding. Box 3: a cluster.
 
 ### You have an Azure DevOps organization named Contoso and an Azure subscription. The subscription contains an Azure virtual machine scale set named VMSS1 that is configured for autoscaling. You use Azure DevOps to build a web app named App1 and deploy App1 to VMSS1. App1 is used heavily and has usage patterns that vary on a weekly basis. You need to recommend a solution to detect an abnormal rise in the rate of failed requests to App1. The solution must minimize administrative effort. What should you include in the recommendation?
 
@@ -2149,6 +2167,24 @@
 - [ ] Failures feature in Azure Application Insights.
 - [ ] Azure Service Health alert.
 - [ ] Azure Monitor alert that uses an Azure Log Analytics query.
+
+### You manage build and release pipelines by using Azure DevOps. Your entire managed environment resides in Azure. You need to configure a service endpoint for accessing Azure Key Vault secrets. The solution must meet the following requirements: Ensure that the secrets are retrieved by Azure DevOps. Avoid persisting credentials and tokens in Azure DevOps. How should you configure the service endpoint?
+
+![Question 294](images/question294.jpg)
+
+- [ ] Service connection type: Managed Service Identity Authentication. Authentication/authorization method for the connection: Team Foundation Server / Azure Pipelines service connection.
+- [ ] Service connection type: Team Foundation Server / Azure Pipelines service connection. Authentication/authorization method for the connection: Azure Active Directory Auth 2.0.
+- [ ] Service connection type: Team Foundation Server / Azure Pipelines service connection. Authentication/authorization method for the connection: Managed Service Identity Authentication.
+- [x] Service connection type: Azure Resource Manager. Authentication/authorization method for the connection: Managed Service Identity Authentication.
+
+### You have the following Azure policy. You assign the policy to the Tenant root group. What is the effect of the policy?
+
+![Question 295](images/question295.jpg)
+
+- [ ] Prevents all HTTP traffic to existing Azure Storage accounts.
+- [x] Ensures that all traffic to new Azure Storage accounts is encrypted.
+- [ ] Prevents HTTPS traffic to new Azure Storage accounts when the accounts are accessed over the Internet.
+- [ ] Ensures that all data for new Azure Storage accounts is encrypted at rest.
 
 ### You have an Azure subscription that contains resources in several resource groups. You need to design a monitoring strategy that will provide a consolidated view. The solution must support the following requirements: Support role-based access control (RBAC) by using Azure Active Directory (Azure AD) identifies. Include visuals from Azure Monitor that are generated by using the Kusto query language. Support documentation written in markdown. Use the latest data available for each visual. What should you use to create the consolidated view?
 
@@ -2201,15 +2237,6 @@
 - [ ] the Azure Network Watcher Agent for Windows
 - [x] the Dependency agent
 
-### DRAG DROP - You use Azure Pipelines to automate Continuous Integration/Continuous Deployment (CI/CD) for an Azure web app named WebApp1. You configure an Azure Monitor alert that is triggered when WebApp1 generates an error. You need to configure the alert to forward details of the error to a third-party system. The solution must minimize administrative effort. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. Select and Place:
-
-![Question 583](images/question583.jpg)
-
-- [x] Box 1: Create an Azure logic app. Box 2: Select the HTTP request trigger. Box 3: Update the action group in Azure Monitor.
-- [ ] Box 1: Select the HTTP request trigger. Box 2: Select the Recurrence trigger. Box 3: Update the action group in Azure Monitor.
-- [ ] Box 1: Select the HTTP request trigger. Box 2: Select the Recurrence trigger. Box 3: Create an Azure logic app.
-- [ ] Box 1: Update the action group in Azure Monitor. Box 2: Create an Azure logic app. Box 3: Select the Recurrence trigger.
-
 ### You plan to provision a self-hosted Linux agent. Which authentication mechanism should you use to register the self-hosted agent?
 
 - [x] Personal Access Token (PAT)
@@ -2232,34 +2259,7 @@
 - [ ] user accounts in Azure Active Directory (Azure AD).
 - [ ] managed identities in Azure Active Directory (Azure AD).\
 
-### DRAG DROP - Your company has an Azure subscription named Subscription1. Subscription1 is associated to an Azure Active Directory tenant named contoso.com. You need to provision an Azure Kubernetes Services (AKS) cluster in Subscription1 and set the permissions for the cluster by using RBAC roles that reference the identities in contoso.com. Which three objects should you create in sequence? To answer, move the appropriate objects from the list of objects to the answer area and arrange them in the correct order. Select and Place:
-
-![Question 584](images/question584.jpg)
-
-- [ ] Box 1: a cluster. Box 2: an RBAC binding. Box 3: a system-assigned managed identity.
-- [x] Box 1: a cluster. Box 2: a system-assigned managed identity. Box 3: an RBAC binding.
-- [ ] Box 1: an RBAC binding. Box 2: a cluster. Box 3: a system-assigned managed identity.
-- [ ] Box 1: a system-assigned managed identity. Box 2: an RBAC binding. Box 3: a cluster.
-
-### HOTSPOT - You manage build and release pipelines by using Azure DevOps. Your entire managed environment resides in Azure. You need to configure a service endpoint for accessing Azure Key Vault secrets. The solution must meet the following requirements: -> Ensure that the secrets are retrieved by Azure DevOps. -> Avoid persisting credentials and tokens in Azure DevOps. How should you configure the service endpoint? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
-
-![Question 585](images/question585.jpg)
-
-- [ ] Box 1: Managed Service Identity Authentication. Box 2: Team Foundation Server / Azure Pipelines service connection.
-- [ ] Box 1: Team Foundation Server / Azure Pipelines service connection. Box 2: Azure Active Directory Auth 2.0.
-- [x] Box 1: Team Foundation Server / Azure Pipelines service connection. Box 2: Managed Service Identity Authentication.
-- [ ] Box 1: Azure Active Directory Auth 2.0. Box 2: Managed Service Identity Authentication.
-
-### You have the following Azure policy. You assign the policy to the Tenant root group. What is the effect of the policy?
-
-![Question 586](images/question586.jpg)
-
-- [ ] prevents all HTTP traffic to existing Azure Storage accounts.
-- [x] ensures that all traffic to new Azure Storage accounts is encrypted.
-- [ ] prevents HTTPS traffic to new Azure Storage accounts when the accounts are accessed over the Internet.
-- [ ] ensures that all data for new Azure Storage accounts is encrypted at rest.
-
-### DRAG DROP - You use GitHub Enterprise Server as a source code repository. You create an Azure DevOps organization named Contoso. In the Contoso organization, you create a project named Project1. You need to link GitHub commits, pull requests, and issues to the work items of Project1. The solution must use OAuth-based authentication. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. Select and Place:
+### DRAG DROP - You use GitHub Enterprise Server as a source code repository. You create an Azure DevOps organization named Contoso. In the Contoso organization, you create a project named Project1. You need to link GitHub commits, pull requests, and issues to the work items of Project1. The solution must use OAuth-based authentication. Which three actions should you perform in sequence?
 
 ![Question 587](images/question587.jpg)
 
@@ -2281,7 +2281,7 @@
 
 ![Question 590](images/question590.jpg)
 
-### DRAG DROP - You have a project in Azure DevOps named Project1 that contains two Azure DevOps pipelines named Pipeline1 and Pipeline2. You need to ensure that Pipeline1 can deploy code successfully to an Azure web app named webapp1. The solution must ensure that Pipeline2 does not have permission to webapp1. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. Select and Place:
+### DRAG DROP - You have a project in Azure DevOps named Project1 that contains two Azure DevOps pipelines named Pipeline1 and Pipeline2. You need to ensure that Pipeline1 can deploy code successfully to an Azure web app named webapp1. The solution must ensure that Pipeline2 does not have permission to webapp1. Which three actions should you perform in sequence?
 
 ![Question 591](images/question591.jpg)
 
@@ -2373,7 +2373,7 @@
 - [ ] upstream sources
 - [ ] a symbol server
 
-### DRAG DROP You have a project in Azure DevOps that uses packages from multiple public feeds. Some of the feeds are unreliable. You need to consolidate the packages into a single feed. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+### DRAG DROP You have a project in Azure DevOps that uses packages from multiple public feeds. Some of the feeds are unreliable. You need to consolidate the packages into a single feed. Which three actions should you perform in sequence?
 
 ![Question 597](images/question597.jpg)
 
