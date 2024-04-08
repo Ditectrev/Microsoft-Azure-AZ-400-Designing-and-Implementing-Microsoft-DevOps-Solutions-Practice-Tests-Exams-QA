@@ -2255,19 +2255,38 @@
 
 ### You are building an ASP.NET Core application. You plan to create an application utilization baseline by capturing telemetry data. You need to add code to the application to capture the telemetry data. The solution must minimize the costs of storing the telemetry data. Which two actions should you perform?
 
-- [ ] Add the 99 parameter to the ApplicationInsights.config file.
-- [x] From the code of the application, enable adaptive sampling.
-- [ ] From the code of the application, add Azure Application Insights telemetry.
-- [x] Add the 5 parameter to the ApplicationInsights.config file.
-- [ ] From the code of the application, disable adaptive sampling.
+- [ ] Add the <InitialSamplingPercentage>99</InitialSamplingPercentage> parameter to the ApplicationInsights.config file.
+- [ ] From the code of the application, enable adaptive sampling.
+- [x] From the code of the application, add Azure Application Insights telemetry.
+- [ ] Add the <MaxTelemetryItemsPerSecond>5</MaxTelemetryItemsPerSecond> parameter to the ApplicationInsights.config file.
+- [x] From the code of the application, disable adaptive sampling.
 
-### Your company uses the following resources: Windows Server 2019 container images hosted in an Azure Container Registry. Azure virtual machines that run the latest version of Ubuntu. An Azure Log Analytics workspace. Azure Active Directory (Azure AD). An Azure key vault For which two resources can you receive vulnerability assessments in Azure Security Center?
+### Your company uses the following resources: Windows Server 2019 container images hosted in an Azure Container Registry. Azure virtual machines that run the latest version of Ubuntu. An Azure Log Analytics workspace. Azure Active Directory (Azure AD). An Azure key vault. For which two resources can you receive vulnerability assessments in Azure Security Center?
 
 - [ ] Azure Log Analytics workspace.
-- [x] Azure key vault.
+- [ ] Azure key vault.
 - [x] Azure virtual machines that run the latest version of Ubuntu.
 - [ ] Azure Active Directory (Azure AD).
-- [ ] Windows Server 2019 container images hosted in the Azure Container Registry.
+- [x] Windows Server 2019 container images hosted in the Azure Container Registry.
+
+### Your company uses GitHub for source control. GitHub repositories store source code and store process documentation. The process documentation is saved as Microsoft Word documents that contain simple flow charts stored as .bmp files. You need to optimize the integration and versioning of the process documentation and the flow charts. The solution must meet the following requirements: Store documents as plain text. Minimize the number of files that must be maintained. Simplify the modification, merging, and reuse of flow charts. Simplify the modification, merging, and reuse of documents.
+
+![Question 306](images/question306.jpg)
+
+- [ ] Convert the .docx files to: LaTex Typesetting (.tex). Convert the flow charts to: Markdown (.md).
+- [x] Convert the .docx files to: Markdown (.md). Convert the flow charts to: Mermaid diagrams.
+- [ ] Convert the .docx files to: Portable Document Format (.pdf). Convert the flow charts to: Portable Network Graphics (.png).
+- [ ] Convert the .docx files to: LaTex Typesetting (tex). Convert the flow charts to: Markdown (.md).
+
+### You have a project in Azure DevOps that uses packages from multiple public feeds. Some of the feeds are unreliable. You need to consolidate the packages into a single feed. Which three actions should you perform in sequence?
+
+![Question 307](images/question307.jpg)
+
+- [ ] Box 1: Create a Microsoft Visual Studio project that includes all the packages. Box 2: Create a NuGet package. Box 3: Create an Azure Artifacts feed that uses upstream sources.
+- [ ] Box 1: Create a NuGet package. Box 2: Create an Azure Artifacts feed that uses upstream sources. Box 3: Create a Microsoft Visual Studio project that includes all the packages.
+- [x] Box 1: Create an Azure Artifacts feed that uses upstream sources. Box 2: Modify the configuration files to reference the Azure Artifacts feed. Box 3: Run an initial package restore.
+- [ ] Box 1: Create a Microsoft Visual Studio project that includes all the packages. Box 2: Create a NuGet package. Box 3: Create a NuGet package.
+
 
 ### You use Azure Pipelines to manage build pipelines, GitHub to store source code, and Dependabot to manage dependencies. You have an app named App1. Dependabot detects a dependency in App1 that requires an update. What should you do first to apply the update?
 
@@ -2331,15 +2350,6 @@
 - [ ] Yes
 - [x] No
 
-### HOTSPOT - Your company uses GitHub for source control. GitHub repositories store source code and store process documentation. The process documentation is saved as Microsoft Word documents that contain simple flow charts stored as .bmp files. You need to optimize the integration and versioning of the process documentation and the flow charts. The solution must meet the following requirements: -> Store documents as plain text. -> Minimize the number of files that must be maintained. -> Simplify the modification, merging, and reuse of flow charts. -> Simplify the modification, merging, and reuse of documents. Hot Area:
-
-![Question 592](images/question592.jpg)
-
-- [ ] Convert the docx files to: Mermaid diagrams. Convert the flow charts to: Markdown (.md).
-- [x] Convert the docx files to: Markdown (.md). Convert the flow charts to: Mermaid diagrams.
-- [ ] Convert the docx files to: Mermaid diagrams. Convert the flow charts to: Portable Network Graphics (png).
-- [ ] Convert the docx files to: LaTex Typesetting (tex). Convert the flow charts to: Markdown (.md).
-
 ### You use GitHub for source control. A file that contains sensitive data is committed accidentally to the Git repository of a project. You need to delete the file and its history form the repository. Which two tools can you use? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.
 
 - [x] Git filter-branch command.
@@ -2401,15 +2411,6 @@
 - [x] views in Azure Artifacts
 - [ ] upstream sources
 - [ ] a symbol server
-
-### DRAG DROP You have a project in Azure DevOps that uses packages from multiple public feeds. Some of the feeds are unreliable. You need to consolidate the packages into a single feed. Which three actions should you perform in sequence?
-
-![Question 597](images/question597.jpg)
-
-- [ ] Box 1: Create a Microsoft Visual Studio project that includes all the packages. Box 2: Create a NuGet package. Box 3: Create an Azure Artifacts feed that uses upstream sources.
-- [x] Box 1: Create a NuGet package. Box 2: Create an Azure Artifacts feed that uses upstream sources. Box 3: Create a Microsoft Visual Studio project that includes all the packages.
-- [ ] Box 1: Create an Azure Artifacts feed that uses upstream sources. Box 2: Create a NuGet package. Box 3: Create a NuGet package.
-- [ ] Box 1: Create a Microsoft Visual Studio project that includes all the packages. Box 2: Create a NuGet package. Box 3: Create a NuGet package.
 
 ### You are designing an Azure DevOps strategy for your company’s development team. You suspect that the team’s productivity is low due to accumulate technical debt. You need to recommend a metric to assess the amount of the team’s technical debt. What should you recommend?
 
