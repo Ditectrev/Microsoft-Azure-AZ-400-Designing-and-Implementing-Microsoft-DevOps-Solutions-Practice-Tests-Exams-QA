@@ -2186,12 +2186,72 @@
 - [ ] Prevents HTTPS traffic to new Azure Storage accounts when the accounts are accessed over the Internet.
 - [ ] Ensures that all data for new Azure Storage accounts is encrypted at rest.
 
+### You use GitHub Enterprise Server as a source code repository. You create an Azure DevOps organization named Contoso. In the Contoso organization, you create a project named Project1. You need to link GitHub commits, pull requests, and issues to the work items of Project1. The solution must use OAuth-based authentication. Which three actions should you perform in sequence?
+
+![Question 296](images/question296.jpg)
+
+- [ ] Box 1: From Project Settings in Azure DevOps, add a GitHub connection. Box 2: From Organization settings in Azure DevOps, add an Auth configuration. Box 3: From Developer settings in GitHub Enterprise Server, register a new OAuth app.
+- [ ] Box 1: From Organization settings in Azure DevOps, add an Auth configuration. Box 2: From Developer settings in GitHub Enterprise Server, register a new OAuth app. Box 3: From Project Settings in Azure DevOps, add a GitHub connection.
+- [ ] Box 1: From Developer settings in GitHub Enterprise Server, generate a private kev. Box 2: From Organization settings in Azure DevOps, connect to Azure Active Directory (Azure AD). Box 3: From Developer settings in GitHub Enterprise Server, register a new OAuth app.
+- [x] Box 1: From Developer settings in GitHub Enterprise Server, register a new OAuth app. Box 2: From Organization settings in Azure DevOps, add an Auth configuration. Box 3: From Project Settings in Azure DevOps, add a GitHub connection.
+
+### You use Exabeam Fusion SIEM and the Azure cloud platform. You need to integrate Exabeam and Azure. The solution must use OAuth authentication. Which three actions should you perform in sequence?
+
+![Question 297](images/question297.png)
+
+- [ ] Box 1: Create a client secret. Box 2: Register an Exabeam application in Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra. Box 3: Configure the Exabeam Azure cloud connector.
+- [x] Box 1: Register an Exabeam application in Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra. Box 2: Configure the Exabeam Azure cloud connector. Box 3: Configure API permissions.
+- [ ] Box 1: Create a client secret. Box 2: Register an Exabeam application in Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra. Box 3: Upload a certificate.
+- [ ] Box 1: Configure API permissions. Box 2: Register an Exabeam application in Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra. Box 3: Configure the Exabeam Azure cloud connector.
+
+### You have a private project in Azure DevOps and two users named User1 and User2. You need to add User1 and User2 to groups to meet the following requirements: User1 must be able to create a code wiki. User2 must be able to edit wiki pages. The solution must use the principle of least privilege. To which group should you add each user?
+
+![Question 298](images/question298.jpg)
+
+- [ ] User 1: Project Valid Users. User 2: Project Administrators.
+- [x] User 1: Project Administrators. User 2: Contributors.
+- [ ] User 1: Project Administrators. User 2: Stakeholders.
+- [ ] User 1: Contributors. User 2: Project Administrators.
+
+### You have a project in Azure DevOps that has three teams as shown in the Teams exhibit. You create a new dashboard named Dash1. You configure the dashboard permissions for the Contoso project as shown in the Permissions exhibit. All other permissions have the default values set. Web Team can delete Dash1.
+
+![Question 299 part 1](images/question299_300_301_1.jpg)
+![Question 299 part 2](images/question299_300_301_2.png)
+
+- [ ] Yes.
+- [x] No.
+
+### You have a project in Azure DevOps that has three teams as shown in the Teams exhibit. You create a new dashboard named Dash1. You configure the dashboard permissions for the Contoso project as shown in the Permissions exhibit. All other permissions have the default values set. Contoso Team can view Dash1.
+
+![Question 300 part 1](images/question299_300_301_1.jpg)
+![Question 300 part 2](images/question299_300_301_2.png)
+
+- [x] Yes.
+- [ ] No.
+
+### You have a project in Azure DevOps that has three teams as shown in the Teams exhibit. You create a new dashboard named Dash1. You configure the dashboard permissions for the Contoso project as shown in the Permissions exhibit. All other permissions have the default values set. Project administrators can create new dashboards.
+
+![Question 301 part 1](images/question299_300_301_1.jpg)
+![Question 301 part 2](images/question299_300_301_2.png)
+
+- [x] Yes.
+- [ ] No.
+
+### You have a project in Azure DevOps named Project1 that contains two Azure DevOps pipelines named Pipeline1 and Pipeline2. You need to ensure that Pipeline1 can deploy code successfully to an Azure web app named webapp1. The solution must ensure that Pipeline2 does not have permission to webapp1. Which three actions should you perform in sequence?
+
+![Question 302](images/question302.jpg)
+
+- [ ] Box 1: Create a service principal in Azure Active Directory. Box 2: In Project1, create a service connection. Box 3: In Project1, configure permissions.
+- [ ] Box 1: In Project1, create a service connection. Box 2: Create a service principal in Azure Active Directory. Box 3: Create a system-assigned managed identity in Azure Active Directory.
+- [ ] Box 1: In Pipeline1, create a variable. Box 2: Create a service principal in Azure Active Directory. Box 3: Create a service principal in Azure Active Directory.
+- [x] Box 1: Create a service principal in Azure Active Directory. Box 2: In Project1, create a service connection. Box 3: In Pipeline1, authorize the service connection.
+
 ### You have an Azure subscription that contains resources in several resource groups. You need to design a monitoring strategy that will provide a consolidated view. The solution must support the following requirements: Support role-based access control (RBAC) by using Azure Active Directory (Azure AD) identifies. Include visuals from Azure Monitor that are generated by using the Kusto query language. Support documentation written in markdown. Use the latest data available for each visual. What should you use to create the consolidated view?
 
 - [ ] Azure Monitor.
 - [ ] Microsoft Power BI.
-- [x] Azure Data Explorer.
-- [ ] Azure dashboards.
+- [ ] Azure Data Explorer.
+- [x] Azure dashboards.
 
 ### You are building an ASP.NET Core application. You plan to create an application utilization baseline by capturing telemetry data. You need to add code to the application to capture the telemetry data. The solution must minimize the costs of storing the telemetry data. Which two actions should you perform?
 
@@ -2258,37 +2318,6 @@
 - [ ] Alternate credentials in Azure DevOps.
 - [ ] user accounts in Azure Active Directory (Azure AD).
 - [ ] managed identities in Azure Active Directory (Azure AD).\
-
-### DRAG DROP - You use GitHub Enterprise Server as a source code repository. You create an Azure DevOps organization named Contoso. In the Contoso organization, you create a project named Project1. You need to link GitHub commits, pull requests, and issues to the work items of Project1. The solution must use OAuth-based authentication. Which three actions should you perform in sequence?
-
-![Question 587](images/question587.jpg)
-
-- [ ] Box 1: From Project Settings in Azure DevOps, add a GitHub connection. Box 2: From Organization settings in Azure DevOps, add an Auth configuration. Box 3: From Developer settings in GitHub Enterprise Server, register a new OAuth app.
-- [ ] Box 1: From Organization settings in Azure DevOps, add an Auth configuration. Box 2: From Developer settings in GitHub Enterprise Server, register a new OAuth app. Box 3: From Project Settings in Azure DevOps, add a GitHub connection.
-- [ ] Box 1: From Developer settings in GitHub Enterprise Server, generate a private kev. Box 2: From Organization settings in Azure DevOps, connect to Azure Active Directory (Azure AD). Box 3: From Developer settings in GitHub Enterprise Server, register a new OAuth app.
-- [x] Box 1: From Developer settings in GitHub Enterprise Server, register a new OAuth app. Box 2: From Organization settings in Azure DevOps, add an Auth configuration. Box 3: From Project Settings in Azure DevOps, add a GitHub connection.
-
-### DRAG DROP - You have a private project in Azure DevOps and two users named User1 and User2. You need to add User1 and User2 to groups to meet the following requirements: -> User1 must be able to create a code wiki. -> User2 must be able to edit wiki pages. -> The solution must use the principle of least privilege. To which group should you add each user? To answer, drag the appropriate groups to the correct users. Each group may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. NOTE: Each correct selection is worth one point. Select and Place:
-
-![Question 588](images/question588.jpg)
-
-- [ ] User 1: Project Valid Users. User 2: Project Administrators.
-- [x] User 1: Project Administrators. User 2: Contributors.
-- [ ] User 1: Project Administrators. User 2: Stakeholders.
-- [ ] User 1: Contributors. User 2: Project Administrators.
-
-### HOTSPOT - You have a project in Azure DevOps that has three teams as shown in the Teams exhibit. (Click the Teams tab.)
-
-![Question 590](images/question590.jpg)
-
-### DRAG DROP - You have a project in Azure DevOps named Project1 that contains two Azure DevOps pipelines named Pipeline1 and Pipeline2. You need to ensure that Pipeline1 can deploy code successfully to an Azure web app named webapp1. The solution must ensure that Pipeline2 does not have permission to webapp1. Which three actions should you perform in sequence?
-
-![Question 591](images/question591.jpg)
-
-- [x] Box 1: Create a service principal in Azure Active Directory. Box 2: In Project1, create a service connection. Box 3: In Project1, configure permissions.
-- [ ] Box 1: In Project1, create a service connection. Box 2: Create a service principal in Azure Active Directory. Box 3: Create a system-assigned managed identity in Azure Active Directory.
-- [ ] Box 1: In Pipeline1, create a variable. Box 2: Create a service principal in Azure Active Directory. Box 3: Create a service principal in Azure Active Directory.
-- [ ] Box 1: In Project1, create a service connection. Box 2: Create a system-assigned managed identity in Azure Active Directory. Box 3: In Pipeline1, create a variable.
 
 ### You have an existing project in Azure DevOps. You plan to integrate GitHub as the repository for the project. You need to ensure that Azure Pipelines runs under the Azure Pipelines identity. Which authentication mechanism should you use?
 
