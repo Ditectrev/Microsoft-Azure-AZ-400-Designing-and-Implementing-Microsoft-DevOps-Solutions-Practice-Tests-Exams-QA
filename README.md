@@ -2383,6 +2383,27 @@
 - [x] BACPAC.
 - [ ] DACPAC.
 
+### To resolve the current technical issue, what should you do to the Register-AzureRmAutomationDscNode command?
+
+- [x] Change the value of the ConfigurationMode parameter.
+- [ ] Replace the Register-AzureRmAutomationDscNode cmdlet with Register-AzureRmAutomationScheduledRunbook.
+- [ ] Add the AllowModuleOverwrite parameter.
+- [ ] Add the DefaultProfile parameter.
+
+### Your team uses Azure Pipelines to deploy applications. You need to ensure that when a failure occurs during the build or release process, all the team members are notified by using Microsoft Teams. The solution must minimize development effort. What should you do?
+
+- [ ] Use Azure Automation to connect to the Azure DevOps REST API and notify the team members.
+- [x] Install the Azure Pipelines app for Teams and configure a subscription to receive notifications in a channel.
+- [ ] Install the Azure Boards app for Teams and configure a subscription to receive notifications in a channel.
+- [ ] Use an Azure function to connect to the Azure DevOps REST API and notify the team members.
+
+### You have an Azure DevOps project that uses many package feeds. You need to simplify the project by using a single feed that stores packages produced by your company and packages consumed from remote feeds. The solution must support public feeds and authenticated feeds. What should you enable in DevOps?
+
+- [ ] Universal Packages.
+- [ ] Views in Azure Artifacts.
+- [x] Upstream sources.
+- [ ] Symbol server.
+
 ### Litware, Inc. an independent software vendor (ISV) Litware has a main office and five branch offices. Application Architecture The company' s primary application is a single monolithic retirement fund management system based on ASP.NE T web forms that use logic written in V8.NET. Some new sections of the application are written in C#. Variations of the application are created for individual customers. Currently, there are more than 80 have code branches in the application's code base. The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access of the source code by using TFS proxy servers. Architectural Issues Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, AS dependencies are not obvious to individual developers. Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve. Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive. Requirements Planned Changes Litware plans to develop a new suite of applications for investment planning. The investment planning Applications will require only minor integration with the easting retirement fund management system. The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers. Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of package. Litware has started an internal cloud transformation process and plans to use cloud based services whenever suitable. Litware wants to become proactive m detecting failures, rather than always waning for customer bug reports. Technical Requirements The company's investment planning applications suite must meet the following technical requirements: New incoming connections through the firewall must be minimized. Members of a group named Developers must be able to install packages. The principle of least privilege must be used for all permission assignments A branching strategy that supports developing new functionality in isolation must be used. Members of a group named Team leaders must be able to create new packages and edit the permissions of package feeds Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use. By default, all App Center must be used to centralize the reporting of mobile application crashes and device types in use. Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release. The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HUPS. The required operating system configuration tor the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test servers configured the same way when the servers are created and checked periodically. The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations. Azure Automation State Configuration nodes are registered by using the following command. You need to configure a cloud service to store the secrets required by the mobile applications to call the share pricing service. What should you include in the solution?
 
 ![Question 11](images/question11.jpeg)
@@ -2393,13 +2414,6 @@
 - [ ] Required secrets: Shared Access Authorization token. Storage location: Azure Storage with HTTPS access.
 - [ ] Required secrets: Username and password. Storage location: Azure Storage with HTTP access.
 
-### To resolve the current technical issue, what should you do to the Register-AzureRmAutomationDscNode command?
-
-- [x] Change the value of the ConfigurationMode parameter.
-- [ ] Replace the Register-AzureRmAutomationDscNode cmdlet with Register-AzureRmAutomationScheduledRunbook.
-- [ ] Add the AllowModuleOverwrite parameter.
-- [ ] Add the DefaultProfile parameter.
-
 ### How should you confrere the release retention policy for the investment planning depletions suite? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.
 
 ![Question 92](images/question922.jpg)
@@ -2408,20 +2422,6 @@
 - [ ] Required secrets: Azure Data Lake. Storage location: Personal access token.
 - [x] Required secrets: Shared Access Authorization token. Storage location: Azure Storage with HTTPS access.
 - [ ] Required secrets: Azure Storage with HTTPS access. Storage location: Certificate.
-
-### Your team uses Azure Pipelines to deploy applications. You need to ensure that when a failure occurs during the build or release process. all the team members are notified by using Microsoft Teams. The solution must minimize development effort. What should you do?
-
-- [ ] Use Azure Automation to connect to the Azure DevOps REST API and notify the team members.
-- [ ] Install the Azure Pipelines app for Teams and configure a subscription to receive notifications in a channel.
-- [x] Install the Azure Boards app for Teams and configure a subscription to receive notifications in a channel.
-- [ ] Use an Azure function to connect to the Azure DevOps REST API and notify the team members.
-
-### You have an Azure DevOps project that uses many package feeds. You need to simplify the project by using a single feed that stores packages produced by your company and packages consumed from remote feeds. The solution must support public feeds and authenticated feeds. What should you enable in DevOps?
-
-- [ ] Universal Packages
-- [x] views in Azure Artifacts
-- [ ] upstream sources
-- [ ] a symbol server
 
 ### You are designing an Azure DevOps strategy for your company’s development team. You suspect that the team’s productivity is low due to accumulate technical debt. You need to recommend a metric to assess the amount of the team’s technical debt. What should you recommend?
 
