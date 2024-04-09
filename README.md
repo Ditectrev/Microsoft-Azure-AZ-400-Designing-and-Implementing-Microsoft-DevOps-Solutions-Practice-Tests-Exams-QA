@@ -2287,7 +2287,6 @@
 - [x] Box 1: Create an Azure Artifacts feed that uses upstream sources. Box 2: Modify the configuration files to reference the Azure Artifacts feed. Box 3: Run an initial package restore.
 - [ ] Box 1: Create a Microsoft Visual Studio project that includes all the packages. Box 2: Create a NuGet package. Box 3: Create a NuGet package.
 
-
 ### You use Azure Pipelines to manage build pipelines, GitHub to store source code, and Dependabot to manage dependencies. You have an app named App1. Dependabot detects a dependency in App1 that requires an update. What should you do first to apply the update?
 
 - [ ] Create a pull request.
@@ -2295,7 +2294,7 @@
 - [ ] Create a branch.
 - [ ] Perform a commit.
 
-### You are designing a configuration management solution to support five apps hosted on Azure App Service. Each app is available in the following three environments: development, test, and production. You need to recommend a configuration management solution that meets the following requirements: Supports feature flags. Tracks configuration changes from the past 30 days. Stores hierarchically structured configuration values. Controls access to the configurations by using role-based access control (RBAC) permissions. Stores shared values as key/value pairs that can be used by all the apps Which Azure service should you recommend as the configuration management solution?
+### You are designing a configuration management solution to support five apps hosted on Azure App Service. Each app is available in the following three environments: development, test, and production. You need to recommend a configuration management solution that meets the following requirements: Supports feature flags. Tracks configuration changes from the past 30 days. Stores hierarchically structured configuration values. Controls access to the configurations by using role-based access control (RBAC) permissions. Stores shared values as key/value pairs that can be used by all the apps. Which Azure service should you recommend as the configuration management solution?
 
 - [ ] Azure Cosmos DB.
 - [ ] Azure App Service.
@@ -2309,53 +2308,80 @@
 - [x] Readiness probe.
 - [ ] Azure Load Balancer health probe.
 
-### You are designing a strategy to monitor the baseline metrics of Azure virtual machines that run Windows Server. You need to collect detailed data about the processes running in the guest operating system. Which two agents should you deploy? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.
+### You are designing a strategy to monitor the baseline metrics of Azure virtual machines that run Windows Server. You need to collect detailed data about the processes running in the guest operating system. Which two agents should you deploy?
 
-- [ ] the Telegraf agent
-- [x] the Azure Log Analytics agent
-- [ ] the Azure Network Watcher Agent for Windows
-- [x] the Dependency agent
+- [ ] Telegraf agent.
+- [x] Azure Log Analytics agent.
+- [ ] Azure Network Watcher Agent for Windows.
+- [x] Dependency agent.
 
 ### You plan to provision a self-hosted Linux agent. Which authentication mechanism should you use to register the self-hosted agent?
 
-- [x] Personal Access Token (PAT)
-- [ ] SSH key
-- [ ] Alternate credentials
-- [ ] certificate
+- [x] Personal Access Token (PAT).
+- [ ] SSH key.
+- [ ] Alternate credentials.
+- [ ] Certificate.
 
 ### You are building a Microsoft ASP.NET application that requires authentication. You need to authenticate users by using Azure Active Directory (Azure AD). What should you do first?
 
 - [ ] Assign an enterprise application to users and groups.
-- [x] Create an app registration in Azure AD
-- [ ] Configure the application to use a SAML endpoint
-- [ ] Create a new OAuth token from the application
-- [ ] Create a membership database in an Azure SQL database
+- [x] Create an app registration in Azure AD.
+- [ ] Configure the application to use a SAML endpoint.
+- [ ] Create a new OAuth token from the application.
+- [ ] Create a membership database in an Azure SQL database.
 
-### You have an Azure DevOps organization named Contoso. You need to recommend an authentication mechanism that meets the following requirements: -> Supports authentication from Git -> Minimizes the need to provide credentials during authentication What should you recommend?
+### You have an Azure DevOps organization named Contoso. You need to recommend an authentication mechanism that meets the following requirements: Supports authentication from Git. Minimizes the need to provide credentials during authentication. What should you recommend?
 
 - [x] Personal Access Tokens (PATs) in Azure DevOps.
 - [ ] Alternate credentials in Azure DevOps.
 - [ ] user accounts in Azure Active Directory (Azure AD).
-- [ ] managed identities in Azure Active Directory (Azure AD).\
+- [ ] managed identities in Azure Active Directory (Azure AD).
 
 ### You have an existing project in Azure DevOps. You plan to integrate GitHub as the repository for the project. You need to ensure that Azure Pipelines runs under the Azure Pipelines identity. Which authentication mechanism should you use?
 
-- [ ] Personal Access Token (PAT)
-- [x] GitHub App
-- [ ] Azure Active Directory (Azure AD)
-- [ ] OAuth
+- [ ] Personal Access Token (PAT).
+- [x] GitHub App.
+- [ ] Azure Active Directory (Azure AD).
+- [ ] OAuth.
 
-### The lead developer at your company reports that adding new application features takes longer than expected due to a large accumulated technical debt. You need to recommend changes to reduce the accumulated technical debt. Solution: You recommend reducing the code coupling and the dependency cycles?Does this meet the goal?
+### The lead developer at your company reports that adding new application features takes longer than expected due to a large accumulated technical debt. You need to recommend changes to reduce the accumulated technical debt. Solution: You recommend reducing the code coupling and the dependency cycles. Does this meet the goal?
 
-- [ ] Yes
-- [x] No
+- [x] Yes.
+- [ ] No.
 
-### You use GitHub for source control. A file that contains sensitive data is committed accidentally to the Git repository of a project. You need to delete the file and its history form the repository. Which two tools can you use? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.
+### The lead developer at your company reports that adding new application features takes longer than expected due to a large accumulated technical debt. You need to recommend changes to reduce the accumulated technical debt. Solution: You recommend increasing the test coverage. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You use GitHub for source control. A file that contains sensitive data is committed accidentally to the Git repository of a project. You need to delete the file and its history form the repository. Which two tools can you use?
 
 - [x] Git filter-branch command.
 - [x] BFG Repo-Cleaner.
 - [ ] Git rebase command.
 - [ ] GitHub Desktop.
+
+### You manage source code control and versioning by using GitHub. A large file is committed to a repository accidentally. You need to reduce the size of the repository. The solution must remove the file from the repository. What should you use?
+
+- [x] bfg.
+- [ ] lfs.
+- [ ] gvfs.
+- [ ] init.
+
+### You are integrating an Azure Boards project and a GitHub repository. You need to authenticate Azure Boards to GitHub. Which two authentication methods can you use?
+
+- [ ] Trusted root certificate.
+- [ ] Publisher certificate.
+- [ ] Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra.
+- [x] GitHub user credentials.
+- [x] Personal Access Token (PAT).
+
+### You plan to deploy a new database environment. The solution must meet the technical requirements. You need to prepare the database for the deployment. How should you format the export?
+
+- [ ] NDF.
+- [ ] MDF.
+- [x] BACPAC.
+- [ ] DACPAC.
 
 ### Litware, Inc. an independent software vendor (ISV) Litware has a main office and five branch offices. Application Architecture The company' s primary application is a single monolithic retirement fund management system based on ASP.NE T web forms that use logic written in V8.NET. Some new sections of the application are written in C#. Variations of the application are created for individual customers. Currently, there are more than 80 have code branches in the application's code base. The application was developed by using Microsoft Visual Studio. Source code is stored in Team Foundation Server (TFS) in the main office. The branch offices access of the source code by using TFS proxy servers. Architectural Issues Litware focuses on writing new code for customers. No resources are provided to refactor or remove existing code. Changes to the code base take a long time, AS dependencies are not obvious to individual developers. Merge operations of the code often take months and involve many developers. Code merging frequently introduces bugs that are difficult to locate and resolve. Customers report that ownership costs of the retirement fund management system increase continually. The need to merge unrelated code makes even minor code changes expensive. Requirements Planned Changes Litware plans to develop a new suite of applications for investment planning. The investment planning Applications will require only minor integration with the easting retirement fund management system. The investment planning applications suite will include one multi-tier web application and two iOS mobile applications. One mobile application will be used by employees; the other will be used by customers. Litware plans to move to a more agile development methodology. Shared code will be extracted into a series of package. Litware has started an internal cloud transformation process and plans to use cloud based services whenever suitable. Litware wants to become proactive m detecting failures, rather than always waning for customer bug reports. Technical Requirements The company's investment planning applications suite must meet the following technical requirements: New incoming connections through the firewall must be minimized. Members of a group named Developers must be able to install packages. The principle of least privilege must be used for all permission assignments A branching strategy that supports developing new functionality in isolation must be used. Members of a group named Team leaders must be able to create new packages and edit the permissions of package feeds Visual Studio App Center must be used to centralize the reporting of mobile application crashes and device types in use. By default, all App Center must be used to centralize the reporting of mobile application crashes and device types in use. Code quality and release quality are critical. During release, deployments must not proceed between stages if any active bugs are logged against the release. The mobile applications must be able to call the share pricing service of the existing retirement fund management system. Until the system is upgraded, the service will only support basic authentication over HUPS. The required operating system configuration tor the test servers changes weekly. Azure Automation State Configuration must be used to ensure that the operating system on each test servers configured the same way when the servers are created and checked periodically. The test servers are configured correctly when first deployed, but they experience configuration drift over time. Azure Automation State Configuration fails to correct the configurations. Azure Automation State Configuration nodes are registered by using the following command. You need to configure a cloud service to store the secrets required by the mobile applications to call the share pricing service. What should you include in the solution?
 
@@ -2373,21 +2399,6 @@
 - [ ] Replace the Register-AzureRmAutomationDscNode cmdlet with Register-AzureRmAutomationScheduledRunbook.
 - [ ] Add the AllowModuleOverwrite parameter.
 - [ ] Add the DefaultProfile parameter.
-
-### You are integrating an Azure Boards project and a GitHub repository. You need to authenticate Azure Boards to GitHub. Which two authentication methods can you use?
-
-- [ ] a trusted root certificate
-- [ ] a publisher certificate
-- [x] Azure Active Directory (Azure AD)
-- [x] GitHub user credentials
-- [ ] a personal access token (PAT)
-
-### You plan to deploy a new database environment. The solution must meet the technical requirements. You need to prepare the database for the deployment . How should you format the export?
-
-- [ ] NDF
-- [ ] MDF
-- [ ] BACPAC
-- [x] DACPAC
 
 ### How should you confrere the release retention policy for the investment planning depletions suite? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.
 
