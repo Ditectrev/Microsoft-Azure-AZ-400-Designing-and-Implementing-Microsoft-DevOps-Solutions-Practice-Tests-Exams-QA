@@ -2422,28 +2422,19 @@
 - [ ] Required secrets: Shared Access Authorization token. Storage location: Azure Storage with HTTP access.
 - [x] Required secrets: Username and password. Storage location: Azure Key Vault.
 
-### How should you confrere the release retention policy for the investment planning depletions suite? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.
+### You are designing an Azure DevOps strategy for your company's development team. You suspect that the team's productivity is low due to accumulate technical debt. You need to recommend a metric to assess the amount of the team's technical debt. What should you recommend?
 
-![Question 92](images/question922.jpg)
+- [ ] Number of code modules in an application.
+- [ ] Number of unit test failures.
+- [ ] Percentage of unit test failures.
+- [x] Percentage of overall time spent on rework.
 
-- [ ] Required secrets: Azure Storage with HTTPS access. Storage location: Shared Access Authorization token.
-- [ ] Required secrets: Azure Data Lake. Storage location: Personal access token.
-- [x] Required secrets: Shared Access Authorization token. Storage location: Azure Storage with HTTPS access.
-- [ ] Required secrets: Azure Storage with HTTPS access. Storage location: Certificate.
+### You have an Azure subscription that contains multiple Azure pipelines. You need to deploy a monitoring solution for the pipelines. The solution must meet the following requirements: Parse logs from multiple sources. Identify the root cause of issues. What advanced feature of a monitoring tool should include in the solution?
 
-### You are designing an Azure DevOps strategy for your company’s development team. You suspect that the team’s productivity is low due to accumulate technical debt. You need to recommend a metric to assess the amount of the team’s technical debt. What should you recommend?
-
-- [ ] the number of code modules in an application.
-- [ ] the number of unit test failures.
-- [ ] the percentage of unit test failures.
-- [x] the percentage of overall time spent on rework.
-
-### You have an Azure subscription that contains multiple Azure pipelines. You need to deploy a monitoring solution for the pi*lines. The solution must meet the following requirements: ✑ Parse logs from multiple sources. ✑ identify the root cause of issues. What advanced feature of a monitoring tool should include in the solution?
-
-- [ ] directed monitoring
-- [x] synthetic monitoring
-- [ ] analytics
-- [ ] Alert Management
+- [ ] Directed monitoring.
+- [x] Synthetic monitoring.
+- [ ] Analytics.
+- [ ] Alert Management.
 
 ### You manage code by using GitHub. You need to ensure that repository owners are notified if a new vulnerable dependency or malware is found in their repository. What should you do?
 
@@ -2454,15 +2445,20 @@
 
 ### You have a project in Azure DevOps named Project1. You need to ensure that all new pipelines in Project1 execute three specific tasks during pipeline execution. What should you create?
 
-- [x] a task group
-- [ ] a JSON template
-- [ ] a YAML template
-- [ ] a PowerShell task
+- [x] Task group.
+- [ ] JSON template.
+- [ ] YAML template.
+- [ ] PowerShell task.
 
-### After you answer a question in this section, you will NOT be able to return to it As a result, these questions will not appear in the review screen. You use Azure Pipelines to build and test a React js application You have a pipeline that has a single job. You discover that installing JavaScript packages from npm lakes approximately five minutes each time you run the pipeline. You need to recommend a solution to reduce the pipeline execution time. Solution: You recommend enabling pipeline caching. Does this meet the goal?
+### You use Azure Pipelines to build and test a React.js application. You have a pipeline that has a single job. You discover that installing JavaScript packages from npm takes approximately five minutes each time you run the pipeline. You need to recommend a solution to reduce the pipeline execution time. Solution: You recommend enabling pipeline caching. Does this meet the goal?
 
-- [x] Yes
-- [ ] No
+- [x] Yes.
+- [ ] No.
+
+### You use Azure Pipelines to build and test a React.js application. You have a pipeline that has a single job. You discover that installing JavaScript packages from npm takes approximately five minutes each time you run the pipeline. You need to recommend a solution to reduce the pipeline execution time. Solution: You recommend defining a container job that uses a custom container that has the JavaScript packages preinstalled. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
 
 ### You have a project in Azure DevOps named Project1. Project1 contains a build pipeline named Pipe1 that builds an application named Appl. You have an agent pool named Pool1 that contains a Windows Server 2019-based self-hosted agent. Pipe1 uses Pool1. You plan to implement another project named Project2. Project2 will have a build pipeline named Pipe2 that builds an application named App2. App1 and App2 have conflicting dependencies. You need to minimize the possibility that the two build pipelines will conflict with each other. The solution must minimize infrastructure costs. What should you do?
 
@@ -2470,6 +2466,32 @@
 - [ ] Change the self-hosted agent to use Red Hat Enterprise Linux (RHEL) 9.
 - [ ] Add another self-hosted agent.
 - [ ] Add a Docker Compose task to the build pipelines.
+
+### You have an Azure subscription that uses Azure Automation State Configuration to manage the configuration of virtual machines. You need to identify which nodes are noncompliant. How should you complete the query?
+
+![Question 333](images/question333.jpg)
+
+- [x] Box 1: Category. Box 2: OperationName. Box 3: ResultType.
+- [ ] Box 1: Category. Box 2: ResultType. Box 3: OperationName.
+- [ ] Box 1: OperationName. Box 2: Category. Box 3: ResultType.
+- [ ] Box 1: ResultType. Box 2: OperationName. Box 3: Category.
+
+### You have the services shown in the following table. You manage a project by using Azure Boards. You need to notify the services Of build Status changes. Which services can be notified by using a web hook?
+
+![Question 334](images/question334.png)
+
+- [ ] Service1 only.
+- [ ] Service2 only.
+- [x] Service1 and Service2 only.
+
+### You have an Azure subscription that contains the resources shown in the following table. Project1 produces npm packages that are published to Feed1. Feed1 is consumed by multiple projects. You need to ensure that only tested packages are available for consumption. The solution must minimize development effort. What should you do?
+
+![Question 335](images/question335.png)
+
+- [ ] Create a feed view named @default. After the npm packages test successfully, configure a release pipeline that tags the packages as release.
+- [ ] Create a feed view named @release and set @release as the default view. After the npm packages test successfully, configure a release pipeline that tags the packages as release.
+- [x] Create a feed view named @release and set @release as the default view. After the npm packages test successfully, configure a release pipeline that promotes a package to the @release view.
+- [ ] Create a feed view named @default. After the npm packages test successfully, configure a release pipeline that promotes a package to the @default view.
 
 ### You have a brand policy in a project in Azure DevOps. The policy requires that code always builds successfully. You need to ensure that a specific user can always merge change to the master branch, even if the code fails to compile. The solution must use the principle of least privilege. What should you do?
 
@@ -2494,7 +2516,7 @@
 - [ ] Expose a virtual network service endpoint for Azure Storage.
 - [ ] Install a Prometheus server on a Linux virtual machine in Azure.
 
-### You have a private project in Azure DevOps. You need to ensure that a project manager can create custom work item queries to report on the project’s progress. The solution must use the principle of least privilege. To which security group should you add the project manager?
+### You have a private project in Azure DevOps. You need to ensure that a project manager can create custom work item queries to report on the project's progress. The solution must use the principle of least privilege. To which security group should you add the project manager?
 
 - [ ] Project Collection Administrators.
 - [ ] Reader.
@@ -2533,32 +2555,6 @@
 - [x] From item A open the Links tab, and then select Add link. Set Link type to Successor and add the ID of item B.
 - [ ] From Queries, open the context menu, select Add link, and then select Existing item.
 - [ ] From item A, open the Links tab, and then select Add link. Set Link type to References and add the ID Of item B.
-
-### DRAG DROP You have an Azure subscription that uses Azure Automation State Configuration to manage the configuration of virtual machines. You need to identify which nodes are noncompliant. How should you complete the query?
-
-![Question 926](images/question926.jpg)
-
-- [x] Box 1: Category. Box 2: OperationName. Box 3: ResultType.
-- [ ] Box 1: Category. Box 2: ResultType. Box 3: OperationName.
-- [ ] Box 1: OperationName. Box 2: Category. Box 3: ResultType.
-- [ ] Box 1: ResultType. Box 2: OperationName. Box 3: Category.
-
-### You have the services shown in the following table. You manage a project by using Azure Boards. You need to notify the services Of build Status changes. Which services can be notified by using a web hook?
-
-![Question 927](images/question927.jpg)
-
-- [ ] Service1 only
-- [ ] Service2 only
-- [x] Service1 and Service2 only
-
-### You have an Azure subscription that contains the resources shown in the following table. Project1 produces 9pm packages that are published to Feed1. Feed1 is consumed by multiple projects. You need to ensure that only tested packages are available for consumption. The solution must minimize development effort. What should you do?
-
-![Question 928](images/question928.jpg)
-
-- [ ] Create a feed view named @default. After the 9pm packages test successfully, configure a release pipeline that tags the packages as release.
-- [ ] Create a feed view named @release and set @release as the default view. After the 9pm packages test successfully, configure a release pipeline that tags the packages as release.
-- [x] Create a feed view named @release and set @release as the default view After the 9pm packages test successfully, configure a release pipeline that promotes a package to the @release view.
-- [ ] Create a feed view named @default. After the 9pm packages test successfully, configure a release pipeline that promotes a package to the @default view.
 
 ### You have an on-premises app named App1 that accesses Azure resources by using credentials stored in a configuration file. You plan to upgrade App1 to use an Azure service principal. What is required for App1 to programmatically sign in to Azure Active Directory (Azure AD)?
 
