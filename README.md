@@ -2360,6 +2360,16 @@
 - [ ] Yes.
 - [x] No.
 
+### The lead developer at your company reports that adding new application features takes longer than expected due to a large accumulated technical debt. You need to recommend changes to reduce the accumulated technical debt. Solution: You recommend reducing the code complexity. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### The lead developer at your company reports that adding new application features takes longer than expected due to a large accumulated technical debt. You need to recommend changes to reduce the accumulated technical debt. Solution: You recommend increasing the code duplication. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
 ### You use GitHub for source control. A file that contains sensitive data is committed accidentally to the Git repository of a project. You need to delete the file and its history form the repository. Which two tools can you use?
 
 - [x] Git filter-branch command.
@@ -2522,11 +2532,6 @@
 - [ ] git merge —-allow-unrelated-histories.
 - [x] git rebase.
 - [ ] git merge --squash.
-
-### You need to recommend changes to reduce the accumulated technical debt. Solution: You recommend increasing the code duplication. Does this meet the goal?
-
-- [ ] Yes
-- [x] No
 
 ### You need to meet the technical requirements for monitoring App1. What should you use?
 
