@@ -2493,21 +2493,14 @@
 - [x] Create a feed view named @release and set @release as the default view. After the npm packages test successfully, configure a release pipeline that promotes a package to the @release view.
 - [ ] Create a feed view named @default. After the npm packages test successfully, configure a release pipeline that promotes a package to the @default view.
 
-### You have a brand policy in a project in Azure DevOps. The policy requires that code always builds successfully. You need to ensure that a specific user can always merge change to the master branch, even if the code fails to compile. The solution must use the principle of least privilege. What should you do?
-
-- [ ] From the Security setting of the repository, modify the access control tor the user.
-- [x] From the Security settings of the branch, modify the access control for the user.
-- [ ] Add the user to the Build Administrators group.
-- [ ] Add the user to the Project Administrators group.
-
-### You use GitHub for source control and project-related discussions. You receive a notification when an entry is made to any team discussion. You need to ensure that you receive email notifications only for discussions in which you commented or in which you are mentioned. Which two Notifications settings should you clear? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.
+  ### You use GitHub for source control and project-related discussions. You receive a notification when an entry is made to any team discussion. You need to ensure that you receive email notifications only for discussions in which you commented or in which you are mentioned. Which two Notifications settings should you clear?
 
 - [ ] Participating.
 - [x] Automatically watch repositories.
-- [ ] Automatically watch teams.
-- [x] Watching
+- [x] Automatically watch teams.
+- [ ] Watching.
 
-### You have an Azure subscription. The subscription contains virtual machines that run either Windows Server or Linux. You plan to use Prometheus to monitor performance metrics. You need to integrate Prometheus and Azure Monitor. Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.
+### You have an Azure subscription. The subscription contains virtual machines that run either Windows Server or Linux. You plan to use Prometheus to monitor performance metrics. You need to integrate Prometheus and Azure Monitor. Which two actions should you perform?
 
 - [x] Install a Prometheus server on a Windows virtual machine in Azure.
 - [x] On each virtual machine, expose the metrics endpoint.
@@ -2523,12 +2516,12 @@
 - [ ] Project Administrators.
 - [x] Contributor.
 
-### You need !0 the merge the POC branch into the default branch. The solution must meet the technical requirements. Which command should you run?
+### You need to the merge the POC branch into the default branch. The solution must meet the technical requirements. Which command should you run?
 
-- [ ] it push.
-- [ ] git merge — allow-unrelated-histories.
-- [ ] git rebase.
-- [x] git merge –squash.
+- [ ] git push.
+- [ ] git merge —-allow-unrelated-histories.
+- [x] git rebase.
+- [ ] git merge --squash.
 
 ### You need to recommend changes to reduce the accumulated technical debt. Solution: You recommend increasing the code duplication. Does this meet the goal?
 
