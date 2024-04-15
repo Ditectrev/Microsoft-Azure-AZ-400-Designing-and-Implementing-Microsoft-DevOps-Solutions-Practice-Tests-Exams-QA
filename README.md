@@ -1113,7 +1113,7 @@
 ![Question 150](images/question150.jpg)
 
 - [ ] Pull request: Threat modeling. Continuous integration: Static code analysis. Continuous delivery: Penetration testing.
-- [ ] Pull request: Static code analysis. Continuous integration: Static code analysis. Continuous delivery: Penetration testing.
+- [x] Pull request: Static code analysis. Continuous integration: Static code analysis. Continuous delivery: Penetration testing.
 - [ ] Pull request: Penetration testing. Continuous integration: Threat modeling. Continuous delivery: Static code analysis.
 - [ ] Pull request: Static code analysis. Continuous integration: Penetration testing. Continuous delivery: Threat modeling.
 
@@ -1426,7 +1426,7 @@
 ![Question 190](images/question190.png)
 
 - [ ] Box 1: Create a personal access token (PAT). Box 2: Create a service principal. Box 3: Create a PowerShell task in ReleaseP1 that writes the retrieved data to a markdown file.
-- [ ] Box 1: Create a personal access token (PAT). Box 2: Create a query that retrieves the feature and bug fix information. Box 3: Create a PowerShell task in ReleaseP1 that writes the retrieved data to a markdown file.
+- [x] Box 1: Create a personal access token (PAT). Box 2: Create a query that retrieves the feature and bug fix information. Box 3: Create a PowerShell task in ReleaseP1 that writes the retrieved data to a markdown file.
 - [ ] Box 1: Create a query that retrieves the feature and bug fix information. Box 2: Create a personal access token (PAT). Box 3: Create a PowerShell task in ReleaseP1 that writes the retrieved data to a markdown file.
 - [ ] Box 1: Create a query that retrieves the feature and bug fix information. Box 2: Create a service principal. Box 3: Add a dashboard widget that retrieves the feature and bug fix information.
 
