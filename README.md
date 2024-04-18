@@ -712,7 +712,8 @@
 
 ### You are planning projects for three customers. Each customer's preferred process for work items is shown in the following table. The customers all plan to use Azure DevOps for work item management. Which work item process should you use for each customer?
 
-![Question 95](images/question95.jpg)
+![Question 95 part 1](images/question95_1.jpg)
+![Question 95 part 2](images/question95_2.png)
 
 - [ ] Litware: XP. Contoso: CMMI. A. Datum: Agile.
 - [ ] Litware: Scrum. Contoso: Agile. A. Datum: CMMI.
@@ -1128,12 +1129,12 @@
 
 ### You need to deploy Azure Kubernetes Service (AKS) to host an application. The solution must meet the following requirements: Containers must only be published internally. AKS clusters must be able to create and manage containers in Azure. What should you use for each requirement?
 
+![Question 152](images/question152.png)
+
 - [ ] Containers must only be published internally: Azure Container Registry. AKS clusters must be able to create and manage containers in Azure: An Azure Active Directory (Azure AD) group.
 - [ ] Containers must only be published internally: Azure Container Instances. AKS clusters must be able to create and manage containers in Azure: An Azure Automation account.
 - [ ] Containers must only be published internally: Dockerfile. AKS clusters must be able to create and manage containers in Azure: An Azure service principal.
 - [x] Containers must only be published internally: Azure Container Registry. AKS clusters must be able to create and manage containers in Azure: An Azure service principal.
-
-![Question 152](images/question152.png)
 
 ### Your company is creating a suite of three mobile applications. You need to control access to the application builds. The solution must be managed at the organization level. What should you use?
 
@@ -1168,7 +1169,8 @@
 
 ### You are implementing an Azure DevOps strategy for mobile devices using App Center. You plan to use distribution groups to control access to releases. You need to create the distribution groups shown in the following table. Which type of distribution group should you use for each group?
 
-![Question 157](images/question157.jpg)
+![Question 157 part 1](images/question157_1.jpg)
+![Question 157 part 2](images/question157_2.png)
 
 - [ ] Group 1: Shared. Group 2: Public. Group 3: Private.
 - [ ] Group 1: Private. Group 2: Shared. Group 3: Public.
@@ -1477,10 +1479,10 @@
 
 ![Question 196](images/question196.jpg)
 
-- [x] Box 1: aggressive. Box 2: prune.
-- [ ] Box 1: prune. Box 2: auto.
-- [ ] Box 1: prune. Box 2: force.
-- [ ] Box 1: auto. Box 2: aggressive.
+- [x] Box 1: --aggressive. Box 2: prune.
+- [ ] Box 1: --prune. Box 2: auto.
+- [ ] Box 1: --prune. Box 2: force.
+- [ ] Box 1: --auto. Box 2: aggressive.
 
 ### You plan to deploy a website that will be hosted in two Azure regions. You need to create an Azure Traffic Manager profile named az400123456789n1-tm in a resource group named RG1lod123456789. The solution must ensure that users will always connect to a copy of the website that is in the same country. To complete this task, sign in to the Microsoft Azure portal.
 
@@ -1821,10 +1823,10 @@
 
 ![Question 246](images/question246.png)
 
-- [ ] Box 1: Develop. Box 2: Feature.
-- [ ] Box 1: Feature. Box 2: Main.
-- [x] Box 1: Main. Box 2: Develop.
-- [ ] Box 1: Main. Box 2: Feature.
+- [ ] Production code: Develop. Preproduction code: Feature.
+- [ ] Production code: Feature. Preproduction code: Main.
+- [x] Production code: Main. Preproduction code: Develop.
+- [ ] Production code: Main. Preproduction code: Feature.
 
 ### You have an Azure DevOps release pipeline as shown in the following exhibit. You need to complete the pipeline to configure OWASP ZAP for security testing. Which five Azure CLI tasks should you add in sequence?
 
@@ -2028,9 +2030,9 @@
 ![Question 275](images/question275.jpg)
 
 - [ ] Box 1: readinessProbe: 15. Box 2: timeoutSeconds: 15.
-- [x] Box 1: livenessProbe. Box 2: periodSeconds: 15.
-- [ ] Box 1: ShutdownProbe: 15. Box 2: initialDelaySeconds: 15.
-- [ ] Box 1: readinessProbe. Box 2: periodSeconds: 15.
+- [x] Box 1: livenessProbe:. Box 2: periodSeconds: 15.
+- [ ] Box 1: ShutdownProbe:. Box 2: initialDelaySeconds: 15.
+- [ ] Box 1: readinessProbe:. Box 2: periodSeconds: 15.
 
 ### You need to create an instance of Azure Application Insights named az400-123456789-main and configure the instance to receive telemetry data from an Azure web app named az400-123456789-main. To complete this task, sign in to the Microsoft Azure portal.
 
