@@ -85,7 +85,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - 👨‍🎓 Google Cloud Platform (GCP) Engineers;
 - 👨‍🎓 Infrastructure Engineers;
 - 👨‍🎓 Lead Engineers;
-- 👨‍🎓 Google Cloud Platform (GCP) Engineers;
 - 👨‍🎓 Product Architects;
 - 👨‍🎓 Security Engineers;
 - 👨‍🎓 Site Reliability Engineers;
